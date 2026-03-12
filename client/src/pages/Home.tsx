@@ -13,21 +13,28 @@ import { useState, useMemo } from "react";
 import { toast } from "sonner";
 import { useTheme } from "@/contexts/ThemeContext";
 
-const TAGS = [
-  "Kid Favorite",
-  "Quick",
-  "One Pan",
-  "Vegetarian",
-  "Comfort Food",
-  "Healthy",
-  "Pasta",
-  "Soup",
-  "Mexican",
-  "Asian",
-  "Italian",
-  "American",
-  "Breakfast",
-  "Family Recipe",
+// Tag groups shown in the filter panel — ordered by display priority
+const TAG_GROUPS: { label: string; tags: string[] }[] = [
+  {
+    label: "Style & Occasion",
+    tags: ["Family Recipe", "Kid Favorite", "Quick", "One Pan", "Make Ahead", "Special Occasion", "Crowd Pleaser"],
+  },
+  {
+    label: "Diet & Type",
+    tags: ["Comfort Food", "Healthy", "Vegetarian", "Breakfast", "Dessert"],
+  },
+  {
+    label: "Cuisine",
+    tags: ["American", "Italian", "Mexican", "Asian", "Soup", "Pasta"],
+  },
+  {
+    label: "Protein",
+    tags: ["Chicken", "Beef", "Pork", "Seafood"],
+  },
+  {
+    label: "Meal Kit Inspired",
+    tags: ["HelloFresh", "EveryPlate", "Home Chef", "Blue Apron", "Barefoot Contessa"],
+  },
 ];
 
 const SORT_OPTIONS = [
@@ -82,9 +89,10 @@ export default function Home() {
         recipe.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
         recipe.description.toLowerCase().includes(searchQuery.toLowerCase()) ||
         recipe.tags.some(t => t.toLowerCase().includes(searchQuery.toLowerCase()));
+      // AND logic: recipe must match ALL selected tags
       const matchesTags =
         selectedTags.length === 0 ||
-        selectedTags.some((tag) => {
+        selectedTags.every((tag) => {
           if (tag === "Family Recipe") return recipe.isFamily;
           return recipe.tags.includes(tag);
         });
@@ -301,24 +309,34 @@ export default function Home() {
                 ))}
               </div>
             </div>
-            {/* Tags */}
-            <div>
-              <p className="text-xs font-semibold uppercase tracking-wider text-muted-foreground mb-2">Filter by tag</p>
-              <div className="flex flex-wrap gap-2">
-                {TAGS.map((tag) => (
-                  <button
-                    key={tag}
-                    onClick={() => handleTagToggle(tag)}
-                    className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
-                      selectedTags.includes(tag)
-                        ? "bg-primary text-primary-foreground"
-                        : "bg-secondary text-secondary-foreground hover:bg-secondary/70"
-                    }`}
-                  >
-                    {tag}
-                  </button>
-                ))}
+            {/* Tags grouped by category */}
+            <div className="space-y-3">
+              <div className="flex items-center justify-between">
+                <p className="text-xs font-semibold uppercase tracking-wider text-muted-foreground">Filter by tag</p>
+                {selectedTags.length > 1 && (
+                  <span className="text-xs text-muted-foreground italic">All selected tags must match</span>
+                )}
               </div>
+              {TAG_GROUPS.map((group) => (
+                <div key={group.label}>
+                  <p className="text-xs text-muted-foreground/60 mb-1.5">{group.label}</p>
+                  <div className="flex flex-wrap gap-1.5">
+                    {group.tags.map((tag) => (
+                      <button
+                        key={tag}
+                        onClick={() => handleTagToggle(tag)}
+                        className={`px-3 py-1 rounded-full text-xs font-medium transition-colors ${
+                          selectedTags.includes(tag)
+                            ? "bg-primary text-primary-foreground ring-2 ring-primary/30"
+                            : "bg-secondary text-secondary-foreground hover:bg-secondary/70"
+                        }`}
+                      >
+                        {tag}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              ))}
             </div>
             {hasActiveFilters && (
               <Button variant="ghost" size="sm" onClick={clearFilters} className="text-muted-foreground">
