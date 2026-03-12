@@ -6,9 +6,10 @@ import { useHashLocation } from "@/hooks/useHashLocation";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Checkbox } from "@/components/ui/checkbox";
-import { ArrowLeft, ShoppingCart, Trash2, ChefHat, Download, X, CheckCheck } from "lucide-react";
+import { ArrowLeft, ShoppingCart, Trash2, ChefHat, Download, X, CheckCheck, RefreshCw } from "lucide-react";
 import { toast } from "sonner";
 import type { Recipe } from "@shared/recipe-types";
+import { formatShoppingItem, parseAmount } from "@/lib/ingredientConversions";
 
 const CATEGORY_ORDER = ["produce", "protein", "dairy", "pantry", "bakery", "frozen", "other"];
 const CATEGORY_ICONS: Record<string, string> = {
@@ -35,7 +36,7 @@ function buildShoppingList(cartRecipes: Recipe[]) {
   // key = "item|unit|category" (normalised lowercase)
   const map = new Map<
     string,
-    { item: string; unit: string; category: string; amounts: string[]; recipeIds: string[] }
+    { item: string; unit: string; category: string; amounts: (string | number)[]; recipeIds: string[] }
   >();
 
   for (const recipe of cartRecipes) {
@@ -57,22 +58,28 @@ function buildShoppingList(cartRecipes: Recipe[]) {
     }
   }
 
-  return Array.from(map.values()).map((entry) => ({
-    ...entry,
-    // Combine amounts: try to sum numbers, otherwise join with "+"
-    amount: combineAmounts(entry.amounts),
-  }));
+  return Array.from(map.values()).map((entry) => {
+    const combinedAmount = combineAmounts(entry.amounts);
+    // Apply shopping conversion
+    const { display, hint } = formatShoppingItem(entry.item, combinedAmount, entry.unit);
+    return {
+      ...entry,
+      amount: combinedAmount,
+      storeDisplay: display,
+      recipeHint: hint,
+    };
+  });
 }
 
-function combineAmounts(amounts: string[]): string {
-  if (amounts.length === 1) return amounts[0];
-  const nums = amounts.map((a) => parseFloat(a));
-  if (nums.every((n) => !isNaN(n))) {
+function combineAmounts(amounts: (string | number)[]): string {
+  if (amounts.length === 1) return String(amounts[0]);
+  const nums = amounts.map((a) => parseAmount(a));
+  if (nums.every((n) => !isNaN(n) && n > 0)) {
     const sum = nums.reduce((a, b) => a + b, 0);
     // Format nicely: remove trailing zeros
     return String(parseFloat(sum.toFixed(2)));
   }
-  return amounts.join(" + ");
+  return amounts.map(String).join(" + ");
 }
 
 export default function Cart() {
@@ -134,8 +141,9 @@ export default function Cart() {
       lines.push(`${CATEGORY_ICONS[cat]} ${CATEGORY_LABELS[cat].toUpperCase()}`);
       for (const item of items) {
         const checked = checkedItems[`${item.item}|${item.unit}`] ? "✓" : "○";
-        const qty = [item.amount, item.unit].filter(Boolean).join(" ");
-        lines.push(`  ${checked} ${item.item}${qty ? ` — ${qty}` : ""}`);
+        const qty = item.storeDisplay || [item.amount, item.unit].filter(Boolean).join(" ");
+        const hint = item.recipeHint ? ` (${item.recipeHint})` : "";
+        lines.push(`  ${checked} ${item.item} — ${qty}${hint}`);
       }
       lines.push("");
     }
@@ -380,10 +388,11 @@ export default function Cart() {
                         {items.map((item, i) => {
                           const checkKey = `${item.item}|${item.unit}`;
                           const isChecked = !!checkedItems[checkKey];
+                          const hasConversion = item.storeDisplay !== [item.amount, item.unit].filter(Boolean).join(" ");
                           return (
                             <div
                               key={checkKey}
-                              className={`flex items-center gap-3 px-4 py-3 cursor-pointer transition-colors hover:bg-muted/30 ${
+                              className={`flex items-start gap-3 px-4 py-3 cursor-pointer transition-colors hover:bg-muted/30 ${
                                 i > 0 ? "border-t border-border/50" : ""
                               } ${isChecked ? "opacity-50" : ""}`}
                               onClick={() => toggleChecked(checkKey)}
@@ -391,17 +400,32 @@ export default function Cart() {
                               <Checkbox
                                 checked={isChecked}
                                 onCheckedChange={() => toggleChecked(checkKey)}
-                                className="flex-shrink-0"
+                                className="flex-shrink-0 mt-0.5"
                               />
+                              <div className="flex-1 min-w-0">
+                                <span
+                                  className={`text-sm block ${
+                                    isChecked ? "line-through text-muted-foreground" : "text-foreground"
+                                  }`}
+                                >
+                                  {item.item}
+                                </span>
+                                {item.recipeHint && !isChecked && (
+                                  <span className="text-xs text-muted-foreground/70 italic">
+                                    {item.recipeHint}
+                                  </span>
+                                )}
+                              </div>
                               <span
-                                className={`flex-1 text-sm ${
-                                  isChecked ? "line-through text-muted-foreground" : "text-foreground"
+                                className={`text-sm text-right whitespace-nowrap flex-shrink-0 ${
+                                  isChecked
+                                    ? "line-through text-muted-foreground"
+                                    : hasConversion
+                                    ? "text-primary font-medium"
+                                    : "text-muted-foreground"
                                 }`}
                               >
-                                {item.item}
-                              </span>
-                              <span className="text-sm text-muted-foreground text-right whitespace-nowrap">
-                                {[item.amount, item.unit].filter(Boolean).join(" ")}
+                                {item.storeDisplay}
                               </span>
                             </div>
                           );
