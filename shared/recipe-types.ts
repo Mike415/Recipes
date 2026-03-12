@@ -12,6 +12,7 @@ export interface Recipe {
   ingredients: Ingredient[];
   instructions: string[];
   tips: string[];
+  imageUrl?: string;
   videoUrl?: string;
   isFamily?: boolean;
 }

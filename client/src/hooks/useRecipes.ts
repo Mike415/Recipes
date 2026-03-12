@@ -2,7 +2,16 @@ import { useEffect, useState } from "react";
 import type { Recipe } from "@shared/recipe-types";
 
 // Use Vite's BASE_URL so paths work both locally (/) and on GitHub Pages (/Recipes/)
-const BASE = import.meta.env.BASE_URL.replace(/\/$/, "");
+export const BASE = import.meta.env.BASE_URL.replace(/\/$/, "");
+
+/** Resolve a recipe's imageUrl to an absolute path that works with the current base URL */
+export function resolveImageUrl(imageUrl?: string): string | undefined {
+  if (!imageUrl) return undefined;
+  // If already absolute or data URL, return as-is
+  if (imageUrl.startsWith('http') || imageUrl.startsWith('data:')) return imageUrl;
+  // Prepend the Vite BASE so it works on GitHub Pages (/Recipes/) and locally (/)
+  return `${BASE}${imageUrl}`;
+}
 
 export function useRecipes() {
   const [recipes, setRecipes] = useState<Recipe[]>([]);
@@ -27,7 +36,14 @@ export function useRecipes() {
         );
 
         const loadedRecipes = await Promise.all(recipePromises);
-        setRecipes(loadedRecipes.filter((r): r is Recipe => r !== null));
+        // Resolve imageUrl paths to work with the current base URL
+        const resolvedRecipes = loadedRecipes
+          .filter((r): r is Recipe => r !== null)
+          .map((r) => ({
+            ...r,
+            imageUrl: resolveImageUrl(r.imageUrl),
+          }));
+        setRecipes(resolvedRecipes);
         setError(null);
       } catch (err) {
         setError(err instanceof Error ? err.message : "Failed to load recipes");
@@ -55,7 +71,8 @@ export function useRecipe(id: string) {
         if (!response.ok) throw new Error("Recipe not found");
 
         const data = await response.json();
-        setRecipe(data);
+        // Resolve imageUrl path to work with the current base URL
+        setRecipe({ ...data, imageUrl: resolveImageUrl(data.imageUrl) });
         setError(null);
       } catch (err) {
         setError(err instanceof Error ? err.message : "Failed to load recipe");
