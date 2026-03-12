@@ -1,4 +1,4 @@
-import { Heart, Clock, Users, ChefHat } from "lucide-react";
+import { Heart, Clock, Users, ChefHat, ShoppingCart } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -7,9 +7,11 @@ import type { Recipe } from "@shared/recipe-types";
 interface RecipeCardProps {
   recipe: Recipe;
   isFavorite?: boolean;
+  isInCart?: boolean;
   rating?: number;
   madeCount?: number;
   onFavoriteToggle?: (recipeId: string) => void;
+  onCartToggle?: (recipeId: string) => void;
   onRateClick?: (recipeId: string, rating: number) => void;
   onClick?: () => void;
 }
@@ -37,9 +39,11 @@ function getGradient(id: string) {
 export function RecipeCard({
   recipe,
   isFavorite = false,
+  isInCart = false,
   rating = 0,
   madeCount = 0,
   onFavoriteToggle,
+  onCartToggle,
   onRateClick,
   onClick,
 }: RecipeCardProps) {
@@ -89,26 +93,46 @@ export function RecipeCard({
           </div>
         )}
 
-        {/* Favorite button */}
-        {onFavoriteToggle && (
-          <Button
-            size="icon"
-            variant="ghost"
-            className="absolute top-2 right-2 h-8 w-8 bg-white/80 hover:bg-white rounded-full shadow-sm"
-            onClick={(e) => {
-              e.stopPropagation();
-              onFavoriteToggle(recipe.id);
-            }}
-          >
-            <Heart
-              className={`w-4 h-4 transition-colors ${
-                isFavorite
-                  ? "fill-rose-500 text-rose-500"
-                  : "text-gray-400 group-hover:text-rose-400"
+        {/* Action buttons: favorite + cart */}
+        <div className="absolute top-2 right-2 flex flex-col gap-1">
+          {onFavoriteToggle && (
+            <Button
+              size="icon"
+              variant="ghost"
+              className="h-8 w-8 bg-white/80 hover:bg-white rounded-full shadow-sm"
+              onClick={(e) => {
+                e.stopPropagation();
+                onFavoriteToggle(recipe.id);
+              }}
+            >
+              <Heart
+                className={`w-4 h-4 transition-colors ${
+                  isFavorite
+                    ? "fill-rose-500 text-rose-500"
+                    : "text-gray-400 group-hover:text-rose-400"
+                }`}
+              />
+            </Button>
+          )}
+          {onCartToggle && (
+            <Button
+              size="icon"
+              variant="ghost"
+              className={`h-8 w-8 rounded-full shadow-sm transition-colors ${
+                isInCart
+                  ? "bg-primary text-primary-foreground hover:bg-primary/90"
+                  : "bg-white/80 hover:bg-white text-gray-400 hover:text-primary"
               }`}
-            />
-          </Button>
-        )}
+              onClick={(e) => {
+                e.stopPropagation();
+                onCartToggle(recipe.id);
+              }}
+              title={isInCart ? "Remove from cart" : "Add to cart"}
+            >
+              <ShoppingCart className="w-4 h-4" />
+            </Button>
+          )}
+        </div>
 
         {/* Made count badge */}
         {madeCount > 0 && (

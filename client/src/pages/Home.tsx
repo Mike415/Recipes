@@ -7,7 +7,8 @@ import { RecipeCard } from "@/components/RecipeCard";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Empty, EmptyHeader, EmptyMedia, EmptyTitle, EmptyDescription } from "@/components/ui/empty";
-import { Heart, Sparkles, Search, ChefHat, Calendar, Moon, Sun, X, SlidersHorizontal } from "lucide-react";
+import { Heart, Sparkles, Search, ChefHat, ShoppingCart, Moon, Sun, X, SlidersHorizontal } from "lucide-react";
+import { useRecipeCart } from "@/contexts/RecipeCartContext";
 import { useState, useMemo } from "react";
 import { toast } from "sonner";
 import { useTheme } from "@/contexts/ThemeContext";
@@ -49,7 +50,8 @@ export default function Home() {
 
   const [favorites, setFavorites] = useLocalStorage<string[]>("recipes_favorites", []);
   const [ratings, setRatings] = useLocalStorage<Record<string, number>>("recipes_ratings", {});
-  const [madeCount] = useLocalStorage<Record<string, number>>("recipes_made_count", {});
+  const [madeCount] = useLocalStorage<Record<string, number>>("recipes_made_counts", {});
+  const { cartIds, addToCart, removeFromCart, isInCart } = useRecipeCart();
 
   const { theme, toggleTheme, switchable } = useTheme();
 
@@ -139,9 +141,19 @@ export default function Home() {
           key={recipe.id}
           recipe={recipe}
           isFavorite={favorites.includes(recipe.id)}
+          isInCart={isInCart(recipe.id)}
           rating={ratings[recipe.id] || 0}
           madeCount={madeCount[recipe.id] || 0}
           onFavoriteToggle={handleFavoriteToggle}
+          onCartToggle={(id) => {
+            if (isInCart(id)) {
+              removeFromCart(id);
+              toast.success("Removed from cart");
+            } else {
+              addToCart(id);
+              toast.success("Added to cart! 🛒");
+            }
+          }}
           onRateClick={handleRateClick}
           onClick={() => handleRecipeClick(recipe.id)}
         />
@@ -167,19 +179,29 @@ export default function Home() {
             <Button
               variant="outline"
               size="sm"
-              onClick={() => setLocation("/meal-plan")}
-              className="hidden sm:flex items-center gap-1.5"
+              onClick={() => setLocation("/cart")}
+              className="hidden sm:flex items-center gap-1.5 relative"
             >
-              <Calendar className="w-3.5 h-3.5" />
-              Meal Plan
+              <ShoppingCart className="w-3.5 h-3.5" />
+              Cart
+              {cartIds.length > 0 && (
+                <span className="absolute -top-1.5 -right-1.5 inline-flex items-center justify-center w-4 h-4 rounded-full bg-primary text-primary-foreground text-[10px] font-bold">
+                  {cartIds.length}
+                </span>
+              )}
             </Button>
             <Button
               variant="ghost"
               size="icon"
-              onClick={() => setLocation("/meal-plan")}
-              className="sm:hidden"
+              onClick={() => setLocation("/cart")}
+              className="sm:hidden relative"
             >
-              <Calendar className="w-4 h-4" />
+              <ShoppingCart className="w-4 h-4" />
+              {cartIds.length > 0 && (
+                <span className="absolute top-0.5 right-0.5 inline-flex items-center justify-center w-3.5 h-3.5 rounded-full bg-primary text-primary-foreground text-[9px] font-bold">
+                  {cartIds.length}
+                </span>
+              )}
             </Button>
             {switchable && toggleTheme && (
               <Button variant="ghost" size="icon" onClick={toggleTheme}>

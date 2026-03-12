@@ -3,10 +3,11 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/NotFound";
 import Home from "@/pages/Home";
 import RecipeDetail from "@/pages/RecipeDetail";
-import MealPlan from "@/pages/MealPlan";
+import Cart from "@/pages/Cart";
 import { useHashLocation } from "@/hooks/useHashLocation";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
+import { RecipeCartProvider } from "./contexts/RecipeCartContext";
 
 function App() {
   const [location] = useHashLocation();
@@ -19,13 +20,15 @@ function App() {
   return (
     <ErrorBoundary>
       <ThemeProvider defaultTheme="light" switchable={true}>
-        <TooltipProvider>
-          <Toaster />
-          {path === "/" && <Home />}
-          {path === "/meal-plan" && <MealPlan />}
-          {recipeId && <RecipeDetail />}
-          {path !== "/" && path !== "/meal-plan" && !recipeId && <NotFound />}
-        </TooltipProvider>
+        <RecipeCartProvider>
+          <TooltipProvider>
+            <Toaster />
+            {path === "/" && <Home />}
+            {path === "/cart" && <Cart />}
+            {recipeId && <RecipeDetail />}
+            {path !== "/" && path !== "/cart" && !recipeId && <NotFound />}
+          </TooltipProvider>
+        </RecipeCartProvider>
       </ThemeProvider>
     </ErrorBoundary>
   );

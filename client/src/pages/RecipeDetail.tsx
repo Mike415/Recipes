@@ -10,6 +10,7 @@ import { Checkbox } from "@/components/ui/checkbox";
 import { Heart, Clock, Users, ChefHat, ArrowLeft, Minus, Plus, Youtube, Lightbulb, ShoppingCart, BookOpen } from "lucide-react";
 import { useState, useEffect } from "react";
 import { toast } from "sonner";
+import { useRecipeCart } from "@/contexts/RecipeCartContext";
 
 const DIFFICULTY_COLORS: Record<string, string> = {
   Easy: "bg-green-100 text-green-700 border-green-200",
@@ -29,6 +30,7 @@ const CATEGORY_ICONS: Record<string, string> = {
 
 export default function RecipeDetail() {
   const [location, setLocation] = useHashLocation();
+  const { addToCart, removeFromCart, isInCart } = useRecipeCart();
   const recipeIdMatch = location.match(/^\/recipe\/(.+)$/);
   const id = recipeIdMatch ? recipeIdMatch[1] : null;
   const { recipe, loading, error } = useRecipe(id || "");
@@ -180,6 +182,27 @@ export default function RecipeDetail() {
               <Heart className={`w-4 h-4 ${isFavorite ? "fill-white" : ""}`} />
               <span className="hidden sm:inline">{isFavorite ? "Saved" : "Save"}</span>
             </Button>
+            {recipe && (
+              <Button
+                variant={isInCart(recipe.id) ? "default" : "outline"}
+                size="sm"
+                onClick={() => {
+                  if (isInCart(recipe.id)) {
+                    removeFromCart(recipe.id);
+                    toast.success("Removed from cart");
+                  } else {
+                    addToCart(recipe.id);
+                    toast.success("Added to cart! 🛒");
+                  }
+                }}
+                className="gap-1.5"
+              >
+                <ShoppingCart className="w-4 h-4" />
+                <span className="hidden sm:inline">
+                  {isInCart(recipe.id) ? "In Cart" : "Add to Cart"}
+                </span>
+              </Button>
+            )}
             <Button
               variant="outline"
               size="sm"
