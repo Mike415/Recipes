@@ -1,0 +1,42 @@
+{
+  "id": "hc-crispy-onion-chicken",
+  "title": "Crispy Onion Chicken with Mashed Potatoes & Green Beans",
+  "description": "Home Chef customer favorite — chicken breasts coated in a crunchy French fried onion and panko crust, baked until golden and served with creamy mashed potatoes and tender green beans. The ultimate comfort dinner.",
+  "imageEmoji": "🍗",
+  "prepTime": 15,
+  "cookTime": 25,
+  "totalTime": 40,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": ["Home Chef", "Chicken", "American", "Comfort Food", "Kid Favorite"],
+  "ingredients": [
+    { "item": "Boneless skinless chicken breasts", "amount": "4", "unit": "", "category": "protein" },
+    { "item": "French fried onions (crispy)", "amount": "1.5", "unit": "cups", "category": "pantry" },
+    { "item": "Panko breadcrumbs", "amount": "1/2", "unit": "cup", "category": "pantry" },
+    { "item": "Dijon mustard", "amount": "3", "unit": "tbsp", "category": "pantry" },
+    { "item": "Yukon Gold potatoes", "amount": "2", "unit": "lb", "category": "produce" },
+    { "item": "Green beans", "amount": "12", "unit": "oz", "category": "produce" },
+    { "item": "Unsalted butter", "amount": "4", "unit": "tbsp", "category": "dairy" },
+    { "item": "Whole milk or cream", "amount": "1/2", "unit": "cup", "category": "dairy" },
+    { "item": "Garlic cloves", "amount": "2", "unit": "", "category": "produce" },
+    { "item": "Olive oil", "amount": "2", "unit": "tbsp", "category": "pantry" },
+    { "item": "Salt", "amount": "1.5", "unit": "tsp", "category": "pantry" },
+    { "item": "Black pepper", "amount": "1/2", "unit": "tsp", "category": "pantry" }
+  ],
+  "instructions": [
+    "Preheat oven to 425°F (220°C). Line a baking sheet with foil and spray with cooking spray.",
+    "Peel and cube potatoes. Boil in salted water for 15–18 minutes until fork-tender. Drain.",
+    "Crush French fried onions in a zip-lock bag or food processor until coarsely crumbled. Mix with panko in a shallow bowl.",
+    "Pat chicken dry. Brush each breast generously with Dijon mustard on both sides. Press firmly into the onion-panko mixture to coat.",
+    "Place coated chicken on the prepared baking sheet. Drizzle with olive oil. Bake 20–25 minutes until golden and cooked through (165°F).",
+    "Toss green beans with 1 tbsp olive oil, salt, and pepper. Spread on a second baking sheet (or alongside chicken if there's room). Roast for the last 12–15 minutes of chicken cooking time.",
+    "Mash potatoes with butter, warm milk, minced garlic, salt, and pepper until smooth and creamy.",
+    "Serve crispy onion chicken over mashed potatoes with roasted green beans on the side."
+  ],
+  "tips": [
+    "French fried onions (like French's brand) are the secret ingredient — they add incredible crunch and savory flavor.",
+    "Dijon mustard acts as the \"glue\" for the coating and adds a subtle tang.",
+    "For even crispier chicken, place on a wire rack over the baking sheet so air circulates underneath.",
+    "Leftover mashed potatoes can be made into potato cakes the next day."
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "id": "ba-hot-honey-chicken",
+  "title": "Hot Honey Chicken with Roasted Potatoes & Pickled Jalape\u00f1os",
+  "description": "Blue Apron fan favorite \u2014 crispy pan-seared chicken thighs glazed in a fiery hot honey sauce, served with golden roasted potatoes and tangy pickled jalape\u00f1os. The sweet heat combination is absolutely irresistible.",
+  "imageEmoji": "\ud83c\udf6f",
+  "prepTime": 10,
+  "cookTime": 30,
+  "totalTime": 40,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": [
+    "Blue Apron",
+    "Chicken",
+    "American",
+    "Comfort Food"
+  ],
+  "ingredients": [
+    {
+      "item": "Bone-in skin-on chicken thighs",
+      "amount": "4",
+      "unit": "",
+      "category": "protein"
+    },
+    {
+      "item": "Yukon Gold potatoes",
+      "amount": "1.5",
+      "unit": "lb",
+      "category": "produce"
+    },
+    {
+      "item": "Honey",
+      "amount": "3",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Hot sauce (like Frank's or Cholula)",
+      "amount": "2",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Jalape\u00f1os",
+      "amount": "2",
+      "unit": "",
+      "category": "produce"
+    },
+    {
+      "item": "Apple cider vinegar",
+      "amount": "2",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Garlic cloves",
+      "amount": "3",
+      "unit": "",
+      "category": "produce"
+    },
+    {
+      "item": "Smoked paprika",
+      "amount": "1",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Olive oil",
+      "amount": "3",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Unsalted butter",
+      "amount": "1",
+      "unit": "tbsp",
+      "category": "dairy"
+    },
+    {
+      "item": "Fresh thyme",
+      "amount": "4",
+      "unit": "sprigs",
+      "category": "produce"
+    },
+    {
+      "item": "Salt",
+      "amount": "1",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Black pepper",
+      "amount": "1/2",
+      "unit": "tsp",
+      "category": "pantry"
+    }
+  ],
+  "instructions": [
+    "Preheat oven to 425\u00b0F (220\u00b0C). Cut potatoes into 1-inch cubes. Toss with 1\u00bd tbsp olive oil, smoked paprika, salt, and pepper. Roast on a baking sheet for 25\u201330 minutes, flipping halfway, until golden and crispy.",
+    "Make pickled jalape\u00f1os: thinly slice jalape\u00f1os and toss with apple cider vinegar, a pinch of sugar, and a pinch of salt. Let sit while you cook.",
+    "Make hot honey: whisk together honey, hot sauce, and minced garlic. Set aside.",
+    "Pat chicken thighs dry. Season with salt and pepper.",
+    "Heat 1\u00bd tbsp olive oil in an oven-safe skillet over medium-high heat. Add chicken skin-side down; cook 5\u20136 minutes until skin is golden and crispy. Flip and cook 2 more minutes.",
+    "Transfer skillet to oven and roast 15\u201318 minutes until chicken reaches 165\u00b0F.",
+    "Remove chicken from oven. Spoon off excess fat. Return skillet to medium heat. Add butter and thyme; let butter foam. Spoon hot honey over chicken and cook 1\u20132 minutes until glazed.",
+    "Serve chicken over or alongside roasted potatoes. Top with pickled jalape\u00f1os and a drizzle of any remaining hot honey from the pan."
+  ],
+  "tips": [
+    "For extra crispy skin, pat the chicken very dry and let it sit uncovered in the fridge for 30 minutes before cooking.",
+    "The pickled jalape\u00f1os balance the sweetness of the honey perfectly \u2014 they're worth the 5 minutes of effort.",
+    "Adjust the heat level by using more or less hot sauce in the honey.",
+    "This hot honey glaze is also excellent on salmon, pork chops, or roasted vegetables."
+  ],
+  "imageUrl": "/recipes/images/ba-hot-honey-chicken.jpg"
+}

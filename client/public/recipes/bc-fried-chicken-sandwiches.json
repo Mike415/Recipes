@@ -1,0 +1,127 @@
+{
+  "id": "bc-fried-chicken-sandwiches",
+  "title": "Fried Chicken Sandwiches",
+  "description": "From Barefoot Contessa Cook Like a Pro \u2014 the centerpiece of Ina's Summer Dinner family menu. Buttermilk-brined chicken thighs, dredged in a spiced flour coating and fried to golden perfection, then piled on a brioche bun with coleslaw and pickles. These are the best fried chicken sandwiches you'll ever make at home.",
+  "imageEmoji": "\ud83c\udf54",
+  "prepTime": 20,
+  "cookTime": 20,
+  "totalTime": 40,
+  "servings": 6,
+  "difficulty": "Medium",
+  "tags": [
+    "Family Recipe",
+    "Barefoot Contessa",
+    "Chicken",
+    "Comfort Food",
+    "Kids Love It",
+    "Summer"
+  ],
+  "isFamilyRecipe": true,
+  "ingredients": [
+    {
+      "item": "Boneless, skinless chicken thighs",
+      "amount": "6",
+      "unit": "",
+      "category": "protein"
+    },
+    {
+      "item": "Buttermilk",
+      "amount": "2",
+      "unit": "cups",
+      "category": "dairy"
+    },
+    {
+      "item": "Kosher salt (for brine)",
+      "amount": "1",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Hot sauce (such as Tabasco)",
+      "amount": "1",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "All-purpose flour",
+      "amount": "2",
+      "unit": "cups",
+      "category": "pantry"
+    },
+    {
+      "item": "Kosher salt (for coating)",
+      "amount": "1",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Freshly ground black pepper",
+      "amount": "1",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Garlic powder",
+      "amount": "1",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Paprika",
+      "amount": "1",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Cayenne pepper",
+      "amount": "0.5",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Vegetable oil, for frying",
+      "amount": "2",
+      "unit": "cups",
+      "category": "pantry"
+    },
+    {
+      "item": "Brioche buns, split and toasted",
+      "amount": "6",
+      "unit": "",
+      "category": "bakery"
+    },
+    {
+      "item": "Mayonnaise",
+      "amount": "0.5",
+      "unit": "cup",
+      "category": "pantry"
+    },
+    {
+      "item": "Bread-and-butter pickles",
+      "amount": "1",
+      "unit": "cup",
+      "category": "pantry"
+    },
+    {
+      "item": "Coleslaw (store-bought or homemade)",
+      "amount": "2",
+      "unit": "cups",
+      "category": "produce"
+    }
+  ],
+  "instructions": [
+    "Brine the chicken: Combine the buttermilk, 1 tablespoon salt, and hot sauce in a large bowl. Add the chicken thighs, cover, and refrigerate for at least 2 hours or overnight.",
+    "Make the coating: Combine the flour, 1 tablespoon salt, pepper, garlic powder, paprika, and cayenne in a shallow bowl.",
+    "Remove the chicken from the brine, letting the excess drip off. Dredge each piece in the flour mixture, pressing firmly so it adheres. Let rest on a wire rack for 10 minutes.",
+    "Heat 1 inch of vegetable oil in a large (12-inch) cast iron skillet to 350\u00b0F. Fry the chicken in batches (don't crowd the pan) for 4 to 5 minutes per side, until deep golden brown and cooked through (165\u00b0F). Drain on a wire rack.",
+    "Spread mayonnaise on the toasted buns. Place a piece of fried chicken on each bottom bun, then top with pickles and coleslaw. Serve immediately."
+  ],
+  "tips": [
+    "Overnight brining in buttermilk makes the chicken incredibly juicy and tender \u2014 plan ahead.",
+    "Letting the breaded chicken rest on a rack for 10 minutes before frying helps the coating adhere.",
+    "Use a thermometer to maintain the oil at 350\u00b0F \u2014 too hot burns the outside before the inside cooks.",
+    "Chicken thighs are better than breasts here \u2014 more flavorful and harder to overcook.",
+    "Source: Barefoot Contessa Cook Like a Pro by Ina Garten (2018)"
+  ],
+  "imageUrl": "/recipes/images/bc-fried-chicken-sandwiches.jpg"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "hf-cherry-balsamic-pork",
+  "title": "Cherry Balsamic Pork Tenderloin with Thyme Potatoes",
+  "description": "HelloFresh Hall of Fame — perfectly seared pork tenderloin glazed with a rich cherry balsamic reduction and caramelized onions, served alongside crispy thyme-roasted potatoes and broccoli. Elegant enough for a special occasion, easy enough for a weeknight.",
+  "imageEmoji": "🥩",
+  "prepTime": 10,
+  "cookTime": 30,
+  "totalTime": 40,
+  "servings": 4,
+  "difficulty": "Medium",
+  "tags": ["HelloFresh", "Pork", "Comfort Food", "Healthy"],
+  "ingredients": [
+    { "item": "Pork tenderloin", "amount": "1.5", "unit": "lb", "category": "protein" },
+    { "item": "Yukon Gold potatoes", "amount": "1.5", "unit": "lb", "category": "produce" },
+    { "item": "Broccoli florets", "amount": "12", "unit": "oz", "category": "produce" },
+    { "item": "Yellow onion", "amount": "1", "unit": "large", "category": "produce" },
+    { "item": "Cherry preserves or jam", "amount": "3", "unit": "tbsp", "category": "pantry" },
+    { "item": "Balsamic vinegar", "amount": "3", "unit": "tbsp", "category": "pantry" },
+    { "item": "Chicken broth", "amount": "1/4", "unit": "cup", "category": "pantry" },
+    { "item": "Fresh thyme", "amount": "4", "unit": "sprigs", "category": "produce" },
+    { "item": "Garlic cloves", "amount": "2", "unit": "", "category": "produce" },
+    { "item": "Olive oil", "amount": "3", "unit": "tbsp", "category": "pantry" },
+    { "item": "Unsalted butter", "amount": "1", "unit": "tbsp", "category": "dairy" },
+    { "item": "Salt", "amount": "1", "unit": "tsp", "category": "pantry" },
+    { "item": "Black pepper", "amount": "1/2", "unit": "tsp", "category": "pantry" }
+  ],
+  "instructions": [
+    "Preheat oven to 425°F (220°C). Cut potatoes into 1-inch cubes. Toss with 1½ tbsp olive oil, thyme leaves (stripped from 2 sprigs), salt, and pepper. Roast on a baking sheet for 25–30 minutes, flipping halfway.",
+    "Add broccoli to the potato pan for the last 15 minutes of roasting, tossed with a little olive oil and salt.",
+    "Pat pork tenderloin dry and season generously with salt and pepper. Heat 1½ tbsp olive oil in an oven-safe skillet over medium-high heat. Sear pork on all sides, 2–3 minutes per side, until golden brown.",
+    "Transfer skillet to oven and roast pork for 12–15 minutes until internal temperature reaches 145°F. Remove pork and let rest on a cutting board.",
+    "Return skillet to medium heat. Add butter and sliced onion; cook 5 minutes until softened and golden. Add garlic and remaining thyme; cook 1 minute.",
+    "Add cherry preserves, balsamic vinegar, and chicken broth. Simmer 3–4 minutes, stirring, until the glaze thickens.",
+    "Slice pork tenderloin into medallions. Arrange on plates with thyme potatoes and broccoli. Spoon cherry balsamic glaze and caramelized onions generously over the pork."
+  ],
+  "tips": [
+    "Don't skip the resting time — letting the pork rest 5 minutes after roasting keeps it juicy.",
+    "Pork tenderloin cooks fast; use a meat thermometer to avoid overcooking. 145°F is perfect — slightly pink in the center is safe and delicious.",
+    "Cherry jam, preserves, or even dried cherries rehydrated in a little water all work for the glaze.",
+    "The glaze is also excellent on chicken thighs or duck breast."
+  ]
+}

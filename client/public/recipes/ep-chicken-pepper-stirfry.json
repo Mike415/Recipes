@@ -1,0 +1,129 @@
+{
+  "id": "ep-chicken-pepper-stirfry",
+  "title": "Saucy Chicken & Bell Pepper Stir-Fry with Rice",
+  "description": "EveryPlate's popular weeknight stir-fry \u2014 tender chicken strips and colorful bell peppers tossed in a savory, slightly sweet soy-ginger sauce and served over fluffy rice. On the table in under 30 minutes.",
+  "imageEmoji": "\ud83c\udf57",
+  "prepTime": 10,
+  "cookTime": 15,
+  "totalTime": 25,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": [
+    "EveryPlate",
+    "Chicken",
+    "Asian",
+    "Quick",
+    "One Pan",
+    "Healthy"
+  ],
+  "ingredients": [
+    {
+      "item": "Boneless skinless chicken breasts or thighs",
+      "amount": "1.5",
+      "unit": "lb",
+      "category": "protein"
+    },
+    {
+      "item": "Jasmine rice",
+      "amount": "2",
+      "unit": "cups",
+      "category": "pantry"
+    },
+    {
+      "item": "Red bell pepper",
+      "amount": "1",
+      "unit": "large",
+      "category": "produce"
+    },
+    {
+      "item": "Green bell pepper",
+      "amount": "1",
+      "unit": "large",
+      "category": "produce"
+    },
+    {
+      "item": "Yellow onion",
+      "amount": "1",
+      "unit": "medium",
+      "category": "produce"
+    },
+    {
+      "item": "Garlic cloves",
+      "amount": "3",
+      "unit": "",
+      "category": "produce"
+    },
+    {
+      "item": "Fresh ginger",
+      "amount": "1",
+      "unit": "tbsp",
+      "category": "produce"
+    },
+    {
+      "item": "Soy sauce",
+      "amount": "3",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Oyster sauce",
+      "amount": "2",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Hoisin sauce",
+      "amount": "1",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Cornstarch",
+      "amount": "1",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Sesame oil",
+      "amount": "1",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Vegetable oil",
+      "amount": "2",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Scallions",
+      "amount": "3",
+      "unit": "",
+      "category": "produce"
+    },
+    {
+      "item": "Sesame seeds",
+      "amount": "1",
+      "unit": "tsp",
+      "category": "pantry"
+    }
+  ],
+  "instructions": [
+    "Cook rice according to package directions.",
+    "Slice chicken into thin strips. Toss with cornstarch, a pinch of salt, and pepper.",
+    "Slice bell peppers and onion into strips. Mince garlic and ginger. Slice scallions.",
+    "Make the sauce: whisk together soy sauce, oyster sauce, hoisin sauce, and sesame oil. Set aside.",
+    "Heat 1 tbsp vegetable oil in a large wok or skillet over high heat until smoking. Add chicken in a single layer; cook 2\u20133 minutes per side until golden and cooked through. Remove to a plate.",
+    "Add remaining oil to the pan. Add onion and bell peppers; stir-fry 3\u20134 minutes until slightly softened but still crisp.",
+    "Add garlic and ginger; stir-fry 30 seconds until fragrant.",
+    "Return chicken to the pan. Pour sauce over everything and toss to coat. Cook 1\u20132 minutes until sauce thickens and coats the chicken and vegetables.",
+    "Serve over rice, garnished with scallions and sesame seeds."
+  ],
+  "tips": [
+    "High heat is the key to a good stir-fry \u2014 make sure your pan is very hot before adding anything.",
+    "Tossing the chicken in cornstarch before cooking gives it a light coating that helps the sauce cling and keeps it juicy.",
+    "Prep everything before you start cooking \u2014 stir-fries move fast.",
+    "Add snap peas, broccoli, or baby corn for extra vegetables."
+  ],
+  "imageUrl": "/recipes/images/ep-chicken-pepper-stirfry.jpg"
+}

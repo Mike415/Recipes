@@ -1,0 +1,133 @@
+{
+  "id": "ep-banh-mi-chicken-bowls",
+  "title": "Banh Mi-Style Chicken Bowls with Pickled Veggies & Sriracha Mayo",
+  "description": "EveryPlate fan favorite \u2014 all the bold flavors of a Vietnamese banh mi in a rice bowl. Lemongrass-marinated chicken, quick-pickled carrots and daikon, fresh cucumber, cilantro, and a creamy sriracha mayo over jasmine rice.",
+  "imageEmoji": "\ud83c\udf5a",
+  "prepTime": 15,
+  "cookTime": 15,
+  "totalTime": 30,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": [
+    "EveryPlate",
+    "Chicken",
+    "Asian",
+    "Quick",
+    "Healthy"
+  ],
+  "ingredients": [
+    {
+      "item": "Boneless skinless chicken thighs",
+      "amount": "1.5",
+      "unit": "lb",
+      "category": "protein"
+    },
+    {
+      "item": "Jasmine rice",
+      "amount": "2",
+      "unit": "cups",
+      "category": "pantry"
+    },
+    {
+      "item": "Carrots",
+      "amount": "2",
+      "unit": "medium",
+      "category": "produce"
+    },
+    {
+      "item": "Daikon radish (or regular radish)",
+      "amount": "4",
+      "unit": "oz",
+      "category": "produce"
+    },
+    {
+      "item": "Cucumber",
+      "amount": "1",
+      "unit": "medium",
+      "category": "produce"
+    },
+    {
+      "item": "Fresh cilantro",
+      "amount": "1/2",
+      "unit": "cup",
+      "category": "produce"
+    },
+    {
+      "item": "Jalape\u00f1o",
+      "amount": "1",
+      "unit": "",
+      "category": "produce"
+    },
+    {
+      "item": "Mayonnaise",
+      "amount": "1/3",
+      "unit": "cup",
+      "category": "pantry"
+    },
+    {
+      "item": "Sriracha",
+      "amount": "1",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Soy sauce",
+      "amount": "2",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Fish sauce",
+      "amount": "1",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Rice vinegar",
+      "amount": "3",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Sugar",
+      "amount": "2",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Garlic cloves",
+      "amount": "2",
+      "unit": "",
+      "category": "produce"
+    },
+    {
+      "item": "Lime",
+      "amount": "1",
+      "unit": "",
+      "category": "produce"
+    },
+    {
+      "item": "Vegetable oil",
+      "amount": "1",
+      "unit": "tbsp",
+      "category": "pantry"
+    }
+  ],
+  "instructions": [
+    "Cook rice according to package directions.",
+    "Make the quick pickles: julienne or grate carrots and daikon. Toss with rice vinegar, sugar, and a pinch of salt. Let sit at least 15 minutes.",
+    "Make sriracha mayo: stir together mayonnaise, sriracha, and a squeeze of lime juice. Set aside.",
+    "Marinate chicken: mix soy sauce, fish sauce, minced garlic, and a squeeze of lime juice. Toss with chicken thighs and let sit 10 minutes.",
+    "Heat vegetable oil in a skillet over medium-high heat. Cook chicken 5\u20136 minutes per side until cooked through and caramelized. Let rest 3 minutes, then slice.",
+    "Thinly slice cucumber and jalape\u00f1o.",
+    "Divide rice into bowls. Arrange sliced chicken, pickled carrots and daikon, cucumber, and jalape\u00f1o on top.",
+    "Drizzle generously with sriracha mayo. Top with fresh cilantro and a squeeze of lime."
+  ],
+  "tips": [
+    "Fish sauce is the key to authentic banh mi flavor \u2014 don't skip it. It adds depth without tasting fishy.",
+    "The pickled vegetables can be made up to 3 days ahead and stored in the fridge.",
+    "Chicken thighs stay juicier than breasts for this preparation, but breasts work too.",
+    "For a more authentic touch, add a few sprigs of fresh mint alongside the cilantro."
+  ],
+  "imageUrl": "/recipes/images/ep-banh-mi-chicken-bowls.jpg"
+}

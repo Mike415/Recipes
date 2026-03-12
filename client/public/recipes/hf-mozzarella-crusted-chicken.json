@@ -1,0 +1,42 @@
+{
+  "id": "hf-mozzarella-crusted-chicken",
+  "title": "Mozzarella-Crusted Chicken with Roasted Tomatoes & Garlic Bread",
+  "description": "HelloFresh fan favorite — juicy chicken breasts topped with a melted mozzarella and herb crust, served with roasted cherry tomatoes and crispy garlic bread. Italian-inspired comfort food at its finest.",
+  "imageEmoji": "🧀",
+  "prepTime": 10,
+  "cookTime": 25,
+  "totalTime": 35,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": ["HelloFresh", "Chicken", "Italian", "Comfort Food", "Kid Favorite"],
+  "ingredients": [
+    { "item": "Boneless skinless chicken breasts", "amount": "4", "unit": "", "category": "protein" },
+    { "item": "Fresh mozzarella, sliced", "amount": "8", "unit": "oz", "category": "dairy" },
+    { "item": "Cherry tomatoes", "amount": "1", "unit": "pint", "category": "produce" },
+    { "item": "Italian bread or baguette", "amount": "1", "unit": "loaf", "category": "bakery" },
+    { "item": "Garlic cloves", "amount": "4", "unit": "", "category": "produce" },
+    { "item": "Fresh basil", "amount": "1/2", "unit": "cup", "category": "produce" },
+    { "item": "Balsamic glaze", "amount": "2", "unit": "tbsp", "category": "pantry" },
+    { "item": "Olive oil", "amount": "4", "unit": "tbsp", "category": "pantry" },
+    { "item": "Unsalted butter", "amount": "2", "unit": "tbsp", "category": "dairy" },
+    { "item": "Italian seasoning", "amount": "1.5", "unit": "tsp", "category": "pantry" },
+    { "item": "Garlic powder", "amount": "1/2", "unit": "tsp", "category": "pantry" },
+    { "item": "Salt", "amount": "1", "unit": "tsp", "category": "pantry" },
+    { "item": "Black pepper", "amount": "1/2", "unit": "tsp", "category": "pantry" }
+  ],
+  "instructions": [
+    "Preheat oven to 425°F (220°C). Toss cherry tomatoes with 1 tbsp olive oil, salt, and pepper. Spread on a baking sheet and roast 15–20 minutes until blistered and bursting.",
+    "Make garlic butter: mix softened butter with 2 minced garlic cloves, Italian seasoning, and a pinch of salt. Slice bread in half lengthwise and spread garlic butter on cut sides.",
+    "Pound chicken breasts to ¾-inch thickness. Season with salt, pepper, and garlic powder.",
+    "Heat 2 tbsp olive oil in an oven-safe skillet over medium-high heat. Sear chicken 3–4 minutes per side until golden.",
+    "Top each chicken breast with 2 slices of fresh mozzarella. Transfer skillet to oven. Bake 8–10 minutes until cheese is melted and bubbly and chicken reaches 165°F.",
+    "During the last 5 minutes, add garlic bread to the oven (cut-side up) and toast until golden.",
+    "Serve chicken topped with roasted tomatoes, fresh basil leaves, and a drizzle of balsamic glaze. Serve garlic bread alongside."
+  ],
+  "tips": [
+    "Fresh mozzarella melts more beautifully than shredded — it's worth using here.",
+    "The balsamic glaze adds a sophisticated sweet-tangy note; it's available pre-made in most grocery stores.",
+    "For a caprese-style version, add a few basil leaves under the mozzarella before baking.",
+    "Leftover roasted tomatoes are incredible on toast or stirred into pasta."
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "id": "bc-weeknight-bolognese",
+  "title": "Weeknight Bolognese",
+  "description": "From Barefoot Contessa Foolproof \u2014 a rich, deeply flavored Bolognese that comes together in just 25 minutes. The secret is a splash of white wine, a bit of heavy cream, and freshly grated nutmeg. Ina serves it over pappardelle for maximum sauce-clinging surface area. This is weeknight dinner at its finest.",
+  "imageEmoji": "\ud83c\udf5d",
+  "prepTime": 10,
+  "cookTime": 25,
+  "totalTime": 35,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": [
+    "Family Recipe",
+    "Barefoot Contessa",
+    "Pasta",
+    "Italian",
+    "Quick & Easy",
+    "Weeknight"
+  ],
+  "isFamilyRecipe": true,
+  "ingredients": [
+    {
+      "item": "Good olive oil",
+      "amount": "2",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Garlic cloves, minced",
+      "amount": "4",
+      "unit": "",
+      "category": "produce"
+    },
+    {
+      "item": "Crushed red pepper flakes",
+      "amount": "1",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Lean ground beef (80% lean)",
+      "amount": "1.5",
+      "unit": "lb",
+      "category": "protein"
+    },
+    {
+      "item": "Dry white wine",
+      "amount": "1",
+      "unit": "cup",
+      "category": "pantry"
+    },
+    {
+      "item": "Whole peeled plum tomatoes (28-oz can), crushed by hand",
+      "amount": "1",
+      "unit": "can",
+      "category": "pantry"
+    },
+    {
+      "item": "Tomato paste",
+      "amount": "2",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Kosher salt",
+      "amount": "1",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Freshly ground black pepper",
+      "amount": "0.5",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Heavy cream",
+      "amount": "0.25",
+      "unit": "cup",
+      "category": "dairy"
+    },
+    {
+      "item": "Freshly grated nutmeg",
+      "amount": "0.125",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Pappardelle or tagliatelle pasta",
+      "amount": "1",
+      "unit": "lb",
+      "category": "pantry"
+    },
+    {
+      "item": "Fresh basil leaves, torn",
+      "amount": "0.25",
+      "unit": "cup",
+      "category": "produce"
+    },
+    {
+      "item": "Freshly grated Parmesan cheese, for serving",
+      "amount": "0.5",
+      "unit": "cup",
+      "category": "dairy"
+    }
+  ],
+  "instructions": [
+    "Heat 2 tablespoons of olive oil in a large (12-inch) skillet over medium-high heat. Add the garlic and red pepper flakes and cook for 1 minute. Add the ground beef and cook, breaking it up with a wooden spoon, until no longer pink, about 5 minutes.",
+    "Add the wine and cook for 5 to 6 minutes, until most of the wine has evaporated. Add the tomatoes, tomato paste, salt, and pepper. Bring to a boil, then reduce the heat and simmer for 10 minutes.",
+    "Stir in the heavy cream and nutmeg. Taste and adjust seasonings.",
+    "Meanwhile, cook the pasta in a large pot of boiling salted water according to package directions. Reserve 1 cup of pasta water before draining.",
+    "Toss the drained pasta with the Bolognese sauce, adding a splash of pasta water if needed to loosen the sauce. Serve topped with fresh basil and grated Parmesan."
+  ],
+  "tips": [
+    "The heavy cream and nutmeg are what make this taste like a proper Bolognese in 25 minutes \u2014 don't skip them.",
+    "Pappardelle is ideal because the wide ribbons hold the chunky sauce beautifully.",
+    "Crushing the canned tomatoes by hand gives a better texture than using a food processor.",
+    "Source: Barefoot Contessa Foolproof by Ina Garten (2012)"
+  ],
+  "imageUrl": "/recipes/images/bc-weeknight-bolognese.jpg"
+}

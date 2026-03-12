@@ -1,0 +1,42 @@
+{
+  "id": "hf-crispy-parmesan-chicken",
+  "title": "Crispy Parmesan Chicken with Garlic Herb Couscous",
+  "description": "HelloFresh Hall of Fame — golden-crusted chicken cutlets coated in a panko, parmesan, and paprika crust, served over fluffy garlic herb couscous with lemony carrots on the side. Simple, satisfying, and endlessly popular.",
+  "imageEmoji": "🍗",
+  "prepTime": 10,
+  "cookTime": 20,
+  "totalTime": 30,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": ["HelloFresh", "Chicken", "Quick", "Kid Favorite"],
+  "ingredients": [
+    { "item": "Boneless skinless chicken breasts", "amount": "4", "unit": "", "category": "protein" },
+    { "item": "Panko breadcrumbs", "amount": "3/4", "unit": "cup", "category": "pantry" },
+    { "item": "Grated parmesan cheese", "amount": "1/2", "unit": "cup", "category": "dairy" },
+    { "item": "Paprika", "amount": "1", "unit": "tsp", "category": "pantry" },
+    { "item": "Couscous", "amount": "1.5", "unit": "cups", "category": "pantry" },
+    { "item": "Chicken broth", "amount": "1.5", "unit": "cups", "category": "pantry" },
+    { "item": "Carrots", "amount": "3", "unit": "medium", "category": "produce" },
+    { "item": "Garlic cloves", "amount": "3", "unit": "", "category": "produce" },
+    { "item": "Fresh parsley", "amount": "1/4", "unit": "cup", "category": "produce" },
+    { "item": "Lemon", "amount": "1", "unit": "", "category": "produce" },
+    { "item": "Olive oil", "amount": "3", "unit": "tbsp", "category": "pantry" },
+    { "item": "Unsalted butter", "amount": "2", "unit": "tbsp", "category": "dairy" },
+    { "item": "Salt", "amount": "1", "unit": "tsp", "category": "pantry" },
+    { "item": "Black pepper", "amount": "1/2", "unit": "tsp", "category": "pantry" }
+  ],
+  "instructions": [
+    "Pound chicken breasts to ¾-inch thickness between plastic wrap. Pat dry and season with salt and pepper.",
+    "Mix panko, parmesan, and paprika in a shallow bowl. Press each chicken breast firmly into the mixture to coat both sides.",
+    "Heat 2 tbsp olive oil in a large skillet over medium-high heat. Cook chicken 4–5 minutes per side until golden and cooked through (165°F). Work in batches if needed.",
+    "Meanwhile, peel and slice carrots into thin coins. Toss with 1 tbsp olive oil, a pinch of salt, and a squeeze of lemon juice. Roast at 425°F for 15 minutes or sauté in a separate pan until tender.",
+    "Make the couscous: bring chicken broth to a boil with butter and minced garlic. Remove from heat, stir in couscous, cover, and let stand 5 minutes. Fluff with a fork and stir in chopped parsley.",
+    "Serve chicken over garlic herb couscous with lemony carrots on the side. Garnish with extra parsley and lemon wedges."
+  ],
+  "tips": [
+    "Pounding the chicken to an even thickness is the key to getting a crispy crust without overcooking.",
+    "Press the panko mixture firmly onto the chicken — don't just dip it. The more it adheres, the crispier it gets.",
+    "Swap couscous for rice or mashed potatoes if preferred.",
+    "Leftovers are great sliced cold over a salad the next day."
+  ]
+}

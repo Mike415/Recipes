@@ -1,0 +1,121 @@
+{
+  "id": "hf-mushroom-tortellini",
+  "title": "Creamy Mushroom & Herb Cheese Tortellini",
+  "description": "HelloFresh Hall of Fame \u2014 cheese-stuffed tortellini smothered in a rich, umami-packed creamy mushroom sauce with fresh herbs, topped with chili flakes and scallion greens. A mysteriously satisfying bowl that earns its legendary status.",
+  "imageEmoji": "\ud83c\udf5d",
+  "prepTime": 5,
+  "cookTime": 20,
+  "totalTime": 25,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": [
+    "HelloFresh",
+    "Pasta",
+    "Vegetarian",
+    "Comfort Food",
+    "Quick"
+  ],
+  "ingredients": [
+    {
+      "item": "Fresh or refrigerated cheese tortellini",
+      "amount": "20",
+      "unit": "oz",
+      "category": "pantry"
+    },
+    {
+      "item": "Cremini or baby bella mushrooms",
+      "amount": "10",
+      "unit": "oz",
+      "category": "produce"
+    },
+    {
+      "item": "Heavy cream",
+      "amount": "3/4",
+      "unit": "cup",
+      "category": "dairy"
+    },
+    {
+      "item": "Chicken or vegetable broth",
+      "amount": "1/2",
+      "unit": "cup",
+      "category": "pantry"
+    },
+    {
+      "item": "Grated parmesan cheese",
+      "amount": "1/2",
+      "unit": "cup",
+      "category": "dairy"
+    },
+    {
+      "item": "Garlic cloves",
+      "amount": "3",
+      "unit": "",
+      "category": "produce"
+    },
+    {
+      "item": "Shallot",
+      "amount": "1",
+      "unit": "large",
+      "category": "produce"
+    },
+    {
+      "item": "Scallions",
+      "amount": "3",
+      "unit": "",
+      "category": "produce"
+    },
+    {
+      "item": "Fresh thyme",
+      "amount": "3",
+      "unit": "sprigs",
+      "category": "produce"
+    },
+    {
+      "item": "Unsalted butter",
+      "amount": "2",
+      "unit": "tbsp",
+      "category": "dairy"
+    },
+    {
+      "item": "Olive oil",
+      "amount": "1",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Red pepper flakes",
+      "amount": "1/4",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Salt",
+      "amount": "3/4",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Black pepper",
+      "amount": "1/4",
+      "unit": "tsp",
+      "category": "pantry"
+    }
+  ],
+  "instructions": [
+    "Cook tortellini according to package directions. Drain, reserving \u00bd cup pasta water.",
+    "Slice mushrooms. Mince garlic and shallot. Slice scallions, keeping whites and greens separate. Strip thyme leaves.",
+    "Heat butter and olive oil in a large skillet over medium-high heat. Add mushrooms in a single layer; cook undisturbed for 3 minutes until golden. Stir and cook 2 more minutes.",
+    "Add shallot, scallion whites, garlic, and thyme. Cook 2 minutes until softened. Season with salt and pepper.",
+    "Pour in broth and scrape up any browned bits. Add heavy cream and bring to a simmer. Cook 3\u20134 minutes until slightly thickened.",
+    "Add drained tortellini to the sauce. Toss gently to coat, adding pasta water as needed to loosen the sauce.",
+    "Remove from heat. Stir in parmesan until melted and the sauce is silky.",
+    "Serve topped with scallion greens, red pepper flakes, and extra parmesan."
+  ],
+  "tips": [
+    "Don't stir the mushrooms right away \u2014 letting them sit undisturbed for a few minutes gets them golden and caramelized rather than steamed.",
+    "Dried tortellini works too; just adjust cooking time per the package.",
+    "For a deeper umami flavor, add a teaspoon of soy sauce or a small splash of white wine with the broth.",
+    "Spinach or kale stirred in at the end adds color and nutrition."
+  ],
+  "imageUrl": "/recipes/images/hf-mushroom-tortellini.jpg"
+}

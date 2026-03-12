@@ -1,0 +1,114 @@
+{
+  "id": "hc-pecan-crusted-chicken",
+  "title": "Pecan-Crusted Chicken with Honey Mustard & Apple Salad",
+  "description": "Home Chef and HelloFresh fan favorite \u2014 chicken breasts coated in a crunchy toasted pecan and panko crust, served with a tangy honey mustard sauce and a crisp lemony apple and arugula salad. Elegant and delicious.",
+  "imageEmoji": "\ud83c\udf57",
+  "prepTime": 15,
+  "cookTime": 20,
+  "totalTime": 35,
+  "servings": 4,
+  "difficulty": "Medium",
+  "tags": [
+    "Home Chef",
+    "HelloFresh",
+    "Chicken",
+    "American",
+    "Healthy"
+  ],
+  "ingredients": [
+    {
+      "item": "Boneless skinless chicken breasts",
+      "amount": "4",
+      "unit": "",
+      "category": "protein"
+    },
+    {
+      "item": "Pecans, finely chopped",
+      "amount": "3/4",
+      "unit": "cup",
+      "category": "pantry"
+    },
+    {
+      "item": "Panko breadcrumbs",
+      "amount": "1/2",
+      "unit": "cup",
+      "category": "pantry"
+    },
+    {
+      "item": "Dijon mustard",
+      "amount": "3",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Honey",
+      "amount": "3",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Mayonnaise",
+      "amount": "2",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Apple (Honeycrisp or Fuji)",
+      "amount": "2",
+      "unit": "",
+      "category": "produce"
+    },
+    {
+      "item": "Baby arugula",
+      "amount": "4",
+      "unit": "oz",
+      "category": "produce"
+    },
+    {
+      "item": "Lemon",
+      "amount": "1",
+      "unit": "",
+      "category": "produce"
+    },
+    {
+      "item": "Olive oil",
+      "amount": "3",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Apple cider vinegar",
+      "amount": "1",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Salt",
+      "amount": "1",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Black pepper",
+      "amount": "1/2",
+      "unit": "tsp",
+      "category": "pantry"
+    }
+  ],
+  "instructions": [
+    "Preheat oven to 425\u00b0F (220\u00b0C). Line a baking sheet with foil and spray with cooking spray.",
+    "Mix chopped pecans and panko in a shallow bowl. In another bowl, mix 2 tbsp Dijon mustard with 1 tbsp olive oil.",
+    "Pound chicken breasts to \u00be-inch thickness. Brush each breast with the mustard-oil mixture. Press firmly into the pecan-panko mixture to coat both sides.",
+    "Place on the prepared baking sheet. Drizzle with 1 tbsp olive oil. Bake 18\u201322 minutes until golden and cooked through (165\u00b0F).",
+    "Make honey mustard sauce: whisk together honey, remaining 1 tbsp Dijon, mayonnaise, and a squeeze of lemon juice. Season with salt and pepper.",
+    "Make the apple salad: thinly slice apples. Toss arugula and apple slices with apple cider vinegar, remaining 1 tbsp olive oil, salt, and pepper.",
+    "Serve pecan-crusted chicken with honey mustard sauce drizzled over the top and the apple arugula salad alongside."
+  ],
+  "tips": [
+    "Chop the pecans finely so they adhere well to the chicken \u2014 large pieces tend to fall off.",
+    "Toast the pecans in a dry skillet for 3 minutes before using for even more flavor.",
+    "The honey mustard sauce doubles as a great salad dressing \u2014 make extra.",
+    "Swap arugula for spinach or mixed greens if you prefer a milder salad."
+  ],
+  "imageUrl": "/recipes/images/hc-pecan-crusted-chicken.jpg"
+}

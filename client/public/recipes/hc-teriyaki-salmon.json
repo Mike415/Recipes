@@ -1,0 +1,115 @@
+{
+  "id": "hc-teriyaki-salmon",
+  "title": "Teriyaki Ginger-Glazed Salmon with Sesame Bok Choy",
+  "description": "Home Chef customer favorite \u2014 flaky salmon fillets glazed in a homemade teriyaki-ginger sauce, served alongside sesame-tossed bok choy and steamed rice. A restaurant-quality dinner in under 30 minutes.",
+  "imageEmoji": "\ud83d\udc1f",
+  "prepTime": 10,
+  "cookTime": 15,
+  "totalTime": 25,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": [
+    "Home Chef",
+    "Seafood",
+    "Asian",
+    "Healthy",
+    "Quick"
+  ],
+  "ingredients": [
+    {
+      "item": "Salmon fillets (6 oz each)",
+      "amount": "4",
+      "unit": "",
+      "category": "protein"
+    },
+    {
+      "item": "Jasmine rice",
+      "amount": "2",
+      "unit": "cups",
+      "category": "pantry"
+    },
+    {
+      "item": "Baby bok choy",
+      "amount": "4",
+      "unit": "heads",
+      "category": "produce"
+    },
+    {
+      "item": "Soy sauce",
+      "amount": "1/4",
+      "unit": "cup",
+      "category": "pantry"
+    },
+    {
+      "item": "Mirin (or dry sherry)",
+      "amount": "3",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Honey",
+      "amount": "2",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Fresh ginger",
+      "amount": "1",
+      "unit": "tbsp",
+      "category": "produce"
+    },
+    {
+      "item": "Garlic cloves",
+      "amount": "2",
+      "unit": "",
+      "category": "produce"
+    },
+    {
+      "item": "Sesame oil",
+      "amount": "2",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Cornstarch",
+      "amount": "1",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Vegetable oil",
+      "amount": "2",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Sesame seeds",
+      "amount": "1",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Scallions",
+      "amount": "3",
+      "unit": "",
+      "category": "produce"
+    }
+  ],
+  "instructions": [
+    "Cook rice according to package directions.",
+    "Make teriyaki sauce: whisk together soy sauce, mirin, honey, minced ginger, minced garlic, and cornstarch in a small bowl. Set aside.",
+    "Pat salmon fillets dry and season lightly with salt and pepper.",
+    "Heat 1 tbsp vegetable oil in a large non-stick skillet over medium-high heat. Add salmon skin-side up; cook 3\u20134 minutes until golden. Flip and cook 2\u20133 more minutes until cooked through.",
+    "Pour teriyaki sauce over salmon. Cook 1\u20132 minutes, spooning sauce over the fish, until the sauce thickens and glazes the salmon. Remove to a plate.",
+    "In the same pan, heat remaining oil. Halve bok choy lengthwise and add cut-side down. Cook 2 minutes until lightly charred. Flip, add a splash of water, cover, and steam 1\u20132 minutes until tender.",
+    "Drizzle bok choy with sesame oil and toss with sesame seeds.",
+    "Serve salmon over rice with bok choy alongside. Garnish with sliced scallions and extra sesame seeds."
+  ],
+  "tips": [
+    "Don't move the salmon once it's in the pan \u2014 let it develop a golden crust before flipping.",
+    "Mirin adds authentic sweetness; if you don't have it, substitute with 2 tbsp dry sherry or white wine plus 1 tsp extra honey.",
+    "The cornstarch in the sauce is key to getting that glossy, restaurant-style glaze.",
+    "This glaze also works beautifully on chicken thighs or shrimp."
+  ],
+  "imageUrl": "/recipes/images/hc-teriyaki-salmon.jpg"
+}

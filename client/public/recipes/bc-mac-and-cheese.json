@@ -1,0 +1,101 @@
+{
+  "id": "bc-mac-and-cheese",
+  "title": "Ina's Mac & Cheese",
+  "description": "From Barefoot Contessa Family Style \u2014 Ina's legendary baked mac and cheese with a crispy breadcrumb topping. Three cheeses (Gruy\u00e8re, sharp cheddar, and extra-sharp cheddar) make a sauce so rich and flavorful it'll ruin boxed mac and cheese for you forever. The centerpiece of her Pasta Night family dinner menu.",
+  "imageEmoji": "\ud83e\uddc0",
+  "prepTime": 20,
+  "cookTime": 30,
+  "totalTime": 50,
+  "servings": 6,
+  "difficulty": "Easy",
+  "tags": [
+    "Family Recipe",
+    "Barefoot Contessa",
+    "Pasta",
+    "Comfort Food",
+    "Kids Love It"
+  ],
+  "isFamilyRecipe": true,
+  "ingredients": [
+    {
+      "item": "Kosher salt",
+      "amount": "1",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Cavatappi or elbow macaroni",
+      "amount": "1",
+      "unit": "lb",
+      "category": "pantry"
+    },
+    {
+      "item": "Whole milk",
+      "amount": "3",
+      "unit": "cups",
+      "category": "dairy"
+    },
+    {
+      "item": "Unsalted butter",
+      "amount": "6",
+      "unit": "tbsp",
+      "category": "dairy"
+    },
+    {
+      "item": "All-purpose flour",
+      "amount": "0.5",
+      "unit": "cup",
+      "category": "pantry"
+    },
+    {
+      "item": "Freshly ground black pepper",
+      "amount": "0.5",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Nutmeg",
+      "amount": "0.25",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Gruy\u00e8re cheese, grated",
+      "amount": "3",
+      "unit": "cups",
+      "category": "dairy"
+    },
+    {
+      "item": "Extra-sharp white cheddar, grated",
+      "amount": "1.5",
+      "unit": "cups",
+      "category": "dairy"
+    },
+    {
+      "item": "Fresh white bread crumbs (5 slices, crusts removed)",
+      "amount": "1.5",
+      "unit": "cups",
+      "category": "pantry"
+    },
+    {
+      "item": "Gruy\u00e8re cheese, grated (for topping)",
+      "amount": "0.5",
+      "unit": "cup",
+      "category": "dairy"
+    }
+  ],
+  "instructions": [
+    "Preheat the oven to 375\u00b0F. Drizzle oil into a large pot of boiling salted water. Add the macaroni and cook according to the directions on the package, 6 to 8 minutes. Drain well.",
+    "Meanwhile, heat the milk in a small saucepan, but don't boil it. Melt 6 tablespoons of butter in a large (4-quart) pot and add the flour. Cook over low heat for 2 minutes, stirring with a whisk. While whisking, add the hot milk and cook for a minute or two more, until thickened and smooth. Off the heat, add the Gruy\u00e8re, cheddar, 1 tablespoon salt, the pepper, and nutmeg. Add the cooked macaroni and stir well.",
+    "Pour into a 3-quart baking dish. Combine the bread crumbs and the remaining \u00bd cup Gruy\u00e8re and sprinkle on top. Dot with the remaining 2 tablespoons of butter.",
+    "Bake for 30 to 35 minutes, or until the sauce is bubbly and the macaroni is browned on the top. Serve hot."
+  ],
+  "tips": [
+    "Gruy\u00e8re is the secret weapon here \u2014 it melts beautifully and has a nutty depth that cheddar alone can't match.",
+    "Fresh bread crumbs (made from white bread in a food processor) give a much better topping than dried.",
+    "Cavatappi (corkscrew pasta) holds the sauce better than regular elbows.",
+    "This can be assembled ahead and refrigerated, then baked when needed \u2014 add 10 minutes to the baking time.",
+    "Source: Barefoot Contessa Family Style by Ina Garten (2002)"
+  ],
+  "imageUrl": "/recipes/images/bc-mac-and-cheese.jpg"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "hf-salsa-verde-enchiladas",
+  "title": "Salsa Verde Black Bean Enchiladas",
+  "description": "HelloFresh Hall of Fame — flour tortillas stuffed with a Southwestern-spiced filling of black beans, tomatoes, and roasted poblano, coated in tangy green salsa and topped with melted Monterey Jack cheese. A hearty, crowd-pleasing bake.",
+  "imageEmoji": "🌮",
+  "prepTime": 15,
+  "cookTime": 25,
+  "totalTime": 40,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": ["HelloFresh", "Vegetarian", "Mexican", "Comfort Food"],
+  "ingredients": [
+    { "item": "Flour tortillas (8-inch)", "amount": "8", "unit": "", "category": "bakery" },
+    { "item": "Black beans (canned)", "amount": "2", "unit": "15-oz cans", "category": "pantry" },
+    { "item": "Salsa verde (green salsa)", "amount": "1.5", "unit": "cups", "category": "pantry" },
+    { "item": "Poblano pepper", "amount": "1", "unit": "large", "category": "produce" },
+    { "item": "Roma tomatoes", "amount": "2", "unit": "", "category": "produce" },
+    { "item": "Monterey Jack cheese, shredded", "amount": "2", "unit": "cups", "category": "dairy" },
+    { "item": "Yellow onion", "amount": "1", "unit": "medium", "category": "produce" },
+    { "item": "Garlic cloves", "amount": "3", "unit": "", "category": "produce" },
+    { "item": "Cumin", "amount": "1.5", "unit": "tsp", "category": "pantry" },
+    { "item": "Chili powder", "amount": "1", "unit": "tsp", "category": "pantry" },
+    { "item": "Smoked paprika", "amount": "1/2", "unit": "tsp", "category": "pantry" },
+    { "item": "Olive oil", "amount": "2", "unit": "tbsp", "category": "pantry" },
+    { "item": "Salt", "amount": "3/4", "unit": "tsp", "category": "pantry" },
+    { "item": "Sour cream", "amount": "1/2", "unit": "cup", "category": "dairy" },
+    { "item": "Fresh cilantro", "amount": "1/4", "unit": "cup", "category": "produce" },
+    { "item": "Lime", "amount": "1", "unit": "", "category": "produce" }
+  ],
+  "instructions": [
+    "Preheat oven to 400°F (200°C). Dice onion and poblano. Dice tomatoes. Mince garlic. Drain and rinse black beans.",
+    "Heat olive oil in a skillet over medium heat. Add onion and poblano; cook 5 minutes until softened. Add garlic, cumin, chili powder, and smoked paprika; cook 1 minute.",
+    "Add black beans and tomatoes. Season with salt. Cook 3–4 minutes, stirring, until heated through and slightly thickened. Remove from heat.",
+    "Spread ½ cup salsa verde on the bottom of a 9x13 baking dish.",
+    "Spoon about ½ cup of the bean filling down the center of each tortilla. Sprinkle with a little cheese. Roll up tightly and place seam-side down in the baking dish.",
+    "Pour remaining salsa verde evenly over the enchiladas. Sprinkle with remaining Monterey Jack cheese.",
+    "Bake uncovered for 20–25 minutes until cheese is melted and bubbly and the edges are lightly golden.",
+    "Serve topped with sour cream, fresh cilantro, and a squeeze of lime."
+  ],
+  "tips": [
+    "Warm tortillas briefly in the microwave (30 seconds wrapped in a damp paper towel) before rolling — they'll be more pliable and won't crack.",
+    "Add shredded rotisserie chicken to the filling if you want a non-vegetarian version.",
+    "Corn tortillas can be used for a more traditional enchilada — dip them in warm salsa verde before rolling.",
+    "These reheat beautifully the next day — cover with foil and warm at 350°F for 15 minutes."
+  ]
+}

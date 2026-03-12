@@ -1,0 +1,102 @@
+{
+  "id": "bc-roasted-tomato-soup",
+  "title": "Roasted Tomato Basil Soup",
+  "description": "From Barefoot Contessa Cookbook \u2014 roasting the tomatoes with olive oil, garlic, and onion concentrates all their sweetness before blending into the most flavorful tomato soup you'll ever taste. Ina pairs it with Parmesan Chicken for her Easy Family Dinner menu. Serve with crusty bread for dunking.",
+  "imageEmoji": "\ud83c\udf45",
+  "prepTime": 15,
+  "cookTime": 60,
+  "totalTime": 75,
+  "servings": 6,
+  "difficulty": "Easy",
+  "tags": [
+    "Family Recipe",
+    "Barefoot Contessa",
+    "Soup",
+    "Vegetarian",
+    "Make Ahead",
+    "Comfort Food"
+  ],
+  "isFamilyRecipe": true,
+  "ingredients": [
+    {
+      "item": "Plum tomatoes, halved lengthwise",
+      "amount": "3",
+      "unit": "lb",
+      "category": "produce"
+    },
+    {
+      "item": "Good olive oil, divided",
+      "amount": "0.5",
+      "unit": "cup",
+      "category": "pantry"
+    },
+    {
+      "item": "Kosher salt",
+      "amount": "1.5",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Freshly ground black pepper",
+      "amount": "0.5",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Yellow onion, chopped",
+      "amount": "2",
+      "unit": "cups",
+      "category": "produce"
+    },
+    {
+      "item": "Garlic cloves, minced",
+      "amount": "6",
+      "unit": "",
+      "category": "produce"
+    },
+    {
+      "item": "Dried oregano",
+      "amount": "1",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Crushed red pepper flakes",
+      "amount": "0.25",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Canned plum tomatoes with their juice (28-oz can)",
+      "amount": "1",
+      "unit": "can",
+      "category": "pantry"
+    },
+    {
+      "item": "Fresh basil leaves, packed",
+      "amount": "1",
+      "unit": "cup",
+      "category": "produce"
+    },
+    {
+      "item": "Chicken or vegetable stock",
+      "amount": "3",
+      "unit": "cups",
+      "category": "pantry"
+    }
+  ],
+  "instructions": [
+    "Preheat the oven to 400\u00b0F. Toss together the tomatoes, \u00bc cup olive oil, salt, and pepper. Spread the tomatoes in 1 layer on a baking sheet and roast for 45 minutes.",
+    "In a large stockpot over medium heat, saut\u00e9 the onions and garlic with the remaining 2 tablespoons of olive oil, the oregano, and red pepper flakes for 10 minutes, until the onions start to brown.",
+    "Add the canned tomatoes, basil, stock, and oven-roasted tomatoes including the liquid on the baking sheet. Bring to a boil and simmer uncovered for 40 minutes.",
+    "Pass through a food mill fitted with the coarsest blade, or use an immersion blender for a smoother texture. Taste for seasonings. Serve hot or cold."
+  ],
+  "tips": [
+    "Roasting the tomatoes is the key step that transforms this from ordinary to extraordinary \u2014 the caramelization adds incredible depth.",
+    "Don't skip scraping all the juices from the roasting pan into the pot \u2014 that's pure concentrated tomato flavor.",
+    "This soup freezes beautifully for up to 3 months.",
+    "An immersion blender gives a slightly chunkier texture; a regular blender or food mill gives a silkier result.",
+    "Source: Barefoot Contessa Cookbook by Ina Garten (1999)"
+  ],
+  "imageUrl": "/recipes/images/bc-roasted-tomato-soup.jpg"
+}

@@ -226,7 +226,8 @@ export default function RecipeDetail() {
                 alt={recipe.title}
                 className="w-full h-full object-cover"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
+              {/* Strong gradient: opaque at bottom where text is, fades to semi-dark at top */}
+              <div className="absolute inset-0 bg-gradient-to-t from-black/85 via-black/50 to-black/20" />
             </div>
           ) : (
             <div className="bg-gradient-to-br from-amber-50 via-orange-50 to-yellow-50 p-8 text-center">
@@ -237,23 +238,23 @@ export default function RecipeDetail() {
           {/* Badges */}
           <div className="flex flex-wrap justify-center gap-2 mb-3">
             {recipe.isFamily && (
-              <Badge className={recipe.imageUrl ? 'bg-white/20 text-white border-white/30 backdrop-blur-sm' : 'bg-primary text-primary-foreground'}>
+              <Badge className={recipe.imageUrl ? 'bg-primary/90 text-white border-primary/50 backdrop-blur-sm shadow-md' : 'bg-primary text-primary-foreground'}>
                 👨‍👩‍👧‍👦 Family Recipe
               </Badge>
             )}
-            <Badge variant="outline" className={recipe.imageUrl ? 'border-white/40 text-white bg-white/10 backdrop-blur-sm' : (DIFFICULTY_COLORS[recipe.difficulty] || "")}>
+            <Badge variant="outline" className={recipe.imageUrl ? 'border-white/60 text-white bg-black/40 backdrop-blur-sm shadow-md font-semibold' : (DIFFICULTY_COLORS[recipe.difficulty] || "")}>
               {recipe.difficulty}
             </Badge>
           </div>
-          <h1 className={`font-heading text-3xl font-bold mb-2 ${recipe.imageUrl ? 'text-white drop-shadow-md' : 'text-foreground'}`}>
+          <h1 className={`font-heading text-3xl font-bold mb-2 ${recipe.imageUrl ? 'text-white' : 'text-foreground'}`} style={recipe.imageUrl ? {textShadow: '0 2px 8px rgba(0,0,0,0.8), 0 1px 3px rgba(0,0,0,0.9)'} : {}}>
             {recipe.title}
           </h1>
-          <p className={`max-w-lg mx-auto leading-relaxed text-sm ${recipe.imageUrl ? 'text-white/80' : 'text-muted-foreground'}`}>
+          <p className={`max-w-lg mx-auto leading-relaxed text-sm ${recipe.imageUrl ? 'text-white/95' : 'text-muted-foreground'}`} style={recipe.imageUrl ? {textShadow: '0 1px 4px rgba(0,0,0,0.8)'} : {}}>
             {recipe.description}
           </p>
 
           {/* Quick stats */}
-          <div className={`flex justify-center gap-6 mt-4 text-sm ${recipe.imageUrl ? 'text-white' : ''}`}>
+          <div className={`flex justify-center gap-6 mt-4 text-sm ${recipe.imageUrl ? 'text-white' : ''}`} style={recipe.imageUrl ? {textShadow: '0 1px 3px rgba(0,0,0,0.7)'} : {}}>
             <div className="text-center">
               <div className={`flex items-center justify-center gap-1 mb-1 ${recipe.imageUrl ? 'text-white/70' : 'text-muted-foreground'}`}>
                 <Clock className="w-4 h-4" />

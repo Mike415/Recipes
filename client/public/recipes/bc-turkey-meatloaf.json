@@ -1,0 +1,114 @@
+{
+  "id": "bc-turkey-meatloaf",
+  "title": "Turkey Meatloaf",
+  "description": "From Barefoot Contessa Cookbook \u2014 Ina's take on the ultimate American comfort food. A generous amount of caramelized onions and garlic give this turkey meatloaf incredible depth of flavor, and a ketchup glaze on top caramelizes into something irresistible. Baking it with a pan of water keeps it perfectly moist.",
+  "imageEmoji": "\ud83c\udf56",
+  "prepTime": 20,
+  "cookTime": 90,
+  "totalTime": 110,
+  "servings": 6,
+  "difficulty": "Easy",
+  "tags": [
+    "Family Recipe",
+    "Barefoot Contessa",
+    "Comfort Food",
+    "Make Ahead",
+    "Kids Love It"
+  ],
+  "isFamilyRecipe": true,
+  "ingredients": [
+    {
+      "item": "Good olive oil",
+      "amount": "3",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Medium yellow onion, chopped",
+      "amount": "3",
+      "unit": "cups",
+      "category": "produce"
+    },
+    {
+      "item": "Garlic cloves, minced",
+      "amount": "2",
+      "unit": "",
+      "category": "produce"
+    },
+    {
+      "item": "Fresh thyme leaves",
+      "amount": "1",
+      "unit": "tsp",
+      "category": "produce"
+    },
+    {
+      "item": "Worcestershire sauce",
+      "amount": "2",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Chicken stock",
+      "amount": "0.33",
+      "unit": "cup",
+      "category": "pantry"
+    },
+    {
+      "item": "Tomato paste",
+      "amount": "1",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Ground turkey (85% lean)",
+      "amount": "2.5",
+      "unit": "lb",
+      "category": "protein"
+    },
+    {
+      "item": "Plain dry bread crumbs",
+      "amount": "0.75",
+      "unit": "cup",
+      "category": "pantry"
+    },
+    {
+      "item": "Extra-large eggs, beaten",
+      "amount": "2",
+      "unit": "",
+      "category": "dairy"
+    },
+    {
+      "item": "Kosher salt",
+      "amount": "1.5",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Freshly ground black pepper",
+      "amount": "0.5",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Ketchup (for topping)",
+      "amount": "0.75",
+      "unit": "cup",
+      "category": "pantry"
+    }
+  ],
+  "instructions": [
+    "Preheat the oven to 325\u00b0F.",
+    "In a medium saut\u00e9 pan, heat the olive oil over medium-low heat. Add the onions and garlic and cook, stirring occasionally, for 8 to 10 minutes until the onions are translucent but not browned. Add the thyme, Worcestershire sauce, chicken stock, and tomato paste. Mix well. Allow to cool to room temperature.",
+    "Combine the ground turkey, bread crumbs, eggs, and onion mixture in a large bowl. Mix well and shape into a rectangular loaf on an ungreased baking sheet. Spread the ketchup evenly on top.",
+    "Place the meatloaf on the center rack of the oven. Place a pan of hot water on the rack below it. Bake for 1 to 1\u00bc hours, until the internal temperature is 160\u00b0F and the meatloaf is cooked through.",
+    "Remove from the oven and allow to rest for 10 minutes. Slice and serve."
+  ],
+  "tips": [
+    "The pan of water below the meatloaf is Ina's secret to keeping it moist \u2014 don't skip it.",
+    "Caramelizing the onions fully before adding them is what gives this meatloaf its extraordinary flavor.",
+    "This is even better the next day \u2014 slice cold and reheat in the oven, or make sandwiches.",
+    "Use 85% lean ground turkey, not 99% fat-free, which will be too dry.",
+    "Source: Barefoot Contessa Cookbook by Ina Garten (1999)"
+  ],
+  "imageUrl": "/recipes/images/bc-turkey-meatloaf.jpg"
+}

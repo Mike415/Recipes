@@ -1,0 +1,150 @@
+{
+  "id": "bc-lasagna-turkey-sausage",
+  "title": "Lasagna with Turkey Sausage",
+  "description": "From Barefoot Contessa Family Style \u2014 the centerpiece of Ina's Italian Night family dinner menu. A rich, layered lasagna with turkey sausage, creamy b\u00e9chamel, and a slow-simmered tomato sauce. It's a true make-ahead masterpiece \u2014 assemble it the day before and bake when you need it.",
+  "imageEmoji": "\ud83e\uded5",
+  "prepTime": 45,
+  "cookTime": 75,
+  "totalTime": 120,
+  "servings": 8,
+  "difficulty": "Medium",
+  "tags": [
+    "Family Recipe",
+    "Barefoot Contessa",
+    "Pasta",
+    "Italian",
+    "Make Ahead",
+    "Comfort Food"
+  ],
+  "isFamilyRecipe": true,
+  "ingredients": [
+    {
+      "item": "Good olive oil",
+      "amount": "2",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Italian turkey sausage, casings removed",
+      "amount": "1.5",
+      "unit": "lb",
+      "category": "protein"
+    },
+    {
+      "item": "Yellow onion, chopped",
+      "amount": "1.5",
+      "unit": "cups",
+      "category": "produce"
+    },
+    {
+      "item": "Garlic cloves, minced",
+      "amount": "4",
+      "unit": "",
+      "category": "produce"
+    },
+    {
+      "item": "Crushed tomatoes (28-oz can)",
+      "amount": "1",
+      "unit": "can",
+      "category": "pantry"
+    },
+    {
+      "item": "Tomato paste",
+      "amount": "2",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Fresh basil leaves, chopped",
+      "amount": "0.25",
+      "unit": "cup",
+      "category": "produce"
+    },
+    {
+      "item": "Kosher salt",
+      "amount": "1.5",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Freshly ground black pepper",
+      "amount": "0.5",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Unsalted butter (for b\u00e9chamel)",
+      "amount": "4",
+      "unit": "tbsp",
+      "category": "dairy"
+    },
+    {
+      "item": "All-purpose flour (for b\u00e9chamel)",
+      "amount": "4",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Whole milk, warmed (for b\u00e9chamel)",
+      "amount": "2",
+      "unit": "cups",
+      "category": "dairy"
+    },
+    {
+      "item": "Heavy cream (for b\u00e9chamel)",
+      "amount": "0.5",
+      "unit": "cup",
+      "category": "dairy"
+    },
+    {
+      "item": "Freshly grated Parmesan cheese (for b\u00e9chamel)",
+      "amount": "0.5",
+      "unit": "cup",
+      "category": "dairy"
+    },
+    {
+      "item": "Nutmeg",
+      "amount": "0.25",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Lasagna noodles (no-boil)",
+      "amount": "12",
+      "unit": "sheets",
+      "category": "pantry"
+    },
+    {
+      "item": "Whole-milk ricotta cheese",
+      "amount": "15",
+      "unit": "oz",
+      "category": "dairy"
+    },
+    {
+      "item": "Shredded mozzarella cheese",
+      "amount": "2",
+      "unit": "cups",
+      "category": "dairy"
+    },
+    {
+      "item": "Freshly grated Parmesan cheese (for topping)",
+      "amount": "0.5",
+      "unit": "cup",
+      "category": "dairy"
+    }
+  ],
+  "instructions": [
+    "Make the meat sauce: Heat the olive oil in a large (12-inch) skillet over medium heat. Add the turkey sausage and cook, breaking it up with a wooden spoon, until browned, about 5 minutes. Add the onion and garlic and cook for 5 more minutes. Add the crushed tomatoes, tomato paste, basil, salt, and pepper. Simmer over low heat for 15 minutes.",
+    "Make the b\u00e9chamel: Melt the butter in a medium saucepan over medium heat. Whisk in the flour and cook for 1 minute. Gradually whisk in the warm milk and cream. Cook, whisking constantly, until the sauce thickens, about 5 minutes. Remove from heat and stir in the Parmesan and nutmeg. Season with salt and pepper.",
+    "Preheat the oven to 400\u00b0F. Spread a thin layer of meat sauce on the bottom of a 9\u00d713-inch baking dish.",
+    "Layer the lasagna: Place 4 no-boil noodles over the sauce. Spread half the ricotta over the noodles. Spoon half the remaining meat sauce over the ricotta. Pour half the b\u00e9chamel over the meat sauce. Sprinkle with \u2153 of the mozzarella. Repeat the layers: noodles, ricotta, meat sauce, b\u00e9chamel, mozzarella. Finish with the remaining noodles, the last of the b\u00e9chamel, the remaining mozzarella, and the Parmesan.",
+    "Cover tightly with aluminum foil and bake for 30 minutes. Remove the foil and bake for another 15 minutes, until bubbling and the top is golden brown. Allow to rest for 10 minutes before cutting and serving."
+  ],
+  "tips": [
+    "This is a perfect make-ahead dish \u2014 assemble the day before, refrigerate, and bake when needed (add 10 minutes to the covered baking time if coming from the refrigerator).",
+    "No-boil lasagna noodles work perfectly here and save a lot of time.",
+    "The b\u00e9chamel is what makes this lasagna extraordinary \u2014 don't substitute jarred Alfredo sauce.",
+    "Source: Barefoot Contessa Family Style by Ina Garten (2002)"
+  ],
+  "imageUrl": "/recipes/images/bc-lasagna-turkey-sausage.jpg"
+}

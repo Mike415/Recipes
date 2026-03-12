@@ -1,0 +1,44 @@
+{
+  "id": "hf-chicken-orzo",
+  "title": "Winner Winner Chicken Orzo Dinner",
+  "description": "HelloFresh's beloved Hall of Fame recipe — herbed chicken breast baked over tender orzo with zucchini and tomatoes, topped with a crispy mozzarella and breadcrumb crust. A complete one-pan dinner that's earned its legendary status.",
+  "imageEmoji": "🍝",
+  "prepTime": 10,
+  "cookTime": 30,
+  "totalTime": 40,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": ["HelloFresh", "Chicken", "Pasta", "One Pan", "Comfort Food"],
+  "ingredients": [
+    { "item": "Boneless skinless chicken breasts", "amount": "4", "unit": "", "category": "protein" },
+    { "item": "Orzo pasta", "amount": "1.5", "unit": "cups", "category": "pantry" },
+    { "item": "Zucchini", "amount": "2", "unit": "medium", "category": "produce" },
+    { "item": "Cherry tomatoes", "amount": "1", "unit": "pint", "category": "produce" },
+    { "item": "Shredded mozzarella cheese", "amount": "1", "unit": "cup", "category": "dairy" },
+    { "item": "Panko breadcrumbs", "amount": "1/2", "unit": "cup", "category": "pantry" },
+    { "item": "Chicken broth", "amount": "2", "unit": "cups", "category": "pantry" },
+    { "item": "Garlic cloves", "amount": "3", "unit": "", "category": "produce" },
+    { "item": "Olive oil", "amount": "2", "unit": "tbsp", "category": "pantry" },
+    { "item": "Italian seasoning", "amount": "2", "unit": "tsp", "category": "pantry" },
+    { "item": "Dried thyme", "amount": "1/2", "unit": "tsp", "category": "pantry" },
+    { "item": "Salt", "amount": "1", "unit": "tsp", "category": "pantry" },
+    { "item": "Black pepper", "amount": "1/2", "unit": "tsp", "category": "pantry" },
+    { "item": "Fresh parsley", "amount": "2", "unit": "tbsp", "category": "produce" }
+  ],
+  "instructions": [
+    "Preheat oven to 400°F (200°C). Dice zucchini into ½-inch pieces. Halve cherry tomatoes. Mince garlic.",
+    "In a large oven-safe skillet or baking dish (9x13), heat olive oil over medium heat. Add garlic and cook 1 minute until fragrant.",
+    "Add orzo, chicken broth, Italian seasoning, ½ tsp salt, and ¼ tsp pepper. Stir to combine. Bring to a simmer.",
+    "Add zucchini and cherry tomatoes to the orzo mixture and stir gently.",
+    "Season chicken breasts with remaining salt, pepper, and dried thyme. Nestle them on top of the orzo and vegetable mixture.",
+    "In a small bowl, combine mozzarella and panko. Sprinkle evenly over the chicken and vegetables.",
+    "Bake uncovered for 25–30 minutes, until chicken reaches 165°F, orzo is tender, and the topping is golden and bubbly.",
+    "Let rest 5 minutes. Garnish with fresh parsley and serve directly from the pan."
+  ],
+  "tips": [
+    "Make sure the orzo is submerged in broth before baking — it absorbs the liquid as it cooks.",
+    "If the topping browns too quickly, tent loosely with foil for the last 10 minutes.",
+    "Add a pinch of red pepper flakes to the orzo for a little heat.",
+    "Swap zucchini for yellow squash or spinach depending on what you have on hand."
+  ]
+}

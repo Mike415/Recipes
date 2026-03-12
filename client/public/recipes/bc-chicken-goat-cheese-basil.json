@@ -1,0 +1,79 @@
+{
+  "id": "bc-chicken-goat-cheese-basil",
+  "title": "Chicken with Goat Cheese & Basil",
+  "description": "From Barefoot Contessa At Home \u2014 Ina's go-to for her Dinner in a Hurry menu. Chicken breasts stuffed with creamy goat cheese and fresh basil, wrapped in prosciutto, and roasted until golden. It looks incredibly impressive but takes only 10 minutes to assemble. The prosciutto crisps up and bastes the chicken as it roasts.",
+  "imageEmoji": "\ud83c\udf57",
+  "prepTime": 15,
+  "cookTime": 35,
+  "totalTime": 50,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": [
+    "Family Recipe",
+    "Barefoot Contessa",
+    "Chicken",
+    "Quick & Easy",
+    "Special Occasion",
+    "Weeknight"
+  ],
+  "isFamilyRecipe": true,
+  "ingredients": [
+    {
+      "item": "Boneless, skinless chicken breasts",
+      "amount": "4",
+      "unit": "",
+      "category": "protein"
+    },
+    {
+      "item": "Creamy goat cheese (ch\u00e8vre)",
+      "amount": "4",
+      "unit": "oz",
+      "category": "dairy"
+    },
+    {
+      "item": "Fresh basil leaves",
+      "amount": "16",
+      "unit": "",
+      "category": "produce"
+    },
+    {
+      "item": "Thin slices prosciutto di Parma",
+      "amount": "8",
+      "unit": "",
+      "category": "protein"
+    },
+    {
+      "item": "Good olive oil",
+      "amount": "2",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Kosher salt",
+      "amount": "1",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Freshly ground black pepper",
+      "amount": "0.5",
+      "unit": "tsp",
+      "category": "pantry"
+    }
+  ],
+  "instructions": [
+    "Preheat the oven to 375\u00b0F.",
+    "Place each chicken breast between 2 sheets of parchment paper or plastic wrap and pound to \u00bc-inch thickness with a meat mallet.",
+    "Spread 1 ounce of goat cheese on each chicken breast. Place 4 basil leaves on top of the goat cheese. Roll up each breast and wrap with 2 slices of prosciutto, covering the chicken completely.",
+    "Place the chicken rolls seam-side down in a baking dish. Brush with olive oil and sprinkle with salt and pepper.",
+    "Roast for 30 to 35 minutes, until the prosciutto is golden brown and crispy and the chicken is cooked through (165\u00b0F). Allow to rest for 5 minutes before serving."
+  ],
+  "tips": [
+    "Secure with a toothpick if needed to keep the rolls from unraveling during roasting.",
+    "The prosciutto bastes the chicken as it roasts, keeping it incredibly moist.",
+    "This dish can be assembled up to 24 hours ahead and refrigerated \u2014 just bring to room temperature before roasting.",
+    "Serve with roasted cherry tomatoes and saut\u00e9ed corn for Ina's complete Dinner in a Hurry menu.",
+    "Source: Barefoot Contessa At Home by Ina Garten (2006)"
+  ],
+  "imageUrl": "/recipes/images/bc-chicken-goat-cheese-basil.jpg"
+}

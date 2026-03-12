@@ -1,0 +1,41 @@
+{
+  "id": "hf-little-ears-pasta",
+  "title": "\"Little Ears\" Pasta with Italian Sausage, Broccoli & Pesto",
+  "description": "HelloFresh's beloved Hall of Fame pasta — orecchiette (\"little ears\") tossed with sweet Italian pork sausage, tender baby broccoli, and a generous coating of basil pesto and parmesan. A pasta party in 30 minutes.",
+  "imageEmoji": "🍝",
+  "prepTime": 5,
+  "cookTime": 25,
+  "totalTime": 30,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": ["HelloFresh", "Pasta", "Pork", "Italian", "Quick"],
+  "ingredients": [
+    { "item": "Orecchiette pasta", "amount": "12", "unit": "oz", "category": "pantry" },
+    { "item": "Sweet Italian pork sausage", "amount": "1", "unit": "lb", "category": "protein" },
+    { "item": "Broccolini or baby broccoli", "amount": "1", "unit": "bunch", "category": "produce" },
+    { "item": "Basil pesto", "amount": "1/3", "unit": "cup", "category": "pantry" },
+    { "item": "Grated parmesan cheese", "amount": "1/2", "unit": "cup", "category": "dairy" },
+    { "item": "Garlic cloves", "amount": "3", "unit": "", "category": "produce" },
+    { "item": "Red pepper flakes", "amount": "1/4", "unit": "tsp", "category": "pantry" },
+    { "item": "Olive oil", "amount": "2", "unit": "tbsp", "category": "pantry" },
+    { "item": "Lemon", "amount": "1", "unit": "", "category": "produce" },
+    { "item": "Salt", "amount": "1", "unit": "tsp", "category": "pantry" },
+    { "item": "Black pepper", "amount": "1/4", "unit": "tsp", "category": "pantry" }
+  ],
+  "instructions": [
+    "Bring a large pot of salted water to a boil. Cook orecchiette according to package directions until al dente. Reserve 1 cup pasta water before draining.",
+    "While pasta cooks, cut broccolini into 2-inch pieces. Mince garlic. Remove sausage from casings if using links.",
+    "Heat olive oil in a large skillet over medium-high heat. Add sausage and cook, breaking it up, for 5–6 minutes until browned and cooked through.",
+    "Add garlic and red pepper flakes to the sausage. Cook 1 minute until fragrant.",
+    "Add broccolini to the pan with a splash of pasta water. Cook 3–4 minutes, stirring occasionally, until bright green and tender-crisp.",
+    "Add drained pasta to the skillet. Add pesto and toss to coat, adding pasta water a splash at a time to create a silky sauce.",
+    "Remove from heat. Stir in half the parmesan and a squeeze of lemon juice. Season to taste.",
+    "Serve topped with remaining parmesan, a drizzle of olive oil, and extra red pepper flakes."
+  ],
+  "tips": [
+    "Regular broccoli cut into small florets works just as well as broccolini.",
+    "The starchy pasta water is key — it helps the pesto cling to the pasta and creates a glossy sauce.",
+    "For a richer dish, stir in a tablespoon of butter at the end.",
+    "Penne or rigatoni can substitute for orecchiette if needed."
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "id": "family-chicken-wild-mushrooms",
+  "title": "Chicken with Wild Mushrooms",
+  "description": "From Barefoot Contessa Foolproof — chicken and mushrooms can be boring, but simmered on top of the stove with lots of garlic, sherry, and thyme, they can be delicious. Ina likes this recipe because you can assemble it in advance and then just throw it in the oven before dinner. It creates its own savory sauce, which is wonderful spooned over couscous.",
+  "imageEmoji": "🍄",
+  "prepTime": 20,
+  "cookTime": 50,
+  "totalTime": 70,
+  "servings": 6,
+  "difficulty": "Medium",
+  "tags": ["Family Recipe", "Barefoot Contessa", "Chicken", "Comfort Food"],
+  "isFamilyRecipe": true,
+  "ingredients": [
+    { "item": "Whole chickens (3½ to 4 lb each), cut in eighths", "amount": "2", "unit": "", "category": "protein" },
+    { "item": "Kosher salt", "amount": "1", "unit": "tbsp", "category": "pantry" },
+    { "item": "Freshly ground black pepper", "amount": "1", "unit": "tsp", "category": "pantry" },
+    { "item": "All-purpose flour", "amount": "1/4", "unit": "cup", "category": "pantry" },
+    { "item": "Good olive oil", "amount": "1/4", "unit": "cup", "category": "pantry" },
+    { "item": "Whole garlic cloves", "amount": "8", "unit": "", "category": "produce" },
+    { "item": "Assorted wild mushrooms (such as porcini and cremini), stems removed and (1½-inch) diced", "amount": "1.5", "unit": "lb", "category": "produce" },
+    { "item": "Fresh thyme sprigs, tied with kitchen string", "amount": "8", "unit": "", "category": "produce" },
+    { "item": "Dry sherry", "amount": "1/4", "unit": "cup", "category": "pantry" },
+    { "item": "Minced garlic (3 cloves)", "amount": "1", "unit": "tbsp", "category": "produce" },
+    { "item": "Good white wine, such as Pinot Grigio", "amount": "2", "unit": "cups", "category": "pantry" },
+    { "item": "Good chicken stock, preferably homemade", "amount": "3", "unit": "tbsp", "category": "pantry" },
+    { "item": "Unsalted butter, at room temperature", "amount": "3", "unit": "tbsp", "category": "dairy" }
+  ],
+  "instructions": [
+    "Preheat the oven to 325°F.",
+    "Pat the chicken dry with paper towels and sprinkle both sides liberally with salt and pepper. In a large bowl, dredge the chicken in the flour. In a large (12-inch) ovenproof pot such as Le Creuset, heat the oil. Add the chicken in three batches (don't crowd them!) and brown lightly over medium-high heat for 3 to 5 minutes on each side. Remove the chicken to a plate and continue until all the chicken is browned.",
+    "Add the whole garlic cloves, mushrooms, and thyme to the pot and cook over medium heat for 5 minutes, stirring occasionally. Add the sherry and cook for 1 minute, scraping up the brown bits. Add the minced garlic and cook for 2 more minutes. Add the wine, chicken stock, 1 tablespoon salt, and 1 teaspoon pepper and bring to a simmer. Add the chicken (large pieces first), cover, and place in the middle of the oven for 30 to 35 minutes, until the chicken is cooked through (about 165°F on an instant-read thermometer).",
+    "Remove the chicken to a bowl and discard the thyme. With a fork, mash together the butter and ¼ cup flour and add it to the sauce. Simmer, stirring constantly, over medium heat for 5 minutes, until slightly thickened. Season to taste (it should be highly seasoned), put the chicken back in the sauce, and serve hot.",
+    "To serve, prepare the dish completely, allow to cool, and refrigerate the chicken in the sauce. To serve, reheat slowly over low heat until the chicken is heated through."
+  ],
+  "tips": [
+    "To make in advance: you can assemble it in advance and then just throw it in the oven before dinner.",
+    "The sauce is wonderful spooned over couscous.",
+    "Don't crowd the chicken when browning — work in three batches to ensure proper browning.",
+    "The butter-flour mixture (beurre manié) at the end is what thickens the sauce to a silky consistency.",
+    "Source: Barefoot Contessa Foolproof by Ina Garten"
+  ]
+}

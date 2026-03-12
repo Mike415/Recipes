@@ -1,0 +1,42 @@
+{
+  "id": "hf-pesto-panko-chicken",
+  "title": "Pesto Panko Chicken with Green Beans & Roasted Potatoes",
+  "description": "HelloFresh's #1 Hall of Fame recipe — tender chicken breasts spread with basil pesto, coated in a crispy panko and mozzarella crust, baked to golden perfection and served with roasted potatoes and green beans.",
+  "imageEmoji": "🍗",
+  "prepTime": 10,
+  "cookTime": 30,
+  "totalTime": 40,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": ["HelloFresh", "Chicken", "Kid Favorite", "One Pan"],
+  "ingredients": [
+    { "item": "Boneless skinless chicken breasts", "amount": "4", "unit": "", "category": "protein" },
+    { "item": "Basil pesto", "amount": "4", "unit": "tbsp", "category": "pantry" },
+    { "item": "Panko breadcrumbs", "amount": "3/4", "unit": "cup", "category": "pantry" },
+    { "item": "Shredded mozzarella cheese", "amount": "1/2", "unit": "cup", "category": "dairy" },
+    { "item": "Yukon Gold potatoes", "amount": "1.5", "unit": "lb", "category": "produce" },
+    { "item": "Green beans", "amount": "12", "unit": "oz", "category": "produce" },
+    { "item": "Olive oil", "amount": "3", "unit": "tbsp", "category": "pantry" },
+    { "item": "Garlic powder", "amount": "1", "unit": "tsp", "category": "pantry" },
+    { "item": "Italian seasoning", "amount": "1", "unit": "tsp", "category": "pantry" },
+    { "item": "Salt", "amount": "1", "unit": "tsp", "category": "pantry" },
+    { "item": "Black pepper", "amount": "1/2", "unit": "tsp", "category": "pantry" },
+    { "item": "Lemon", "amount": "1", "unit": "", "category": "produce" }
+  ],
+  "instructions": [
+    "Preheat oven to 425°F (220°C). Line two baking sheets with foil and coat with cooking spray.",
+    "Cut potatoes into 1-inch cubes. Toss with 1½ tbsp olive oil, garlic powder, salt, and pepper. Spread on one baking sheet. Roast for 15 minutes.",
+    "Meanwhile, pat chicken breasts dry. Place on the second baking sheet. Season lightly with salt and pepper.",
+    "In a small bowl, mix panko breadcrumbs and shredded mozzarella together.",
+    "Spread 1 tablespoon of pesto over the top of each chicken breast. Press the panko-mozzarella mixture firmly onto the pesto to adhere.",
+    "After the potatoes have roasted 15 minutes, push them to one side of their pan and add the green beans tossed with the remaining 1½ tbsp olive oil and Italian seasoning.",
+    "Place the chicken in the oven alongside the vegetables. Roast everything for 18–22 minutes, until the chicken reaches 165°F and the panko crust is golden and crispy.",
+    "Squeeze fresh lemon juice over the chicken and vegetables before serving."
+  ],
+  "tips": [
+    "Pound chicken breasts to an even thickness (about ¾ inch) for more even cooking.",
+    "Use store-bought basil pesto for convenience, or make your own with basil, pine nuts, parmesan, garlic, and olive oil.",
+    "For extra crispiness, broil the chicken for the last 2 minutes — watch closely so the panko doesn't burn.",
+    "Leftovers reheat well in a 350°F oven for 10 minutes to keep the crust crispy."
+  ]
+}

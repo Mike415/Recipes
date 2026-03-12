@@ -1,0 +1,46 @@
+{
+  "id": "hf-korean-beef-bibimbap",
+  "title": "Korean Beef Bibimbap",
+  "description": "HelloFresh's Hall of Fame Korean classic — fluffy rice topped with juicy seasoned ground beef, crisp sautéed vegetables, quick-pickled scallions, and a drizzle of gochujang sauce. A beautiful bowl packed with bold flavors.",
+  "imageEmoji": "🍚",
+  "prepTime": 15,
+  "cookTime": 20,
+  "totalTime": 35,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": ["HelloFresh", "Beef", "Asian", "Quick", "Healthy"],
+  "ingredients": [
+    { "item": "Ground beef (85% lean)", "amount": "1", "unit": "lb", "category": "protein" },
+    { "item": "Jasmine rice", "amount": "2", "unit": "cups", "category": "pantry" },
+    { "item": "Scallions", "amount": "4", "unit": "", "category": "produce" },
+    { "item": "Carrots", "amount": "2", "unit": "medium", "category": "produce" },
+    { "item": "Baby spinach", "amount": "4", "unit": "oz", "category": "produce" },
+    { "item": "Cucumber", "amount": "1", "unit": "medium", "category": "produce" },
+    { "item": "Soy sauce", "amount": "3", "unit": "tbsp", "category": "pantry" },
+    { "item": "Sesame oil", "amount": "2", "unit": "tbsp", "category": "pantry" },
+    { "item": "Gochujang (Korean chili paste)", "amount": "2", "unit": "tbsp", "category": "pantry" },
+    { "item": "Rice vinegar", "amount": "2", "unit": "tbsp", "category": "pantry" },
+    { "item": "Honey", "amount": "1", "unit": "tbsp", "category": "pantry" },
+    { "item": "Garlic cloves", "amount": "3", "unit": "", "category": "produce" },
+    { "item": "Fresh ginger", "amount": "1", "unit": "tsp", "category": "produce" },
+    { "item": "Sesame seeds", "amount": "1", "unit": "tbsp", "category": "pantry" },
+    { "item": "Vegetable oil", "amount": "1", "unit": "tbsp", "category": "pantry" }
+  ],
+  "instructions": [
+    "Cook rice according to package directions. Fluff with a fork and keep warm.",
+    "Make the quick pickle: thinly slice scallion whites and half the cucumber. Toss with 1 tbsp rice vinegar and a pinch of salt. Set aside for at least 10 minutes.",
+    "Make the gochujang sauce: whisk together gochujang, remaining 1 tbsp rice vinegar, honey, 1 tbsp soy sauce, and 1 tbsp sesame oil. Set aside.",
+    "Julienne or grate the carrots. Slice remaining cucumber into half-moons. Mince garlic and ginger.",
+    "Heat vegetable oil in a large skillet over medium-high heat. Add ground beef and cook, breaking it up, for 5–6 minutes until browned.",
+    "Add garlic, ginger, remaining 2 tbsp soy sauce, and 1 tbsp sesame oil to the beef. Cook 2 more minutes. Remove from pan.",
+    "In the same pan, sauté carrots for 2 minutes until slightly softened. Add spinach and cook 1 minute until wilted. Season with a pinch of salt.",
+    "Divide rice into bowls. Arrange beef, sautéed carrots and spinach, fresh cucumber, and pickled scallions on top.",
+    "Drizzle gochujang sauce over each bowl. Sprinkle with sesame seeds and scallion greens. Serve immediately."
+  ],
+  "tips": [
+    "Gochujang can be found in the Asian foods aisle or at any Asian grocery store. Sriracha can substitute in a pinch.",
+    "For a traditional touch, top each bowl with a fried egg — the runny yolk creates a rich sauce when mixed in.",
+    "Prep all vegetables before you start cooking since everything comes together quickly.",
+    "Leftover beef keeps well in the fridge for 3 days and makes great rice bowls for lunch."
+  ]
+}

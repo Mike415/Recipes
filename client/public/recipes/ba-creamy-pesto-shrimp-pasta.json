@@ -1,0 +1,128 @@
+{
+  "id": "ba-creamy-pesto-shrimp-pasta",
+  "title": "Creamy Pesto Shrimp Pasta with Cherry Tomatoes",
+  "description": "Blue Apron fan favorite \u2014 plump shrimp and burst cherry tomatoes tossed with linguine in a rich, creamy basil pesto sauce. An elegant pasta dinner that comes together in just 25 minutes.",
+  "imageEmoji": "\ud83e\udd90",
+  "prepTime": 5,
+  "cookTime": 20,
+  "totalTime": 25,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": [
+    "Blue Apron",
+    "Seafood",
+    "Pasta",
+    "Italian",
+    "Quick"
+  ],
+  "ingredients": [
+    {
+      "item": "Large shrimp, peeled and deveined",
+      "amount": "1.5",
+      "unit": "lb",
+      "category": "protein"
+    },
+    {
+      "item": "Linguine or spaghetti",
+      "amount": "12",
+      "unit": "oz",
+      "category": "pantry"
+    },
+    {
+      "item": "Cherry tomatoes",
+      "amount": "1",
+      "unit": "pint",
+      "category": "produce"
+    },
+    {
+      "item": "Basil pesto",
+      "amount": "1/3",
+      "unit": "cup",
+      "category": "pantry"
+    },
+    {
+      "item": "Heavy cream",
+      "amount": "1/2",
+      "unit": "cup",
+      "category": "dairy"
+    },
+    {
+      "item": "Grated parmesan cheese",
+      "amount": "1/2",
+      "unit": "cup",
+      "category": "dairy"
+    },
+    {
+      "item": "Garlic cloves",
+      "amount": "4",
+      "unit": "",
+      "category": "produce"
+    },
+    {
+      "item": "Shallot",
+      "amount": "1",
+      "unit": "large",
+      "category": "produce"
+    },
+    {
+      "item": "White wine (or chicken broth)",
+      "amount": "1/4",
+      "unit": "cup",
+      "category": "pantry"
+    },
+    {
+      "item": "Olive oil",
+      "amount": "2",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Unsalted butter",
+      "amount": "1",
+      "unit": "tbsp",
+      "category": "dairy"
+    },
+    {
+      "item": "Red pepper flakes",
+      "amount": "1/4",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Lemon",
+      "amount": "1",
+      "unit": "",
+      "category": "produce"
+    },
+    {
+      "item": "Fresh basil",
+      "amount": "1/4",
+      "unit": "cup",
+      "category": "produce"
+    },
+    {
+      "item": "Salt",
+      "amount": "1",
+      "unit": "tsp",
+      "category": "pantry"
+    }
+  ],
+  "instructions": [
+    "Cook linguine in salted boiling water until al dente. Reserve 1 cup pasta water before draining.",
+    "Pat shrimp dry and season with salt, pepper, and red pepper flakes.",
+    "Heat olive oil in a large skillet over medium-high heat. Add shrimp in a single layer; cook 1\u20132 minutes per side until pink and just cooked through. Remove to a plate.",
+    "In the same pan, melt butter over medium heat. Add minced shallot and garlic; cook 2 minutes until softened.",
+    "Add white wine and cook 1 minute, scraping up any browned bits. Add cherry tomatoes; cook 3\u20134 minutes until they begin to burst.",
+    "Reduce heat to medium-low. Add heavy cream and pesto; stir to combine. Simmer 2 minutes.",
+    "Add drained pasta and toss to coat, adding pasta water a splash at a time to reach desired consistency.",
+    "Return shrimp to the pan and toss gently. Remove from heat and stir in parmesan and a squeeze of lemon juice.",
+    "Serve garnished with fresh basil leaves and extra parmesan."
+  ],
+  "tips": [
+    "Don't overcook the shrimp \u2014 they only need 1\u20132 minutes per side. They'll continue cooking slightly in the hot sauce.",
+    "Reserve more pasta water than you think you need \u2014 it's the secret to a silky, restaurant-style sauce.",
+    "Store-bought pesto works great here; Costco's refrigerated pesto is excellent.",
+    "For a lighter version, substitute half-and-half or whole milk for the heavy cream."
+  ],
+  "imageUrl": "/recipes/images/ba-creamy-pesto-shrimp-pasta.jpg"
+}

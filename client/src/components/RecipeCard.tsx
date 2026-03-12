@@ -57,25 +57,29 @@ export function RecipeCard({
       {/* Recipe image area */}
       <div className={`relative h-44 overflow-hidden ${!recipe.imageUrl ? `bg-gradient-to-br ${gradient}` : 'bg-muted'}`}>
         {recipe.imageUrl ? (
-          <img
-            src={recipe.imageUrl}
-            alt={recipe.title}
-            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-            loading="lazy"
-            onError={(e) => {
-              // Fallback to emoji gradient on image load error
-              const target = e.currentTarget;
-              const parent = target.parentElement;
-              if (parent) {
-                parent.classList.add(`bg-gradient-to-br`, ...gradient.split(' '));
-                target.style.display = 'none';
-                const emoji = document.createElement('div');
-                emoji.className = 'absolute inset-0 flex items-center justify-center text-6xl';
-                emoji.textContent = recipe.imageEmoji || '🍽️';
-                parent.appendChild(emoji);
-              }
-            }}
-          />
+          <>
+            <img
+              src={recipe.imageUrl}
+              alt={recipe.title}
+              className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+              loading="lazy"
+              onError={(e) => {
+                // Fallback to emoji gradient on image load error
+                const target = e.currentTarget;
+                const parent = target.parentElement?.parentElement;
+                if (parent) {
+                  parent.classList.add(`bg-gradient-to-br`, ...gradient.split(' '));
+                  (e.currentTarget as HTMLImageElement).style.display = 'none';
+                  const emoji = document.createElement('div');
+                  emoji.className = 'absolute inset-0 flex items-center justify-center text-6xl';
+                  emoji.textContent = recipe.imageEmoji || '🍽️';
+                  parent.appendChild(emoji);
+                }
+              }}
+            />
+            {/* Subtle scrim at top and bottom for badge/button legibility */}
+            <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/20 pointer-events-none" />
+          </>
         ) : (
           <div className="absolute inset-0 flex items-center justify-center">
             <div className="text-6xl select-none group-hover:scale-110 transition-transform duration-300">
@@ -87,7 +91,7 @@ export function RecipeCard({
         {/* Family Recipe badge */}
         {recipe.isFamily && (
           <div className="absolute top-2 left-2">
-            <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-semibold bg-primary text-primary-foreground shadow-sm">
+            <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-semibold bg-primary text-primary-foreground shadow-lg" style={{textShadow: 'none'}}>
               👨‍👩‍👧‍👦 Family Recipe
             </span>
           </div>

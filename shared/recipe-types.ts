@@ -24,7 +24,29 @@ export interface Ingredient {
   category: "produce" | "protein" | "dairy" | "pantry" | "frozen" | "bakery" | "other";
 }
 
-export type TagType = "Kid Favorite" | "Quick" | "One Pan" | "Vegetarian" | "Comfort Food" | "Healthy" | "Pasta" | "Soup" | "Mexican" | "Asian" | "Italian" | "American" | "Breakfast" | "Family Recipe";
+export type TagType =
+  | "Kid Favorite"
+  | "Quick"
+  | "One Pan"
+  | "Vegetarian"
+  | "Comfort Food"
+  | "Healthy"
+  | "Pasta"
+  | "Soup"
+  | "Mexican"
+  | "Asian"
+  | "Italian"
+  | "American"
+  | "Breakfast"
+  | "Family Recipe"
+  | "HelloFresh"
+  | "EveryPlate"
+  | "Home Chef"
+  | "Blue Apron"
+  | "Seafood"
+  | "Pork"
+  | "Beef"
+  | "Chicken";
 
 export interface MealPlanEntry {
   day: string;

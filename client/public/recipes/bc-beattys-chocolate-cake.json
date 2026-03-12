@@ -1,0 +1,141 @@
+{
+  "id": "bc-beattys-chocolate-cake",
+  "title": "Beatty's Chocolate Cake",
+  "description": "From Barefoot Contessa At Home \u2014 widely considered the best chocolate cake recipe ever written. The secret is hot coffee in the batter, which deepens the chocolate flavor without making it taste like coffee. Frosted with a rich chocolate buttercream, this is Ina's go-to birthday cake and the dessert on her Snow Day family dinner menu.",
+  "imageEmoji": "\ud83c\udf82",
+  "prepTime": 30,
+  "cookTime": 40,
+  "totalTime": 70,
+  "servings": 8,
+  "difficulty": "Medium",
+  "tags": [
+    "Family Recipe",
+    "Barefoot Contessa",
+    "Dessert",
+    "Baking",
+    "Birthday",
+    "Chocolate"
+  ],
+  "isFamilyRecipe": true,
+  "ingredients": [
+    {
+      "item": "All-purpose flour",
+      "amount": "1.75",
+      "unit": "cups",
+      "category": "pantry"
+    },
+    {
+      "item": "Granulated sugar",
+      "amount": "2",
+      "unit": "cups",
+      "category": "pantry"
+    },
+    {
+      "item": "Good cocoa powder (Dutch-process)",
+      "amount": "0.75",
+      "unit": "cup",
+      "category": "pantry"
+    },
+    {
+      "item": "Baking soda",
+      "amount": "2",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Baking powder",
+      "amount": "1",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Kosher salt",
+      "amount": "1",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Extra-large eggs, at room temperature",
+      "amount": "2",
+      "unit": "",
+      "category": "dairy"
+    },
+    {
+      "item": "Buttermilk, shaken",
+      "amount": "1",
+      "unit": "cup",
+      "category": "dairy"
+    },
+    {
+      "item": "Strong black coffee, hot",
+      "amount": "1",
+      "unit": "cup",
+      "category": "pantry"
+    },
+    {
+      "item": "Vegetable oil",
+      "amount": "0.5",
+      "unit": "cup",
+      "category": "pantry"
+    },
+    {
+      "item": "Pure vanilla extract",
+      "amount": "1",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Good bittersweet chocolate (such as Lindt), chopped (for frosting)",
+      "amount": "6",
+      "unit": "oz",
+      "category": "pantry"
+    },
+    {
+      "item": "Unsalted butter, at room temperature (for frosting)",
+      "amount": "0.75",
+      "unit": "lb",
+      "category": "dairy"
+    },
+    {
+      "item": "Extra-large egg yolk, at room temperature (for frosting)",
+      "amount": "1",
+      "unit": "",
+      "category": "dairy"
+    },
+    {
+      "item": "Pure vanilla extract (for frosting)",
+      "amount": "1",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Confectioners' sugar, sifted (for frosting)",
+      "amount": "1.25",
+      "unit": "cups",
+      "category": "pantry"
+    },
+    {
+      "item": "Instant espresso powder (for frosting)",
+      "amount": "1",
+      "unit": "tbsp",
+      "category": "pantry"
+    }
+  ],
+  "instructions": [
+    "Preheat the oven to 350\u00b0F. Butter two 8-inch round cake pans. Line with parchment paper, then butter and flour the pans.",
+    "Sift the flour, sugar, cocoa, baking soda, baking powder, and salt into the bowl of an electric mixer. Mix on low speed until combined.",
+    "In another bowl, combine the eggs, buttermilk, coffee, oil, and vanilla. With the mixer on low speed, slowly add the wet ingredients to the dry. Beat until just combined \u2014 the batter will be thin. Pour into the prepared pans.",
+    "Bake for 35 to 40 minutes, until a cake tester comes out clean. Cool in the pans for 30 minutes, then turn out onto a cooling rack and cool completely.",
+    "Make the frosting: Melt the chocolate in a bowl set over simmering water. Let cool to room temperature. Beat the butter in the bowl of an electric mixer on medium-high speed until light and fluffy, about 3 minutes. Add the egg yolk and vanilla and mix well. On low speed, slowly add the confectioners' sugar, then the chocolate and espresso powder. Beat on medium speed until smooth and creamy.",
+    "Place one cake layer on a plate. Spread a thick layer of frosting on top. Place the second layer on top and frost the top and sides. Serve at room temperature."
+  ],
+  "tips": [
+    "The hot coffee is the key \u2014 it doesn't make the cake taste like coffee, it just makes the chocolate flavor more intense.",
+    "The batter will look very thin and you'll think something is wrong \u2014 it's not. That's what makes the cake so moist.",
+    "Use Dutch-process cocoa (like Droste) for the best flavor.",
+    "The frosting uses a raw egg yolk \u2014 use a pasteurized egg if serving to young children or immunocompromised guests.",
+    "This cake keeps well at room temperature for 2 days, or refrigerated for 5 days.",
+    "Source: Barefoot Contessa At Home by Ina Garten (2006)"
+  ],
+  "imageUrl": "/recipes/images/bc-beattys-chocolate-cake.jpg"
+}

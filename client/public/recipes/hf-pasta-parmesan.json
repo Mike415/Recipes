@@ -1,0 +1,45 @@
+{
+  "id": "hf-pasta-parmesan",
+  "title": "Pasta Parmesan with Roasted Bell Pepper & Tuscan Marinara",
+  "description": "HelloFresh Hall of Fame — penne pasta tossed with sweet browned bell peppers in a rich, garlicky Tuscan-spiced marinara sauce, topped with a crispy mozzarella and panko crust. A weeknight pasta bake that hits every comfort food note.",
+  "imageEmoji": "🍝",
+  "prepTime": 10,
+  "cookTime": 30,
+  "totalTime": 40,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": ["HelloFresh", "Pasta", "Vegetarian", "Italian", "Comfort Food", "Kid Favorite"],
+  "ingredients": [
+    { "item": "Penne pasta", "amount": "12", "unit": "oz", "category": "pantry" },
+    { "item": "Bell peppers (red and yellow)", "amount": "2", "unit": "large", "category": "produce" },
+    { "item": "Crushed tomatoes (canned)", "amount": "1", "unit": "28-oz can", "category": "pantry" },
+    { "item": "Shredded mozzarella cheese", "amount": "1", "unit": "cup", "category": "dairy" },
+    { "item": "Grated parmesan cheese", "amount": "1/2", "unit": "cup", "category": "dairy" },
+    { "item": "Panko breadcrumbs", "amount": "1/2", "unit": "cup", "category": "pantry" },
+    { "item": "Garlic cloves", "amount": "4", "unit": "", "category": "produce" },
+    { "item": "Yellow onion", "amount": "1", "unit": "medium", "category": "produce" },
+    { "item": "Olive oil", "amount": "2", "unit": "tbsp", "category": "pantry" },
+    { "item": "Italian seasoning", "amount": "2", "unit": "tsp", "category": "pantry" },
+    { "item": "Tuscan heat spice blend or red pepper flakes", "amount": "1/2", "unit": "tsp", "category": "pantry" },
+    { "item": "Sugar", "amount": "1", "unit": "tsp", "category": "pantry" },
+    { "item": "Salt", "amount": "1", "unit": "tsp", "category": "pantry" },
+    { "item": "Black pepper", "amount": "1/4", "unit": "tsp", "category": "pantry" },
+    { "item": "Fresh basil", "amount": "1/4", "unit": "cup", "category": "produce" }
+  ],
+  "instructions": [
+    "Preheat oven to 400°F (200°C). Cook penne in salted boiling water until just al dente (1–2 minutes less than package directions). Drain, reserving ½ cup pasta water.",
+    "Dice onion and slice bell peppers into strips. Mince garlic.",
+    "Heat olive oil in a large oven-safe skillet over medium-high heat. Add onion and bell peppers; cook 6–8 minutes until softened and lightly caramelized.",
+    "Add garlic, Italian seasoning, and red pepper flakes; cook 1 minute. Add crushed tomatoes, sugar, salt, and pepper. Simmer 5 minutes. Taste and adjust seasoning.",
+    "Add drained pasta to the sauce and toss to combine, adding a splash of pasta water if needed.",
+    "In a small bowl, mix panko, mozzarella, and half the parmesan. Sprinkle evenly over the pasta.",
+    "Bake 15–20 minutes until the topping is golden and the sauce is bubbling.",
+    "Garnish with remaining parmesan and fresh basil. Serve directly from the pan."
+  ],
+  "tips": [
+    "Undercooking the pasta slightly before baking is important — it will finish cooking in the oven and won't turn mushy.",
+    "For a meaty version, brown ½ lb Italian sausage with the onions.",
+    "The Tuscan heat spice blend HelloFresh uses is essentially a mix of red pepper flakes, garlic, and herbs — a pinch of each works perfectly.",
+    "This dish reheats well with a splash of water to loosen the sauce."
+  ]
+}

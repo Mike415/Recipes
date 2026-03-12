@@ -1,0 +1,41 @@
+{
+  "id": "family-penne-alla-vecchia-bettola",
+  "title": "Penne alla Vecchia Bettola",
+  "description": "From Barefoot Contessa Foolproof — Nick & Toni's has been one of the great restaurants in East Hampton for about twenty years and this pasta has been on the menu the entire time! It's like the old standby penne alla vodka but with so much more flavor. Chef Joe Realmuto was kind enough to share the recipe with Ina, which originated from a restaurant in Florence. If you don't have a twelve-inch ovenproof sauté pan with a tight-fitting lid, you can use a Dutch oven or large pot.",
+  "imageEmoji": "🍝",
+  "prepTime": 15,
+  "cookTime": 105,
+  "totalTime": 120,
+  "servings": 4,
+  "difficulty": "Medium",
+  "tags": ["Family Recipe", "Barefoot Contessa", "Pasta", "Italian", "Comfort Food"],
+  "isFamilyRecipe": true,
+  "ingredients": [
+    { "item": "Good olive oil", "amount": "1/4", "unit": "cup", "category": "pantry" },
+    { "item": "Chopped Spanish onion (1 large)", "amount": "2.5", "unit": "cups", "category": "produce" },
+    { "item": "Minced garlic (3 cloves)", "amount": "1", "unit": "tbsp", "category": "produce" },
+    { "item": "Crushed red pepper flakes", "amount": "1/2", "unit": "tsp", "category": "pantry" },
+    { "item": "Dried oregano", "amount": "1.5", "unit": "tsp", "category": "pantry" },
+    { "item": "Whole peeled plum tomatoes, drained (2 28-oz cans, such as De Cecco)", "amount": "2", "unit": "cans", "category": "pantry" },
+    { "item": "Kosher salt", "amount": "1", "unit": "tbsp", "category": "pantry" },
+    { "item": "Freshly ground black pepper", "amount": "1", "unit": "tsp", "category": "pantry" },
+    { "item": "Vodka", "amount": "1", "unit": "cup", "category": "pantry" },
+    { "item": "Heavy cream", "amount": "1", "unit": "cup", "category": "dairy" },
+    { "item": "Penne, such as De Cecco", "amount": "3/4", "unit": "lb", "category": "pantry" },
+    { "item": "Freshly grated Parmesan cheese, plus extra for serving", "amount": "3/4", "unit": "cup", "category": "dairy" },
+    { "item": "Fresh oregano leaves, plus extra for serving", "amount": "2", "unit": "tbsp", "category": "produce" }
+  ],
+  "instructions": [
+    "Preheat the oven to 375°F.",
+    "Heat the oil in a large (12-inch) ovenproof sauté pan over medium heat. Add the onions and garlic and cook for about 5 minutes, until the onions are translucent. Add the red pepper flakes and dried oregano and cook for 1 more minute. Add the vodka and simmer for 5 to 7 minutes, until the mixture is reduced by half. Using clean hands, crush each tomato into the pan. Add 2 teaspoons of salt and ½ teaspoon of black pepper. Cover the pan with a tight-fitting lid, place in the oven, and bake for 1½ hours.",
+    "Bring a large pot of water to a boil. Add 2 tablespoons of salt and the pasta and cook according to the directions on the package. Drain and set aside.",
+    "Two cups at a time, carefully pour the tomato mixture into a blender and purée until smooth. Return the tomato mixture to the sauté pan (be careful, the handle is hot!). Add the fresh oregano, cream, 1 teaspoon salt, and ½ teaspoon pepper and simmer partially covered for 10 minutes. Add the pasta to the sauce and cook for 2 more minutes. Stir in ¼ cup of the Parmesan cheese and serve hot sprinkled with extra Parmesan and fresh oregano."
+  ],
+  "tips": [
+    "The long oven braise (1½ hours) is what makes this sauce extraordinary — don't shortcut it.",
+    "Be very careful when blending the hot tomato mixture — fill the blender only two cups at a time and hold the lid down firmly.",
+    "The handle of the ovenproof pan will be extremely hot when it comes out of the oven — use a thick oven mitt.",
+    "De Cecco brand pasta and tomatoes are specifically recommended for the best results.",
+    "Source: Barefoot Contessa Foolproof by Ina Garten, recipe from Nick & Toni's restaurant, East Hampton"
+  ]
+}

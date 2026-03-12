@@ -1,0 +1,114 @@
+{
+  "id": "hf-chicken-milanese",
+  "title": "Crispy Chicken Milanese with Arugula & Roasted Squash",
+  "description": "HelloFresh Hall of Fame \u2014 golden-fried panko-crusted chicken cutlets served on a bed of peppery arugula with oven-roasted yellow squash, cherry tomatoes, and a bright lemon-olive oil dressing. Light, crispy, and endlessly satisfying.",
+  "imageEmoji": "\ud83c\udf57",
+  "prepTime": 15,
+  "cookTime": 20,
+  "totalTime": 35,
+  "servings": 4,
+  "difficulty": "Medium",
+  "tags": [
+    "HelloFresh",
+    "Chicken",
+    "Italian",
+    "Healthy",
+    "Quick"
+  ],
+  "ingredients": [
+    {
+      "item": "Boneless skinless chicken breasts",
+      "amount": "4",
+      "unit": "",
+      "category": "protein"
+    },
+    {
+      "item": "Panko breadcrumbs",
+      "amount": "1",
+      "unit": "cup",
+      "category": "pantry"
+    },
+    {
+      "item": "All-purpose flour",
+      "amount": "1/2",
+      "unit": "cup",
+      "category": "pantry"
+    },
+    {
+      "item": "Eggs",
+      "amount": "2",
+      "unit": "large",
+      "category": "dairy"
+    },
+    {
+      "item": "Yellow squash or zucchini",
+      "amount": "2",
+      "unit": "medium",
+      "category": "produce"
+    },
+    {
+      "item": "Cherry tomatoes",
+      "amount": "1",
+      "unit": "pint",
+      "category": "produce"
+    },
+    {
+      "item": "Baby arugula",
+      "amount": "4",
+      "unit": "oz",
+      "category": "produce"
+    },
+    {
+      "item": "Grated parmesan cheese",
+      "amount": "1/4",
+      "unit": "cup",
+      "category": "dairy"
+    },
+    {
+      "item": "Lemons",
+      "amount": "2",
+      "unit": "",
+      "category": "produce"
+    },
+    {
+      "item": "Olive oil",
+      "amount": "4",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Garlic powder",
+      "amount": "1/2",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Salt",
+      "amount": "1",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Black pepper",
+      "amount": "1/2",
+      "unit": "tsp",
+      "category": "pantry"
+    }
+  ],
+  "instructions": [
+    "Preheat oven to 425\u00b0F (220\u00b0C). Slice squash into \u00bd-inch rounds. Toss with 1 tbsp olive oil, salt, and pepper. Roast on a baking sheet for 15\u201318 minutes, flipping once, until golden.",
+    "Pound chicken breasts to \u00bd-inch thickness. Set up a breading station: flour in one shallow bowl, beaten eggs in another, and panko mixed with garlic powder, parmesan, salt, and pepper in a third.",
+    "Dredge each chicken breast in flour (shake off excess), dip in egg, then press firmly into the panko mixture to coat both sides.",
+    "Heat 2 tbsp olive oil in a large skillet over medium-high heat. Cook chicken 3\u20134 minutes per side until deep golden brown and cooked through (165\u00b0F). Work in batches, adding more oil as needed.",
+    "Make the dressing: whisk together juice of 1 lemon, 1 tbsp olive oil, a pinch of salt, and pepper.",
+    "In a bowl, toss arugula and cherry tomatoes with the lemon dressing.",
+    "Serve chicken cutlets topped with the arugula salad and roasted squash alongside. Squeeze remaining lemon over everything."
+  ],
+  "tips": [
+    "The three-step breading (flour \u2192 egg \u2192 panko) is the secret to a crust that really sticks.",
+    "Don't crowd the pan when frying \u2014 work in batches so the chicken gets crispy rather than steaming.",
+    "For a lighter version, bake the breaded chicken at 425\u00b0F for 20 minutes instead of pan-frying.",
+    "Shaved parmesan on top of the arugula adds an extra layer of flavor."
+  ],
+  "imageUrl": "/recipes/images/hf-chicken-milanese.jpg"
+}

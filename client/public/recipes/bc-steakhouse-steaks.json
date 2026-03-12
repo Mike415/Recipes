@@ -1,0 +1,103 @@
+{
+  "id": "bc-steakhouse-steaks",
+  "title": "Steakhouse Steaks",
+  "description": "From Barefoot Contessa How Easy Is That? \u2014 Ina's foolproof method for restaurant-quality steaks at home. The secret is a screaming-hot cast iron pan, a quick sear, and finishing in the oven. Topped with a compound herb butter that melts into the meat, this is the centerpiece of her Father's Day dinner menu.",
+  "imageEmoji": "\ud83e\udd69",
+  "prepTime": 10,
+  "cookTime": 15,
+  "totalTime": 25,
+  "servings": 4,
+  "difficulty": "Medium",
+  "tags": [
+    "Family Recipe",
+    "Barefoot Contessa",
+    "Beef",
+    "Quick & Easy",
+    "Special Occasion"
+  ],
+  "isFamilyRecipe": true,
+  "ingredients": [
+    {
+      "item": "Bone-in rib-eye steaks, 1\u00bd inches thick (about 1 lb each)",
+      "amount": "4",
+      "unit": "",
+      "category": "protein"
+    },
+    {
+      "item": "Kosher salt",
+      "amount": "2",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Freshly ground black pepper",
+      "amount": "1",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Good olive oil",
+      "amount": "2",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Unsalted butter, at room temperature (for compound butter)",
+      "amount": "0.25",
+      "unit": "lb",
+      "category": "dairy"
+    },
+    {
+      "item": "Minced garlic (2 cloves)",
+      "amount": "2",
+      "unit": "tsp",
+      "category": "produce"
+    },
+    {
+      "item": "Minced fresh parsley",
+      "amount": "2",
+      "unit": "tbsp",
+      "category": "produce"
+    },
+    {
+      "item": "Minced fresh chives",
+      "amount": "1",
+      "unit": "tbsp",
+      "category": "produce"
+    },
+    {
+      "item": "Fresh thyme leaves",
+      "amount": "1",
+      "unit": "tsp",
+      "category": "produce"
+    },
+    {
+      "item": "Kosher salt (for compound butter)",
+      "amount": "0.5",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Freshly ground black pepper (for compound butter)",
+      "amount": "0.25",
+      "unit": "tsp",
+      "category": "pantry"
+    }
+  ],
+  "instructions": [
+    "Make the compound butter: Beat the butter with an electric mixer until fluffy. Add the garlic, parsley, chives, thyme, salt, and pepper and mix until combined. Shape into a log on plastic wrap, roll up, and refrigerate until firm, at least 30 minutes.",
+    "Preheat the oven to 400\u00b0F. Heat a large cast iron skillet over high heat for 5 to 7 minutes \u2014 it should be very, very hot.",
+    "Pat the steaks dry with paper towels. Brush both sides with olive oil and season very generously with salt and pepper (use more than you think you need).",
+    "Place the steaks in the hot skillet and sear for exactly 2 minutes on each side without moving them. Transfer the skillet to the oven and cook for 6 to 8 minutes for medium-rare (125\u00b0F internal temperature).",
+    "Remove from the oven, place a thick slice of compound butter on each steak, and tent loosely with foil. Rest for 10 minutes before serving."
+  ],
+  "tips": [
+    "The cast iron pan MUST be screaming hot before the steaks go in \u2014 this is what creates the crust.",
+    "Pat the steaks completely dry \u2014 moisture is the enemy of a good sear.",
+    "Season more aggressively than you think necessary \u2014 thick steaks need a lot of salt.",
+    "The compound butter can be made weeks ahead and frozen \u2014 slice off rounds as needed.",
+    "Use an instant-read thermometer: 125\u00b0F for medium-rare, 135\u00b0F for medium.",
+    "Source: Barefoot Contessa How Easy Is That? by Ina Garten (2010)"
+  ],
+  "imageUrl": "/recipes/images/bc-steakhouse-steaks.jpg"
+}

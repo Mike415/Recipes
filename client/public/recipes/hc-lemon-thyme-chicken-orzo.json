@@ -1,0 +1,120 @@
+{
+  "id": "hc-lemon-thyme-chicken-orzo",
+  "title": "Lemon Thyme Chicken with Orzo & Roasted Asparagus",
+  "description": "Home Chef staff pick \u2014 pan-seared chicken thighs with a bright lemon-thyme pan sauce, served over creamy parmesan orzo with roasted asparagus. Light, elegant, and packed with fresh flavor.",
+  "imageEmoji": "\ud83c\udf4b",
+  "prepTime": 10,
+  "cookTime": 25,
+  "totalTime": 35,
+  "servings": 4,
+  "difficulty": "Medium",
+  "tags": [
+    "Home Chef",
+    "Chicken",
+    "Healthy",
+    "Italian"
+  ],
+  "ingredients": [
+    {
+      "item": "Bone-in skin-on chicken thighs",
+      "amount": "4",
+      "unit": "",
+      "category": "protein"
+    },
+    {
+      "item": "Orzo pasta",
+      "amount": "1.5",
+      "unit": "cups",
+      "category": "pantry"
+    },
+    {
+      "item": "Asparagus",
+      "amount": "1",
+      "unit": "bunch",
+      "category": "produce"
+    },
+    {
+      "item": "Chicken broth",
+      "amount": "2.5",
+      "unit": "cups",
+      "category": "pantry"
+    },
+    {
+      "item": "Grated parmesan cheese",
+      "amount": "1/2",
+      "unit": "cup",
+      "category": "dairy"
+    },
+    {
+      "item": "Lemons",
+      "amount": "2",
+      "unit": "",
+      "category": "produce"
+    },
+    {
+      "item": "Fresh thyme",
+      "amount": "6",
+      "unit": "sprigs",
+      "category": "produce"
+    },
+    {
+      "item": "Garlic cloves",
+      "amount": "4",
+      "unit": "",
+      "category": "produce"
+    },
+    {
+      "item": "Shallots",
+      "amount": "2",
+      "unit": "",
+      "category": "produce"
+    },
+    {
+      "item": "Unsalted butter",
+      "amount": "3",
+      "unit": "tbsp",
+      "category": "dairy"
+    },
+    {
+      "item": "Olive oil",
+      "amount": "2",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "White wine (or extra broth)",
+      "amount": "1/4",
+      "unit": "cup",
+      "category": "pantry"
+    },
+    {
+      "item": "Salt",
+      "amount": "1",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Black pepper",
+      "amount": "1/2",
+      "unit": "tsp",
+      "category": "pantry"
+    }
+  ],
+  "instructions": [
+    "Preheat oven to 400\u00b0F (200\u00b0C). Trim asparagus, toss with 1 tbsp olive oil, salt, and pepper. Spread on a baking sheet.",
+    "Pat chicken thighs dry. Season generously with salt and pepper.",
+    "Heat olive oil in a large oven-safe skillet over medium-high heat. Add chicken skin-side down; cook 5\u20136 minutes undisturbed until skin is deep golden and crispy. Flip and cook 2 more minutes.",
+    "Transfer skillet to oven. Roast 18\u201320 minutes until chicken reaches 165\u00b0F. Add asparagus to oven for the last 12 minutes.",
+    "Remove chicken to a plate. Return skillet to medium heat. Add minced shallots and garlic; cook 2 minutes. Add white wine and scrape up browned bits.",
+    "Add 2 cups chicken broth and bring to a simmer. Add orzo and thyme sprigs. Cook, stirring frequently, 8\u201310 minutes until orzo is tender and most liquid is absorbed.",
+    "Remove thyme sprigs. Stir in butter, parmesan, lemon zest, and juice of 1 lemon. Season to taste.",
+    "Serve chicken over creamy parmesan orzo with roasted asparagus. Drizzle with pan juices and garnish with lemon slices and fresh thyme."
+  ],
+  "tips": [
+    "Starting the chicken skin-side down in a cold-ish pan (not screaming hot) gives the fat time to render and the skin to get extra crispy.",
+    "Bone-in thighs have much more flavor than boneless \u2014 the bones add richness to the pan sauce.",
+    "Keep stirring the orzo as it cooks \u2014 it can stick to the bottom of the pan.",
+    "For a lighter version, use boneless skinless thighs and reduce cooking time by 5 minutes."
+  ],
+  "imageUrl": "/recipes/images/hc-lemon-thyme-chicken-orzo.jpg"
+}

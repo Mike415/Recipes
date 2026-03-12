@@ -1,0 +1,108 @@
+{
+  "id": "bc-parmesan-chicken",
+  "title": "Parmesan Chicken",
+  "description": "From Barefoot Contessa Family Style \u2014 Ina's most-requested recipe. Pounded chicken breasts coated in Parmesan-seasoned breadcrumbs, pan-fried until golden and crispy, then topped with a pile of lemony arugula salad. It's the kind of dish that makes everyone at the table happy.",
+  "imageEmoji": "\ud83c\udf57",
+  "prepTime": 20,
+  "cookTime": 15,
+  "totalTime": 35,
+  "servings": 6,
+  "difficulty": "Medium",
+  "tags": [
+    "Family Recipe",
+    "Barefoot Contessa",
+    "Chicken",
+    "Quick & Easy",
+    "Kids Love It"
+  ],
+  "isFamilyRecipe": true,
+  "ingredients": [
+    {
+      "item": "Boneless, skinless chicken breasts",
+      "amount": "6",
+      "unit": "",
+      "category": "protein"
+    },
+    {
+      "item": "All-purpose flour",
+      "amount": "1",
+      "unit": "cup",
+      "category": "pantry"
+    },
+    {
+      "item": "Kosher salt",
+      "amount": "2",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Freshly ground black pepper",
+      "amount": "1",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Extra-large eggs",
+      "amount": "2",
+      "unit": "",
+      "category": "dairy"
+    },
+    {
+      "item": "Seasoned dry bread crumbs",
+      "amount": "1.25",
+      "unit": "cups",
+      "category": "pantry"
+    },
+    {
+      "item": "Finely grated Parmesan cheese, plus extra for serving",
+      "amount": "0.5",
+      "unit": "cup",
+      "category": "dairy"
+    },
+    {
+      "item": "Unsalted butter",
+      "amount": "4",
+      "unit": "tbsp",
+      "category": "dairy"
+    },
+    {
+      "item": "Good olive oil",
+      "amount": "4",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Baby salad greens (arugula works best)",
+      "amount": "6",
+      "unit": "handfuls",
+      "category": "produce"
+    },
+    {
+      "item": "Freshly squeezed lemon juice (2 lemons)",
+      "amount": "0.25",
+      "unit": "cup",
+      "category": "produce"
+    },
+    {
+      "item": "Good olive oil (for vinaigrette)",
+      "amount": "0.5",
+      "unit": "cup",
+      "category": "pantry"
+    }
+  ],
+  "instructions": [
+    "Pound the chicken breasts until they are \u00bc-inch thick using a meat mallet or rolling pin. You can pound between two sheets of wax paper or plastic wrap.",
+    "Combine the flour, 2 teaspoons salt, and 1 teaspoon pepper on a dinner plate. Beat the eggs with 1 tablespoon of water in a large shallow bowl. On a second dinner plate, combine the bread crumbs and the \u00bd cup grated Parmesan cheese.",
+    "Coat the chicken breasts on both sides with the flour mixture, dusting off the excess, then dip both sides into the egg mixture and finally dredge both sides in the breadcrumb mixture, pressing lightly.",
+    "Heat 1 tablespoon of butter and 1 tablespoon of olive oil in a large (12-inch) saut\u00e9 pan over medium-low heat and cook 2 chicken breasts at a time for 2 to 3 minutes on each side, until just cooked through. Remove the cooked chicken to a plate. Add more butter and oil and cook the rest of the chicken breasts.",
+    "Make the lemon vinaigrette: Measure the lemon juice in a 1-cup glass measuring cup. Add the \u00bd cup olive oil, 1 teaspoon salt and \u00bd teaspoon pepper and whisk together.",
+    "Toss the salad greens with the lemon vinaigrette. Place each chicken breast on a plate and pile a mound of salad on top. Serve hot with shaved or grated Parmesan on top."
+  ],
+  "tips": [
+    "To keep the cooked chicken breasts warm, place on a sheet pan in a 200\u00b0F oven for up to 15 minutes.",
+    "Don't crowd the pan \u2014 cook only 2 breasts at a time for the best crust.",
+    "The cold lemony arugula on top of the hot crispy chicken is the magic of this dish \u2014 don't skip it.",
+    "Source: Barefoot Contessa Family Style by Ina Garten (2002)"
+  ],
+  "imageUrl": "/recipes/images/bc-parmesan-chicken.jpg"
+}

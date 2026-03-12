@@ -1,0 +1,44 @@
+{
+  "id": "ep-sesame-pork-rice-bowls",
+  "title": "Sesame Pork Rice Bowls with Pickled Cucumbers",
+  "description": "EveryPlate's most popular recipe — savory ground pork seasoned with soy, ginger, and sesame oil, served over fluffy rice with quick-pickled cucumbers and a drizzle of sweet chili sauce. Fast, flavorful, and endlessly repeatable.",
+  "imageEmoji": "🍚",
+  "prepTime": 10,
+  "cookTime": 20,
+  "totalTime": 30,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": ["EveryPlate", "Pork", "Asian", "Quick", "One Pan"],
+  "ingredients": [
+    { "item": "Ground pork", "amount": "1", "unit": "lb", "category": "protein" },
+    { "item": "Jasmine rice", "amount": "2", "unit": "cups", "category": "pantry" },
+    { "item": "Cucumber", "amount": "1", "unit": "large", "category": "produce" },
+    { "item": "Scallions", "amount": "4", "unit": "", "category": "produce" },
+    { "item": "Soy sauce", "amount": "3", "unit": "tbsp", "category": "pantry" },
+    { "item": "Sesame oil", "amount": "2", "unit": "tbsp", "category": "pantry" },
+    { "item": "Sweet chili sauce", "amount": "3", "unit": "tbsp", "category": "pantry" },
+    { "item": "Rice vinegar", "amount": "2", "unit": "tbsp", "category": "pantry" },
+    { "item": "Garlic cloves", "amount": "3", "unit": "", "category": "produce" },
+    { "item": "Fresh ginger", "amount": "1", "unit": "tsp", "category": "produce" },
+    { "item": "Sesame seeds", "amount": "1", "unit": "tbsp", "category": "pantry" },
+    { "item": "Sugar", "amount": "1", "unit": "tsp", "category": "pantry" },
+    { "item": "Vegetable oil", "amount": "1", "unit": "tbsp", "category": "pantry" },
+    { "item": "Salt", "amount": "1/2", "unit": "tsp", "category": "pantry" }
+  ],
+  "instructions": [
+    "Cook rice according to package directions. Keep warm.",
+    "Make quick-pickled cucumbers: thinly slice cucumber and toss with rice vinegar, sugar, and a pinch of salt. Set aside for at least 10 minutes.",
+    "Slice scallions, keeping whites and greens separate. Mince garlic and ginger.",
+    "Heat vegetable oil in a large skillet over medium-high heat. Add ground pork and cook, breaking it up, for 5–6 minutes until browned and cooked through.",
+    "Add scallion whites, garlic, and ginger; cook 1–2 minutes until fragrant.",
+    "Add soy sauce and 1 tbsp sesame oil; toss to coat. Cook 1 more minute. Remove from heat.",
+    "Divide rice into bowls. Top with sesame pork and pickled cucumbers.",
+    "Drizzle sweet chili sauce and remaining sesame oil over each bowl. Garnish with scallion greens and sesame seeds."
+  ],
+  "tips": [
+    "The quick-pickled cucumbers are what make this dish — don't skip them. They add a bright, tangy contrast to the rich pork.",
+    "Ground chicken or turkey works equally well in place of pork.",
+    "Add a soft-boiled egg on top for extra richness.",
+    "For more heat, add a squirt of sriracha or a pinch of red pepper flakes to the pork."
+  ]
+}

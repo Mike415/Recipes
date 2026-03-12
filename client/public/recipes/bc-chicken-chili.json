@@ -1,0 +1,145 @@
+{
+  "id": "bc-chicken-chili",
+  "title": "Chicken Chili",
+  "description": "From Barefoot Contessa Parties! \u2014 the star of Ina's Football Party menu. A hearty white chicken chili with cannellini beans, poblano peppers, and a generous amount of cumin and chili powder. It's lighter than beef chili but just as satisfying, and it feeds a crowd beautifully. Make it a day ahead \u2014 it only gets better.",
+  "imageEmoji": "\ud83c\udf36\ufe0f",
+  "prepTime": 20,
+  "cookTime": 60,
+  "totalTime": 80,
+  "servings": 8,
+  "difficulty": "Easy",
+  "tags": [
+    "Family Recipe",
+    "Barefoot Contessa",
+    "Chicken",
+    "Comfort Food",
+    "Make Ahead",
+    "Crowd Pleaser"
+  ],
+  "isFamilyRecipe": true,
+  "ingredients": [
+    {
+      "item": "Good olive oil",
+      "amount": "4",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Yellow onions, chopped",
+      "amount": "2",
+      "unit": "",
+      "category": "produce"
+    },
+    {
+      "item": "Garlic cloves, minced",
+      "amount": "4",
+      "unit": "",
+      "category": "produce"
+    },
+    {
+      "item": "Poblano peppers, seeded and diced",
+      "amount": "2",
+      "unit": "",
+      "category": "produce"
+    },
+    {
+      "item": "Red bell peppers, seeded and diced",
+      "amount": "2",
+      "unit": "",
+      "category": "produce"
+    },
+    {
+      "item": "Chili powder",
+      "amount": "2",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Ground cumin",
+      "amount": "1",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Dried oregano",
+      "amount": "1",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Cayenne pepper",
+      "amount": "0.25",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Boneless, skinless chicken breasts, cut into 1-inch cubes",
+      "amount": "2.5",
+      "unit": "lb",
+      "category": "protein"
+    },
+    {
+      "item": "Chicken stock",
+      "amount": "2",
+      "unit": "cups",
+      "category": "pantry"
+    },
+    {
+      "item": "Cannellini beans, drained and rinsed (2 15-oz cans)",
+      "amount": "2",
+      "unit": "cans",
+      "category": "pantry"
+    },
+    {
+      "item": "Corn kernels, fresh or frozen",
+      "amount": "2",
+      "unit": "cups",
+      "category": "produce"
+    },
+    {
+      "item": "Kosher salt",
+      "amount": "1.5",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Freshly ground black pepper",
+      "amount": "0.5",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Sour cream, for serving",
+      "amount": "1",
+      "unit": "cup",
+      "category": "dairy"
+    },
+    {
+      "item": "Grated cheddar cheese, for serving",
+      "amount": "1",
+      "unit": "cup",
+      "category": "dairy"
+    },
+    {
+      "item": "Sliced scallions, for serving",
+      "amount": "0.5",
+      "unit": "cup",
+      "category": "produce"
+    }
+  ],
+  "instructions": [
+    "Heat the olive oil in a large pot or Dutch oven over medium heat. Add the onions and cook for 10 minutes, until translucent. Add the garlic and cook for 1 more minute.",
+    "Add the poblano and red bell peppers and cook for 5 minutes. Add the chili powder, cumin, oregano, and cayenne and cook for 1 minute.",
+    "Add the chicken pieces and cook, stirring, for 5 minutes, until the chicken is lightly browned on the outside.",
+    "Add the chicken stock and bring to a boil. Reduce the heat and simmer for 20 minutes. Add the beans, corn, salt, and pepper and simmer for 10 more minutes.",
+    "Taste and adjust seasonings. Serve hot with sour cream, cheddar cheese, and scallions on the side."
+  ],
+  "tips": [
+    "This chili is even better the next day \u2014 make it ahead and reheat gently.",
+    "Poblano peppers add a mild, earthy heat \u2014 if you can't find them, use a second red bell pepper plus a jalape\u00f1o.",
+    "For a thicker chili, mash some of the beans against the side of the pot before adding them.",
+    "Serve with Ina's Sour Cream Cornbread for the full Football Party experience.",
+    "Source: Barefoot Contessa Parties! by Ina Garten (2001)"
+  ],
+  "imageUrl": "/recipes/images/bc-chicken-chili.jpg"
+}

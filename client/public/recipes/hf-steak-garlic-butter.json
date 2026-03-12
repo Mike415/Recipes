@@ -1,0 +1,107 @@
+{
+  "id": "hf-steak-garlic-butter",
+  "title": "Seared Steak with Garlic Herb Butter & Crispy Potatoes",
+  "description": "HelloFresh most-favorited recipe \u2014 perfectly seared sirloin steak finished with a rich garlic herb compound butter, served alongside crispy oven-roasted potatoes. A steakhouse dinner at home in 40 minutes.",
+  "imageEmoji": "\ud83e\udd69",
+  "prepTime": 10,
+  "cookTime": 30,
+  "totalTime": 40,
+  "servings": 4,
+  "difficulty": "Medium",
+  "tags": [
+    "HelloFresh",
+    "Beef",
+    "American",
+    "Comfort Food"
+  ],
+  "ingredients": [
+    {
+      "item": "Sirloin steaks (8 oz each)",
+      "amount": "4",
+      "unit": "",
+      "category": "protein"
+    },
+    {
+      "item": "Yukon Gold potatoes",
+      "amount": "2",
+      "unit": "lb",
+      "category": "produce"
+    },
+    {
+      "item": "Unsalted butter, softened",
+      "amount": "4",
+      "unit": "tbsp",
+      "category": "dairy"
+    },
+    {
+      "item": "Garlic cloves",
+      "amount": "4",
+      "unit": "",
+      "category": "produce"
+    },
+    {
+      "item": "Fresh rosemary",
+      "amount": "2",
+      "unit": "sprigs",
+      "category": "produce"
+    },
+    {
+      "item": "Fresh thyme",
+      "amount": "4",
+      "unit": "sprigs",
+      "category": "produce"
+    },
+    {
+      "item": "Fresh chives",
+      "amount": "2",
+      "unit": "tbsp",
+      "category": "produce"
+    },
+    {
+      "item": "Olive oil",
+      "amount": "3",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Garlic powder",
+      "amount": "1/2",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Smoked paprika",
+      "amount": "1/2",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Salt",
+      "amount": "1.5",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Black pepper",
+      "amount": "1",
+      "unit": "tsp",
+      "category": "pantry"
+    }
+  ],
+  "instructions": [
+    "Preheat oven to 450\u00b0F (230\u00b0C). Cut potatoes into 1-inch cubes. Toss with 2 tbsp olive oil, garlic powder, smoked paprika, \u00bd tsp salt, and \u00bd tsp pepper. Roast on a baking sheet for 25\u201330 minutes, flipping halfway, until golden and crispy.",
+    "Make garlic herb butter: mix softened butter with 2 minced garlic cloves, chopped rosemary leaves, thyme leaves, and chives. Season with a pinch of salt. Roll into a log in plastic wrap and refrigerate until ready to use.",
+    "Remove steaks from the fridge 20 minutes before cooking. Pat very dry. Season generously with remaining salt and pepper on both sides.",
+    "Heat 1 tbsp olive oil in a cast-iron or heavy skillet over high heat until smoking. Add steaks; cook 3\u20134 minutes per side for medium-rare (130\u00b0F internal), or to your desired doneness.",
+    "In the last minute of cooking, add remaining garlic cloves and thyme sprigs to the pan. Tilt the pan and baste the steaks with the infused butter.",
+    "Transfer steaks to a cutting board. Top each immediately with a slice of garlic herb butter. Let rest 5 minutes.",
+    "Serve steaks whole or sliced, with crispy potatoes alongside. Spoon any melted herb butter from the cutting board over the top."
+  ],
+  "tips": [
+    "Patting the steak completely dry is the single most important step for a good sear \u2014 moisture is the enemy of crust.",
+    "Let the steak rest after cooking \u2014 this allows the juices to redistribute and keeps the meat juicy.",
+    "A cast-iron skillet gives the best sear; if you don't have one, use the heaviest pan you own.",
+    "The garlic herb butter can be made up to a week ahead and kept in the fridge, or frozen for a month."
+  ],
+  "imageUrl": "/recipes/images/hf-steak-garlic-butter.jpg"
+}

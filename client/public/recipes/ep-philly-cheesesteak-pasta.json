@@ -1,0 +1,43 @@
+{
+  "id": "ep-philly-cheesesteak-pasta",
+  "title": "Philly Cheesesteak Pasta Skillet",
+  "description": "EveryPlate fan favorite — all the flavors of a classic Philly cheesesteak in a one-pan pasta skillet. Thinly sliced beef, sautéed peppers and onions, and a creamy provolone sauce tossed with penne. Pure comfort food in 30 minutes.",
+  "imageEmoji": "🥩",
+  "prepTime": 10,
+  "cookTime": 25,
+  "totalTime": 35,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": ["EveryPlate", "Beef", "Pasta", "American", "Comfort Food", "One Pan"],
+  "ingredients": [
+    { "item": "Shaved or thinly sliced beef (ribeye or sirloin)", "amount": "1", "unit": "lb", "category": "protein" },
+    { "item": "Penne pasta", "amount": "12", "unit": "oz", "category": "pantry" },
+    { "item": "Green bell pepper", "amount": "1", "unit": "large", "category": "produce" },
+    { "item": "Yellow onion", "amount": "1", "unit": "large", "category": "produce" },
+    { "item": "Cremini mushrooms", "amount": "8", "unit": "oz", "category": "produce" },
+    { "item": "Provolone cheese, sliced", "amount": "6", "unit": "slices", "category": "dairy" },
+    { "item": "Cream cheese", "amount": "4", "unit": "oz", "category": "dairy" },
+    { "item": "Beef broth", "amount": "1", "unit": "cup", "category": "pantry" },
+    { "item": "Worcestershire sauce", "amount": "1", "unit": "tbsp", "category": "pantry" },
+    { "item": "Garlic cloves", "amount": "3", "unit": "", "category": "produce" },
+    { "item": "Olive oil", "amount": "2", "unit": "tbsp", "category": "pantry" },
+    { "item": "Salt", "amount": "1", "unit": "tsp", "category": "pantry" },
+    { "item": "Black pepper", "amount": "1/2", "unit": "tsp", "category": "pantry" }
+  ],
+  "instructions": [
+    "Cook penne in salted boiling water until al dente. Drain, reserving ½ cup pasta water.",
+    "Slice bell pepper and onion into thin strips. Slice mushrooms. Mince garlic.",
+    "Heat 1 tbsp olive oil in a large skillet over high heat. Add beef in a single layer; cook undisturbed 2 minutes, then stir and cook 1–2 more minutes until browned. Season with salt and pepper. Remove to a plate.",
+    "In the same skillet, heat remaining olive oil over medium-high heat. Add onion and bell pepper; cook 5 minutes until softened. Add mushrooms and cook 3 more minutes. Add garlic; cook 1 minute.",
+    "Add Worcestershire sauce and beef broth. Scrape up any browned bits. Bring to a simmer.",
+    "Add cream cheese and stir until melted and incorporated into the sauce.",
+    "Add drained pasta and cooked beef back to the skillet. Toss to combine, adding pasta water as needed.",
+    "Lay provolone slices over the top. Cover with a lid for 2 minutes until cheese melts. Serve directly from the pan."
+  ],
+  "tips": [
+    "Shaved beef from the butcher counter is ideal; you can also freeze a sirloin steak for 20 minutes and slice it paper-thin yourself.",
+    "Don't overcook the beef — it's thin and only needs 3–4 minutes total. It will continue cooking in the sauce.",
+    "American cheese or Cheez Whiz can substitute for provolone for a more authentic Philly flavor.",
+    "Add a pinch of cayenne for a little heat."
+  ]
+}
