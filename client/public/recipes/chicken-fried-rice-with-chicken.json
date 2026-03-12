@@ -1,0 +1,95 @@
+{
+  "title": "Kid-Friendly Chicken Fried Rice",
+  "description": "A quick and easy one-pan chicken fried rice recipe that's perfect for a family dinner. It's packed with flavor and uses simple ingredients your kids will love.",
+  "imageEmoji": "\ud83c\udf5a",
+  "prepTime": 15,
+  "cookTime": 20,
+  "totalTime": 35,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": [
+    "Kid Favorite",
+    "Quick",
+    "One Pan",
+    "Comfort Food",
+    "Asian"
+  ],
+  "ingredients": [
+    {
+      "item": "Cooked chicken breast",
+      "amount": 2,
+      "unit": "cups",
+      "category": "protein"
+    },
+    {
+      "item": "Day-old white rice",
+      "amount": 3,
+      "unit": "cups",
+      "category": "pantry"
+    },
+    {
+      "item": "Eggs",
+      "amount": 2,
+      "unit": "",
+      "category": "dairy"
+    },
+    {
+      "item": "Frozen mixed vegetables",
+      "amount": 1,
+      "unit": "cup",
+      "category": "frozen"
+    },
+    {
+      "item": "Soy sauce",
+      "amount": 3,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Sesame oil",
+      "amount": 1,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Garlic",
+      "amount": 2,
+      "unit": "cloves",
+      "category": "produce"
+    },
+    {
+      "item": "Ginger",
+      "amount": 0.5,
+      "unit": "tsp",
+      "category": "produce"
+    },
+    {
+      "item": "Green onions",
+      "amount": 2,
+      "unit": "",
+      "category": "produce"
+    },
+    {
+      "item": "Vegetable oil",
+      "amount": 1,
+      "unit": "tbsp",
+      "category": "pantry"
+    }
+  ],
+  "instructions": [
+    "Heat vegetable oil in a large skillet or wok over medium-high heat.",
+    "Add minced garlic and grated ginger, and stir-fry for 30 seconds until fragrant.",
+    "Push garlic and ginger to one side, crack eggs into the other side, and scramble until cooked through. Break into small pieces.",
+    "Add cooked chicken and frozen mixed vegetables to the skillet. Stir-fry for 3-5 minutes until vegetables are tender-crisp.",
+    "Add day-old rice to the skillet, breaking up any clumps. Pour in soy sauce and sesame oil. Stir well to combine and coat all ingredients.",
+    "Continue to stir-fry for another 5-7 minutes, ensuring the rice is heated through and slightly crispy.",
+    "Stir in chopped green onions just before serving.",
+    "Serve immediately and enjoy!"
+  ],
+  "tips": [
+    "Using day-old rice is crucial for fried rice, as fresh rice is too moist and will result in a mushy texture.",
+    "Adjust soy sauce to taste; for younger children, you might use a low-sodium option or slightly less.",
+    "Feel free to add other kid-friendly vegetables like corn or peas if your family prefers them."
+  ],
+  "id": "chicken-fried-rice-with-chicken"
+}

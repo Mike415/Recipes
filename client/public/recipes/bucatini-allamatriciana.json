@@ -1,0 +1,92 @@
+{
+  "id": "bucatini-allamatriciana",
+  "title": "Bucatini All'Amatriciana",
+  "description": "A classic Roman pasta with guanciale, tomatoes, and pecorino cheese. Simple, authentic, and absolutely delicious!",
+  "imageEmoji": "🍝",
+  "prepTime": 10,
+  "cookTime": 30,
+  "totalTime": 40,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": [
+    "Family Recipe",
+    "Italian",
+    "Pasta"
+  ],
+  "ingredients": [
+    {
+      "item": "Olive Oil",
+      "amount": "2",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Guanciale or Pancetta",
+      "amount": "4",
+      "unit": "oz",
+      "category": "protein"
+    },
+    {
+      "item": "Crushed Red Pepper Flakes",
+      "amount": "0.5",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Black Pepper",
+      "amount": "0.5",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Onion (minced)",
+      "amount": "0.75",
+      "unit": "cup",
+      "category": "produce"
+    },
+    {
+      "item": "Garlic Cloves (minced)",
+      "amount": "2",
+      "unit": "count",
+      "category": "produce"
+    },
+    {
+      "item": "Canned Peeled Tomatoes",
+      "amount": "1",
+      "unit": "can (28oz)",
+      "category": "pantry"
+    },
+    {
+      "item": "Bucatini or Spaghetti",
+      "amount": "12",
+      "unit": "oz",
+      "category": "pantry"
+    },
+    {
+      "item": "Pecorino Romano (grated)",
+      "amount": "0.25",
+      "unit": "cup",
+      "category": "dairy"
+    }
+  ],
+  "instructions": [
+    "Slice guanciale or pancetta thinly, then cut into small pieces",
+    "Heat olive oil in a large pan and sauté guanciale until crispy, about 4 minutes",
+    "Add red pepper flakes and black pepper, stirring to combine",
+    "Add minced onion and garlic, cook for 8 minutes until softened",
+    "Add canned tomatoes (crushed by hand) and simmer for 15-20 minutes",
+    "Meanwhile, cook pasta 2 minutes before al dente",
+    "Transfer pasta directly to sauce with about 1/2 cup pasta water",
+    "Toss everything together and cook for 2 more minutes",
+    "Serve immediately with grated Pecorino Romano on top"
+  ],
+  "tips": [
+    "Guanciale is traditional but pancetta or bacon works too",
+    "Don't overcook the pasta - it finishes cooking in the sauce",
+    "Reserve pasta water to adjust sauce consistency",
+    "Use San Marzano tomatoes for best flavor",
+    "Pecorino Romano is essential - don't substitute with Parmesan"
+  ],
+  "videoUrl": "https://youtu.be/0SxlESaak_Q",
+  "isFamily": true
+}

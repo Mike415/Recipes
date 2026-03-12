@@ -1,0 +1,101 @@
+{
+  "title": "Honey Garlic Salmon & Rice",
+  "description": "A quick and easy family-friendly meal featuring tender salmon glazed with a sweet and savory honey garlic sauce, served alongside fluffy rice. Perfect for a weeknight dinner with minimal cleanup.",
+  "imageEmoji": "\ud83c\udf63",
+  "prepTime": 15,
+  "cookTime": 20,
+  "totalTime": 35,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": [
+    "Kid Favorite",
+    "Quick",
+    "One Pan",
+    "Healthy",
+    "Asian"
+  ],
+  "ingredients": [
+    {
+      "item": "Salmon fillets",
+      "amount": 4,
+      "unit": "count",
+      "category": "protein"
+    },
+    {
+      "item": "Rice",
+      "amount": 1,
+      "unit": "cup",
+      "category": "pantry"
+    },
+    {
+      "item": "Water",
+      "amount": 2,
+      "unit": "cups",
+      "category": "pantry"
+    },
+    {
+      "item": "Honey",
+      "amount": 3,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Soy sauce",
+      "amount": 2,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Garlic, minced",
+      "amount": 2,
+      "unit": "cloves",
+      "category": "produce"
+    },
+    {
+      "item": "Lemon juice",
+      "amount": 1,
+      "unit": "tbsp",
+      "category": "produce"
+    },
+    {
+      "item": "Olive oil",
+      "amount": 1,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Salt",
+      "amount": 0.5,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Black pepper",
+      "amount": 0.25,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Broccoli florets",
+      "amount": 2,
+      "unit": "cups",
+      "category": "produce"
+    }
+  ],
+  "instructions": [
+    "Preheat oven to 400\u00b0F (200\u00b0C).",
+    "In a small bowl, whisk together honey, soy sauce, minced garlic, and lemon juice to make the glaze.",
+    "Season salmon fillets with salt and pepper.",
+    "Heat olive oil in an oven-safe skillet over medium-high heat. Sear salmon skin-side down for 2-3 minutes until crispy. Flip the salmon.",
+    "Pour the honey garlic glaze over the salmon. Add broccoli florets to the skillet around the salmon.",
+    "Transfer the skillet to the preheated oven and bake for 12-15 minutes, or until salmon is cooked through and flakes easily.",
+    "While salmon bakes, cook rice according to package directions. (Typically 1 cup rice to 2 cups water, simmer for 15-20 minutes).",
+    "Serve the honey garlic salmon and broccoli immediately with the cooked rice."
+  ],
+  "tips": [
+    "For extra flavor, marinate the salmon in half of the honey garlic glaze for 15-30 minutes before searing.",
+    "If your kids are picky about broccoli, you can substitute with green beans or peas, or roast the broccoli separately to achieve desired tenderness.",
+    "Ensure the salmon is not overcooked to keep it moist and tender. It should flake easily with a fork."
+  ],
+  "id": "honey-garlic-salmon-rice"
+}

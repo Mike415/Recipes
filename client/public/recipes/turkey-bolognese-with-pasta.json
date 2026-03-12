@@ -1,0 +1,123 @@
+{
+  "title": "Turkey Bolognese with Pasta",
+  "description": "A hearty and healthy turkey bolognese sauce served over pasta, perfect for a family meal. This recipe is designed to be quick, easy, and kid-friendly.",
+  "imageEmoji": "\ud83c\udf5d",
+  "prepTime": 15,
+  "cookTime": 30,
+  "totalTime": 45,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": [
+    "Kid Favorite",
+    "Quick",
+    "Comfort Food",
+    "Healthy",
+    "Pasta",
+    "Italian"
+  ],
+  "ingredients": [
+    {
+      "item": "Ground Turkey",
+      "amount": 1,
+      "unit": "lb",
+      "category": "protein"
+    },
+    {
+      "item": "Olive Oil",
+      "amount": 1,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Onion",
+      "amount": 1,
+      "unit": "medium",
+      "category": "produce"
+    },
+    {
+      "item": "Carrots",
+      "amount": 2,
+      "unit": "medium",
+      "category": "produce"
+    },
+    {
+      "item": "Celery Stalks",
+      "amount": 2,
+      "unit": "",
+      "category": "produce"
+    },
+    {
+      "item": "Garlic",
+      "amount": 3,
+      "unit": "cloves",
+      "category": "produce"
+    },
+    {
+      "item": "Crushed Tomatoes",
+      "amount": 28,
+      "unit": "oz can",
+      "category": "pantry"
+    },
+    {
+      "item": "Tomato Paste",
+      "amount": 2,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Chicken Broth",
+      "amount": 0.5,
+      "unit": "cup",
+      "category": "pantry"
+    },
+    {
+      "item": "Milk",
+      "amount": 0.25,
+      "unit": "cup",
+      "category": "dairy"
+    },
+    {
+      "item": "Dried Oregano",
+      "amount": 1,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Salt",
+      "amount": 0.5,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Black Pepper",
+      "amount": 0.25,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Pasta (e.g., Penne, Spaghetti)",
+      "amount": 12,
+      "unit": "oz",
+      "category": "pantry"
+    },
+    {
+      "item": "Parmesan Cheese",
+      "amount": 0.25,
+      "unit": "cup",
+      "category": "dairy"
+    }
+  ],
+  "instructions": [
+    "Heat olive oil in a large pot or Dutch oven over medium heat. Add ground turkey and cook, breaking it up with a spoon, until browned. Drain any excess fat.",
+    "Add chopped onion, carrots, and celery to the pot. Cook for 5-7 minutes until vegetables soften. Stir in minced garlic and cook for another minute until fragrant.",
+    "Stir in crushed tomatoes, tomato paste, chicken broth, milk, oregano, salt, and pepper. Bring the sauce to a simmer, then reduce heat to low, cover, and let it cook for at least 20 minutes (or longer for more flavor), stirring occasionally.",
+    "While the sauce simmers, cook the pasta according to package directions until al dente. Drain well.",
+    "Serve the turkey bolognese sauce over the cooked pasta. Garnish with grated Parmesan cheese, if desired."
+  ],
+  "tips": [
+    "For picky eaters, finely grate the carrots and celery so they blend seamlessly into the sauce.",
+    "Make a double batch of the sauce and freeze half for a quick meal on another busy night.",
+    "A splash of heavy cream at the end can make the sauce even richer and more appealing to kids."
+  ],
+  "id": "turkey-bolognese-with-pasta"
+}

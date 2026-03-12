@@ -1,0 +1,96 @@
+{
+  "title": "Black Bean Quesadillas",
+  "description": "These quick and easy black bean quesadillas are a family favorite, perfect for a weeknight meal. Packed with flavor and nutrients, they're sure to be a hit with both kids and adults.",
+  "imageEmoji": "\ud83c\udf2e",
+  "prepTime": 10,
+  "cookTime": 15,
+  "totalTime": 25,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": [
+    "Kid Favorite",
+    "Quick",
+    "Vegetarian",
+    "Comfort Food",
+    "Healthy",
+    "Mexican"
+  ],
+  "ingredients": [
+    {
+      "item": "black beans, canned",
+      "amount": 15,
+      "unit": "oz",
+      "category": "pantry"
+    },
+    {
+      "item": "corn, frozen",
+      "amount": 1,
+      "unit": "cup",
+      "category": "frozen"
+    },
+    {
+      "item": "cheddar cheese, shredded",
+      "amount": 1,
+      "unit": "cup",
+      "category": "dairy"
+    },
+    {
+      "item": "flour tortillas, 8-inch",
+      "amount": 8,
+      "unit": "count",
+      "category": "bakery"
+    },
+    {
+      "item": "olive oil",
+      "amount": 1,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "cumin",
+      "amount": 0.5,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "chili powder",
+      "amount": 0.5,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "salt",
+      "amount": 0.25,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "salsa",
+      "amount": null,
+      "unit": "",
+      "category": "other"
+    },
+    {
+      "item": "sour cream",
+      "amount": null,
+      "unit": "",
+      "category": "dairy"
+    }
+  ],
+  "instructions": [
+    "Drain and rinse the black beans thoroughly.",
+    "In a medium bowl, mash about half of the black beans with a fork or potato masher. Leave the other half whole for texture.",
+    "Stir in the frozen corn, shredded cheddar cheese, cumin, chili powder, and salt into the black bean mixture.",
+    "Heat olive oil in a large non-stick skillet or griddle over medium heat.",
+    "Place one tortilla in the skillet. Spread about 1/4 cup of the black bean mixture over half of the tortilla. Fold the other half over to create a half-moon shape.",
+    "Cook for 2-3 minutes per side, or until the tortilla is golden brown and the cheese is melted and bubbly.",
+    "Repeat with the remaining tortillas and filling.",
+    "Cut each quesadilla into wedges and serve immediately with salsa and sour cream, if desired."
+  ],
+  "tips": [
+    "For picky eaters, you can finely chop some bell peppers or spinach and mix it into the black bean filling.",
+    "Adjust the spices to your family's preference. For a milder flavor, reduce the chili powder.",
+    "Serve with a side of sliced avocado or a simple green salad for a complete meal."
+  ],
+  "id": "black-bean-quesadillas"
+}

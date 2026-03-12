@@ -1,0 +1,137 @@
+{
+  "id": "broccoli-beef",
+  "title": "Broccoli Beef",
+  "description": "Restaurant-style broccoli beef with tender marinated beef and crispy broccoli in a savory sauce.",
+  "imageEmoji": "🥦",
+  "prepTime": 20,
+  "cookTime": 15,
+  "totalTime": 35,
+  "servings": 4,
+  "difficulty": "Medium",
+  "tags": [
+    "Family Recipe",
+    "Asian",
+    "Quick",
+    "One Pan"
+  ],
+  "ingredients": [
+    {
+      "item": "Skirt Steak",
+      "amount": "12",
+      "unit": "oz",
+      "category": "protein"
+    },
+    {
+      "item": "Soy Sauce",
+      "amount": "3",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Sesame Oil",
+      "amount": "1",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Shaoxing Wine",
+      "amount": "2",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "MSG",
+      "amount": "0.25",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Cornstarch",
+      "amount": "1",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Baking Soda",
+      "amount": "0.25",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Kosher Salt",
+      "amount": "0.5",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Dark Soy Sauce",
+      "amount": "1",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Light Soy Sauce",
+      "amount": "1",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Oyster Sauce",
+      "amount": "2",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Sugar",
+      "amount": "1",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Broccoli or Broccolini",
+      "amount": "12",
+      "unit": "oz",
+      "category": "produce"
+    },
+    {
+      "item": "Vegetable Oil",
+      "amount": "2",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Garlic (minced)",
+      "amount": "3",
+      "unit": "tsp",
+      "category": "produce"
+    },
+    {
+      "item": "Ginger (minced)",
+      "amount": "2",
+      "unit": "tsp",
+      "category": "produce"
+    }
+  ],
+  "instructions": [
+    "Slice skirt steak against the grain into 1/4 inch pieces",
+    "Marinate beef with soy sauce, sesame oil, Shaoxing wine, MSG, cornstarch, baking soda, and salt for 15 minutes",
+    "Mix sauce ingredients: dark soy sauce, light soy sauce, oyster sauce, and sugar",
+    "Blanch broccoli in boiling water for 3 minutes, then drain",
+    "Heat wok over high heat and sear marinated beef until cooked, then remove",
+    "Add garlic and ginger to wok, stirring quickly",
+    "Add Shaoxing wine around the sides of the wok",
+    "Return beef to wok and add blanched broccoli",
+    "Pour in prepared sauce and toss everything together",
+    "Mix cornstarch slurry (2 tsp cornstarch + 1 tbsp water) and add to thicken sauce",
+    "Serve immediately over steamed rice"
+  ],
+  "tips": [
+    "Slice beef against the grain for maximum tenderness",
+    "The baking soda in the marinade helps tenderize the beef",
+    "Blanch broccoli ahead of time for faster cooking",
+    "High heat is key for restaurant-style results",
+    "Don't overcook the beef - it continues cooking in the sauce"
+  ],
+  "videoUrl": "https://youtu.be/iEs3qXQvg6M",
+  "isFamily": true
+}

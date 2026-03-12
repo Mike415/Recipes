@@ -1,0 +1,79 @@
+{
+  "id": "garlic-noodles",
+  "title": "Garlic Noodles",
+  "description": "Simple yet delicious garlic noodles with butter, oyster sauce, and a touch of parmesan. Quick weeknight favorite!",
+  "imageEmoji": "🍝",
+  "prepTime": 5,
+  "cookTime": 15,
+  "totalTime": 20,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": [
+    "Family Recipe",
+    "Quick",
+    "Asian",
+    "Pasta"
+  ],
+  "ingredients": [
+    {
+      "item": "Spaghetti or Egg Noodles",
+      "amount": "0.5",
+      "unit": "lb",
+      "category": "pantry"
+    },
+    {
+      "item": "Butter",
+      "amount": "2",
+      "unit": "tbsp",
+      "category": "dairy"
+    },
+    {
+      "item": "Garlic Cloves",
+      "amount": "12",
+      "unit": "count",
+      "category": "produce"
+    },
+    {
+      "item": "Oyster Sauce",
+      "amount": "1",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Light Soy Sauce",
+      "amount": "2",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Fish Sauce",
+      "amount": "2",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Parmesan Cheese",
+      "amount": "1",
+      "unit": "oz",
+      "category": "dairy"
+    }
+  ],
+  "instructions": [
+    "Boil pasta in a skillet with a little water until al dente",
+    "In a wok, melt butter on medium-low heat",
+    "Start sautéing garlic 6 minutes before pasta is ready",
+    "Add oyster sauce, soy sauce, and fish sauce to the garlic",
+    "Transfer cooked noodles to the wok with some pasta water",
+    "Increase heat to high and stir everything together",
+    "Add grated parmesan cheese",
+    "Add more pasta water if needed - aim for slightly wet consistency"
+  ],
+  "tips": [
+    "Don't burn the garlic - keep heat medium-low",
+    "Save pasta water to adjust sauce consistency",
+    "The sauce should be slightly wet, not dry",
+    "Fresh garlic makes a big difference in flavor"
+  ],
+  "videoUrl": "https://youtu.be/wK9OHVxB_Z8",
+  "isFamily": true
+}

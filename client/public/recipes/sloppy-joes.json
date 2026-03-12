@@ -1,0 +1,112 @@
+{
+  "title": "Kid-Friendly Sloppy Joes",
+  "description": "A classic, comforting Sloppy Joes recipe that's quick to make and a hit with the whole family. Perfect for a busy weeknight meal, requiring minimal cleanup.",
+  "imageEmoji": "\ud83c\udf54",
+  "prepTime": 10,
+  "cookTime": 20,
+  "totalTime": 30,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": [
+    "Kid Favorite",
+    "Quick",
+    "One Pan",
+    "Comfort Food",
+    "American"
+  ],
+  "ingredients": [
+    {
+      "item": "Ground beef",
+      "amount": 1,
+      "unit": "lb",
+      "category": "protein"
+    },
+    {
+      "item": "Onion",
+      "amount": 1,
+      "unit": "medium",
+      "category": "produce"
+    },
+    {
+      "item": "Green bell pepper",
+      "amount": 1,
+      "unit": "",
+      "category": "produce"
+    },
+    {
+      "item": "Garlic",
+      "amount": 2,
+      "unit": "cloves",
+      "category": "produce"
+    },
+    {
+      "item": "Ketchup",
+      "amount": 1,
+      "unit": "cup",
+      "category": "pantry"
+    },
+    {
+      "item": "Worcestershire sauce",
+      "amount": 1,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Brown sugar",
+      "amount": 1,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Mustard (Dijon or yellow)",
+      "amount": 1,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Water",
+      "amount": 0.5,
+      "unit": "cup",
+      "category": "other"
+    },
+    {
+      "item": "Hamburger buns",
+      "amount": 4,
+      "unit": "",
+      "category": "bakery"
+    },
+    {
+      "item": "Salt",
+      "amount": 0,
+      "unit": "to taste",
+      "category": "pantry"
+    },
+    {
+      "item": "Black pepper",
+      "amount": 0,
+      "unit": "to taste",
+      "category": "pantry"
+    },
+    {
+      "item": "Olive oil",
+      "amount": 1,
+      "unit": "tbsp",
+      "category": "pantry"
+    }
+  ],
+  "instructions": [
+    "Heat olive oil in a large skillet or pot over medium heat.",
+    "Add ground beef and cook until browned, breaking it apart with a spoon. Drain any excess fat.",
+    "Stir in chopped onion, green bell pepper, and minced garlic. Cook until vegetables are softened, about 5-7 minutes.",
+    "In a small bowl, whisk together ketchup, Worcestershire sauce, brown sugar, mustard, and water.",
+    "Pour the sauce mixture over the beef and vegetables. Bring to a simmer, then reduce heat to low, cover, and cook for 10-15 minutes, stirring occasionally, until the sauce has thickened.",
+    "Season with salt and black pepper to taste.",
+    "Serve hot on toasted hamburger buns."
+  ],
+  "tips": [
+    "For an extra hidden veggie boost, finely grate carrots or zucchini into the mixture along with the onions and peppers.",
+    "Toast the hamburger buns lightly before serving to prevent them from getting too soggy.",
+    "Leftover Sloppy Joe mixture can be stored in an airtight container in the refrigerator for up to 3 days and reheated gently."
+  ],
+  "id": "sloppy-joes"
+}

@@ -1,0 +1,82 @@
+{
+  "title": "Sheet Pan Sausage & Peppers",
+  "description": "A quick and easy sheet pan meal featuring savory sausage and colorful bell peppers, perfect for a busy weeknight dinner that the whole family will love.",
+  "imageEmoji": "\ud83c\udf36\ufe0f",
+  "prepTime": 15,
+  "cookTime": 25,
+  "totalTime": 40,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": [
+    "Kid Favorite",
+    "Quick",
+    "One Pan",
+    "American",
+    "Comfort Food"
+  ],
+  "ingredients": [
+    {
+      "item": "Italian sausage (mild or sweet)",
+      "amount": 1,
+      "unit": "lb",
+      "category": "protein"
+    },
+    {
+      "item": "Bell Peppers (assorted colors)",
+      "amount": 3,
+      "unit": "large",
+      "category": "produce"
+    },
+    {
+      "item": "Yellow Onion",
+      "amount": 1,
+      "unit": "large",
+      "category": "produce"
+    },
+    {
+      "item": "Olive Oil",
+      "amount": 2,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Garlic Powder",
+      "amount": 1,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Dried Oregano",
+      "amount": 1,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Salt",
+      "amount": 0.5,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Black Pepper",
+      "amount": 0.25,
+      "unit": "tsp",
+      "category": "pantry"
+    }
+  ],
+  "instructions": [
+    "Preheat oven to 400\u00b0F (200\u00b0C). Line a large baking sheet with parchment paper for easy cleanup.",
+    "Slice bell peppers and onion into 1/2-inch strips.",
+    "Cut sausages into 1-inch pieces.",
+    "In a large bowl, combine sliced peppers, onion, and sausage. Drizzle with olive oil and sprinkle with garlic powder, oregano, salt, and pepper. Toss to coat evenly.",
+    "Spread the mixture in a single layer on the prepared baking sheet.",
+    "Roast for 20-25 minutes, or until vegetables are tender and sausage is cooked through, stirring halfway.",
+    "Serve hot."
+  ],
+  "tips": [
+    "For extra flavor, try adding a pinch of red pepper flakes if your family enjoys a little heat.",
+    "Serve with rice, pasta, or crusty bread to soak up the delicious juices.",
+    "Leftovers can be stored in an airtight container in the refrigerator for up to 3 days."
+  ],
+  "id": "sheet-pan-sausage-peppers"
+}

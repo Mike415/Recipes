@@ -1,0 +1,99 @@
+{
+  "id": "enchiladas",
+  "title": "Enchiladas",
+  "description": "Cheesy beef enchiladas with Spanish rice and enchilada sauce - a family favorite that's easy to make!",
+  "imageEmoji": "🌮",
+  "prepTime": 15,
+  "cookTime": 30,
+  "totalTime": 45,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": [
+    "Family Recipe",
+    "Mexican",
+    "Comfort Food",
+    "Kid Favorite"
+  ],
+  "ingredients": [
+    {
+      "item": "Spanish Rice and Pasta Mix",
+      "amount": "1",
+      "unit": "package (6.8oz)",
+      "category": "pantry"
+    },
+    {
+      "item": "Butter",
+      "amount": "2",
+      "unit": "tbsp",
+      "category": "dairy"
+    },
+    {
+      "item": "Water",
+      "amount": "2",
+      "unit": "cups",
+      "category": "pantry"
+    },
+    {
+      "item": "Diced Tomatoes",
+      "amount": "1",
+      "unit": "can (14.5oz)",
+      "category": "pantry"
+    },
+    {
+      "item": "Ground Beef",
+      "amount": "1",
+      "unit": "lb",
+      "category": "protein"
+    },
+    {
+      "item": "Enchilada Sauce",
+      "amount": "1",
+      "unit": "can (15oz)",
+      "category": "pantry"
+    },
+    {
+      "item": "Flour Tortillas (8\")",
+      "amount": "8",
+      "unit": "count",
+      "category": "bakery"
+    },
+    {
+      "item": "Cheddar Cheese",
+      "amount": "1.67",
+      "unit": "cups",
+      "category": "dairy"
+    },
+    {
+      "item": "Cilantro (optional)",
+      "amount": "0.25",
+      "unit": "cup",
+      "category": "produce"
+    },
+    {
+      "item": "Sour Cream (optional)",
+      "amount": "0.5",
+      "unit": "cup",
+      "category": "dairy"
+    }
+  ],
+  "instructions": [
+    "Preheat oven to 350°F",
+    "Prepare Spanish rice mix according to package directions using butter, water, and diced tomatoes",
+    "Brown ground beef in a skillet and drain excess fat",
+    "Stir in cooked Spanish rice and 1.25 cups of enchilada sauce with the beef",
+    "Warm tortillas to make them pliable",
+    "Spoon 2/3 cup of beef mixture into each tortilla",
+    "Add 1 tablespoon of cheddar cheese to each tortilla",
+    "Roll up tortillas and place seam-side down in a 13x9 inch baking dish",
+    "Top with remaining enchilada sauce and remaining cheese",
+    "Bake uncovered for 20-25 minutes until cheese is melted and bubbly",
+    "Garnish with cilantro and serve with sour cream if desired"
+  ],
+  "tips": [
+    "Warm tortillas before filling to prevent tearing",
+    "Don't overfill tortillas or they'll be hard to roll",
+    "Make ahead and refrigerate before baking",
+    "Top with fresh cilantro and sour cream for extra flavor"
+  ],
+  "isFamily": true
+}

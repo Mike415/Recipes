@@ -1,0 +1,119 @@
+{
+  "title": "Teriyaki Chicken Rice Bowls",
+  "description": "A delicious and easy-to-make teriyaki chicken dish served over rice, perfect for a family meal. This recipe is designed to be kid-friendly and uses minimal pans for easy cleanup.",
+  "imageEmoji": "\ud83c\udf5a",
+  "prepTime": 15,
+  "cookTime": 20,
+  "totalTime": 35,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": [
+    "Kid Favorite",
+    "Quick",
+    "One Pan",
+    "Healthy",
+    "Asian"
+  ],
+  "ingredients": [
+    {
+      "item": "Boneless, skinless chicken thighs",
+      "amount": 1.5,
+      "unit": "lb",
+      "category": "protein"
+    },
+    {
+      "item": "Soy sauce",
+      "amount": 0.5,
+      "unit": "cup",
+      "category": "pantry"
+    },
+    {
+      "item": "Mirin",
+      "amount": 0.25,
+      "unit": "cup",
+      "category": "pantry"
+    },
+    {
+      "item": "Sake (or substitute with more mirin)",
+      "amount": 2,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Brown sugar",
+      "amount": 2,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Garlic, minced",
+      "amount": 2,
+      "unit": "cloves",
+      "category": "produce"
+    },
+    {
+      "item": "Fresh ginger, grated",
+      "amount": 1,
+      "unit": "tbsp",
+      "category": "produce"
+    },
+    {
+      "item": "Cornstarch",
+      "amount": 1,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Water",
+      "amount": 2,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Broccoli florets",
+      "amount": 2,
+      "unit": "cups",
+      "category": "produce"
+    },
+    {
+      "item": "Carrots, sliced",
+      "amount": 1,
+      "unit": "cup",
+      "category": "produce"
+    },
+    {
+      "item": "Cooked rice",
+      "amount": 4,
+      "unit": "cups",
+      "category": "pantry"
+    },
+    {
+      "item": "Sesame seeds (for garnish)",
+      "amount": 1,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Green onions, sliced (for garnish)",
+      "amount": 2,
+      "unit": "stalks",
+      "category": "produce"
+    }
+  ],
+  "instructions": [
+    "In a medium bowl, whisk together soy sauce, mirin, sake (if using), brown sugar, minced garlic, and grated ginger. Set aside half of the sauce for later.",
+    "Cut chicken thighs into 1-inch pieces. Add chicken to the bowl with the remaining sauce and marinate for at least 10 minutes (or up to 30 minutes in the refrigerator).",
+    "In a large skillet or wok, heat a little oil over medium-high heat. Add the marinated chicken and cook until browned and cooked through, about 5-7 minutes. Remove chicken from the skillet and set aside.",
+    "In the same skillet, add broccoli florets and sliced carrots. Saut\u00e9 for 3-5 minutes until tender-crisp. If needed, add a splash of water to help steam the vegetables.",
+    "While vegetables are cooking, in a small bowl, whisk together cornstarch and 2 tablespoons of water to create a slurry. Add the reserved teriyaki sauce to the skillet with the vegetables.",
+    "Bring the sauce to a simmer, then slowly whisk in the cornstarch slurry. Cook, stirring constantly, until the sauce thickens, about 1-2 minutes.",
+    "Return the cooked chicken to the skillet and toss to coat evenly with the thickened teriyaki sauce and vegetables.",
+    "Serve immediately over cooked rice. Garnish with sesame seeds and sliced green onions, if desired."
+  ],
+  "tips": [
+    "For picky eaters, you can finely chop the broccoli and carrots or use other kid-friendly vegetables like peas or corn.",
+    "To save time, use pre-cooked rice or cook the rice while the chicken is marinating and cooking.",
+    "Adjust the amount of brown sugar to your family's preference for sweetness in the teriyaki sauce."
+  ],
+  "id": "teriyaki-chicken-rice-bowls"
+}

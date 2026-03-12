@@ -1,0 +1,99 @@
+{
+  "id": "egg-bake",
+  "title": "Egg Bake",
+  "description": "A make-ahead breakfast casserole that's perfect for brunch or feeding a crowd. Must be prepared the day before!",
+  "imageEmoji": "🍳",
+  "prepTime": 20,
+  "cookTime": 75,
+  "totalTime": 95,
+  "servings": 8,
+  "difficulty": "Easy",
+  "tags": [
+    "Family Recipe",
+    "Breakfast",
+    "Comfort Food"
+  ],
+  "ingredients": [
+    {
+      "item": "Day-Old White or French Bread",
+      "amount": "16",
+      "unit": "slices",
+      "category": "bakery"
+    },
+    {
+      "item": "Dry Mustard",
+      "amount": "1",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Sharp Cheddar Cheese",
+      "amount": "1",
+      "unit": "lb",
+      "category": "dairy"
+    },
+    {
+      "item": "Paprika",
+      "amount": "0.25",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Worcestershire Sauce",
+      "amount": "0.5",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Eggs",
+      "amount": "6",
+      "unit": "count",
+      "category": "dairy"
+    },
+    {
+      "item": "Milk",
+      "amount": "3",
+      "unit": "cups",
+      "category": "dairy"
+    },
+    {
+      "item": "Butter",
+      "amount": "0.25",
+      "unit": "lb",
+      "category": "dairy"
+    },
+    {
+      "item": "Salt",
+      "amount": "1",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Browned Sausage",
+      "amount": "0.5",
+      "unit": "lb",
+      "category": "protein"
+    }
+  ],
+  "instructions": [
+    "Butter a 2-quart casserole dish",
+    "Remove crusts from bread and cut into 1/2 inch cubes",
+    "Layer in casserole: bread, cheese, bread, cheese, bread, cheese",
+    "In a bowl, beat eggs with milk and add mustard, paprika, Worcestershire, and salt",
+    "Pour egg mixture over bread and cheese layers",
+    "Drizzle melted butter on top",
+    "Cover and refrigerate overnight (this is essential!)",
+    "Remove from refrigerator 45 minutes before baking",
+    "Place casserole dish in a larger pan filled with water (water bath)",
+    "Bake uncovered at 350°F for 1 hour 15 minutes until set and golden",
+    "Let rest 10 minutes before serving"
+  ],
+  "tips": [
+    "MUST be made the day before - this allows flavors to meld",
+    "Use day-old bread so it absorbs the egg mixture better",
+    "The water bath keeps the casserole moist and prevents overcooking",
+    "Can add browned sausage for extra protein",
+    "Freezes well - bake from frozen, adding 15-20 minutes to cooking time"
+  ],
+  "isFamily": true
+}

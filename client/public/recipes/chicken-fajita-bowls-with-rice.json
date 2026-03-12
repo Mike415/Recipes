@@ -1,0 +1,94 @@
+{
+  "title": "Chicken Fajita Bowls with Rice",
+  "description": "This easy and flavorful chicken fajita bowl recipe is perfect for a busy weeknight, requiring minimal cleanup with only one or two pans. It's a kid-friendly meal that the whole family will love!",
+  "imageEmoji": "\ud83c\udf2e",
+  "prepTime": 15,
+  "cookTime": 25,
+  "totalTime": 40,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": [
+    "Kid Favorite",
+    "Quick",
+    "One Pan",
+    "Mexican",
+    "Healthy"
+  ],
+  "ingredients": [
+    {
+      "item": "Chicken breasts",
+      "amount": 1.5,
+      "unit": "lb",
+      "category": "protein"
+    },
+    {
+      "item": "Bell peppers (red, yellow, orange)",
+      "amount": 3,
+      "unit": "medium",
+      "category": "produce"
+    },
+    {
+      "item": "Onion",
+      "amount": 1,
+      "unit": "medium",
+      "category": "produce"
+    },
+    {
+      "item": "Olive oil",
+      "amount": 2,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Fajita seasoning",
+      "amount": 2,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Rice",
+      "amount": 1,
+      "unit": "cup",
+      "category": "pantry"
+    },
+    {
+      "item": "Water or chicken broth",
+      "amount": 2,
+      "unit": "cups",
+      "category": "pantry"
+    },
+    {
+      "item": "Lime",
+      "amount": 1,
+      "unit": "whole",
+      "category": "produce"
+    },
+    {
+      "item": "Cilantro",
+      "amount": 0.25,
+      "unit": "cup",
+      "category": "produce"
+    },
+    {
+      "item": "Optional toppings: avocado, sour cream, cheese",
+      "amount": null,
+      "unit": null,
+      "category": "other"
+    }
+  ],
+  "instructions": [
+    "Cook rice according to package directions. For extra flavor, use chicken broth instead of water.",
+    "While rice cooks, slice chicken breasts into thin strips. Slice bell peppers and onion into thin strips.",
+    "In a large bowl, toss chicken, bell peppers, and onion with olive oil and fajita seasoning until evenly coated.",
+    "Heat a large skillet or sheet pan over medium-high heat (or preheat oven to 400\u00b0F/200\u00b0C for sheet pan). Add chicken and vegetables, spreading in a single layer.",
+    "Cook for 8-10 minutes, stirring occasionally, until chicken is cooked through and vegetables are tender-crisp. If using oven, roast for 15-20 minutes.",
+    "Once rice is cooked, fluff with a fork. Squeeze fresh lime juice over the chicken and vegetables, and sprinkle with chopped cilantro.",
+    "Assemble bowls by placing a scoop of rice, then topping with the chicken fajita mixture. Add optional toppings like avocado, sour cream, or shredded cheese."
+  ],
+  "tips": [
+    "For picky eaters, you can serve the chicken and vegetables separately from the rice, or cut the vegetables into smaller pieces.",
+    "Make it a freezer meal by prepping the seasoned chicken and vegetables ahead of time and freezing them in a bag. Thaw and cook when ready.",
+    "Adjust the amount of fajita seasoning to your family's spice preference. For less heat, use a mild seasoning blend."
+  ],
+  "id": "chicken-fajita-bowls-with-rice"
+}

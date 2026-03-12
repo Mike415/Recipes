@@ -1,0 +1,69 @@
+{
+  "title": "Turkey & Cheese Quesadillas",
+  "description": "A quick and easy meal perfect for the whole family, featuring savory turkey and melted cheese in a crispy tortilla. Kid-friendly and ready in under 30 minutes.",
+  "imageEmoji": "\ud83c\udf2e",
+  "prepTime": 10,
+  "cookTime": 15,
+  "totalTime": 25,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": [
+    "Kid Favorite",
+    "Quick",
+    "One Pan",
+    "Mexican"
+  ],
+  "ingredients": [
+    {
+      "item": "Flour Tortillas (8-inch)",
+      "amount": 8,
+      "unit": "count",
+      "category": "pantry"
+    },
+    {
+      "item": "Cooked Ground Turkey",
+      "amount": 1,
+      "unit": "lb",
+      "category": "protein"
+    },
+    {
+      "item": "Shredded Cheddar Cheese",
+      "amount": 2,
+      "unit": "cups",
+      "category": "dairy"
+    },
+    {
+      "item": "Butter",
+      "amount": 2,
+      "unit": "tbsp",
+      "category": "dairy"
+    },
+    {
+      "item": "Salsa (optional)",
+      "amount": 0.5,
+      "unit": "cup",
+      "category": "pantry"
+    },
+    {
+      "item": "Sour Cream (optional)",
+      "amount": 0.5,
+      "unit": "cup",
+      "category": "dairy"
+    }
+  ],
+  "instructions": [
+    "Heat a large non-stick skillet or griddle over medium heat.",
+    "Lightly butter one side of a tortilla. Place it butter-side down in the hot skillet.",
+    "Sprinkle half of the tortilla with a quarter of the shredded cheese, then a quarter of the cooked ground turkey, and then another layer of cheese.",
+    "Fold the other half of the tortilla over the filling to create a half-moon shape.",
+    "Cook for 3-4 minutes per side, or until golden brown and the cheese is melted and bubbly.",
+    "Remove from skillet, cut into wedges, and repeat with remaining tortillas and filling.",
+    "Serve warm with optional salsa and sour cream."
+  ],
+  "tips": [
+    "For extra flavor, season the ground turkey with taco seasoning while cooking.",
+    "Adjust the amount of cheese and turkey to your family's preference.",
+    "For crispier quesadillas, use a small amount of oil instead of butter."
+  ],
+  "id": "turkey-cheese-quesadillas"
+}

@@ -1,0 +1,93 @@
+{
+  "id": "chinese-rice-stuffing",
+  "title": "Chinese Rice Stuffing",
+  "description": "A traditional sticky rice stuffing with Chinese sausage and mushrooms, perfect for special occasions and family gatherings.",
+  "imageEmoji": "🍚",
+  "prepTime": 20,
+  "cookTime": 40,
+  "totalTime": 60,
+  "servings": 8,
+  "difficulty": "Medium",
+  "tags": [
+    "Family Recipe",
+    "Asian",
+    "Comfort Food"
+  ],
+  "ingredients": [
+    {
+      "item": "Sticky Rice (Sho Chiku Bai)",
+      "amount": "3",
+      "unit": "cups",
+      "category": "pantry"
+    },
+    {
+      "item": "Jasmine Rice",
+      "amount": "1",
+      "unit": "cup",
+      "category": "pantry"
+    },
+    {
+      "item": "Shiitake Mushrooms",
+      "amount": "10",
+      "unit": "count",
+      "category": "produce"
+    },
+    {
+      "item": "Chinese Sausages (Kam Yen Jam)",
+      "amount": "1",
+      "unit": "package",
+      "category": "protein"
+    },
+    {
+      "item": "Green Onions",
+      "amount": "4",
+      "unit": "count",
+      "category": "produce"
+    },
+    {
+      "item": "Cilantro",
+      "amount": "0.5",
+      "unit": "bunch",
+      "category": "produce"
+    },
+    {
+      "item": "Oyster Sauce",
+      "amount": "2",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Soy Sauce",
+      "amount": "2",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Sesame Oil",
+      "amount": "2",
+      "unit": "tsp",
+      "category": "pantry"
+    }
+  ],
+  "instructions": [
+    "Wash both rices thoroughly under cold water",
+    "In an 8qt pot, bring water to boil, add rice, then lower heat and simmer for 15 minutes",
+    "Steam rice for 10 minutes until fully cooked",
+    "Soak shiitake mushrooms in hot water to rehydrate, then chop finely and save the mushroom liquid",
+    "Cut Chinese sausages into quarters lengthwise, then cut into 1/4\" pieces",
+    "Sauté sausages and mushrooms together for 5 minutes until fragrant",
+    "Spread cooked rice in a large roasting pan",
+    "Top with sausage mixture and half of the chopped cilantro and green onions",
+    "Sprinkle oyster sauce over the top",
+    "Mix soy sauce with sesame oil and pour over the rice",
+    "Mix everything together with your hands until well combined",
+    "Top with remaining green onions and cilantro before serving"
+  ],
+  "tips": [
+    "Use authentic sticky rice for best texture and flavor",
+    "Don't skip soaking the mushrooms - the liquid adds great umami flavor",
+    "Mix with hands while still warm for best distribution of flavors",
+    "Can be made ahead and reheated in the oven"
+  ],
+  "isFamily": true
+}

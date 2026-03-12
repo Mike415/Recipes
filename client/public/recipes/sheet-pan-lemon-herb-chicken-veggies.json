@@ -1,0 +1,99 @@
+{
+  "title": "Sheet Pan Lemon Herb Chicken & Veggies",
+  "description": "This easy one-pan meal features tender chicken and colorful vegetables roasted with a zesty lemon-herb seasoning. It's a healthy and delicious option perfect for a busy weeknight dinner.",
+  "imageEmoji": "\ud83c\udf57",
+  "prepTime": 15,
+  "cookTime": 30,
+  "totalTime": 45,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": [
+    "Kid Favorite",
+    "Quick",
+    "One Pan",
+    "Healthy"
+  ],
+  "ingredients": [
+    {
+      "item": "Boneless, skinless chicken thighs",
+      "amount": 1.5,
+      "unit": "lb",
+      "category": "protein"
+    },
+    {
+      "item": "Broccoli florets",
+      "amount": 4,
+      "unit": "cups",
+      "category": "produce"
+    },
+    {
+      "item": "Baby carrots",
+      "amount": 2,
+      "unit": "cups",
+      "category": "produce"
+    },
+    {
+      "item": "Red bell pepper",
+      "amount": 1,
+      "unit": "large",
+      "category": "produce"
+    },
+    {
+      "item": "Lemon",
+      "amount": 1,
+      "unit": "large",
+      "category": "produce"
+    },
+    {
+      "item": "Olive oil",
+      "amount": 3,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Dried oregano",
+      "amount": 1,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Dried thyme",
+      "amount": 0.5,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Garlic powder",
+      "amount": 0.5,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Salt",
+      "amount": 0.5,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Black pepper",
+      "amount": 0.25,
+      "unit": "tsp",
+      "category": "pantry"
+    }
+  ],
+  "instructions": [
+    "Preheat oven to 400\u00b0F (200\u00b0C). Line a large baking sheet with parchment paper for easy cleanup.",
+    "In a large bowl, combine olive oil, oregano, thyme, garlic powder, salt, and pepper. Squeeze in the juice of half a lemon.",
+    "Add chicken thighs, broccoli florets, baby carrots, and chopped red bell pepper to the bowl. Toss until everything is evenly coated with the seasoning.",
+    "Spread the chicken and vegetables in a single layer on the prepared baking sheet.",
+    "Slice the remaining half lemon into thin rounds and scatter them over the chicken and vegetables.",
+    "Roast for 25-30 minutes, or until chicken is cooked through and vegetables are tender-crisp.",
+    "Serve immediately and enjoy this delicious one-pan meal!"
+  ],
+  "tips": [
+    "For extra flavor, marinate the chicken and veggies for at least 30 minutes (or up to 4 hours) before roasting.",
+    "If your kids are picky about certain vegetables, you can substitute with their favorites like sweet potato cubes or zucchini.",
+    "Ensure vegetables are cut into similar-sized pieces for even cooking."
+  ],
+  "id": "sheet-pan-lemon-herb-chicken-veggies"
+}

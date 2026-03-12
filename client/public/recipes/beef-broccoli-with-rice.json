@@ -1,0 +1,97 @@
+{
+  "title": "Beef & Broccoli with Rice",
+  "description": "A delicious and easy-to-make beef and broccoli stir-fry served with fluffy rice, perfect for a family dinner. This recipe is designed to be quick and uses minimal pans for easy cleanup.",
+  "imageEmoji": "\ud83c\udf5c",
+  "prepTime": 15,
+  "cookTime": 20,
+  "totalTime": 35,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": [
+    "Kid Favorite",
+    "Quick",
+    "One Pan",
+    "Healthy",
+    "Asian"
+  ],
+  "ingredients": [
+    {
+      "item": "Flank steak",
+      "amount": 1,
+      "unit": "lb",
+      "category": "protein"
+    },
+    {
+      "item": "Broccoli florets",
+      "amount": 4,
+      "unit": "cups",
+      "category": "produce"
+    },
+    {
+      "item": "Soy sauce",
+      "amount": 1,
+      "unit": "cup",
+      "category": "pantry"
+    },
+    {
+      "item": "Brown sugar",
+      "amount": 2,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Ginger, grated",
+      "amount": 1,
+      "unit": "tsp",
+      "category": "produce"
+    },
+    {
+      "item": "Garlic, minced",
+      "amount": 2,
+      "unit": "cloves",
+      "category": "produce"
+    },
+    {
+      "item": "Cornstarch",
+      "amount": 1,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Water",
+      "amount": 2,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Vegetable oil",
+      "amount": 1,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Cooked rice",
+      "amount": 4,
+      "unit": "cups",
+      "category": "pantry"
+    }
+  ],
+  "instructions": [
+    "Slice the flank steak thinly against the grain.",
+    "In a bowl, whisk together soy sauce, brown sugar, grated ginger, and minced garlic to create the sauce.",
+    "In a small cup, mix cornstarch with water to create a slurry.",
+    "Heat vegetable oil in a large skillet or wok over medium-high heat.",
+    "Add the sliced beef to the skillet and stir-fry until browned, about 3-4 minutes. Remove beef and set aside.",
+    "Add broccoli florets to the same skillet and stir-fry for 3-5 minutes until tender-crisp.",
+    "Pour the sauce into the skillet with the broccoli. Bring to a simmer.",
+    "Stir in the cornstarch slurry and cook until the sauce thickens.",
+    "Return the cooked beef to the skillet and toss to coat with the sauce.",
+    "Serve immediately over cooked rice."
+  ],
+  "tips": [
+    "For extra flavor, marinate the beef in a tablespoon of soy sauce and a pinch of baking soda for 15 minutes before cooking.",
+    "If your kids are picky about broccoli, you can steam it separately until very tender before adding it to the stir-fry.",
+    "Adjust the amount of brown sugar to your family's preference for sweetness in the sauce."
+  ],
+  "id": "beef-broccoli-with-rice"
+}

@@ -1,0 +1,97 @@
+{
+  "title": "One-Pot Pasta with Tomatoes & Spinach",
+  "description": "A quick and easy one-pot pasta dish packed with fresh tomatoes and spinach, perfect for a busy weeknight family meal. It's simple to make and kid-friendly!",
+  "imageEmoji": "\ud83c\udf5d",
+  "prepTime": 10,
+  "cookTime": 20,
+  "totalTime": 30,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": [
+    "Kid Favorite",
+    "Quick",
+    "One Pan",
+    "Vegetarian",
+    "Comfort Food",
+    "Healthy",
+    "Pasta",
+    "Italian"
+  ],
+  "ingredients": [
+    {
+      "item": "Cherry Tomatoes",
+      "amount": 1.5,
+      "unit": "lbs",
+      "category": "produce"
+    },
+    {
+      "item": "Fresh Spinach",
+      "amount": 5.0,
+      "unit": "oz",
+      "category": "produce"
+    },
+    {
+      "item": "Garlic",
+      "amount": 4.0,
+      "unit": "cloves",
+      "category": "produce"
+    },
+    {
+      "item": "Vegetable Broth",
+      "amount": 4.0,
+      "unit": "cups",
+      "category": "pantry"
+    },
+    {
+      "item": "Uncooked Spaghetti",
+      "amount": 12.0,
+      "unit": "oz",
+      "category": "pantry"
+    },
+    {
+      "item": "Olive Oil",
+      "amount": 2.0,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Dried Oregano",
+      "amount": 1.0,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Salt",
+      "amount": 0.5,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Black Pepper",
+      "amount": 0.25,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Parmesan Cheese (optional)",
+      "amount": 0.25,
+      "unit": "cup",
+      "category": "dairy"
+    }
+  ],
+  "instructions": [
+    "Halve the cherry tomatoes and finely mince the garlic cloves.",
+    "In a large pot or Dutch oven, combine the halved cherry tomatoes, minced garlic, vegetable broth, uncooked spaghetti (break in half if needed), olive oil, dried oregano, salt, and black pepper.",
+    "Bring the mixture to a boil over high heat, stirring occasionally to prevent the pasta from sticking.",
+    "Once boiling, reduce the heat to medium-low, cover the pot, and simmer for 10-12 minutes, or until the pasta is al dente and most of the liquid has been absorbed. Stir occasionally.",
+    "Stir in the fresh spinach and cook for another 2-3 minutes, or until the spinach has wilted.",
+    "Remove from heat and let it sit for a few minutes to allow any remaining liquid to be absorbed.",
+    "Serve immediately, garnished with optional Parmesan cheese."
+  ],
+  "tips": [
+    "For extra flavor, you can add a pinch of red pepper flakes with the other seasonings.",
+    "If the pasta seems too dry, add a splash more vegetable broth or water until it reaches your desired consistency.",
+    "Leftovers can be stored in an airtight container in the refrigerator for up to 3 days. Reheat gently on the stovetop or in the microwave, adding a little water or broth if needed."
+  ],
+  "id": "one-pot-pasta-with-tomatoes-spinach"
+}

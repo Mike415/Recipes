@@ -1,0 +1,112 @@
+{
+  "id": "chicken-katsu",
+  "title": "Chicken Katsu",
+  "description": "Crispy Japanese breaded chicken cutlets served with tonkatsu sauce. A family favorite that's easier than you think!",
+  "imageEmoji": "🍗",
+  "prepTime": 15,
+  "cookTime": 10,
+  "totalTime": 25,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": [
+    "Family Recipe",
+    "Asian",
+    "Quick"
+  ],
+  "ingredients": [
+    {
+      "item": "Chicken Breasts or Thighs",
+      "amount": "4",
+      "unit": "count",
+      "category": "protein"
+    },
+    {
+      "item": "Salt",
+      "amount": "1",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "All-Purpose Flour",
+      "amount": "2",
+      "unit": "cups",
+      "category": "pantry"
+    },
+    {
+      "item": "Eggs",
+      "amount": "3",
+      "unit": "count",
+      "category": "dairy"
+    },
+    {
+      "item": "Water",
+      "amount": "2",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Panko Breadcrumbs",
+      "amount": "2",
+      "unit": "cups",
+      "category": "pantry"
+    },
+    {
+      "item": "Vegetable Oil",
+      "amount": "2",
+      "unit": "cups",
+      "category": "pantry"
+    },
+    {
+      "item": "Ketchup",
+      "amount": "3",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Worcestershire Sauce",
+      "amount": "1",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Oyster Sauce",
+      "amount": "1",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Miso Paste (optional)",
+      "amount": "1",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Honey",
+      "amount": "1",
+      "unit": "tsp",
+      "category": "pantry"
+    }
+  ],
+  "instructions": [
+    "Pound chicken breasts or thighs to 0.5 inch thickness",
+    "Season chicken with salt on both sides",
+    "Set up three shallow bowls: one with flour, one with beaten eggs mixed with water, one with panko breadcrumbs",
+    "Coat each chicken piece in flour, shaking off excess",
+    "Dip in egg mixture, then press firmly into panko breadcrumbs",
+    "Heat oil in a 10-inch pan to 325-350°F",
+    "Carefully place breaded chicken in hot oil",
+    "Fry for 3-4 minutes per side until golden brown and cooked through",
+    "Remove to paper towels to drain",
+    "Make tonkatsu sauce by mixing ketchup, Worcestershire, oyster sauce, miso, and honey",
+    "Serve chicken with tonkatsu sauce on the side"
+  ],
+  "tips": [
+    "Pound chicken evenly for consistent cooking",
+    "Don't skip the egg wash - it helps breadcrumbs stick",
+    "Press panko firmly so it adheres well",
+    "Oil temperature is crucial - use a thermometer",
+    "Serve with rice and steamed vegetables",
+    "Tonkatsu sauce can be made ahead"
+  ],
+  "isFamily": true
+}

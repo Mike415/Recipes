@@ -1,0 +1,168 @@
+{
+  "title": "Veggie Chili with Skillet Cornbread",
+  "description": "A hearty and flavorful vegetarian chili, perfect for a family meal, served with warm, golden skillet cornbread. This one-pan chili is easy to make and kid-friendly.",
+  "imageEmoji": "\ud83c\udf36\ufe0f",
+  "prepTime": 20,
+  "cookTime": 30,
+  "totalTime": 50,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": [
+    "Kid Favorite",
+    "One Pan",
+    "Vegetarian",
+    "Comfort Food",
+    "Healthy",
+    "American"
+  ],
+  "ingredients": [
+    {
+      "item": "Olive oil",
+      "amount": 1,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Onion",
+      "amount": 1,
+      "unit": "medium",
+      "category": "produce"
+    },
+    {
+      "item": "Red bell pepper",
+      "amount": 1,
+      "unit": "medium",
+      "category": "produce"
+    },
+    {
+      "item": "Garlic",
+      "amount": 2,
+      "unit": "cloves",
+      "category": "produce"
+    },
+    {
+      "item": "Canned diced tomatoes",
+      "amount": 1,
+      "unit": "28 oz can",
+      "category": "pantry"
+    },
+    {
+      "item": "Canned kidney beans",
+      "amount": 1,
+      "unit": "15 oz can",
+      "category": "pantry"
+    },
+    {
+      "item": "Canned black beans",
+      "amount": 1,
+      "unit": "15 oz can",
+      "category": "pantry"
+    },
+    {
+      "item": "Vegetable broth",
+      "amount": 2,
+      "unit": "cups",
+      "category": "pantry"
+    },
+    {
+      "item": "Chili powder",
+      "amount": 2,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Cumin",
+      "amount": 1,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Smoked paprika",
+      "amount": 1,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Salt",
+      "amount": 0.5,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Black pepper",
+      "amount": 0.25,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Frozen corn",
+      "amount": 1,
+      "unit": "cup",
+      "category": "frozen"
+    },
+    {
+      "item": "Cornmeal",
+      "amount": 1,
+      "unit": "cup",
+      "category": "pantry"
+    },
+    {
+      "item": "All-purpose flour",
+      "amount": 0.5,
+      "unit": "cup",
+      "category": "pantry"
+    },
+    {
+      "item": "Baking powder",
+      "amount": 1,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Sugar",
+      "amount": 2,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Salt (for cornbread)",
+      "amount": 0.5,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Milk",
+      "amount": 1,
+      "unit": "cup",
+      "category": "dairy"
+    },
+    {
+      "item": "Large egg",
+      "amount": 1,
+      "unit": "",
+      "category": "dairy"
+    },
+    {
+      "item": "Vegetable oil (for cornbread)",
+      "amount": 0.25,
+      "unit": "cup",
+      "category": "pantry"
+    }
+  ],
+  "instructions": [
+    "Heat 1 tbsp olive oil in a large skillet or Dutch oven over medium heat. Add chopped onion and red bell pepper; cook until softened, about 5-7 minutes.",
+    "Stir in minced garlic, chili powder, cumin, and smoked paprika. Cook for 1 minute until fragrant.",
+    "Add diced tomatoes (undrained), rinsed kidney beans, rinsed black beans, vegetable broth, 0.5 tsp salt, and 0.25 tsp black pepper. Bring to a simmer, then reduce heat and let it cook for 20 minutes, stirring occasionally.",
+    "While chili simmers, preheat oven to 400\u00b0F (200\u00b0C). Grease a 9-inch cast-iron skillet or baking dish.",
+    "In a medium bowl, whisk together cornmeal, flour, baking powder, sugar, and 0.5 tsp salt. In another bowl, whisk together milk, egg, and 0.25 cup vegetable oil.",
+    "Pour the wet ingredients into the dry ingredients and stir until just combined. Do not overmix.",
+    "Pour the cornbread batter into the prepared skillet. Bake for 20-25 minutes, or until golden brown and a toothpick inserted into the center comes out clean.",
+    "Stir the frozen corn into the chili during the last 5 minutes of cooking. Serve the chili hot with slices of warm skillet cornbread."
+  ],
+  "tips": [
+    "For a thicker chili, mash some of the beans against the side of the pot with a spoon.",
+    "Customize the chili with your family's favorite vegetables, such as zucchini or sweet potatoes.",
+    "Leftover chili and cornbread can be stored in airtight containers in the refrigerator for up to 3-4 days."
+  ],
+  "id": "veggie-chili-with-skillet-cornbread"
+}

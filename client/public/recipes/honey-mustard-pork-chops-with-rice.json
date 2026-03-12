@@ -1,0 +1,94 @@
+{
+  "title": "Honey Mustard Pork Chops with Rice",
+  "description": "These delicious honey mustard pork chops are pan-seared to perfection and served with fluffy rice, making for a quick and satisfying family meal that even picky eaters will love.",
+  "imageEmoji": "\ud83c\udf56",
+  "prepTime": 15,
+  "cookTime": 25,
+  "totalTime": 40,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": [
+    "Kid Favorite",
+    "Quick",
+    "One Pan",
+    "American",
+    "Comfort Food"
+  ],
+  "ingredients": [
+    {
+      "item": "Boneless pork chops",
+      "amount": 4,
+      "unit": "count",
+      "category": "protein"
+    },
+    {
+      "item": "Honey",
+      "amount": 1,
+      "unit": "cup",
+      "category": "pantry"
+    },
+    {
+      "item": "Dijon mustard",
+      "amount": 0.5,
+      "unit": "cup",
+      "category": "pantry"
+    },
+    {
+      "item": "Garlic powder",
+      "amount": 1,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Onion powder",
+      "amount": 0.5,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Salt",
+      "amount": 0.5,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Black pepper",
+      "amount": 0.25,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Olive oil",
+      "amount": 1,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "White rice",
+      "amount": 1,
+      "unit": "cup",
+      "category": "pantry"
+    },
+    {
+      "item": "Chicken broth",
+      "amount": 2,
+      "unit": "cups",
+      "category": "pantry"
+    }
+  ],
+  "instructions": [
+    "In a medium bowl, whisk together honey, Dijon mustard, garlic powder, onion powder, salt, and pepper to create the honey mustard sauce.",
+    "Pat the pork chops dry with paper towels. Season lightly with salt and pepper.",
+    "Heat olive oil in a large skillet over medium-high heat. Sear pork chops for 3-4 minutes per side, until golden brown.",
+    "Pour half of the honey mustard sauce over the pork chops. Reduce heat to medium-low, cover, and simmer for 5-7 minutes, or until pork chops are cooked through (internal temperature of 145\u00b0F/63\u00b0C).",
+    "While pork chops are simmering, combine white rice and chicken broth in a saucepan. Bring to a boil, then reduce heat to low, cover, and simmer for 15-20 minutes, or until liquid is absorbed and rice is tender.",
+    "Remove pork chops from skillet and let rest for a few minutes. If desired, reduce the remaining sauce in the skillet over medium heat until slightly thickened.",
+    "Serve pork chops with rice, drizzled with the remaining honey mustard sauce."
+  ],
+  "tips": [
+    "For extra flavor, marinate the pork chops in a small amount of the honey mustard sauce for at least 30 minutes before cooking.",
+    "If your kids prefer a milder flavor, use less Dijon mustard and more honey in the sauce.",
+    "Add some steamed green beans or broccoli to the plate for a complete and healthy meal."
+  ],
+  "id": "honey-mustard-pork-chops-with-rice"
+}

@@ -1,0 +1,115 @@
+{
+  "title": "Pork & Veggie Lo Mein",
+  "description": "A quick and delicious one-pan meal featuring tender pork, colorful veggies, and savory noodles, perfect for a family dinner. This recipe is designed to be kid-friendly and easy to prepare.",
+  "imageEmoji": "\ud83c\udf5c",
+  "prepTime": 15,
+  "cookTime": 20,
+  "totalTime": 35,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": [
+    "Kid Favorite",
+    "Quick",
+    "One Pan",
+    "Asian",
+    "Healthy",
+    "Comfort Food"
+  ],
+  "ingredients": [
+    {
+      "item": "Pork loin",
+      "amount": 1,
+      "unit": "lb",
+      "category": "protein"
+    },
+    {
+      "item": "Lo Mein noodles",
+      "amount": 12,
+      "unit": "oz",
+      "category": "pantry"
+    },
+    {
+      "item": "Carrots",
+      "amount": 2,
+      "unit": "medium",
+      "category": "produce"
+    },
+    {
+      "item": "Broccoli florets",
+      "amount": 2,
+      "unit": "cups",
+      "category": "produce"
+    },
+    {
+      "item": "Bell pepper",
+      "amount": 1,
+      "unit": "large",
+      "category": "produce"
+    },
+    {
+      "item": "Soy sauce",
+      "amount": 1,
+      "unit": "cup",
+      "category": "pantry"
+    },
+    {
+      "item": "Sesame oil",
+      "amount": 2,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Honey",
+      "amount": 2,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Garlic",
+      "amount": 3,
+      "unit": "cloves",
+      "category": "produce"
+    },
+    {
+      "item": "Ginger",
+      "amount": 1,
+      "unit": "tbsp",
+      "category": "produce"
+    },
+    {
+      "item": "Cornstarch",
+      "amount": 1,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Water",
+      "amount": 2,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Green onions",
+      "amount": 2,
+      "unit": "stalks",
+      "category": "produce"
+    }
+  ],
+  "instructions": [
+    "Slice the pork loin into thin strips. In a small bowl, whisk together 1/2 cup soy sauce, 1 tbsp sesame oil, and 1 tbsp honey. Add the pork strips and marinate for at least 10 minutes.",
+    "Cook the lo mein noodles according to package directions. Drain and rinse with cold water to prevent sticking. Toss with a little sesame oil.",
+    "While noodles cook, finely chop garlic and ginger. Julienne carrots and bell pepper, and chop broccoli into small florets.",
+    "Heat 1 tbsp sesame oil in a large skillet or wok over medium-high heat. Add marinated pork and cook until browned and cooked through. Remove pork from skillet and set aside.",
+    "Add remaining 1 tbsp sesame oil to the skillet. Add carrots, broccoli, bell pepper, garlic, and ginger. Stir-fry for 3-5 minutes until vegetables are tender-crisp.",
+    "In a small bowl, whisk together remaining 1/2 cup soy sauce, 1 tbsp honey, cornstarch, and water to create the sauce.",
+    "Return pork to the skillet with the vegetables. Add the cooked noodles and pour the sauce over everything. Toss well to combine and coat all ingredients.",
+    "Cook for another 2-3 minutes, stirring constantly, until the sauce thickens and coats the noodles and vegetables.",
+    "Garnish with chopped green onions before serving."
+  ],
+  "tips": [
+    "For picky eaters, finely grate the carrots and hide them in the sauce. You can also use smaller pasta shapes if lo mein noodles are too long.",
+    "Prep all your ingredients (chop veggies, slice pork, mix sauce) before you start cooking. This makes the stir-fry process much faster and smoother.",
+    "Adjust the amount of honey or soy sauce to your family's taste. For a little heat, add a pinch of red pepper flakes to the sauce."
+  ],
+  "id": "pork-veggie-lo-mein"
+}

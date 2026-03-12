@@ -1,0 +1,95 @@
+{
+  "title": "Grilled Cheese & Tomato Soup",
+  "description": "A classic comfort food combination, perfect for a cozy family meal. This easy recipe brings together crispy grilled cheese sandwiches with a warm, flavorful tomato soup.",
+  "imageEmoji": "\ud83e\uddc0\ud83c\udf45",
+  "prepTime": 10,
+  "cookTime": 20,
+  "totalTime": 30,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": [
+    "Kid Favorite",
+    "Quick",
+    "Vegetarian",
+    "Comfort Food",
+    "American",
+    "Soup"
+  ],
+  "ingredients": [
+    {
+      "item": "Bread",
+      "amount": 8,
+      "unit": "slices",
+      "category": "bakery"
+    },
+    {
+      "item": "Cheddar Cheese",
+      "amount": 8,
+      "unit": "slices",
+      "category": "dairy"
+    },
+    {
+      "item": "Butter",
+      "amount": 4,
+      "unit": "tbsp",
+      "category": "dairy"
+    },
+    {
+      "item": "Canned Diced Tomatoes",
+      "amount": 28,
+      "unit": "oz",
+      "category": "pantry"
+    },
+    {
+      "item": "Vegetable Broth",
+      "amount": 2,
+      "unit": "cups",
+      "category": "pantry"
+    },
+    {
+      "item": "Onion",
+      "amount": 0.5,
+      "unit": "medium",
+      "category": "produce"
+    },
+    {
+      "item": "Garlic",
+      "amount": 2,
+      "unit": "cloves",
+      "category": "produce"
+    },
+    {
+      "item": "Heavy Cream",
+      "amount": 0.5,
+      "unit": "cup",
+      "category": "dairy"
+    },
+    {
+      "item": "Salt",
+      "amount": 0.5,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Black Pepper",
+      "amount": 0.25,
+      "unit": "tsp",
+      "category": "pantry"
+    }
+  ],
+  "instructions": [
+    "Melt 2 tbsp of butter in a large pot over medium heat. Add chopped onion and cook until softened, about 5 minutes.",
+    "Add minced garlic and cook for another minute until fragrant.",
+    "Pour in the diced tomatoes and vegetable broth. Bring to a simmer, then reduce heat and let it cook for 15 minutes.",
+    "While the soup simmers, butter one side of each bread slice. Place cheese between the unbuttered sides of two slices of bread to make sandwiches.",
+    "Heat a large skillet over medium heat. Place grilled cheese sandwiches, butter-side down, in the skillet. Cook for 3-4 minutes per side, until golden brown and cheese is melted.",
+    "Carefully blend the soup with an immersion blender until smooth. Stir in the heavy cream, salt, and pepper. Heat through for 2-3 minutes, but do not boil.",
+    "Cut grilled cheese sandwiches in half or into fun shapes for kids. Serve immediately with the warm tomato soup."
+  ],
+  "tips": [
+    "For extra flavor, add a pinch of dried basil or oregano to the tomato soup.",
+    "Use different types of cheese like provolone or mozzarella for variety in your grilled cheese.",
+    "To make the soup even creamier, you can add a tablespoon of cream cheese or a splash of milk along with the heavy cream."
+  ],
+  "id": "grilled-cheese-tomato-soup"
+}

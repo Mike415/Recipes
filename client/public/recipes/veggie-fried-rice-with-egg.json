@@ -1,0 +1,106 @@
+{
+  "title": "Veggie Fried Rice with Egg",
+  "description": "A quick and easy one-pan meal packed with colorful vegetables and protein, perfect for a family dinner. This recipe is designed to be kid-friendly and uses minimal dishes.",
+  "imageEmoji": "\ud83c\udf5a",
+  "prepTime": 15,
+  "cookTime": 20,
+  "totalTime": 35,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": [
+    "Kid Favorite",
+    "Quick",
+    "One Pan",
+    "Vegetarian",
+    "Comfort Food",
+    "Asian"
+  ],
+  "ingredients": [
+    {
+      "item": "Cooked white rice (day-old preferred)",
+      "amount": 3,
+      "unit": "cups",
+      "category": "pantry"
+    },
+    {
+      "item": "Eggs",
+      "amount": 3,
+      "unit": "large",
+      "category": "dairy"
+    },
+    {
+      "item": "Carrots",
+      "amount": 1,
+      "unit": "cup",
+      "category": "produce"
+    },
+    {
+      "item": "Frozen peas",
+      "amount": 0.5,
+      "unit": "cup",
+      "category": "frozen"
+    },
+    {
+      "item": "Broccoli florets",
+      "amount": 1,
+      "unit": "cup",
+      "category": "produce"
+    },
+    {
+      "item": "Soy sauce (low sodium)",
+      "amount": 3,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Sesame oil",
+      "amount": 1,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Garlic",
+      "amount": 2,
+      "unit": "cloves",
+      "category": "produce"
+    },
+    {
+      "item": "Ginger",
+      "amount": 1,
+      "unit": "tsp",
+      "category": "produce"
+    },
+    {
+      "item": "Green onions",
+      "amount": 2,
+      "unit": "stalks",
+      "category": "produce"
+    },
+    {
+      "item": "Vegetable oil",
+      "amount": 2,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Salt and pepper",
+      "amount": "to taste",
+      "unit": "",
+      "category": "pantry"
+    }
+  ],
+  "instructions": [
+    "Chop carrots and broccoli into small, kid-friendly pieces. Mince garlic and ginger. Slice green onions, separating white and green parts.",
+    "Heat 1 tbsp vegetable oil in a large skillet or wok over medium-high heat. Add beaten eggs and scramble until cooked through. Remove from skillet and set aside.",
+    "Add remaining 1 tbsp vegetable oil to the skillet. Add carrots, broccoli, garlic, and ginger. Stir-fry for 3-5 minutes until vegetables are tender-crisp.",
+    "Add day-old rice and frozen peas to the skillet. Break up any clumps of rice. Stir-fry for 3-4 minutes, ensuring rice is heated through and slightly crispy.",
+    "Pour in soy sauce and sesame oil. Add the scrambled eggs and the white parts of the green onions. Stir well to combine all ingredients and flavors.",
+    "Season with salt and pepper to taste. Garnish with the green parts of the green onions before serving."
+  ],
+  "tips": [
+    "Using day-old, cold rice is key for fried rice; it prevents the dish from becoming mushy.",
+    "Don't overcrowd the pan. If you're making a larger batch, cook in two separate batches to ensure even cooking and browning.",
+    "For extra protein, you can add cooked chicken or tofu along with the eggs."
+  ],
+  "id": "veggie-fried-rice-with-egg"
+}
