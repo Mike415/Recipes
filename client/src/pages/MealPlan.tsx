@@ -1,6 +1,6 @@
 import { useRecipes } from "@/hooks/useRecipes";
 import { useLocalStorage } from "@/hooks/useLocalStorage";
-import { useLocation } from "wouter";
+import { useHashLocation } from "@/hooks/useHashLocation";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Checkbox } from "@/components/ui/checkbox";
@@ -15,7 +15,7 @@ const SLOTS = ["lunch", "dinner"] as const;
 
 export default function MealPlan() {
   const { recipes, loading } = useRecipes();
-  const [, setLocation] = useLocation();
+  const [, setLocation] = useHashLocation();
 
   // Use localStorage for meal plan
   const [mealPlan, setMealPlan] = useLocalStorage<Record<string, Record<string, string | null>>>(

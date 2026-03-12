@@ -1,4 +1,4 @@
-import { useParams, useLocation } from "wouter";
+import { useHashLocation } from "@/hooks/useHashLocation";
 import { useRecipe } from "@/hooks/useRecipes";
 import { useLocalStorage } from "@/hooks/useLocalStorage";
 import { Button } from "@/components/ui/button";
@@ -11,8 +11,9 @@ import { useState, useEffect } from "react";
 import { toast } from "sonner";
 
 export default function RecipeDetail() {
-  const { id } = useParams<{ id: string }>();
-  const [, setLocation] = useLocation();
+  const [location, setLocation] = useHashLocation();
+  const recipeIdMatch = location.match(/^\/recipe\/(.+)$/);
+  const id = recipeIdMatch ? recipeIdMatch[1] : null;
   const { recipe, loading, error } = useRecipe(id || "");
 
   // Use localStorage for user data

@@ -4,34 +4,27 @@ import NotFound from "@/pages/NotFound";
 import Home from "@/pages/Home";
 import RecipeDetail from "@/pages/RecipeDetail";
 import MealPlan from "@/pages/MealPlan";
-import { Route, Switch, Router as WouterRouter } from "wouter";
-import { useHashLocation } from "wouter/use-hash-location";
+import { useHashLocation } from "@/hooks/useHashLocation";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 
-function AppRoutes() {
-  return (
-    <Switch>
-      <Route path={"/"} component={Home} />
-      <Route path={"/recipe/:id"} component={RecipeDetail} />
-      <Route path={"/meal-plan"} component={MealPlan} />
-      <Route path={"/404"} component={NotFound} />
-      {/* Final fallback route */}
-      <Route component={NotFound} />
-    </Switch>
-  );
-}
-
 function App() {
+  const [location] = useHashLocation();
+
+  // Parse the current location
+  const path = location.split("?")[0]; // Remove query string if present
+  const recipeIdMatch = path.match(/^\/recipe\/(.+)$/);
+  const recipeId = recipeIdMatch ? recipeIdMatch[1] : null;
+
   return (
     <ErrorBoundary>
       <ThemeProvider defaultTheme="light">
         <TooltipProvider>
           <Toaster />
-          {/* Use hash-based routing for GitHub Pages compatibility */}
-          <WouterRouter hook={useHashLocation}>
-            <AppRoutes />
-          </WouterRouter>
+          {path === "/" && <Home />}
+          {path === "/meal-plan" && <MealPlan />}
+          {recipeId && <RecipeDetail />}
+          {path !== "/" && path !== "/meal-plan" && !recipeId && <NotFound />}
         </TooltipProvider>
       </ThemeProvider>
     </ErrorBoundary>

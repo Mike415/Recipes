@@ -1,6 +1,6 @@
 import { useRecipes } from "@/hooks/useRecipes";
 import { useLocalStorage } from "@/hooks/useLocalStorage";
-import { useLocation } from "wouter";
+import { useHashLocation } from "@/hooks/useHashLocation";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
@@ -30,7 +30,7 @@ const TAGS = [
 
 export default function Home() {
   const { recipes, loading } = useRecipes();
-  const [, setLocation] = useLocation();
+  const [, setLocation] = useHashLocation();
 
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedTags, setSelectedTags] = useState<string[]>([]);
