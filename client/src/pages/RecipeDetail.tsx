@@ -1,5 +1,6 @@
 import { useHashLocation } from "@/hooks/useHashLocation";
 import { useRecipe } from "@/hooks/useRecipes";
+import { usePageMeta } from "@/hooks/usePageMeta";
 import { useLocalStorage } from "@/hooks/useLocalStorage";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -47,6 +48,14 @@ export default function RecipeDetail() {
   const [servingMultiplier, setServingMultiplier] = useState(1);
   const [checkedIngredients, setCheckedIngredients] = useState<Set<number>>(new Set());
   const [checkedSteps, setCheckedSteps] = useState<Set<number>>(new Set());
+
+  // Dynamic page title + OG tags for sharing
+  usePageMeta({
+    title: recipe?.title,
+    description: recipe?.description,
+    imageUrl: recipe?.imageUrl,
+    url: recipe ? `https://mike415.github.io/Recipes/#/recipe/${recipe.id}` : undefined,
+  });
 
   useEffect(() => {
     if (recipe && id) {
