@@ -2,7 +2,7 @@
   "id": "bucatini-allamatriciana",
   "title": "Bucatini All'Amatriciana",
   "description": "A classic Roman pasta with guanciale, tomatoes, and pecorino cheese. Simple, authentic, and absolutely delicious!",
-  "imageEmoji": "🍝",
+  "imageEmoji": "\ud83c\udf5d",
   "prepTime": 10,
   "cookTime": 30,
   "totalTime": 40,
@@ -71,7 +71,7 @@
   ],
   "instructions": [
     "Slice guanciale or pancetta thinly, then cut into small pieces",
-    "Heat olive oil in a large pan and sauté guanciale until crispy, about 4 minutes",
+    "Heat olive oil in a large pan and saut\u00e9 guanciale until crispy, about 4 minutes",
     "Add red pepper flakes and black pepper, stirring to combine",
     "Add minced onion and garlic, cook for 8 minutes until softened",
     "Add canned tomatoes (crushed by hand) and simmer for 15-20 minutes",
@@ -88,5 +88,6 @@
     "Pecorino Romano is essential - don't substitute with Parmesan"
   ],
   "videoUrl": "https://youtu.be/0SxlESaak_Q",
-  "isFamily": true
+  "isFamily": true,
+  "imageUrl": "/recipes/images/bucatini-allamatriciana.jpg"
 }

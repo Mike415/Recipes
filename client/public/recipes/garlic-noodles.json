@@ -2,7 +2,7 @@
   "id": "garlic-noodles",
   "title": "Garlic Noodles",
   "description": "Simple yet delicious garlic noodles with butter, oyster sauce, and a touch of parmesan. Quick weeknight favorite!",
-  "imageEmoji": "🍝",
+  "imageEmoji": "\ud83c\udf5d",
   "prepTime": 5,
   "cookTime": 15,
   "totalTime": 20,
@@ -61,7 +61,7 @@
   "instructions": [
     "Boil pasta in a skillet with a little water until al dente",
     "In a wok, melt butter on medium-low heat",
-    "Start sautéing garlic 6 minutes before pasta is ready",
+    "Start saut\u00e9ing garlic 6 minutes before pasta is ready",
     "Add oyster sauce, soy sauce, and fish sauce to the garlic",
     "Transfer cooked noodles to the wok with some pasta water",
     "Increase heat to high and stir everything together",
@@ -75,5 +75,6 @@
     "Fresh garlic makes a big difference in flavor"
   ],
   "videoUrl": "https://youtu.be/wK9OHVxB_Z8",
-  "isFamily": true
+  "isFamily": true,
+  "imageUrl": "/recipes/images/garlic-noodles.jpg"
 }

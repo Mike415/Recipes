@@ -51,10 +51,34 @@ export function RecipeCard({
       onClick={onClick}
     >
       {/* Recipe image area */}
-      <div className={`relative h-44 bg-gradient-to-br ${gradient} flex items-center justify-center overflow-hidden`}>
-        <div className="text-6xl select-none group-hover:scale-110 transition-transform duration-300">
-          {recipe.imageEmoji}
-        </div>
+      <div className={`relative h-44 overflow-hidden ${!recipe.imageUrl ? `bg-gradient-to-br ${gradient}` : 'bg-muted'}`}>
+        {recipe.imageUrl ? (
+          <img
+            src={recipe.imageUrl}
+            alt={recipe.title}
+            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+            loading="lazy"
+            onError={(e) => {
+              // Fallback to emoji gradient on image load error
+              const target = e.currentTarget;
+              const parent = target.parentElement;
+              if (parent) {
+                parent.classList.add(`bg-gradient-to-br`, ...gradient.split(' '));
+                target.style.display = 'none';
+                const emoji = document.createElement('div');
+                emoji.className = 'absolute inset-0 flex items-center justify-center text-6xl';
+                emoji.textContent = recipe.imageEmoji || '🍽️';
+                parent.appendChild(emoji);
+              }
+            }}
+          />
+        ) : (
+          <div className="absolute inset-0 flex items-center justify-center">
+            <div className="text-6xl select-none group-hover:scale-110 transition-transform duration-300">
+              {recipe.imageEmoji}
+            </div>
+          </div>
+        )}
 
         {/* Family Recipe badge */}
         {recipe.isFamily && (

@@ -2,7 +2,7 @@
   "id": "kung-pao-chicken",
   "title": "Kung Pao Chicken",
   "description": "Authentic kung pao chicken with peanuts, dried chilies, and a complex sauce. Restaurant-quality at home!",
-  "imageEmoji": "🍗",
+  "imageEmoji": "\ud83c\udf57",
   "prepTime": 20,
   "cookTime": 20,
   "totalTime": 40,
@@ -129,5 +129,6 @@
     "Serve over steamed rice",
     "Have all ingredients prepped before cooking - stir fries cook fast!"
   ],
-  "isFamily": true
+  "isFamily": true,
+  "imageUrl": "/recipes/images/kung-pao-chicken.jpg"
 }

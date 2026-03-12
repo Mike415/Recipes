@@ -2,7 +2,7 @@
   "id": "weeknight-chili",
   "title": "Weeknight Chili",
   "description": "Easy weeknight chili made in a slow cooker or pot. Hearty, flavorful, and perfect for feeding a crowd!",
-  "imageEmoji": "🌶️",
+  "imageEmoji": "\ud83c\udf36\ufe0f",
   "prepTime": 15,
   "cookTime": 45,
   "totalTime": 60,
@@ -145,5 +145,6 @@
     "Tastes even better the next day"
   ],
   "videoUrl": "https://www.youtube.com/watch?v=YdFjuglEAds",
-  "isFamily": true
+  "isFamily": true,
+  "imageUrl": "/recipes/images/weeknight-chili.jpg"
 }

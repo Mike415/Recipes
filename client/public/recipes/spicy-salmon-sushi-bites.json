@@ -2,7 +2,7 @@
   "id": "spicy-salmon-sushi-bites",
   "title": "Spicy Salmon Sushi Bites",
   "description": "Baked sushi bites with spicy salmon, avocado, and a creamy sriracha mayo topping. Fun and impressive!",
-  "imageEmoji": "🍣",
+  "imageEmoji": "\ud83c\udf63",
   "prepTime": 20,
   "cookTime": 12,
   "totalTime": 32,
@@ -117,7 +117,7 @@
     "Cut salmon into cubes and season with sesame oil, soy sauce, garlic powder, salt, and paprika",
     "Press sushi rice into a muffin tin lined with seaweed sheets",
     "Add seasoned salmon cubes to each rice-lined muffin cup",
-    "Bake at 400°F for 12 minutes",
+    "Bake at 400\u00b0F for 12 minutes",
     "Mix mayonnaise and sriracha for spicy mayo",
     "Remove from oven and top each bite with spicy mayo and avocado slices",
     "Garnish with seaweed bits and chopped scallion",
@@ -130,5 +130,6 @@
     "Serve immediately after baking for best texture",
     "Customize with different toppings like cucumber or pickled ginger"
   ],
-  "isFamily": true
+  "isFamily": true,
+  "imageUrl": "/recipes/images/spicy-salmon-sushi-bites.jpg"
 }

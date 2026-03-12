@@ -2,7 +2,7 @@
   "id": "broccoli-beef",
   "title": "Broccoli Beef",
   "description": "Restaurant-style broccoli beef with tender marinated beef and crispy broccoli in a savory sauce.",
-  "imageEmoji": "🥦",
+  "imageEmoji": "\ud83e\udd66",
   "prepTime": 20,
   "cookTime": 15,
   "totalTime": 35,
@@ -133,5 +133,6 @@
     "Don't overcook the beef - it continues cooking in the sauce"
   ],
   "videoUrl": "https://youtu.be/iEs3qXQvg6M",
-  "isFamily": true
+  "isFamily": true,
+  "imageUrl": "/recipes/images/broccoli-beef.jpg"
 }

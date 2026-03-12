@@ -2,7 +2,7 @@
   "id": "chinese-rice-stuffing",
   "title": "Chinese Rice Stuffing",
   "description": "A traditional sticky rice stuffing with Chinese sausage and mushrooms, perfect for special occasions and family gatherings.",
-  "imageEmoji": "🍚",
+  "imageEmoji": "\ud83c\udf5a",
   "prepTime": 20,
   "cookTime": 40,
   "totalTime": 60,
@@ -75,7 +75,7 @@
     "Steam rice for 10 minutes until fully cooked",
     "Soak shiitake mushrooms in hot water to rehydrate, then chop finely and save the mushroom liquid",
     "Cut Chinese sausages into quarters lengthwise, then cut into 1/4\" pieces",
-    "Sauté sausages and mushrooms together for 5 minutes until fragrant",
+    "Saut\u00e9 sausages and mushrooms together for 5 minutes until fragrant",
     "Spread cooked rice in a large roasting pan",
     "Top with sausage mixture and half of the chopped cilantro and green onions",
     "Sprinkle oyster sauce over the top",
@@ -89,5 +89,6 @@
     "Mix with hands while still warm for best distribution of flavors",
     "Can be made ahead and reheated in the oven"
   ],
-  "isFamily": true
+  "isFamily": true,
+  "imageUrl": "/recipes/images/chinese-rice-stuffing.jpg"
 }

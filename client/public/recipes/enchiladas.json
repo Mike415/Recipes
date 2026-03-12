@@ -2,7 +2,7 @@
   "id": "enchiladas",
   "title": "Enchiladas",
   "description": "Cheesy beef enchiladas with Spanish rice and enchilada sauce - a family favorite that's easy to make!",
-  "imageEmoji": "🌮",
+  "imageEmoji": "\ud83c\udf2e",
   "prepTime": 15,
   "cookTime": 30,
   "totalTime": 45,
@@ -77,7 +77,7 @@
     }
   ],
   "instructions": [
-    "Preheat oven to 350°F",
+    "Preheat oven to 350\u00b0F",
     "Prepare Spanish rice mix according to package directions using butter, water, and diced tomatoes",
     "Brown ground beef in a skillet and drain excess fat",
     "Stir in cooked Spanish rice and 1.25 cups of enchilada sauce with the beef",
@@ -95,5 +95,6 @@
     "Make ahead and refrigerate before baking",
     "Top with fresh cilantro and sour cream for extra flavor"
   ],
-  "isFamily": true
+  "isFamily": true,
+  "imageUrl": "/recipes/images/enchiladas.jpg"
 }

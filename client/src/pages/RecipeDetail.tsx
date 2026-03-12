@@ -195,66 +195,74 @@ export default function RecipeDetail() {
 
       <div className="container py-8 max-w-3xl page-enter">
         {/* Hero section */}
-        <div className="bg-gradient-to-br from-amber-50 via-orange-50 to-yellow-50 rounded-2xl p-8 mb-8 text-center relative overflow-hidden">
-          <div className="text-8xl mb-4 select-none">{recipe.imageEmoji}</div>
-
+        <div className="rounded-2xl mb-8 overflow-hidden relative">
+          {recipe.imageUrl ? (
+            <div className="relative h-72 md:h-96">
+              <img
+                src={recipe.imageUrl}
+                alt={recipe.title}
+                className="w-full h-full object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-transparent" />
+            </div>
+          ) : (
+            <div className="bg-gradient-to-br from-amber-50 via-orange-50 to-yellow-50 p-8 text-center">
+              <div className="text-8xl mb-4 select-none">{recipe.imageEmoji}</div>
+            </div>
+          )}
+            <div className={`${recipe.imageUrl ? 'absolute bottom-0 left-0 right-0 p-6' : 'bg-gradient-to-br from-amber-50 via-orange-50 to-yellow-50 p-8 text-center'}`}>
           {/* Badges */}
-          <div className="flex flex-wrap justify-center gap-2 mb-4">
+          <div className="flex flex-wrap justify-center gap-2 mb-3">
             {recipe.isFamily && (
-              <Badge className="bg-primary text-primary-foreground">
+              <Badge className={recipe.imageUrl ? 'bg-white/20 text-white border-white/30 backdrop-blur-sm' : 'bg-primary text-primary-foreground'}>
                 👨‍👩‍👧‍👦 Family Recipe
               </Badge>
             )}
-            <Badge variant="outline" className={DIFFICULTY_COLORS[recipe.difficulty] || ""}>
+            <Badge variant="outline" className={recipe.imageUrl ? 'border-white/40 text-white bg-white/10 backdrop-blur-sm' : (DIFFICULTY_COLORS[recipe.difficulty] || "")}>
               {recipe.difficulty}
             </Badge>
-            {recipe.tags.map((tag) => (
-              <Badge key={tag} variant="secondary" className="text-xs">
-                {tag}
-              </Badge>
-            ))}
           </div>
-
-          <h1 className="font-heading text-3xl font-bold text-foreground mb-3">
+          <h1 className={`font-heading text-3xl font-bold mb-2 ${recipe.imageUrl ? 'text-white drop-shadow-md' : 'text-foreground'}`}>
             {recipe.title}
           </h1>
-          <p className="text-muted-foreground max-w-lg mx-auto leading-relaxed">
+          <p className={`max-w-lg mx-auto leading-relaxed text-sm ${recipe.imageUrl ? 'text-white/80' : 'text-muted-foreground'}`}>
             {recipe.description}
           </p>
 
           {/* Quick stats */}
-          <div className="flex justify-center gap-6 mt-6 text-sm">
+          <div className={`flex justify-center gap-6 mt-4 text-sm ${recipe.imageUrl ? 'text-white' : ''}`}>
             <div className="text-center">
-              <div className="flex items-center justify-center gap-1 text-muted-foreground mb-1">
+              <div className={`flex items-center justify-center gap-1 mb-1 ${recipe.imageUrl ? 'text-white/70' : 'text-muted-foreground'}`}>
                 <Clock className="w-4 h-4" />
               </div>
               <div className="font-semibold">{recipe.prepTime}m</div>
-              <div className="text-xs text-muted-foreground">Prep</div>
+              <div className={`text-xs ${recipe.imageUrl ? 'text-white/70' : 'text-muted-foreground'}`}>Prep</div>
             </div>
-            <div className="w-px bg-border" />
+            <div className={`w-px ${recipe.imageUrl ? 'bg-white/30' : 'bg-border'}`} />
             <div className="text-center">
-              <div className="flex items-center justify-center gap-1 text-muted-foreground mb-1">
+              <div className={`flex items-center justify-center gap-1 mb-1 ${recipe.imageUrl ? 'text-white/70' : 'text-muted-foreground'}`}>
                 <Clock className="w-4 h-4" />
               </div>
               <div className="font-semibold">{recipe.cookTime}m</div>
-              <div className="text-xs text-muted-foreground">Cook</div>
+              <div className={`text-xs ${recipe.imageUrl ? 'text-white/70' : 'text-muted-foreground'}`}>Cook</div>
             </div>
-            <div className="w-px bg-border" />
+            <div className={`w-px ${recipe.imageUrl ? 'bg-white/30' : 'bg-border'}`} />
             <div className="text-center">
-              <div className="flex items-center justify-center gap-1 text-muted-foreground mb-1">
+              <div className={`flex items-center justify-center gap-1 mb-1 ${recipe.imageUrl ? 'text-white/70' : 'text-muted-foreground'}`}>
                 <Clock className="w-4 h-4" />
               </div>
               <div className="font-semibold">{recipe.totalTime}m</div>
-              <div className="text-xs text-muted-foreground">Total</div>
+              <div className={`text-xs ${recipe.imageUrl ? 'text-white/70' : 'text-muted-foreground'}`}>Total</div>
             </div>
-            <div className="w-px bg-border" />
+            <div className={`w-px ${recipe.imageUrl ? 'bg-white/30' : 'bg-border'}`} />
             <div className="text-center">
-              <div className="flex items-center justify-center gap-1 text-muted-foreground mb-1">
+              <div className={`flex items-center justify-center gap-1 mb-1 ${recipe.imageUrl ? 'text-white/70' : 'text-muted-foreground'}`}>
                 <Users className="w-4 h-4" />
               </div>
               <div className="font-semibold">{scaledServings}</div>
-              <div className="text-xs text-muted-foreground">Servings</div>
+              <div className={`text-xs ${recipe.imageUrl ? 'text-white/70' : 'text-muted-foreground'}`}>Servings</div>
             </div>
+          </div>
           </div>
         </div>
 

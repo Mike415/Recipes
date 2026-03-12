@@ -2,7 +2,7 @@
   "id": "egg-bake",
   "title": "Egg Bake",
   "description": "A make-ahead breakfast casserole that's perfect for brunch or feeding a crowd. Must be prepared the day before!",
-  "imageEmoji": "🍳",
+  "imageEmoji": "\ud83c\udf73",
   "prepTime": 20,
   "cookTime": 75,
   "totalTime": 95,
@@ -85,7 +85,7 @@
     "Cover and refrigerate overnight (this is essential!)",
     "Remove from refrigerator 45 minutes before baking",
     "Place casserole dish in a larger pan filled with water (water bath)",
-    "Bake uncovered at 350°F for 1 hour 15 minutes until set and golden",
+    "Bake uncovered at 350\u00b0F for 1 hour 15 minutes until set and golden",
     "Let rest 10 minutes before serving"
   ],
   "tips": [
@@ -95,5 +95,6 @@
     "Can add browned sausage for extra protein",
     "Freezes well - bake from frozen, adding 15-20 minutes to cooking time"
   ],
-  "isFamily": true
+  "isFamily": true,
+  "imageUrl": "/recipes/images/egg-bake.jpg"
 }

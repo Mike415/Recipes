@@ -2,7 +2,7 @@
   "id": "chicken-katsu",
   "title": "Chicken Katsu",
   "description": "Crispy Japanese breaded chicken cutlets served with tonkatsu sauce. A family favorite that's easier than you think!",
-  "imageEmoji": "🍗",
+  "imageEmoji": "\ud83c\udf57",
   "prepTime": 15,
   "cookTime": 10,
   "totalTime": 25,
@@ -93,7 +93,7 @@
     "Set up three shallow bowls: one with flour, one with beaten eggs mixed with water, one with panko breadcrumbs",
     "Coat each chicken piece in flour, shaking off excess",
     "Dip in egg mixture, then press firmly into panko breadcrumbs",
-    "Heat oil in a 10-inch pan to 325-350°F",
+    "Heat oil in a 10-inch pan to 325-350\u00b0F",
     "Carefully place breaded chicken in hot oil",
     "Fry for 3-4 minutes per side until golden brown and cooked through",
     "Remove to paper towels to drain",
@@ -108,5 +108,6 @@
     "Serve with rice and steamed vegetables",
     "Tonkatsu sauce can be made ahead"
   ],
-  "isFamily": true
+  "isFamily": true,
+  "imageUrl": "/recipes/images/chicken-katsu.jpg"
 }
