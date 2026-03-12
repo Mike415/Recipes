@@ -106,7 +106,7 @@ export async function saveGistData(
           },
         }
       : {
-          description: "Mike's Family Recipes - User Data",
+          description: "Morelli Family Recipes - User Data",
           public: false,
           files: {
             [GIST_FILENAME]: {

@@ -178,9 +178,9 @@ export default function Home() {
             <span className="text-2xl">🍳</span>
             <div>
               <h1 className="font-heading text-lg font-semibold text-foreground leading-none">
-                Mike's Family Recipes
+                Morelli Family Recipes
               </h1>
-              <p className="text-xs text-muted-foreground">Easy meals for busy families</p>
+              <p className="text-xs text-muted-foreground">Our family's favorite meals</p>
             </div>
           </div>
           <div className="flex items-center gap-2">
