@@ -1,0 +1,54 @@
+{
+  "id": "hf-santa-fe-pork-tacos",
+  "title": "One-Pan Santa Fe Pork Tacos",
+  "description": "HelloFresh Hall of Fame — spiced ground pork and onion piled into steamy flour tortillas with melted Monterey Jack cheese, a tangy cilantro lemon slaw, and cool sour cream. Ready in just 20 minutes and all in one pan, this Southwest taco night is a guaranteed weekly repeat.",
+  "imageUrl": "/recipes/images/hf-santa-fe-pork-tacos.jpeg",
+  "imageEmoji": "🌮",
+  "prepTime": 5,
+  "cookTime": 15,
+  "totalTime": 20,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": ["HelloFresh", "Mexican", "Quick", "One Pan", "Pork"],
+  "ingredients": [
+    { "item": "Ground pork", "amount": "20", "unit": "oz", "category": "protein" },
+    { "item": "Flour tortillas (6-inch)", "amount": "12", "unit": "", "category": "pantry" },
+    { "item": "Yellow onion", "amount": "2", "unit": "medium", "category": "produce" },
+    { "item": "Shredded red cabbage", "amount": "8", "unit": "oz", "category": "produce" },
+    { "item": "Cilantro", "amount": "0.5", "unit": "oz", "category": "produce" },
+    { "item": "Lemon", "amount": "2", "unit": "", "category": "produce" },
+    { "item": "Southwest spice blend", "amount": "2", "unit": "tbsp", "category": "pantry" },
+    { "item": "Tex-Mex paste", "amount": "2", "unit": "packets", "category": "pantry" },
+    { "item": "Mayonnaise", "amount": "4", "unit": "tbsp", "category": "dairy" },
+    { "item": "Monterey Jack cheese, shredded", "amount": "0.5", "unit": "cup", "category": "dairy" },
+    { "item": "Sour cream", "amount": "4", "unit": "tbsp", "category": "dairy" },
+    { "item": "Cooking oil", "amount": "2", "unit": "tsp", "category": "pantry" },
+    { "item": "Sugar", "amount": "2", "unit": "tsp", "category": "pantry" },
+    { "item": "Salt", "amount": "", "unit": "to taste", "category": "pantry" },
+    { "item": "Black pepper", "amount": "", "unit": "to taste", "category": "pantry" }
+  ],
+  "instructions": [
+    "Wash and dry produce. Halve, peel, and finely dice the onion. Finely chop the cilantro. Quarter the lemon.",
+    "Heat a drizzle of oil in a large pan over medium-high heat. Add onion and a pinch of salt; cook, stirring occasionally, until slightly softened and lightly browned, 2–3 minutes. Add ground pork and Southwest Spice Blend. Cook, breaking up meat into pieces, until browned and cooked through, 4–6 minutes. TIP: If there's excess grease in your pan, carefully pour it out.",
+    "While pork cooks, in a large bowl combine the shredded red cabbage, mayonnaise, half the cilantro, juice from half the lemon (juice from the whole lemon for 4 servings), 1 tsp sugar (2 tsp for 4 servings), and a pinch of salt and pepper. Toss well to combine.",
+    "Stir the Tex-Mex paste into the pan with the pork mixture until fully coated. Taste and season with salt and pepper. Remove pan from heat. Wrap tortillas in damp paper towels and microwave until warm and pliable, about 30 seconds.",
+    "Divide tortillas between plates and fill with pork filling, Monterey Jack cheese, cilantro lemon slaw, sour cream, and remaining cilantro. Serve with any remaining lemon wedges on the side."
+  ],
+  "tips": [
+    "Drain excess grease from the pork before adding the Tex-Mex paste — it keeps the filling from getting soggy.",
+    "Make the slaw first so it has a few minutes to marinate while the pork cooks; the flavors meld beautifully.",
+    "Swap lemon for lime if you prefer a more classic taco flavor.",
+    "Add a pinch of cayenne or hot sauce to the pork for extra heat.",
+    "Warm tortillas in a dry skillet instead of the microwave for a slightly charred, more authentic texture."
+  ],
+  "nutrition": {
+    "calories": 920,
+    "fat": 56,
+    "saturatedFat": 19,
+    "carbohydrates": 77,
+    "sugar": 13,
+    "fiber": 6,
+    "protein": 35,
+    "sodium": 2060
+  }
+}
