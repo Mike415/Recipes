@@ -1,6 +1,5 @@
 import { useRecipes } from "@/hooks/useRecipes";
-import { trpc } from "@/lib/trpc";
-import { useAuth } from "@/_core/hooks/useAuth";
+import { useLocalStorage } from "@/hooks/useLocalStorage";
 import { useLocation } from "wouter";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
@@ -9,10 +8,9 @@ import { RecipeCard } from "@/components/RecipeCard";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Empty, EmptyHeader, EmptyMedia, EmptyTitle, EmptyDescription } from "@/components/ui/empty";
-import { Heart, Sparkles, LogOut, LogIn } from "lucide-react";
+import { Heart, Sparkles } from "lucide-react";
 import { useState, useMemo } from "react";
 import { toast } from "sonner";
-import { getLoginUrl } from "@/const";
 
 const TAGS = [
   "Kid Favorite",
@@ -32,37 +30,15 @@ const TAGS = [
 
 export default function Home() {
   const { recipes, loading } = useRecipes();
-  const { user, logout, isAuthenticated } = useAuth();
   const [, setLocation] = useLocation();
-  const utils = trpc.useUtils();
 
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedTags, setSelectedTags] = useState<string[]>([]);
   const [activeTab, setActiveTab] = useState("browse");
 
-  // Fetch user data
-  const { data: favorites = [] } = trpc.recipe.getFavorites.useQuery(undefined, {
-    enabled: !!user,
-  });
-
-  const { data: ratings = {} } = trpc.recipe.getRatings.useQuery(undefined, {
-    enabled: !!user,
-  });
-
-  // Mutations
-  const toggleFavoriteMutation = trpc.recipe.toggleFavorite.useMutation({
-    onSuccess: () => {
-      utils.recipe.getFavorites.invalidate();
-      toast.success("Updated!");
-    },
-  });
-
-  const setRatingMutation = trpc.recipe.setRating.useMutation({
-    onSuccess: () => {
-      utils.recipe.getRatings.invalidate();
-      toast.success("Rating saved!");
-    },
-  });
+  // Use localStorage for favorites and ratings
+  const [favorites, setFavorites] = useLocalStorage<string[]>("recipes_favorites", []);
+  const [ratings, setRatings] = useLocalStorage<Record<string, number>>("recipes_ratings", {});
 
   // Filter recipes
   const filteredRecipes = useMemo(() => {
@@ -101,24 +77,24 @@ export default function Home() {
   };
 
   const handleRecipeClick = (recipeId: string) => {
-    setLocation(`/recipe/${recipeId}`);
+    setLocation(`/#/recipe/${recipeId}`);
   };
 
   const handleFavoriteToggle = (recipeId: string) => {
-    if (!user) {
-      window.location.href = getLoginUrl();
-      return;
-    }
-    toggleFavoriteMutation.mutate({ recipeId });
+    setFavorites((prev) =>
+      prev.includes(recipeId)
+        ? prev.filter((id) => id !== recipeId)
+        : [...prev, recipeId]
+    );
+    toast.success("Updated!");
   };
 
-  const handleRateClick = (recipeId: string) => {
-    if (!user) {
-      window.location.href = getLoginUrl();
-      return;
-    }
-    // Would open a rating dialog in a full implementation
-    setRatingMutation.mutate({ recipeId, rating: 5 });
+  const handleRateClick = (recipeId: string, rating: number) => {
+    setRatings((prev) => ({
+      ...prev,
+      [recipeId]: rating,
+    }));
+    toast.success("Rating saved!");
   };
 
   return (
@@ -140,35 +116,15 @@ export default function Home() {
             </p>
           </div>
 
-          {/* Auth buttons */}
+          {/* Meal Plan button */}
           <div className="flex gap-2">
-            {isAuthenticated ? (
-              <>
-                <Button
-                  variant="outline"
-                  onClick={() => setLocation("/meal-plan")}
-                  className="bg-white/80 hover:bg-white"
-                >
-                  📅 Meal Plan
-                </Button>
-                <Button
-                  variant="outline"
-                  onClick={logout}
-                  className="bg-white/80 hover:bg-white"
-                >
-                  <LogOut className="w-4 h-4 mr-2" />
-                  Logout
-                </Button>
-              </>
-            ) : (
-              <Button
-                onClick={() => (window.location.href = getLoginUrl())}
-                className="bg-memphis-coral hover:bg-memphis-coral/80 text-white"
-              >
-                <LogIn className="w-4 h-4 mr-2" />
-                Sign In
-              </Button>
-            )}
+            <Button
+              variant="outline"
+              onClick={() => setLocation("/#/meal-plan")}
+              className="bg-white/80 hover:bg-white"
+            >
+              📅 Meal Plan
+            </Button>
           </div>
         </div>
       </div>
@@ -248,7 +204,7 @@ export default function Home() {
                     isFavorite={favorites.includes(recipe.id)}
                     rating={ratings[recipe.id] || 0}
                     onFavoriteToggle={handleFavoriteToggle}
-                    onRateClick={handleRateClick}
+                    onRateClick={(rating) => handleRateClick(recipe.id, rating)}
                     onClick={() => handleRecipeClick(recipe.id)}
                   />
                 ))}
@@ -258,22 +214,7 @@ export default function Home() {
 
           {/* Favorites tab */}
           <TabsContent value="favorites" className="space-y-6">
-            {!isAuthenticated ? (
-              <Empty className="border-dashed border-memphis-peach">
-                <EmptyHeader>
-                  <EmptyMedia variant="icon">❤️</EmptyMedia>
-                  <EmptyTitle>Sign in to save favorites</EmptyTitle>
-                  <EmptyDescription>
-                    <Button
-                      onClick={() => (window.location.href = getLoginUrl())}
-                      className="mt-4 bg-memphis-coral hover:bg-memphis-coral/80"
-                    >
-                      Sign In
-                    </Button>
-                  </EmptyDescription>
-                </EmptyHeader>
-              </Empty>
-            ) : favoriteRecipes.length === 0 ? (
+            {favoriteRecipes.length === 0 ? (
               <Empty className="border-dashed border-memphis-peach">
                 <EmptyHeader>
                   <EmptyMedia variant="icon">💔</EmptyMedia>
@@ -292,7 +233,7 @@ export default function Home() {
                     isFavorite={true}
                     rating={ratings[recipe.id] || 0}
                     onFavoriteToggle={handleFavoriteToggle}
-                    onRateClick={handleRateClick}
+                    onRateClick={(rating) => handleRateClick(recipe.id, rating)}
                     onClick={() => handleRecipeClick(recipe.id)}
                   />
                 ))}
@@ -302,22 +243,7 @@ export default function Home() {
 
           {/* Discover tab */}
           <TabsContent value="discover" className="space-y-6">
-            {!isAuthenticated ? (
-              <Empty className="border-dashed border-memphis-peach">
-                <EmptyHeader>
-                  <EmptyMedia variant="icon">✨</EmptyMedia>
-                  <EmptyTitle>Sign in to discover recipes</EmptyTitle>
-                  <EmptyDescription>
-                    <Button
-                      onClick={() => (window.location.href = getLoginUrl())}
-                      className="mt-4 bg-memphis-coral hover:bg-memphis-coral/80"
-                    >
-                      Sign In
-                    </Button>
-                  </EmptyDescription>
-                </EmptyHeader>
-              </Empty>
-            ) : discoveryRecipes.length === 0 ? (
+            {discoveryRecipes.length === 0 ? (
               <Empty className="border-dashed border-memphis-peach">
                 <EmptyHeader>
                   <EmptyMedia variant="icon">🎉</EmptyMedia>
@@ -336,7 +262,7 @@ export default function Home() {
                     isFavorite={favorites.includes(recipe.id)}
                     rating={ratings[recipe.id] || 0}
                     onFavoriteToggle={handleFavoriteToggle}
-                    onRateClick={handleRateClick}
+                    onRateClick={(rating) => handleRateClick(recipe.id, rating)}
                     onClick={() => handleRecipeClick(recipe.id)}
                   />
                 ))}

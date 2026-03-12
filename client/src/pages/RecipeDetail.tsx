@@ -1,7 +1,6 @@
 import { useParams, useLocation } from "wouter";
 import { useRecipe } from "@/hooks/useRecipes";
-import { trpc } from "@/lib/trpc";
-import { useAuth } from "@/_core/hooks/useAuth";
+import { useLocalStorage } from "@/hooks/useLocalStorage";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -15,56 +14,66 @@ export default function RecipeDetail() {
   const { id } = useParams<{ id: string }>();
   const [, setLocation] = useLocation();
   const { recipe, loading, error } = useRecipe(id || "");
-  const { user } = useAuth();
-  const utils = trpc.useUtils();
+
+  // Use localStorage for user data
+  const [favorites, setFavorites] = useLocalStorage<string[]>("recipes_favorites", []);
+  const [ratings, setRatings] = useLocalStorage<Record<string, number>>("recipes_ratings", {});
+  const [notes, setNotes] = useLocalStorage<Record<string, string>>("recipes_notes", {});
+  const [madeCount, setMadeCount] = useLocalStorage<Record<string, number>>("recipes_made_count", {});
 
   const [isFavorite, setIsFavorite] = useState(false);
-  const [rating, setRating] = useState(0);
-  const [notes, setNotes] = useState("");
-  const [madeCount, setMadeCount] = useState(0);
-
-  // Fetch user data for this recipe
-  const { data: userData } = trpc.recipe.getUserData.useQuery(
-    { recipeId: id || "" },
-    { enabled: !!user && !!id }
-  );
+  const [currentRating, setCurrentRating] = useState(0);
+  const [currentNotes, setCurrentNotes] = useState("");
+  const [currentMadeCount, setCurrentMadeCount] = useState(0);
 
   useEffect(() => {
-    if (userData) {
-      setIsFavorite(userData.isFavorite || false);
-      setRating(userData.rating || 0);
-      setNotes(userData.notes || "");
-      setMadeCount(userData.madeCount || 0);
+    if (recipe && id) {
+      setIsFavorite(favorites.includes(id));
+      setCurrentRating(ratings[id] || 0);
+      setCurrentNotes(notes[id] || "");
+      setCurrentMadeCount(madeCount[id] || 0);
     }
-  }, [userData]);
+  }, [recipe, id, favorites, ratings, notes, madeCount]);
 
-  const toggleFavoriteMutation = trpc.recipe.toggleFavorite.useMutation({
-    onSuccess: () => {
-      utils.recipe.getUserData.invalidate();
-      toast.success(isFavorite ? "Removed from favorites" : "Added to favorites");
-    },
-  });
+  const handleToggleFavorite = () => {
+    if (!id) return;
+    if (isFavorite) {
+      setFavorites((prev) => prev.filter((fav) => fav !== id));
+    } else {
+      setFavorites((prev) => [...prev, id]);
+    }
+    toast.success(isFavorite ? "Removed from favorites" : "Added to favorites");
+  };
 
-  const setRatingMutation = trpc.recipe.setRating.useMutation({
-    onSuccess: () => {
-      utils.recipe.getUserData.invalidate();
-      toast.success("Rating saved!");
-    },
-  });
+  const handleSetRating = (rating: number) => {
+    if (!id) return;
+    setRatings((prev) => ({
+      ...prev,
+      [id]: rating,
+    }));
+    setCurrentRating(rating);
+    toast.success("Rating saved!");
+  };
 
-  const setNotesMutation = trpc.recipe.setNotes.useMutation({
-    onSuccess: () => {
-      utils.recipe.getUserData.invalidate();
-      toast.success("Notes saved!");
-    },
-  });
+  const handleSaveNotes = () => {
+    if (!id) return;
+    setNotes((prev) => ({
+      ...prev,
+      [id]: currentNotes,
+    }));
+    toast.success("Notes saved!");
+  };
 
-  const trackMadeMutation = trpc.recipe.trackMade.useMutation({
-    onSuccess: () => {
-      utils.recipe.getUserData.invalidate();
-      toast.success("Great! Added to this week's meals");
-    },
-  });
+  const handleTrackMade = () => {
+    if (!id) return;
+    const newCount = (currentMadeCount || 0) + 1;
+    setMadeCount((prev) => ({
+      ...prev,
+      [id]: newCount,
+    }));
+    setCurrentMadeCount(newCount);
+    toast.success("Great! Added to this week's meals");
+  };
 
   if (loading) {
     return (
@@ -110,23 +119,19 @@ export default function RecipeDetail() {
         <div className="absolute top-1/3 right-1/4 w-2 h-8 bg-memphis-coral opacity-30" />
 
         {/* Favorite button */}
-        {user && (
-          <Button
-            size="icon"
-            className="absolute top-4 right-4 rounded-full bg-white/90 hover:bg-white"
-            onClick={() =>
-              toggleFavoriteMutation.mutate({ recipeId: recipe.id })
-            }
-          >
-            <Heart
-              className={`w-6 h-6 ${
-                isFavorite
-                  ? "fill-memphis-coral text-memphis-coral"
-                  : "text-gray-400"
-              }`}
-            />
-          </Button>
-        )}
+        <Button
+          size="icon"
+          className="absolute top-4 right-4 rounded-full bg-white/90 hover:bg-white"
+          onClick={handleToggleFavorite}
+        >
+          <Heart
+            className={`w-6 h-6 ${
+              isFavorite
+                ? "fill-memphis-coral text-memphis-coral"
+                : "text-gray-400"
+            }`}
+          />
+        </Button>
       </div>
 
       {/* Title and meta */}
@@ -172,58 +177,54 @@ export default function RecipeDetail() {
       </div>
 
       {/* Rating and tracking */}
-      {user && (
-        <Card className="mb-8 border-memphis-lilac/30">
-          <CardHeader>
-            <CardTitle>Your Experience</CardTitle>
-          </CardHeader>
-          <CardContent className="space-y-4">
-            {/* Rating */}
-            <div>
-              <label className="font-semibold mb-2 block">Rate this recipe</label>
-              <div className="flex gap-2">
-                {[1, 2, 3, 4, 5].map((star) => (
-                  <button
-                    key={star}
-                    onClick={() => setRatingMutation.mutate({ recipeId: recipe.id, rating: star })}
-                    className="text-3xl transition-transform hover:scale-125"
-                  >
-                    {star <= rating ? "⭐" : "☆"}
-                  </button>
-                ))}
-              </div>
+      <Card className="mb-8 border-memphis-lilac/30">
+        <CardHeader>
+          <CardTitle>Your Experience</CardTitle>
+        </CardHeader>
+        <CardContent className="space-y-4">
+          {/* Rating */}
+          <div>
+            <label className="font-semibold mb-2 block">Rate this recipe</label>
+            <div className="flex gap-2">
+              {[1, 2, 3, 4, 5].map((star) => (
+                <button
+                  key={star}
+                  onClick={() => handleSetRating(star)}
+                  className="text-3xl transition-transform hover:scale-125"
+                >
+                  {star <= currentRating ? "⭐" : "☆"}
+                </button>
+              ))}
             </div>
+          </div>
 
-            {/* Made this week */}
-            <div>
-              <label className="font-semibold mb-2 block">
-                Made this week: <span className="text-memphis-coral">{madeCount}</span>
-              </label>
-              <Button
-                onClick={() => trackMadeMutation.mutate({ recipeId: recipe.id })}
-                className="bg-memphis-mint hover:bg-memphis-mint/80"
-              >
-                <ChefHat className="w-4 h-4 mr-2" />
-                I made this!
-              </Button>
-            </div>
+          {/* Made this week */}
+          <div>
+            <label className="font-semibold mb-2 block">
+              Made this week: <span className="text-memphis-coral">{currentMadeCount}</span>
+            </label>
+            <Button
+              onClick={handleTrackMade}
+              className="bg-memphis-mint hover:bg-memphis-mint/80"
+            >
+              <ChefHat className="w-4 h-4 mr-2" />
+              I made this!
+            </Button>
+          </div>
 
-            {/* Notes */}
-            <div>
-              <label className="font-semibold mb-2 block">Personal notes</label>
-              <Textarea
-                value={notes}
-                onChange={(e) => setNotes(e.target.value)}
-                onBlur={() =>
-                  setNotesMutation.mutate({ recipeId: recipe.id, notes })
-                }
-                placeholder="Add your cooking tips, modifications, or memories..."
-                className="min-h-24"
-              />
-            </div>
-          </CardContent>
-        </Card>
-      )}
+          {/* Notes */}
+          <div>
+            <label className="font-semibold mb-2 block">Personal notes</label>
+            <Textarea
+              value={currentNotes}
+              onChange={(e) => setCurrentNotes(e.target.value)}
+              onBlur={handleSaveNotes}
+              placeholder="Add your cooking tips, modifications, or memories..."
+              className="min-h-24"
+            />
+          </div>
+        </CardContent>
+      </Card>
 
       {/* Ingredients */}
       <Card className="mb-8 border-memphis-peach/30">
