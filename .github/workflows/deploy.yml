@@ -26,33 +26,24 @@ jobs:
         with:
           node-version: "22"
 
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v4
-        with:
-          version: "10.4.1"
-
-      - name: Get pnpm store directory
-        shell: bash
-        run: echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
-
-      - name: Setup pnpm cache
-        uses: actions/cache@v4
-        with:
-          path: ${{ env.STORE_PATH }}
-          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
-          restore-keys: |
-            ${{ runner.os }}-pnpm-store-
+      - name: Install pnpm
+        run: npm install -g pnpm@10.4.1
 
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: pnpm install --no-frozen-lockfile
 
-      - name: Build
+      - name: Build for GitHub Pages
+        run: pnpm exec vite build --config vite.pages.config.ts
         env:
-          VITE_APP_TITLE: "Mike's Family Recipes"
-          VITE_APP_ID: "recipes"
-          # GitHub Pages base path
+          NODE_ENV: production
           BASE_URL: /Recipes/
-        run: pnpm run build
+          VITE_APP_TITLE: "Mike's Family Recipes"
+          VITE_APP_ID: recipes
+          VITE_ANALYTICS_ENDPOINT: ""
+          VITE_ANALYTICS_WEBSITE_ID: ""
+          VITE_FRONTEND_FORGE_API_KEY: ""
+          VITE_FRONTEND_FORGE_API_URL: ""
+          VITE_OAUTH_PORTAL_URL: ""
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
