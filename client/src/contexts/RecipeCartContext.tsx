@@ -1,4 +1,4 @@
-import { createContext, useContext, useState, useCallback, type ReactNode } from "react";
+import { createContext, useContext, useState, useCallback, useEffect, type ReactNode } from "react";
 
 // Use "recipes_cart_ids" so the Gist sync hook picks up cart changes.
 // (The Gist sync watches this key; the old "recipes_cart" key was not synced.)
@@ -22,7 +22,7 @@ function loadFromStorage<T>(key: string, fallback: T): T {
 function saveToStorage<T>(key: string, value: T) {
   try {
     window.localStorage.setItem(key, JSON.stringify(value));
-    // Dispatch synthetic storage event so same-tab listeners (Gist sync) are notified.
+    // Dispatch synthetic StorageEvent so same-tab listeners (Gist sync) are notified.
     window.dispatchEvent(
       new StorageEvent("storage", { key, newValue: JSON.stringify(value) })
     );
@@ -54,6 +54,27 @@ export function RecipeCartProvider({ children }: { children: ReactNode }) {
     loadFromStorage<Record<string, boolean>>(CHECKED_KEY, {})
   );
 
+  // Re-read from localStorage when Gist sync applies remote data (plain "storage" Event)
+  // or when another tab writes (native StorageEvent with matching key).
+  useEffect(() => {
+    const handleStorage = (e: Event) => {
+      if (e instanceof StorageEvent) {
+        // Native cross-tab event or our synthetic per-key event
+        if (e.key === CART_KEY) {
+          setCartIds(loadFromStorage<string[]>(CART_KEY, []));
+        } else if (e.key === CHECKED_KEY) {
+          setCheckedItems(loadFromStorage<Record<string, boolean>>(CHECKED_KEY, {}));
+        }
+      } else {
+        // Plain Event dispatched by applyToLocal after a Gist pull — re-read both
+        setCartIds(loadFromStorage<string[]>(CART_KEY, []));
+        setCheckedItems(loadFromStorage<Record<string, boolean>>(CHECKED_KEY, {}));
+      }
+    };
+    window.addEventListener("storage", handleStorage);
+    return () => window.removeEventListener("storage", handleStorage);
+  }, []);
+
   const addToCart = useCallback((recipeId: string) => {
     setCartIds((prev) => {
       if (prev.includes(recipeId)) return prev;
@@ -80,7 +101,7 @@ export function RecipeCartProvider({ children }: { children: ReactNode }) {
     setCartIds([]);
     setCheckedItems({});
     saveToStorage(CART_KEY, []);
-    saveToStorage(CHECKED_KEY, []);
+    saveToStorage(CHECKED_KEY, {});
   }, []);
 
   const toggleChecked = useCallback((key: string) => {

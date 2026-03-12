@@ -7,6 +7,7 @@
  *   recipes_notes        → Record<string, string>
  *   recipes_made_count   → Record<string, number>
  *   recipes_cart_ids     → string[]
+ *   recipes_cart_checked → Record<string, boolean>
  *
  * Strategy:
  *   1. On mount: fetch Gist → merge with localStorage (union/max wins)
@@ -29,6 +30,7 @@ const WATCHED_KEYS = new Set([
   "recipes_made_count",
   "recipes_made_counts",
   "recipes_cart_ids",
+  "recipes_cart_checked",
 ]);
 
 // Token is embedded via Vite env var at build time
@@ -42,6 +44,7 @@ interface GistData {
   notes: Record<string, string>;
   madeCounts: Record<string, number>;
   cartRecipeIds: string[];
+  cartChecked: Record<string, boolean>;
   lastUpdated: number;
 }
 
@@ -146,9 +149,15 @@ function mergeData(local: GistData, remote: GistData): GistData {
     madeCounts[id] = Math.max(c, remote.madeCounts[id] ?? 0);
   }
 
-  // Cart: use whichever was updated more recently
+  // Cart IDs: use whichever was updated more recently
   const cartRecipeIds =
     local.lastUpdated >= remote.lastUpdated ? local.cartRecipeIds : remote.cartRecipeIds;
+
+  // Checked items: merge — a checked item on either device stays checked
+  const cartChecked: Record<string, boolean> = { ...remote.cartChecked };
+  for (const [k, v] of Object.entries(local.cartChecked)) {
+    cartChecked[k] = v || (remote.cartChecked[k] ?? false);
+  }
 
   return {
     favorites,
@@ -156,6 +165,7 @@ function mergeData(local: GistData, remote: GistData): GistData {
     notes,
     madeCounts,
     cartRecipeIds,
+    cartChecked,
     lastUpdated: Math.max(local.lastUpdated, remote.lastUpdated),
   };
 }
@@ -187,6 +197,7 @@ export function useGistSync() {
       ...lsGet<Record<string, number>>("recipes_made_counts", {}),
     },
     cartRecipeIds: lsGet<string[]>("recipes_cart_ids", []),
+    cartChecked: lsGet<Record<string, boolean>>("recipes_cart_checked", {}),
     lastUpdated: Date.now(),
   }), []);
 
@@ -198,6 +209,7 @@ export function useGistSync() {
     lsSet("recipes_made_count", data.madeCounts);
     lsSet("recipes_made_counts", data.madeCounts);
     lsSet("recipes_cart_ids", data.cartRecipeIds);
+    lsSet("recipes_cart_checked", data.cartChecked);
     // Dispatch a generic storage event so React state re-reads from localStorage
     window.dispatchEvent(new Event("storage"));
   }, []);
