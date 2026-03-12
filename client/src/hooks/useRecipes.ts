@@ -1,6 +1,9 @@
 import { useEffect, useState } from "react";
 import type { Recipe } from "@shared/recipe-types";
 
+// Use Vite's BASE_URL so paths work both locally (/) and on GitHub Pages (/Recipes/)
+const BASE = import.meta.env.BASE_URL.replace(/\/$/, "");
+
 export function useRecipes() {
   const [recipes, setRecipes] = useState<Recipe[]>([]);
   const [loading, setLoading] = useState(true);
@@ -10,7 +13,7 @@ export function useRecipes() {
     async function loadRecipes() {
       try {
         // Load recipe index
-        const indexResponse = await fetch("/recipes/index.json");
+        const indexResponse = await fetch(`${BASE}/recipes/index.json`);
         if (!indexResponse.ok) throw new Error("Failed to load recipe index");
 
         const index = await indexResponse.json();
@@ -18,7 +21,7 @@ export function useRecipes() {
 
         // Load all recipes in parallel
         const recipePromises = recipeIds.map((id) =>
-          fetch(`/recipes/${id}.json`)
+          fetch(`${BASE}/recipes/${id}.json`)
             .then((res) => res.json())
             .catch(() => null)
         );
@@ -48,7 +51,7 @@ export function useRecipe(id: string) {
   useEffect(() => {
     async function loadRecipe() {
       try {
-        const response = await fetch(`/recipes/${id}.json`);
+        const response = await fetch(`${BASE}/recipes/${id}.json`);
         if (!response.ok) throw new Error("Recipe not found");
 
         const data = await response.json();
