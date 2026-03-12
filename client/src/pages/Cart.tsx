@@ -392,16 +392,27 @@ export default function Cart() {
                           return (
                             <div
                               key={checkKey}
+                              role="button"
+                              tabIndex={0}
                               className={`flex items-start gap-3 px-4 py-3 cursor-pointer transition-colors hover:bg-muted/30 ${
                                 i > 0 ? "border-t border-border/50" : ""
                               } ${isChecked ? "opacity-50" : ""}`}
                               onClick={() => toggleChecked(checkKey)}
+                              onKeyDown={(e) => e.key === " " && toggleChecked(checkKey)}
                             >
-                              <Checkbox
-                                checked={isChecked}
-                                onCheckedChange={() => toggleChecked(checkKey)}
-                                className="flex-shrink-0 mt-0.5"
-                              />
+                              <div
+                                className={`flex-shrink-0 mt-0.5 w-4 h-4 rounded border-2 flex items-center justify-center transition-colors ${
+                                  isChecked
+                                    ? "bg-primary border-primary"
+                                    : "border-input bg-background"
+                                }`}
+                              >
+                                {isChecked && (
+                                  <svg className="w-2.5 h-2.5 text-primary-foreground" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={3}>
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                                  </svg>
+                                )}
+                              </div>
                               <div className="flex-1 min-w-0">
                                 <span
                                   className={`text-sm block ${
