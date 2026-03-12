@@ -9,7 +9,7 @@ import { Skeleton } from "@/components/ui/skeleton";
 import { Empty, EmptyHeader, EmptyMedia, EmptyTitle, EmptyDescription } from "@/components/ui/empty";
 import { Heart, Sparkles, Search, ChefHat, ShoppingCart, Moon, Sun, X, SlidersHorizontal } from "lucide-react";
 import { useRecipeCart } from "@/contexts/RecipeCartContext";
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect, useRef } from "react";
 import { useHashParams } from "@/hooks/useHashParams";
 import { toast } from "sonner";
 import { useTheme } from "@/contexts/ThemeContext";
@@ -47,11 +47,34 @@ const SORT_OPTIONS = [
   { value: "alpha", label: "A–Z" },
 ];
 
+const SCROLL_KEY = "home_scroll_y";
+
 export default function Home() {
   const { recipes, loading } = useRecipes();
   const [, setLocation] = useHashLocation();
   const [hashParams, setHashParams] = useHashParams();
   const [showFilters, setShowFilters] = useState(false);
+  const didRestoreScroll = useRef(false);
+
+  // Restore scroll position when returning to this page
+  useEffect(() => {
+    if (didRestoreScroll.current) return;
+    didRestoreScroll.current = true;
+    const saved = sessionStorage.getItem(SCROLL_KEY);
+    if (saved) {
+      const y = parseInt(saved, 10);
+      // Wait for recipes to render before scrolling
+      const attempt = (tries: number) => {
+        if (document.documentElement.scrollHeight > window.innerHeight + 100 || tries <= 0) {
+          window.scrollTo({ top: y, behavior: "instant" });
+          sessionStorage.removeItem(SCROLL_KEY);
+        } else {
+          setTimeout(() => attempt(tries - 1), 80);
+        }
+      };
+      attempt(15);
+    }
+  }, []);
 
   // Derive filter state from URL params
   const searchQuery = hashParams.get("q") ?? "";
@@ -153,6 +176,7 @@ export default function Home() {
   };
 
   const handleRecipeClick = (recipeId: string) => {
+    sessionStorage.setItem(SCROLL_KEY, String(window.scrollY));
     setLocation(`/recipe/${recipeId}`);
   };
 
