@@ -10,6 +10,7 @@ import { Empty, EmptyHeader, EmptyMedia, EmptyTitle, EmptyDescription } from "@/
 import { Heart, Sparkles, Search, ChefHat, ShoppingCart, Moon, Sun, X, SlidersHorizontal } from "lucide-react";
 import { useRecipeCart } from "@/contexts/RecipeCartContext";
 import { useState, useMemo } from "react";
+import { useHashParams } from "@/hooks/useHashParams";
 import { toast } from "sonner";
 import { useTheme } from "@/contexts/ThemeContext";
 
@@ -49,11 +50,45 @@ const SORT_OPTIONS = [
 export default function Home() {
   const { recipes, loading } = useRecipes();
   const [, setLocation] = useHashLocation();
-  const [searchQuery, setSearchQuery] = useState("");
-  const [selectedTags, setSelectedTags] = useState<string[]>([]);
-  const [activeTab, setActiveTab] = useState("browse");
-  const [sortBy, setSortBy] = useState("default");
+  const [hashParams, setHashParams] = useHashParams();
   const [showFilters, setShowFilters] = useState(false);
+
+  // Derive filter state from URL params
+  const searchQuery = hashParams.get("q") ?? "";
+  const selectedTags = hashParams.get("tags") ? hashParams.get("tags")!.split(",").filter(Boolean) : [];
+  const activeTab = hashParams.get("tab") ?? "browse";
+  const sortBy = hashParams.get("sort") ?? "default";
+
+  // Setters that write back to URL
+  const setSearchQuery = (q: string) => {
+    setHashParams(prev => {
+      const next = new URLSearchParams(prev);
+      if (q) next.set("q", q); else next.delete("q");
+      return next;
+    });
+  };
+  const setSelectedTags = (updater: string[] | ((prev: string[]) => string[])) => {
+    setHashParams(prev => {
+      const next = new URLSearchParams(prev);
+      const newTags = typeof updater === "function" ? updater(prev.get("tags") ? prev.get("tags")!.split(",").filter(Boolean) : []) : updater;
+      if (newTags.length > 0) next.set("tags", newTags.join(",")); else next.delete("tags");
+      return next;
+    });
+  };
+  const setActiveTab = (tab: string) => {
+    setHashParams(prev => {
+      const next = new URLSearchParams(prev);
+      if (tab && tab !== "browse") next.set("tab", tab); else next.delete("tab");
+      return next;
+    });
+  };
+  const setSortBy = (sort: string) => {
+    setHashParams(prev => {
+      const next = new URLSearchParams(prev);
+      if (sort && sort !== "default") next.set("sort", sort); else next.delete("sort");
+      return next;
+    });
+  };
 
   const [favorites, setFavorites] = useLocalStorage<string[]>("recipes_favorites", []);
   const [ratings, setRatings] = useLocalStorage<Record<string, number>>("recipes_ratings", {});
@@ -135,9 +170,13 @@ export default function Home() {
   };
 
   const clearFilters = () => {
-    setSearchQuery("");
-    setSelectedTags([]);
-    setSortBy("default");
+    setHashParams(prev => {
+      const next = new URLSearchParams(prev);
+      next.delete("q");
+      next.delete("tags");
+      next.delete("sort");
+      return next;
+    });
   };
 
   const hasActiveFilters = searchQuery !== "" || selectedTags.length > 0 || sortBy !== "default";
