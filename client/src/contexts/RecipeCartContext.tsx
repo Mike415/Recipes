@@ -1,11 +1,18 @@
 import { createContext, useContext, useState, useCallback, type ReactNode } from "react";
 
-const CART_KEY = "recipes_cart";
+// Use "recipes_cart_ids" so the Gist sync hook picks up cart changes.
+// (The Gist sync watches this key; the old "recipes_cart" key was not synced.)
+const CART_KEY = "recipes_cart_ids";
 const CHECKED_KEY = "recipes_cart_checked";
 
 function loadFromStorage<T>(key: string, fallback: T): T {
   try {
     const raw = window.localStorage.getItem(key);
+    // Migrate from old "recipes_cart" key if present
+    if (!raw && key === "recipes_cart_ids") {
+      const legacy = window.localStorage.getItem("recipes_cart");
+      if (legacy) return JSON.parse(legacy) as T;
+    }
     return raw ? (JSON.parse(raw) as T) : fallback;
   } catch {
     return fallback;
@@ -15,6 +22,10 @@ function loadFromStorage<T>(key: string, fallback: T): T {
 function saveToStorage<T>(key: string, value: T) {
   try {
     window.localStorage.setItem(key, JSON.stringify(value));
+    // Dispatch synthetic storage event so same-tab listeners (Gist sync) are notified.
+    window.dispatchEvent(
+      new StorageEvent("storage", { key, newValue: JSON.stringify(value) })
+    );
   } catch {
     // ignore
   }
@@ -69,7 +80,7 @@ export function RecipeCartProvider({ children }: { children: ReactNode }) {
     setCartIds([]);
     setCheckedItems({});
     saveToStorage(CART_KEY, []);
-    saveToStorage(CHECKED_KEY, {});
+    saveToStorage(CHECKED_KEY, []);
   }, []);
 
   const toggleChecked = useCallback((key: string) => {

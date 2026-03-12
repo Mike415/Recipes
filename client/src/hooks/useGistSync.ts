@@ -2,22 +2,34 @@
  * useGistSync — client-side GitHub Gist sync for cross-device persistence.
  *
  * Syncs the following localStorage keys to a private GitHub Gist:
- *   recipes_favorites   → string[]
- *   recipes_ratings     → Record<string, number>
- *   recipes_notes       → Record<string, string>
- *   recipes_made_count  → Record<string, number>
- *   recipes_cart        → string[]   (cart recipe IDs)
+ *   recipes_favorites    → string[]
+ *   recipes_ratings      → Record<string, number>
+ *   recipes_notes        → Record<string, string>
+ *   recipes_made_count   → Record<string, number>
+ *   recipes_cart_ids     → string[]
  *
  * Strategy:
- *   1. On mount: fetch Gist → merge with localStorage (Gist wins for newer data)
- *   2. On any change: debounce 2s → save to Gist
- *   3. Expose syncStatus so the UI can show a sync indicator
+ *   1. On mount: fetch Gist → merge with localStorage (union/max wins)
+ *   2. On any watched-key change: debounce 2s → write to Gist
+ *   3. Every 60s: pull from Gist and apply any remote changes
+ *   4. Expose syncStatus so the UI can show a sync indicator
  */
 
 import { useEffect, useRef, useCallback, useState } from "react";
 
 const GIST_FILENAME = "morelli-family-recipes-data.json";
 const DEBOUNCE_MS = 2000;
+const POLL_INTERVAL_MS = 60_000;
+
+// Keys we watch and sync
+const WATCHED_KEYS = new Set([
+  "recipes_favorites",
+  "recipes_ratings",
+  "recipes_notes",
+  "recipes_made_count",
+  "recipes_made_counts",
+  "recipes_cart_ids",
+]);
 
 // Token is embedded via Vite env var at build time
 const GITHUB_TOKEN = import.meta.env.VITE_GIST_TOKEN as string | undefined;
@@ -110,21 +122,25 @@ async function writeGist(
   return result.id as string;
 }
 
-// ─── Merge strategy: take union of favorites, max rating, latest note, max made count ──
+// ─── Merge strategy ──────────────────────────────────────────────────────────
 
 function mergeData(local: GistData, remote: GistData): GistData {
+  // Favorites: union
   const favorites = Array.from(new Set([...local.favorites, ...remote.favorites]));
 
+  // Ratings: take the higher value (user may have rated on either device)
   const ratings: Record<string, number> = { ...remote.ratings };
   for (const [id, r] of Object.entries(local.ratings)) {
     ratings[id] = Math.max(r, remote.ratings[id] ?? 0);
   }
 
+  // Notes: non-empty local note wins (user just typed it); otherwise keep remote
   const notes: Record<string, string> = { ...remote.notes };
   for (const [id, n] of Object.entries(local.notes)) {
-    if (n) notes[id] = n; // local note wins if non-empty (user just typed it)
+    if (n) notes[id] = n;
   }
 
+  // Made counts: take the higher value
   const madeCounts: Record<string, number> = { ...remote.madeCounts };
   for (const [id, c] of Object.entries(local.madeCounts)) {
     madeCounts[id] = Math.max(c, remote.madeCounts[id] ?? 0);
@@ -174,7 +190,7 @@ export function useGistSync() {
     lastUpdated: Date.now(),
   }), []);
 
-  // ── Apply remote data to localStorage ────────────────────────────────────
+  // ── Apply remote data to localStorage (without triggering another save) ───
   const applyToLocal = useCallback((data: GistData) => {
     lsSet("recipes_favorites", data.favorites);
     lsSet("recipes_ratings", data.ratings);
@@ -182,7 +198,7 @@ export function useGistSync() {
     lsSet("recipes_made_count", data.madeCounts);
     lsSet("recipes_made_counts", data.madeCounts);
     lsSet("recipes_cart_ids", data.cartRecipeIds);
-    // Dispatch storage events so React state updates across hooks
+    // Dispatch a generic storage event so React state re-reads from localStorage
     window.dispatchEvent(new Event("storage"));
   }, []);
 
@@ -198,7 +214,6 @@ export function useGistSync() {
         local.lastUpdated = Date.now();
         gistIdRef.current = await writeGist(GITHUB_TOKEN, gistIdRef.current, local);
         if (isMountedRef.current) setSyncStatus("synced");
-        // Reset to idle after 3s
         setTimeout(() => {
           if (isMountedRef.current) setSyncStatus("idle");
         }, 3000);
@@ -208,6 +223,20 @@ export function useGistSync() {
       }
     }, DEBOUNCE_MS);
   }, [getLocalData]);
+
+  // ── Pull from Gist and apply remote changes ───────────────────────────────
+  const pullAndApply = useCallback(async () => {
+    if (!GITHUB_TOKEN || !gistIdRef.current) return;
+    try {
+      const remote = await readGist(GITHUB_TOKEN, gistIdRef.current);
+      if (!remote || !isMountedRef.current) return;
+      const local = getLocalData();
+      const merged = mergeData(local, remote);
+      applyToLocal(merged);
+    } catch (err) {
+      console.error("[GistSync] Pull failed:", err);
+    }
+  }, [getLocalData, applyToLocal]);
 
   // ── Initial load: fetch Gist and merge ───────────────────────────────────
   useEffect(() => {
@@ -240,22 +269,29 @@ export function useGistSync() {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  // ── Listen for localStorage changes and schedule save ────────────────────
+  // ── Listen for localStorage changes on watched keys → schedule save ───────
   useEffect(() => {
     if (!GITHUB_TOKEN) return;
 
-    const handleStorage = () => scheduleSave();
+    const handleStorage = (e: Event) => {
+      // StorageEvent has a .key property; plain Event (from applyToLocal) does not
+      if (e instanceof StorageEvent && e.key && !WATCHED_KEYS.has(e.key)) return;
+      // Don't save when we're the ones applying remote data (plain Event)
+      if (!(e instanceof StorageEvent)) return;
+      scheduleSave();
+    };
+
     window.addEventListener("storage", handleStorage);
 
-    // Also poll for changes made in the same tab (storage event doesn't fire for same-tab writes)
-    const interval = setInterval(() => scheduleSave(), 30_000);
+    // Periodic pull every 60s to pick up changes from other devices
+    const pollTimer = setInterval(pullAndApply, POLL_INTERVAL_MS);
 
     return () => {
       window.removeEventListener("storage", handleStorage);
-      clearInterval(interval);
+      clearInterval(pollTimer);
       if (saveTimerRef.current) clearTimeout(saveTimerRef.current);
     };
-  }, [scheduleSave]);
+  }, [scheduleSave, pullAndApply]);
 
   return { syncStatus, scheduleSave };
 }
