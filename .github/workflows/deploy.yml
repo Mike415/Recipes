@@ -37,13 +37,14 @@ jobs:
         env:
           NODE_ENV: production
           BASE_URL: /Recipes/
-          VITE_APP_TITLE: "Mike's Family Recipes"
+          VITE_APP_TITLE: "Morelli Family Recipes"
           VITE_APP_ID: recipes
           VITE_ANALYTICS_ENDPOINT: ""
           VITE_ANALYTICS_WEBSITE_ID: ""
           VITE_FRONTEND_FORGE_API_KEY: ""
           VITE_FRONTEND_FORGE_API_URL: ""
           VITE_OAUTH_PORTAL_URL: ""
+          VITE_GIST_TOKEN: ${{ secrets.VITE_GIST_TOKEN }}
 
       - name: Setup Pages
         uses: actions/configure-pages@v5

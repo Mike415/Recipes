@@ -13,6 +13,8 @@ import { useState, useMemo, useEffect, useRef } from "react";
 import { useHashParams } from "@/hooks/useHashParams";
 import { toast } from "sonner";
 import { useTheme } from "@/contexts/ThemeContext";
+import { useGistSyncContext } from "@/contexts/GistSyncContext";
+import { Cloud, CloudOff, RefreshCw, CheckCircle2 } from "lucide-react";
 
 // Tag groups shown in the filter panel — ordered by display priority
 const TAG_GROUPS: { label: string; tags: string[] }[] = [
@@ -117,6 +119,7 @@ export default function Home() {
   const [ratings, setRatings] = useLocalStorage<Record<string, number>>("recipes_ratings", {});
   const [madeCount] = useLocalStorage<Record<string, number>>("recipes_made_counts", {});
   const { cartIds, addToCart, removeFromCart, isInCart } = useRecipeCart();
+  const { syncStatus } = useGistSyncContext();
 
   const { theme, toggleTheme, switchable } = useTheme();
 
@@ -274,6 +277,31 @@ export default function Home() {
                 </span>
               )}
             </Button>
+            {/* Gist sync status indicator */}
+            {syncStatus !== "disabled" && (
+              <span
+                title={
+                  syncStatus === "syncing" ? "Syncing…" :
+                  syncStatus === "synced" ? "Saved to cloud" :
+                  syncStatus === "error" ? "Sync failed" :
+                  "Cloud sync enabled"
+                }
+                className="flex items-center"
+              >
+                {syncStatus === "syncing" && (
+                  <RefreshCw className="w-3.5 h-3.5 text-muted-foreground animate-spin" />
+                )}
+                {syncStatus === "synced" && (
+                  <CheckCircle2 className="w-3.5 h-3.5 text-green-500" />
+                )}
+                {syncStatus === "error" && (
+                  <CloudOff className="w-3.5 h-3.5 text-destructive" />
+                )}
+                {syncStatus === "idle" && (
+                  <Cloud className="w-3.5 h-3.5 text-muted-foreground/50" />
+                )}
+              </span>
+            )}
             {switchable && toggleTheme && (
               <Button variant="ghost" size="icon" onClick={toggleTheme}>
                 {theme === "dark" ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}

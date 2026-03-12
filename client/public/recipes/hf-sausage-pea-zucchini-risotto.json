@@ -1,0 +1,42 @@
+{
+  "id": "hf-sausage-pea-zucchini-risotto",
+  "title": "Pork Sausage, Pea & Zucchini Risotto",
+  "description": "HelloFresh favorite — a luscious, creamy Italian risotto made with short-grain arborio rice, savory Italian pork sausage, sweet peas, and grated zucchini. Finished with a bright squeeze of lemon and a generous shower of Parmesan, it's rich, comforting, and surprisingly easy to pull off on a weeknight.",
+  "imageUrl": "/recipes/images/hf-sausage-pea-zucchini-risotto.jpg",
+  "imageEmoji": "🍚",
+  "prepTime": 10,
+  "cookTime": 40,
+  "totalTime": 50,
+  "servings": 4,
+  "difficulty": "Medium",
+  "tags": ["HelloFresh", "Italian", "Comfort Food", "Pork", "One Pan"],
+  "ingredients": [
+    { "item": "Italian pork sausage", "amount": "18", "unit": "oz", "category": "protein" },
+    { "item": "Arborio rice", "amount": "1.5", "unit": "cups", "category": "pantry" },
+    { "item": "Zucchini", "amount": "2", "unit": "medium", "category": "produce" },
+    { "item": "Frozen peas", "amount": "8", "unit": "oz", "category": "produce" },
+    { "item": "Shallot", "amount": "2", "unit": "", "category": "produce" },
+    { "item": "Lemon", "amount": "1", "unit": "", "category": "produce" },
+    { "item": "Chicken stock concentrate", "amount": "4", "unit": "packets", "category": "pantry" },
+    { "item": "Parmesan cheese, grated", "amount": "6", "unit": "tbsp", "category": "dairy" },
+    { "item": "Unsalted butter", "amount": "4", "unit": "tbsp", "category": "dairy" },
+    { "item": "Olive oil", "amount": "1", "unit": "tbsp", "category": "pantry" },
+    { "item": "Salt", "amount": "", "unit": "to taste", "category": "pantry" },
+    { "item": "Black pepper", "amount": "", "unit": "to taste", "category": "pantry" }
+  ],
+  "instructions": [
+    "Remove sausage from casing if necessary and discard casing. Heat a drizzle of olive oil in a large pan over medium-high heat. Add sausage and cook, breaking up meat into pieces, until browned and cooked through, 5–7 minutes. Turn off heat. Using a slotted spoon, transfer sausage to a paper-towel-lined plate, keeping as much oil in pan as possible.",
+    "Meanwhile, wash and dry produce. Halve, peel, and mince the shallots. Trim the zucchini and grate on the largest holes of a box grater. Zest and quarter the lemon.",
+    "In a medium pot, combine 4 cups water (7 cups for 4 servings) and the stock concentrates; bring to a boil, then reduce to a low simmer. (You'll use this simmering stock in Step 4.)",
+    "Melt 2 tbsp butter (4 tbsp for 4 servings) in the pan used for sausage over medium heat. Add shallot and zucchini; season with salt and pepper. Cook, stirring, until softened, 2–3 minutes.",
+    "Add rice and 1 cup simmering stock to pan with shallot and zucchini; stir until liquid has mostly absorbed. Repeat with remaining stock — adding ½ cup at a time and stirring until liquid has mostly absorbed — until rice is al dente and mixture is creamy, 25–30 minutes. TIP: Depending on the size of your pan, you may need a little more or a little less liquid.",
+    "Once risotto is done, stir in sausage, peas, half the Parmesan, 2 tbsp butter (3 tbsp for 4 servings), and a squeeze of lemon juice to taste. Season generously with salt and pepper.",
+    "Divide risotto between bowls. Top with lemon zest and remaining Parmesan. Serve with any remaining lemon wedges on the side."
+  ],
+  "tips": [
+    "Keep the stock warm and add it gradually — this is the key to creamy risotto. Don't rush it!",
+    "Grating the zucchini (rather than dicing) helps it melt into the risotto for a silky texture.",
+    "Taste and adjust salt at the end — the sausage and Parmesan both add saltiness.",
+    "Leftovers can be formed into risotto cakes and pan-fried in butter for a delicious next-day meal."
+  ]
+}

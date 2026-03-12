@@ -8,6 +8,7 @@ import { useHashLocation } from "@/hooks/useHashLocation";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import { RecipeCartProvider } from "./contexts/RecipeCartContext";
+import { GistSyncProvider } from "./contexts/GistSyncContext";
 
 function App() {
   const [location] = useHashLocation();
@@ -21,6 +22,7 @@ function App() {
     <ErrorBoundary>
       <ThemeProvider defaultTheme="light" switchable={true}>
         <RecipeCartProvider>
+          <GistSyncProvider>
           <TooltipProvider>
             <Toaster />
             {path === "/" && <Home />}
@@ -28,6 +30,7 @@ function App() {
             {recipeId && <RecipeDetail />}
             {path !== "/" && path !== "/cart" && !recipeId && <NotFound />}
           </TooltipProvider>
+          </GistSyncProvider>
         </RecipeCartProvider>
       </ThemeProvider>
     </ErrorBoundary>
