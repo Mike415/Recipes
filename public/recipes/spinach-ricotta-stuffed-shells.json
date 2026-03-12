@@ -1,0 +1,95 @@
+{
+  "title": "Spinach & Ricotta Stuffed Shells",
+  "description": "These delicious and family-friendly stuffed shells are packed with creamy ricotta and healthy spinach, all baked in a savory tomato sauce. A perfect comforting meal that's easy to prepare and kid-approved!",
+  "imageEmoji": "\ud83c\udf5d",
+  "prepTime": 25,
+  "cookTime": 30,
+  "totalTime": 55,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": [
+    "Kid Favorite",
+    "Vegetarian",
+    "Comfort Food",
+    "Pasta",
+    "Italian"
+  ],
+  "ingredients": [
+    {
+      "item": "Jumbo pasta shells",
+      "amount": 12,
+      "unit": "ounces",
+      "category": "pantry"
+    },
+    {
+      "item": "Ricotta cheese",
+      "amount": 15,
+      "unit": "ounces",
+      "category": "dairy"
+    },
+    {
+      "item": "Frozen chopped spinach",
+      "amount": 10,
+      "unit": "ounces",
+      "category": "frozen"
+    },
+    {
+      "item": "Parmesan cheese, grated",
+      "amount": 0.5,
+      "unit": "cup",
+      "category": "dairy"
+    },
+    {
+      "item": "Egg",
+      "amount": 1,
+      "unit": "large",
+      "category": "dairy"
+    },
+    {
+      "item": "Garlic powder",
+      "amount": 0.5,
+      "unit": "teaspoon",
+      "category": "pantry"
+    },
+    {
+      "item": "Salt",
+      "amount": 0.5,
+      "unit": "teaspoon",
+      "category": "pantry"
+    },
+    {
+      "item": "Black pepper",
+      "amount": 0.25,
+      "unit": "teaspoon",
+      "category": "pantry"
+    },
+    {
+      "item": "Marinara sauce",
+      "amount": 24,
+      "unit": "ounces",
+      "category": "pantry"
+    },
+    {
+      "item": "Mozzarella cheese, shredded",
+      "amount": 1,
+      "unit": "cup",
+      "category": "dairy"
+    }
+  ],
+  "instructions": [
+    "Preheat oven to 375\u00b0F (190\u00b0C). Cook pasta shells according to package directions until al dente. Drain and rinse with cold water to prevent sticking.",
+    "While pasta cooks, thaw and drain the frozen spinach very well, squeezing out as much excess water as possible.",
+    "In a large bowl, combine ricotta cheese, drained spinach, 1/4 cup of the grated Parmesan cheese, egg, garlic powder, salt, and pepper. Mix until well combined.",
+    "Spread about 1 cup of marinara sauce in the bottom of a 9x13 inch baking dish.",
+    "Carefully stuff each cooked pasta shell with the ricotta-spinach mixture. Arrange the stuffed shells in a single layer in the baking dish.",
+    "Pour the remaining marinara sauce over the stuffed shells. Sprinkle with the shredded mozzarella cheese and the remaining 1/4 cup of Parmesan cheese.",
+    "Cover the baking dish with foil and bake for 20 minutes. Remove foil and bake for another 10-15 minutes, or until cheese is bubbly and lightly golden.",
+    "Let stand for 5 minutes before serving."
+  ],
+  "tips": [
+    "To make it even easier, you can use a piping bag or a Ziploc bag with the corner snipped off to fill the shells quickly and neatly.",
+    "For a little extra flavor, saut\u00e9 some diced onion or bell pepper and add it to the ricotta mixture.",
+    "If you have picky eaters, you can finely chop the spinach or even blend it into the ricotta mixture to hide it a bit more!"
+  ],
+  "id": "spinach-ricotta-stuffed-shells"
+}

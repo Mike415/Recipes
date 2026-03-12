@@ -1,0 +1,97 @@
+{
+  "title": "Fish Tacos with Cabbage Slaw",
+  "description": "These family-friendly fish tacos are quick to prepare and packed with flavor, featuring crispy fish and a zesty cabbage slaw. Perfect for a fun weeknight meal that even the little ones will enjoy!",
+  "imageEmoji": "\ud83c\udf2e",
+  "prepTime": 20,
+  "cookTime": 15,
+  "totalTime": 35,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": [
+    "Kid Favorite",
+    "Quick",
+    "Mexican",
+    "Healthy"
+  ],
+  "ingredients": [
+    {
+      "item": "Cod fillets",
+      "amount": 1.0,
+      "unit": "lb",
+      "category": "protein"
+    },
+    {
+      "item": "Corn tortillas",
+      "amount": 8.0,
+      "unit": "count",
+      "category": "pantry"
+    },
+    {
+      "item": "Green cabbage",
+      "amount": 0.5,
+      "unit": "head",
+      "category": "produce"
+    },
+    {
+      "item": "Mayonnaise",
+      "amount": 0.25,
+      "unit": "cup",
+      "category": "dairy"
+    },
+    {
+      "item": "Lime",
+      "amount": 2.0,
+      "unit": "count",
+      "category": "produce"
+    },
+    {
+      "item": "Chili powder",
+      "amount": 1.0,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Cumin",
+      "amount": 0.5,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Garlic powder",
+      "amount": 0.5,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Olive oil",
+      "amount": 2.0,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Salt",
+      "amount": 0.5,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Black pepper",
+      "amount": 0.25,
+      "unit": "tsp",
+      "category": "pantry"
+    }
+  ],
+  "instructions": [
+    "Pat fish fillets dry with paper towels. In a small bowl, mix chili powder, cumin, garlic powder, salt, and pepper. Rub the spice mixture evenly over both sides of the fish.",
+    "Heat olive oil in a large non-stick skillet over medium-high heat. Cook fish for 3-4 minutes per side, or until flaky and cooked through. Break into large pieces with a fork.",
+    "While fish cooks, thinly slice the cabbage. In a medium bowl, combine mayonnaise and the juice of one lime. Add the shredded cabbage and toss to coat. Season with a pinch of salt and pepper.",
+    "Warm tortillas according to package directions (microwave, oven, or skillet).",
+    "Assemble tacos: Place fish pieces in the center of each warm tortilla, top with a generous spoonful of cabbage slaw, and a squeeze of fresh lime juice from the remaining lime."
+  ],
+  "tips": [
+    "For extra crispiness, you can lightly pan-fry the tortillas before assembling.",
+    "If your kids are picky about slaw, you can serve the cabbage and dressing separately.",
+    "Add a sprinkle of fresh cilantro or a dash of hot sauce for adult servings."
+  ],
+  "id": "fish-tacos-with-cabbage-slaw"
+}

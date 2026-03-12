@@ -1,0 +1,94 @@
+{
+  "title": "Baked Chicken Drumsticks & Roasted Veggies",
+  "description": "A simple and delicious one-pan meal featuring tender chicken drumsticks and colorful roasted vegetables, perfect for a family dinner. Minimal cleanup and kid-friendly flavors make this a weeknight favorite.",
+  "imageEmoji": "\ud83c\udf57",
+  "prepTime": 15,
+  "cookTime": 30,
+  "totalTime": 45,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": [
+    "Kid Favorite",
+    "Quick",
+    "One Pan",
+    "Comfort Food",
+    "Healthy",
+    "American"
+  ],
+  "ingredients": [
+    {
+      "item": "Chicken drumsticks",
+      "amount": 8,
+      "unit": "pieces",
+      "category": "protein"
+    },
+    {
+      "item": "Potatoes",
+      "amount": 1.5,
+      "unit": "lb",
+      "category": "produce"
+    },
+    {
+      "item": "Carrots",
+      "amount": 1,
+      "unit": "lb",
+      "category": "produce"
+    },
+    {
+      "item": "Broccoli florets",
+      "amount": 1,
+      "unit": "cup",
+      "category": "produce"
+    },
+    {
+      "item": "Olive oil",
+      "amount": 2,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Garlic powder",
+      "amount": 1,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Paprika",
+      "amount": 1,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Dried oregano",
+      "amount": 0.5,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Salt",
+      "amount": 0.5,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Black pepper",
+      "amount": 0.25,
+      "unit": "tsp",
+      "category": "pantry"
+    }
+  ],
+  "instructions": [
+    "Preheat oven to 400\u00b0F (200\u00b0C). Line a large baking sheet with parchment paper for easy cleanup.",
+    "Wash and chop potatoes and carrots into 1-inch pieces. In a large bowl, toss the chopped vegetables with 1 tablespoon of olive oil, salt, and pepper.",
+    "In a separate bowl, toss the chicken drumsticks with the remaining 1 tablespoon of olive oil, garlic powder, paprika, oregano, salt, and pepper.",
+    "Arrange the seasoned chicken drumsticks and vegetables in a single layer on the prepared baking sheet, ensuring not to overcrowd the pan. If necessary, use two baking sheets.",
+    "Bake for 20 minutes. Then, add the broccoli florets to the baking sheet and continue baking for another 10-15 minutes, or until chicken is cooked through (internal temperature of 165\u00b0F/74\u00b0C) and vegetables are tender and slightly caramelized.",
+    "Remove from oven and let rest for a few minutes before serving."
+  ],
+  "tips": [
+    "For crispier chicken skin, pat the drumsticks dry with paper towels before seasoning.",
+    "Feel free to customize the vegetables based on what your family enjoys or what you have on hand, such as bell peppers, zucchini, or sweet potatoes.",
+    "If you have picky eaters, you can serve a small portion of plain chicken and veggies before adding sauces or extra seasonings to their plates."
+  ],
+  "id": "baked-chicken-drumsticks-roasted-veggies"
+}

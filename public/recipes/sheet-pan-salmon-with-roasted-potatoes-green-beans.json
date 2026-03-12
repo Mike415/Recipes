@@ -1,0 +1,89 @@
+{
+  "title": "Sheet Pan Salmon with Roasted Potatoes & Green Beans",
+  "description": "This easy sheet pan meal features tender salmon, crispy roasted potatoes, and fresh green beans, all cooked together for a delicious and healthy family dinner with minimal cleanup.",
+  "imageEmoji": "\ud83d\udc1f",
+  "prepTime": 15,
+  "cookTime": 25,
+  "totalTime": 40,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": [
+    "Kid Favorite",
+    "Quick",
+    "One Pan",
+    "Healthy",
+    "American"
+  ],
+  "ingredients": [
+    {
+      "item": "Salmon fillets",
+      "amount": 1.5,
+      "unit": "lb",
+      "category": "protein"
+    },
+    {
+      "item": "Baby potatoes",
+      "amount": 1.5,
+      "unit": "lb",
+      "category": "produce"
+    },
+    {
+      "item": "Green beans",
+      "amount": 12,
+      "unit": "oz",
+      "category": "produce"
+    },
+    {
+      "item": "Olive oil",
+      "amount": 3,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Garlic powder",
+      "amount": 1,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Paprika",
+      "amount": 0.5,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Salt",
+      "amount": 0.5,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Black pepper",
+      "amount": 0.25,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Lemon",
+      "amount": 1,
+      "unit": "whole",
+      "category": "produce"
+    }
+  ],
+  "instructions": [
+    "Preheat oven to 400\u00b0F (200\u00b0C). Line a large baking sheet with parchment paper for easy cleanup.",
+    "Wash and quarter the baby potatoes. In a large bowl, toss potatoes with 1.5 tablespoons of olive oil, half of the garlic powder, paprika, salt, and pepper. Spread them in a single layer on one side of the prepared baking sheet.",
+    "Roast potatoes for 15 minutes.",
+    "While potatoes are roasting, trim the ends off the green beans. In the same bowl, toss green beans with 1 tablespoon of olive oil, a pinch of salt, and pepper.",
+    "Pat salmon fillets dry with a paper towel. Drizzle with remaining 0.5 tablespoon of olive oil, sprinkle with remaining garlic powder, salt, and pepper.",
+    "After 15 minutes, remove the baking sheet from the oven. Add the green beans to the other side of the baking sheet and place the salmon fillets in the center. Slice the lemon and place a slice on each salmon fillet.",
+    "Return to the oven and bake for another 10-12 minutes, or until salmon is cooked through and flakes easily with a fork, and vegetables are tender-crisp.",
+    "Serve immediately with extra lemon wedges if desired."
+  ],
+  "tips": [
+    "For extra flavor, marinate the salmon in a little soy sauce and honey for 15 minutes before baking.",
+    "If your kids are picky about green beans, try tossing them with a little Parmesan cheese before roasting.",
+    "Ensure potatoes are cut into similar sizes for even cooking. Smaller pieces will cook faster."
+  ],
+  "id": "sheet-pan-salmon-with-roasted-potatoes-green-beans"
+}

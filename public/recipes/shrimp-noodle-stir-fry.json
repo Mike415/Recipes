@@ -1,0 +1,113 @@
+{
+  "title": "Shrimp & Noodle Stir-Fry",
+  "description": "This quick and easy Shrimp & Noodle Stir-Fry is a perfect weeknight meal for the whole family, packed with flavor and vegetables. It's designed to be kid-friendly and can be made in one or two pans.",
+  "imageEmoji": "\ud83c\udf5c",
+  "prepTime": 15,
+  "cookTime": 15,
+  "totalTime": 30,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": [
+    "Kid Favorite",
+    "Quick",
+    "One Pan",
+    "Healthy",
+    "Asian"
+  ],
+  "ingredients": [
+    {
+      "item": "Shrimp, peeled and deveined",
+      "amount": 1,
+      "unit": "lb",
+      "category": "protein"
+    },
+    {
+      "item": "Egg noodles",
+      "amount": 8,
+      "unit": "oz",
+      "category": "pantry"
+    },
+    {
+      "item": "Broccoli florets",
+      "amount": 2,
+      "unit": "cups",
+      "category": "produce"
+    },
+    {
+      "item": "Carrots, julienned",
+      "amount": 1,
+      "unit": "cup",
+      "category": "produce"
+    },
+    {
+      "item": "Bell pepper (any color), sliced",
+      "amount": 1,
+      "unit": "medium",
+      "category": "produce"
+    },
+    {
+      "item": "Soy sauce",
+      "amount": 1,
+      "unit": "cup",
+      "category": "pantry"
+    },
+    {
+      "item": "Honey or maple syrup",
+      "amount": 2,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Rice vinegar",
+      "amount": 1,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Sesame oil",
+      "amount": 1,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Garlic, minced",
+      "amount": 2,
+      "unit": "cloves",
+      "category": "produce"
+    },
+    {
+      "item": "Ginger, grated",
+      "amount": 1,
+      "unit": "tsp",
+      "category": "produce"
+    },
+    {
+      "item": "Olive oil",
+      "amount": 1,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Sesame seeds (for garnish)",
+      "amount": 1,
+      "unit": "tbsp",
+      "category": "pantry"
+    }
+  ],
+  "instructions": [
+    "Cook egg noodles according to package directions. Drain and set aside.",
+    "In a small bowl, whisk together soy sauce, honey, rice vinegar, and sesame oil to make the stir-fry sauce.",
+    "Heat olive oil in a large skillet or wok over medium-high heat. Add minced garlic and grated ginger, and stir-fry for 30 seconds until fragrant.",
+    "Add shrimp to the skillet and cook for 2-3 minutes per side, until pink and cooked through. Remove shrimp from the skillet and set aside.",
+    "Add broccoli, carrots, and bell pepper to the same skillet. Stir-fry for 3-5 minutes until vegetables are tender-crisp.",
+    "Return cooked shrimp and drained noodles to the skillet with the vegetables. Pour the stir-fry sauce over everything.",
+    "Toss gently to combine and heat through for 1-2 minutes, ensuring everything is coated in the sauce.",
+    "Serve immediately, garnished with sesame seeds if desired."
+  ],
+  "tips": [
+    "For picky eaters, you can finely chop the vegetables or offer them on the side.",
+    "Adjust the amount of honey or maple syrup in the sauce to suit your family's sweetness preference.",
+    "Feel free to substitute other quick-cooking vegetables like snap peas, corn, or thinly sliced cabbage."
+  ],
+  "id": "shrimp-noodle-stir-fry"
+}

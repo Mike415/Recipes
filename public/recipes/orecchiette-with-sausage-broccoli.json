@@ -1,0 +1,93 @@
+{
+  "title": "Orecchiette with Sausage & Broccoli",
+  "description": "A delicious and easy one-pan pasta dish featuring orecchiette, savory sausage, and tender broccoli florets, perfect for a family meal. This recipe is designed to be kid-friendly and minimize cleanup.",
+  "imageEmoji": "\ud83c\udf5d",
+  "prepTime": 15,
+  "cookTime": 20,
+  "totalTime": 35,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": [
+    "Kid Favorite",
+    "Quick",
+    "One Pan",
+    "Comfort Food",
+    "Pasta",
+    "Italian"
+  ],
+  "ingredients": [
+    {
+      "item": "Orecchiette pasta",
+      "amount": 12,
+      "unit": "oz",
+      "category": "pantry"
+    },
+    {
+      "item": "Italian sausage",
+      "amount": 1,
+      "unit": "lb",
+      "category": "protein"
+    },
+    {
+      "item": "Broccoli florets",
+      "amount": 4,
+      "unit": "cups",
+      "category": "produce"
+    },
+    {
+      "item": "Garlic",
+      "amount": 3,
+      "unit": "cloves",
+      "category": "produce"
+    },
+    {
+      "item": "Chicken broth",
+      "amount": 2,
+      "unit": "cups",
+      "category": "pantry"
+    },
+    {
+      "item": "Olive oil",
+      "amount": 2,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Parmesan cheese, grated",
+      "amount": 0.5,
+      "unit": "cup",
+      "category": "dairy"
+    },
+    {
+      "item": "Red pepper flakes (optional)",
+      "amount": 0.25,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Salt",
+      "amount": null,
+      "unit": "to taste",
+      "category": "pantry"
+    },
+    {
+      "item": "Black pepper",
+      "amount": null,
+      "unit": "to taste",
+      "category": "pantry"
+    }
+  ],
+  "instructions": [
+    "Bring a large pot of salted water to a boil. Add orecchiette pasta and cook according to package directions until al dente. Drain and set aside.",
+    "While pasta cooks, heat olive oil in a large skillet or Dutch oven over medium-high heat. Remove sausage from casings (if applicable) and crumble into the skillet. Cook, breaking it up with a spoon, until browned and cooked through, about 5-7 minutes.",
+    "Add minced garlic to the skillet and cook for 1 minute until fragrant. Stir in broccoli florets and chicken broth. Bring to a simmer, then reduce heat, cover, and cook for 5-7 minutes, or until broccoli is tender-crisp.",
+    "Add the cooked orecchiette pasta to the skillet with the sausage and broccoli. Toss to combine. Stir in grated Parmesan cheese and red pepper flakes (if using).",
+    "Season with salt and black pepper to taste. Serve immediately, garnished with extra Parmesan cheese if desired."
+  ],
+  "tips": [
+    "For picky eaters, you can finely chop the broccoli before adding it to the skillet to make it less noticeable.",
+    "If you prefer a creamier sauce, stir in a splash of heavy cream or a tablespoon of cream cheese at the end.",
+    "Leftovers can be stored in an airtight container in the refrigerator for up to 3 days. Reheat gently on the stovetop or in the microwave."
+  ],
+  "id": "orecchiette-with-sausage-broccoli"
+}

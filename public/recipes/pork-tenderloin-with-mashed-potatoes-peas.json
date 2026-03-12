@@ -1,0 +1,88 @@
+{
+  "title": "Pork Tenderloin with Mashed Potatoes & Peas",
+  "description": "This family-friendly meal features tender pork, creamy mashed potatoes, and sweet peas, all prepared with minimal fuss and only one or two pans. It's a comforting and nutritious dish that even the pickiest eaters will love.",
+  "imageEmoji": "\ud83c\udf56",
+  "prepTime": 20,
+  "cookTime": 30,
+  "totalTime": 50,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": [
+    "Kid Favorite",
+    "Comfort Food",
+    "Healthy",
+    "Quick"
+  ],
+  "ingredients": [
+    {
+      "item": "Pork Tenderloin",
+      "amount": 1,
+      "unit": "lb",
+      "category": "protein"
+    },
+    {
+      "item": "Potatoes",
+      "amount": 1.5,
+      "unit": "lb",
+      "category": "produce"
+    },
+    {
+      "item": "Frozen Peas",
+      "amount": 1,
+      "unit": "cup",
+      "category": "frozen"
+    },
+    {
+      "item": "Milk",
+      "amount": 0.5,
+      "unit": "cup",
+      "category": "dairy"
+    },
+    {
+      "item": "Butter",
+      "amount": 2,
+      "unit": "tbsp",
+      "category": "dairy"
+    },
+    {
+      "item": "Garlic Powder",
+      "amount": 0.5,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Salt",
+      "amount": 0.5,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Black Pepper",
+      "amount": 0.25,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Olive Oil",
+      "amount": 1,
+      "unit": "tbsp",
+      "category": "pantry"
+    }
+  ],
+  "instructions": [
+    "Preheat oven to 400\u00b0F (200\u00b0C). Pat pork tenderloin dry with paper towels and season with salt, pepper, and garlic powder.",
+    "Heat olive oil in an oven-safe skillet over medium-high heat. Sear pork tenderloin for 2-3 minutes per side until browned.",
+    "Transfer the skillet to the preheated oven and roast for 15-20 minutes, or until internal temperature reaches 145\u00b0F (63\u00b0C). Let rest for 5 minutes before slicing.",
+    "While pork is roasting, peel and chop potatoes into 1-inch cubes. Place in a pot, cover with cold water, and bring to a boil. Cook for 15-20 minutes until fork-tender.",
+    "Drain potatoes and return to the pot. Add milk, butter, salt, and pepper. Mash until smooth and creamy.",
+    "In the last 5 minutes of potato cooking, add frozen peas to the boiling water to cook until tender-crisp.",
+    "Drain peas and gently stir into the mashed potatoes.",
+    "Slice the rested pork tenderloin into medallions. Serve immediately with mashed potatoes and peas."
+  ],
+  "tips": [
+    "For extra flavor, add a sprig of fresh rosemary or thyme to the skillet while searing the pork.",
+    "If you prefer a smoother mash, use a potato ricer. For a chunkier texture, a hand masher works great.",
+    "Don't overcrowd the skillet when searing the pork; cook in batches if necessary to ensure a good sear."
+  ],
+  "id": "pork-tenderloin-with-mashed-potatoes-peas"
+}

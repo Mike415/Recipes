@@ -1,0 +1,134 @@
+{
+  "id": "spicy-salmon-sushi-bites",
+  "title": "Spicy Salmon Sushi Bites",
+  "description": "Baked sushi bites with spicy salmon, avocado, and a creamy sriracha mayo topping. Fun and impressive!",
+  "imageEmoji": "🍣",
+  "prepTime": 20,
+  "cookTime": 12,
+  "totalTime": 32,
+  "servings": 4,
+  "difficulty": "Medium",
+  "tags": [
+    "Family Recipe",
+    "Asian",
+    "Quick"
+  ],
+  "ingredients": [
+    {
+      "item": "Sushi Rice",
+      "amount": "1",
+      "unit": "cup",
+      "category": "pantry"
+    },
+    {
+      "item": "Rice Vinegar",
+      "amount": "0.25",
+      "unit": "cup",
+      "category": "pantry"
+    },
+    {
+      "item": "Vegetable Oil",
+      "amount": "0.5",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Sugar",
+      "amount": "0.125",
+      "unit": "cup",
+      "category": "pantry"
+    },
+    {
+      "item": "Salmon Fillets",
+      "amount": "2",
+      "unit": "count",
+      "category": "protein"
+    },
+    {
+      "item": "Nori (Seaweed Sheets)",
+      "amount": "4",
+      "unit": "count",
+      "category": "pantry"
+    },
+    {
+      "item": "Mayonnaise",
+      "amount": "0.5",
+      "unit": "cup",
+      "category": "dairy"
+    },
+    {
+      "item": "Sriracha",
+      "amount": "1.5",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Avocado",
+      "amount": "1",
+      "unit": "count",
+      "category": "produce"
+    },
+    {
+      "item": "Sesame Oil",
+      "amount": "1",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Soy Sauce",
+      "amount": "2",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Garlic Powder",
+      "amount": "0.5",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Salt",
+      "amount": "0.25",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Paprika",
+      "amount": "0.25",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Honey",
+      "amount": "1",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Scallion",
+      "amount": "1",
+      "unit": "count",
+      "category": "produce"
+    }
+  ],
+  "instructions": [
+    "Cook sushi rice according to package directions",
+    "Mix rice vinegar, oil, and sugar, then fold into cooked rice",
+    "Cut salmon into cubes and season with sesame oil, soy sauce, garlic powder, salt, and paprika",
+    "Press sushi rice into a muffin tin lined with seaweed sheets",
+    "Add seasoned salmon cubes to each rice-lined muffin cup",
+    "Bake at 400°F for 12 minutes",
+    "Mix mayonnaise and sriracha for spicy mayo",
+    "Remove from oven and top each bite with spicy mayo and avocado slices",
+    "Garnish with seaweed bits and chopped scallion",
+    "Drizzle with honey and serve immediately"
+  ],
+  "tips": [
+    "Use sushi-grade salmon for best results",
+    "Muffin tin makes perfect bite-sized portions",
+    "Can prep rice and salmon ahead of time",
+    "Serve immediately after baking for best texture",
+    "Customize with different toppings like cucumber or pickled ginger"
+  ],
+  "isFamily": true
+}

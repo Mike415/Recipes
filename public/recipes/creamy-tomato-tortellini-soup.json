@@ -1,0 +1,102 @@
+{
+  "title": "Creamy Tomato Tortellini Soup",
+  "description": "This comforting and quick soup is perfect for a family meal, featuring tender tortellini in a rich, creamy tomato broth. It's designed to be kid-approved and easy to make with minimal cleanup.",
+  "imageEmoji": "\ud83c\udf5d",
+  "prepTime": 10,
+  "cookTime": 20,
+  "totalTime": 30,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": [
+    "Kid Favorite",
+    "Quick",
+    "One Pan",
+    "Vegetarian",
+    "Comfort Food",
+    "Pasta",
+    "Soup",
+    "Italian"
+  ],
+  "ingredients": [
+    {
+      "item": "Olive oil",
+      "amount": 1,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Yellow onion",
+      "amount": 1,
+      "unit": "small",
+      "category": "produce"
+    },
+    {
+      "item": "Garlic",
+      "amount": 2,
+      "unit": "cloves",
+      "category": "produce"
+    },
+    {
+      "item": "Canned crushed tomatoes",
+      "amount": 28,
+      "unit": "oz",
+      "category": "pantry"
+    },
+    {
+      "item": "Vegetable broth",
+      "amount": 4,
+      "unit": "cups",
+      "category": "pantry"
+    },
+    {
+      "item": "Heavy cream",
+      "amount": 0.5,
+      "unit": "cup",
+      "category": "dairy"
+    },
+    {
+      "item": "Fresh or frozen cheese tortellini",
+      "amount": 19,
+      "unit": "oz",
+      "category": "pasta"
+    },
+    {
+      "item": "Baby spinach",
+      "amount": 3,
+      "unit": "cups",
+      "category": "produce"
+    },
+    {
+      "item": "Parmesan cheese",
+      "amount": 0.25,
+      "unit": "cup",
+      "category": "dairy"
+    },
+    {
+      "item": "Salt",
+      "amount": 0.5,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Black pepper",
+      "amount": 0.25,
+      "unit": "tsp",
+      "category": "pantry"
+    }
+  ],
+  "instructions": [
+    "Heat olive oil in a large pot or Dutch oven over medium heat.",
+    "Add chopped onion and cook until softened, about 5 minutes. Add minced garlic and cook for another minute until fragrant.",
+    "Pour in crushed tomatoes and vegetable broth. Bring to a simmer and cook for 10 minutes to allow flavors to meld.",
+    "Stir in heavy cream and tortellini. Cook according to package directions, usually 3-5 minutes for fresh tortellini or 6-8 minutes for frozen, until tender.",
+    "Stir in baby spinach until wilted, about 1-2 minutes.",
+    "Season with salt and pepper to taste. Serve hot, garnished with grated Parmesan cheese."
+  ],
+  "tips": [
+    "For extra hidden veggies, blend a cooked carrot or sweet potato into the soup base before adding cream and tortellini.",
+    "If you prefer a thicker soup, mash some of the tortellini against the side of the pot after cooking.",
+    "Leftovers can be stored in an airtight container in the refrigerator for up to 3 days. Reheat gently on the stovetop."
+  ],
+  "id": "creamy-tomato-tortellini-soup"
+}

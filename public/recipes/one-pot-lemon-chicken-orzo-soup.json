@@ -1,0 +1,109 @@
+{
+  "title": "One-Pot Lemon Chicken Orzo Soup",
+  "description": "This comforting and bright one-pot soup is packed with tender chicken, pasta, and a zesty lemon kick, making it a perfect family-friendly meal that's easy to clean up.",
+  "imageEmoji": "\ud83c\udf72",
+  "prepTime": 15,
+  "cookTime": 25,
+  "totalTime": 40,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": [
+    "Kid Favorite",
+    "Quick",
+    "One Pan",
+    "Comfort Food",
+    "Healthy",
+    "Pasta",
+    "Soup"
+  ],
+  "ingredients": [
+    {
+      "item": "Olive oil",
+      "amount": 1,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Boneless, skinless chicken breasts",
+      "amount": 1,
+      "unit": "lb",
+      "category": "protein"
+    },
+    {
+      "item": "Yellow onion",
+      "amount": 1,
+      "unit": "medium",
+      "category": "produce"
+    },
+    {
+      "item": "Carrots",
+      "amount": 2,
+      "unit": "medium",
+      "category": "produce"
+    },
+    {
+      "item": "Celery stalks",
+      "amount": 2,
+      "unit": "",
+      "category": "produce"
+    },
+    {
+      "item": "Garlic",
+      "amount": 3,
+      "unit": "cloves",
+      "category": "produce"
+    },
+    {
+      "item": "Chicken broth",
+      "amount": 6,
+      "unit": "cups",
+      "category": "pantry"
+    },
+    {
+      "item": "Orzo pasta",
+      "amount": 1,
+      "unit": "cup",
+      "category": "pantry"
+    },
+    {
+      "item": "Fresh spinach",
+      "amount": 3,
+      "unit": "cups",
+      "category": "produce"
+    },
+    {
+      "item": "Lemon",
+      "amount": 1,
+      "unit": "large",
+      "category": "produce"
+    },
+    {
+      "item": "Salt",
+      "amount": null,
+      "unit": "to taste",
+      "category": "pantry"
+    },
+    {
+      "item": "Black pepper",
+      "amount": null,
+      "unit": "to taste",
+      "category": "pantry"
+    }
+  ],
+  "instructions": [
+    "Heat olive oil in a large pot or Dutch oven over medium heat.",
+    "Cut chicken into 1-inch pieces. Season with salt and pepper. Add to the pot and cook until browned, about 5-7 minutes. Remove chicken and set aside.",
+    "Add chopped onion, carrots, and celery to the pot. Saut\u00e9 until softened, about 5-7 minutes.",
+    "Stir in minced garlic and cook for 1 minute until fragrant.",
+    "Pour in chicken broth and bring to a boil. Add orzo pasta and cooked chicken. Reduce heat to medium-low, cover, and simmer for 10-12 minutes, or until orzo is tender.",
+    "Stir in fresh spinach until wilted, about 2-3 minutes.",
+    "Remove from heat. Squeeze in the juice of one lemon. Taste and adjust seasoning with salt and pepper as needed.",
+    "Serve warm and enjoy!"
+  ],
+  "tips": [
+    "For extra flavor, you can add a bay leaf to the broth while simmering and remove it before serving.",
+    "If you prefer a creamier soup, stir in a splash of heavy cream or a tablespoon of cream cheese at the end.",
+    "To make it even more kid-friendly, you can shred the chicken instead of dicing it, and ensure the vegetables are finely chopped."
+  ],
+  "id": "one-pot-lemon-chicken-orzo-soup"
+}

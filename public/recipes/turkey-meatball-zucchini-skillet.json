@@ -1,0 +1,105 @@
+{
+  "title": "Turkey Meatball & Zucchini Skillet",
+  "description": "A delicious and healthy one-pan meal featuring tender turkey meatballs and fresh zucchini, perfect for a quick family dinner. Kid-friendly and easy to prepare!",
+  "imageEmoji": "\ud83c\udf5d",
+  "prepTime": 15,
+  "cookTime": 20,
+  "totalTime": 35,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": [
+    "Kid Favorite",
+    "Quick",
+    "One Pan",
+    "Healthy",
+    "American"
+  ],
+  "ingredients": [
+    {
+      "item": "Ground turkey",
+      "amount": "1",
+      "unit": "lb",
+      "category": "protein"
+    },
+    {
+      "item": "Zucchini",
+      "amount": "2",
+      "unit": "medium",
+      "category": "produce"
+    },
+    {
+      "item": "Canned crushed tomatoes",
+      "amount": "1",
+      "unit": "(28 oz) can",
+      "category": "pantry"
+    },
+    {
+      "item": "Onion",
+      "amount": "1",
+      "unit": "small",
+      "category": "produce"
+    },
+    {
+      "item": "Garlic",
+      "amount": "2",
+      "unit": "cloves",
+      "category": "produce"
+    },
+    {
+      "item": "Olive oil",
+      "amount": "2",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Italian seasoning",
+      "amount": "1",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Salt",
+      "amount": "1/2",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Black pepper",
+      "amount": "1/4",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Breadcrumbs",
+      "amount": "1/4",
+      "unit": "cup",
+      "category": "pantry"
+    },
+    {
+      "item": "Egg",
+      "amount": "1",
+      "unit": "large",
+      "category": "dairy"
+    },
+    {
+      "item": "Parmesan cheese",
+      "amount": "1/4",
+      "unit": "cup, shredded",
+      "category": "dairy"
+    }
+  ],
+  "instructions": [
+    "In a large bowl, combine ground turkey, breadcrumbs, egg, 1/2 tsp Italian seasoning, 1/4 tsp salt, and 1/8 tsp black pepper. Mix gently until just combined, then form into 1-inch meatballs.",
+    "Heat 1 tbsp olive oil in a large skillet over medium-high heat. Add meatballs and cook, turning occasionally, until browned on all sides. Remove meatballs from skillet and set aside.",
+    "Add remaining 1 tbsp olive oil to the skillet. Add chopped onion and cook until softened, about 3-5 minutes. Add minced garlic and cook for another minute until fragrant.",
+    "Stir in crushed tomatoes, remaining 1/2 tsp Italian seasoning, 1/4 tsp salt, and 1/8 tsp black pepper. Bring to a simmer.",
+    "Return meatballs to the skillet. Add sliced zucchini. Cover and cook for 10-12 minutes, or until zucchini is tender and meatballs are cooked through.",
+    "Serve hot, optionally garnished with shredded Parmesan cheese."
+  ],
+  "tips": [
+    "For extra flavor, you can add a pinch of red pepper flakes to the sauce.",
+    "If your kids are picky about zucchini, you can grate it and mix it directly into the meatballs or finely dice it so it blends into the sauce more.",
+    "Serve this skillet meal over pasta, rice, or with a side of crusty bread for a complete meal."
+  ],
+  "id": "turkey-meatball-zucchini-skillet"
+}

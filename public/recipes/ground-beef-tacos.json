@@ -1,0 +1,85 @@
+{
+  "title": "Ground Beef Tacos",
+  "description": "These easy ground beef tacos are a family-friendly weeknight meal that comes together quickly. Perfect for a fun and customizable dinner!",
+  "imageEmoji": "\ud83c\udf2e",
+  "prepTime": 15,
+  "cookTime": 15,
+  "totalTime": 30,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": [
+    "Kid Favorite",
+    "Quick",
+    "Mexican",
+    "American"
+  ],
+  "ingredients": [
+    {
+      "item": "Ground Beef",
+      "amount": 1,
+      "unit": "lb",
+      "category": "protein"
+    },
+    {
+      "item": "Taco Seasoning",
+      "amount": 1,
+      "unit": "packet",
+      "category": "pantry"
+    },
+    {
+      "item": "Water",
+      "amount": 0.5,
+      "unit": "cup",
+      "category": "pantry"
+    },
+    {
+      "item": "Taco Shells",
+      "amount": 12,
+      "unit": "count",
+      "category": "pantry"
+    },
+    {
+      "item": "Lettuce",
+      "amount": 1,
+      "unit": "head",
+      "category": "produce"
+    },
+    {
+      "item": "Tomato",
+      "amount": 2,
+      "unit": "medium",
+      "category": "produce"
+    },
+    {
+      "item": "Cheddar Cheese",
+      "amount": 1,
+      "unit": "cup",
+      "category": "dairy"
+    },
+    {
+      "item": "Sour Cream",
+      "amount": 0.5,
+      "unit": "cup",
+      "category": "dairy"
+    },
+    {
+      "item": "Salsa",
+      "amount": 0.5,
+      "unit": "cup",
+      "category": "pantry"
+    }
+  ],
+  "instructions": [
+    "Brown the ground beef in a large skillet over medium-high heat, breaking it apart with a spoon. Drain any excess fat.",
+    "Stir in the taco seasoning and water. Bring to a simmer and cook for 5-7 minutes, or until the sauce has thickened.",
+    "While the beef is simmering, prepare your toppings: shred the lettuce, dice the tomatoes, and grate the cheese.",
+    "Warm the taco shells according to package directions (microwave or oven).",
+    "Assemble your tacos by filling each shell with seasoned ground beef, then adding your desired toppings like lettuce, tomato, cheese, sour cream, and salsa."
+  ],
+  "tips": [
+    "For picky eaters, offer toppings in separate bowls so they can choose what they like.",
+    "Make it a 'taco bar' for extra fun, letting everyone build their own.",
+    "Leftover ground beef mixture can be stored in an airtight container in the refrigerator for up to 3 days."
+  ],
+  "id": "ground-beef-tacos"
+}

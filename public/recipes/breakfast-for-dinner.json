@@ -1,0 +1,91 @@
+{
+  "title": "Breakfast for Dinner Sheet Pan Bake",
+  "description": "A fun and easy sheet pan breakfast bake, perfect for a weeknight family meal. It's packed with savory sausage, fluffy eggs, and cheesy goodness that even the pickiest eaters will love.",
+  "imageEmoji": "\ud83c\udf73",
+  "prepTime": 15,
+  "cookTime": 25,
+  "totalTime": 40,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": [
+    "Kid Favorite",
+    "Quick",
+    "One Pan",
+    "Comfort Food",
+    "American",
+    "Breakfast"
+  ],
+  "ingredients": [
+    {
+      "item": "Large Eggs",
+      "amount": 8,
+      "unit": "",
+      "category": "protein"
+    },
+    {
+      "item": "Milk",
+      "amount": 0.25,
+      "unit": "cup",
+      "category": "dairy"
+    },
+    {
+      "item": "Breakfast Sausage",
+      "amount": 1,
+      "unit": "lb",
+      "category": "protein"
+    },
+    {
+      "item": "Shredded Cheddar Cheese",
+      "amount": 1,
+      "unit": "cup",
+      "category": "dairy"
+    },
+    {
+      "item": "Bell Pepper",
+      "amount": 1,
+      "unit": "",
+      "category": "produce"
+    },
+    {
+      "item": "Small Onion",
+      "amount": 0.5,
+      "unit": "",
+      "category": "produce"
+    },
+    {
+      "item": "Salt",
+      "amount": 0.5,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Black Pepper",
+      "amount": 0.25,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Cooking Spray",
+      "amount": 0,
+      "unit": "",
+      "category": "other"
+    }
+  ],
+  "instructions": [
+    "Preheat oven to 375\u00b0F (190\u00b0C). Lightly grease a large sheet pan with cooking spray.",
+    "In a large bowl, whisk together eggs, milk, salt, and pepper until well combined.",
+    "In a skillet, cook the breakfast sausage over medium heat, breaking it up with a spoon, until browned and cooked through. Drain any excess grease.",
+    "Dice the bell pepper and onion into small pieces.",
+    "Spread the cooked sausage, diced bell pepper, and onion evenly over the prepared sheet pan.",
+    "Pour the egg mixture over the sausage and vegetables on the sheet pan.",
+    "Sprinkle the shredded cheddar cheese evenly over the egg mixture.",
+    "Bake for 20-25 minutes, or until the eggs are set and the cheese is bubbly and lightly golden.",
+    "Let cool slightly before slicing and serving."
+  ],
+  "tips": [
+    "For extra veggies, add spinach or mushrooms to the sheet pan along with the bell pepper and onion.",
+    "Serve with a side of toast or fresh fruit for a complete meal.",
+    "Leftovers can be stored in an airtight container in the refrigerator for up to 3 days and reheated in the microwave."
+  ],
+  "id": "breakfast-for-dinner"
+}

@@ -1,0 +1,89 @@
+{
+  "title": "Cheesy Baked Gnocchi",
+  "description": "This super easy and delicious Cheesy Baked Gnocchi is a perfect weeknight meal for the whole family. With minimal prep and just one pan, it's a kid-friendly comfort food everyone will love.",
+  "imageEmoji": "\ud83c\udf5d",
+  "prepTime": 10,
+  "cookTime": 20,
+  "totalTime": 30,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": [
+    "Kid Favorite",
+    "Quick",
+    "One Pan",
+    "Vegetarian",
+    "Comfort Food",
+    "Pasta",
+    "Italian"
+  ],
+  "ingredients": [
+    {
+      "item": "Potato Gnocchi",
+      "amount": 500,
+      "unit": "g",
+      "category": "pantry"
+    },
+    {
+      "item": "Marinara Sauce",
+      "amount": 680,
+      "unit": "g",
+      "category": "pantry"
+    },
+    {
+      "item": "Mozzarella Cheese",
+      "amount": 2,
+      "unit": "cups",
+      "category": "dairy"
+    },
+    {
+      "item": "Parmesan Cheese",
+      "amount": 0.5,
+      "unit": "cup",
+      "category": "dairy"
+    },
+    {
+      "item": "Fresh Basil",
+      "amount": 0.25,
+      "unit": "cup",
+      "category": "produce"
+    },
+    {
+      "item": "Olive Oil",
+      "amount": 1,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Garlic Powder",
+      "amount": 0.5,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Salt",
+      "amount": 0.25,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Black Pepper",
+      "amount": 0.125,
+      "unit": "tsp",
+      "category": "pantry"
+    }
+  ],
+  "instructions": [
+    "Preheat oven to 400\u00b0F (200\u00b0C).",
+    "In a large oven-safe skillet or baking dish, combine the gnocchi, marinara sauce, olive oil, garlic powder, salt, and pepper. Stir gently to combine.",
+    "Sprinkle 1 cup of mozzarella cheese over the gnocchi mixture.",
+    "Bake for 15-20 minutes, or until the gnocchi is tender and the sauce is bubbly.",
+    "Remove from oven, sprinkle with the remaining 1 cup of mozzarella cheese and the Parmesan cheese. Return to oven for 5 minutes, or until cheese is melted and bubbly.",
+    "Garnish with fresh basil before serving."
+  ],
+  "tips": [
+    "For extra veggies, stir in a handful of spinach or finely diced zucchini with the marinara sauce.",
+    "If you don't have an oven-safe skillet, you can combine everything in a large bowl and then transfer to a 9x13 inch baking dish.",
+    "Let it cool for a few minutes before serving, as the cheese will be very hot."
+  ],
+  "id": "cheesy-baked-gnocchi"
+}

@@ -1,0 +1,72 @@
+{
+  "title": "Mini Naan Pizzas",
+  "description": "These mini naan pizzas are a quick, customizable, and fun meal perfect for a family night. Kids love assembling their own, making dinner an interactive and delicious experience.",
+  "imageEmoji": "\ud83c\udf55",
+  "prepTime": 10,
+  "cookTime": 12,
+  "totalTime": 22,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": [
+    "Kid Favorite",
+    "Quick",
+    "One Pan",
+    "Vegetarian",
+    "Comfort Food",
+    "American",
+    "Italian"
+  ],
+  "ingredients": [
+    {
+      "item": "Mini Naan Breads",
+      "amount": 4,
+      "unit": "pieces",
+      "category": "bakery"
+    },
+    {
+      "item": "Pizza Sauce",
+      "amount": 0.5,
+      "unit": "cup",
+      "category": "pantry"
+    },
+    {
+      "item": "Shredded Mozzarella Cheese",
+      "amount": 1.5,
+      "unit": "cups",
+      "category": "dairy"
+    },
+    {
+      "item": "Mini Pepperoni",
+      "amount": 0.25,
+      "unit": "cup",
+      "category": "protein"
+    },
+    {
+      "item": "Bell Pepper",
+      "amount": 0.5,
+      "unit": "piece",
+      "category": "produce"
+    },
+    {
+      "item": "Black Olives",
+      "amount": 0.25,
+      "unit": "cup",
+      "category": "produce"
+    }
+  ],
+  "instructions": [
+    "Preheat your oven to 400\u00b0F (200\u00b0C). Line a baking sheet with parchment paper or foil.",
+    "Place the mini naan breads on the prepared baking sheet, ensuring they are not overlapping.",
+    "Spread about 2 tablespoons of pizza sauce evenly over each naan bread, leaving a small border for the crust.",
+    "Sprinkle shredded mozzarella cheese generously over the sauce on each naan.",
+    "Add desired toppings like mini pepperoni, diced bell peppers, and sliced black olives. Encourage kids to add their own!",
+    "Bake for 10-12 minutes, or until the cheese is bubbly and lightly golden, and the naan edges are crispy.",
+    "Carefully remove from the oven and let cool for a few minutes before slicing and serving."
+  ],
+  "tips": [
+    "Let kids choose their own toppings from a selection of pre-prepped ingredients to make it extra fun and encourage them to eat their veggies.",
+    "For a crispier crust, lightly toast the naan bread in the oven for 2-3 minutes before adding sauce and toppings.",
+    "Feel free to substitute naan with pita bread or English muffins for a similar quick pizza base."
+  ],
+  "id": "mini-naan-pizzas"
+}

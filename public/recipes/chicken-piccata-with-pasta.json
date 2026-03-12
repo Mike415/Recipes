@@ -1,0 +1,99 @@
+{
+  "title": "Chicken Piccata with Pasta",
+  "description": "This family-friendly Chicken Piccata with Pasta is a delicious and quick meal, perfect for busy weeknights. Tender chicken cutlets are pan-fried and served with a tangy lemon-caper sauce over a bed of pasta, making it a kid-approved comfort food.",
+  "imageEmoji": "\ud83c\udf5d",
+  "prepTime": 15,
+  "cookTime": 20,
+  "totalTime": 35,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": [
+    "Kid Favorite",
+    "Quick",
+    "Comfort Food",
+    "Pasta",
+    "Italian"
+  ],
+  "ingredients": [
+    {
+      "item": "Chicken breast cutlets",
+      "amount": 1.5,
+      "unit": "lb",
+      "category": "protein"
+    },
+    {
+      "item": "All-purpose flour",
+      "amount": 0.5,
+      "unit": "cup",
+      "category": "pantry"
+    },
+    {
+      "item": "Salt",
+      "amount": 0.5,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Black pepper",
+      "amount": 0.25,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Olive oil",
+      "amount": 2,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Unsalted butter",
+      "amount": 2,
+      "unit": "tbsp",
+      "category": "dairy"
+    },
+    {
+      "item": "Lemon juice",
+      "amount": 0.25,
+      "unit": "cup",
+      "category": "produce"
+    },
+    {
+      "item": "Chicken broth",
+      "amount": 0.5,
+      "unit": "cup",
+      "category": "pantry"
+    },
+    {
+      "item": "Caperrs, drained",
+      "amount": 2,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Fresh parsley, chopped",
+      "amount": 2,
+      "unit": "tbsp",
+      "category": "produce"
+    },
+    {
+      "item": "Spaghetti or linguine",
+      "amount": 8,
+      "unit": "oz",
+      "category": "pantry"
+    }
+  ],
+  "instructions": [
+    "Cook pasta according to package directions. Drain and set aside.",
+    "Pat chicken cutlets dry. In a shallow dish, combine flour, salt, and pepper. Dredge chicken in the flour mixture, shaking off excess.",
+    "Heat olive oil in a large skillet over medium-high heat. Add chicken and cook for 3-4 minutes per side, until golden brown and cooked through. Remove chicken from skillet and set aside.",
+    "Reduce heat to medium. Add butter to the skillet, scraping up any browned bits. Stir in lemon juice, chicken broth, and capers. Bring to a simmer and cook for 2-3 minutes, until sauce slightly thickens.",
+    "Return chicken to the skillet, turning to coat with the sauce. Cook for 1 minute to heat through.",
+    "Serve chicken and sauce immediately over the cooked pasta, garnished with fresh parsley."
+  ],
+  "tips": [
+    "For extra tender chicken, pound the cutlets to an even thickness before dredging.",
+    "If the sauce is too thin, you can whisk in a teaspoon of cornstarch mixed with a tablespoon of cold water to thicken it.",
+    "To make it even more kid-friendly, you can serve the pasta and chicken separately, and offer a small amount of sauce on the side for dipping."
+  ],
+  "id": "chicken-piccata-with-pasta"
+}

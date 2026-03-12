@@ -1,0 +1,69 @@
+import { useEffect, useState } from "react";
+import type { Recipe } from "@shared/recipe-types";
+
+export function useRecipes() {
+  const [recipes, setRecipes] = useState<Recipe[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    async function loadRecipes() {
+      try {
+        // Load recipe index
+        const indexResponse = await fetch("/recipes/index.json");
+        if (!indexResponse.ok) throw new Error("Failed to load recipe index");
+
+        const index = await indexResponse.json();
+        const recipeIds: string[] = index.recipes;
+
+        // Load all recipes in parallel
+        const recipePromises = recipeIds.map((id) =>
+          fetch(`/recipes/${id}.json`)
+            .then((res) => res.json())
+            .catch(() => null)
+        );
+
+        const loadedRecipes = await Promise.all(recipePromises);
+        setRecipes(loadedRecipes.filter((r): r is Recipe => r !== null));
+        setError(null);
+      } catch (err) {
+        setError(err instanceof Error ? err.message : "Failed to load recipes");
+        setRecipes([]);
+      } finally {
+        setLoading(false);
+      }
+    }
+
+    loadRecipes();
+  }, []);
+
+  return { recipes, loading, error };
+}
+
+export function useRecipe(id: string) {
+  const [recipe, setRecipe] = useState<Recipe | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    async function loadRecipe() {
+      try {
+        const response = await fetch(`/recipes/${id}.json`);
+        if (!response.ok) throw new Error("Recipe not found");
+
+        const data = await response.json();
+        setRecipe(data);
+        setError(null);
+      } catch (err) {
+        setError(err instanceof Error ? err.message : "Failed to load recipe");
+        setRecipe(null);
+      } finally {
+        setLoading(false);
+      }
+    }
+
+    loadRecipe();
+  }, [id]);
+
+  return { recipe, loading, error };
+}

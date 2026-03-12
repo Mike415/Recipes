@@ -1,0 +1,101 @@
+{
+  "title": "Deconstructed Egg Roll in a Bowl",
+  "description": "Enjoy all the savory flavors of an egg roll without the fuss of frying! This quick and healthy meal is perfect for a busy weeknight and easily customizable for the whole family.",
+  "imageEmoji": "\ud83c\udf5c",
+  "prepTime": 15,
+  "cookTime": 15,
+  "totalTime": 30,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": [
+    "Kid Favorite",
+    "Quick",
+    "One Pan",
+    "Healthy",
+    "Asian",
+    "American"
+  ],
+  "ingredients": [
+    {
+      "item": "Ground pork or turkey",
+      "amount": 1,
+      "unit": "lb",
+      "category": "protein"
+    },
+    {
+      "item": "Coleslaw mix",
+      "amount": 16,
+      "unit": "oz",
+      "category": "produce"
+    },
+    {
+      "item": "Carrots, shredded",
+      "amount": 1,
+      "unit": "cup",
+      "category": "produce"
+    },
+    {
+      "item": "Garlic, minced",
+      "amount": 2,
+      "unit": "cloves",
+      "category": "produce"
+    },
+    {
+      "item": "Ginger, grated",
+      "amount": 1,
+      "unit": "tsp",
+      "category": "produce"
+    },
+    {
+      "item": "Soy sauce (low sodium)",
+      "amount": 3,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Sesame oil",
+      "amount": 1,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Rice vinegar",
+      "amount": 1,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Sriracha (optional, for adults)",
+      "amount": 1,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Green onions, sliced",
+      "amount": 2,
+      "unit": "stalks",
+      "category": "produce"
+    },
+    {
+      "item": "Sesame seeds",
+      "amount": 1,
+      "unit": "tbsp",
+      "category": "pantry"
+    }
+  ],
+  "instructions": [
+    "In a large skillet or wok, brown the ground pork or turkey over medium-high heat, breaking it apart with a spoon. Drain any excess fat.",
+    "Add minced garlic and grated ginger to the skillet and cook for 1 minute until fragrant.",
+    "Stir in the shredded carrots and coleslaw mix. Cook for 5-7 minutes, stirring occasionally, until the vegetables are tender-crisp.",
+    "In a small bowl, whisk together soy sauce, sesame oil, rice vinegar, and sriracha (if using).",
+    "Pour the sauce over the mixture in the skillet and toss to combine. Cook for another 2-3 minutes until heated through.",
+    "Remove from heat and stir in most of the sliced green onions.",
+    "Serve immediately in bowls, garnished with remaining green onions and sesame seeds."
+  ],
+  "tips": [
+    "For picky eaters, you can serve the meat and vegetable mixture separately, or offer a side of rice or noodles.",
+    "To make it even quicker, use pre-minced garlic and ginger.",
+    "Adjust the amount of soy sauce and sriracha to your family's taste. For kids, you might want to omit the sriracha entirely."
+  ],
+  "id": "deconstructed-egg-roll-in-a-bowl"
+}

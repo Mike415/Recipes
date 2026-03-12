@@ -1,0 +1,93 @@
+{
+  "title": "Loaded Baked Potatoes",
+  "description": "A comforting and customizable meal, perfect for a family dinner. These baked potatoes are loaded with delicious toppings that even the pickiest eaters will love.",
+  "imageEmoji": "\ud83e\udd54",
+  "prepTime": 15,
+  "cookTime": 60,
+  "totalTime": 75,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": [
+    "Kid Favorite",
+    "Comfort Food",
+    "American"
+  ],
+  "ingredients": [
+    {
+      "item": "Russet potatoes",
+      "amount": 4,
+      "unit": "large",
+      "category": "produce"
+    },
+    {
+      "item": "Olive Oil",
+      "amount": 1,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Salt",
+      "amount": 1,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Butter",
+      "amount": 2,
+      "unit": "tbsp",
+      "category": "dairy"
+    },
+    {
+      "item": "Sour Cream",
+      "amount": 0.5,
+      "unit": "cup",
+      "category": "dairy"
+    },
+    {
+      "item": "Cheddar Cheese",
+      "amount": 1,
+      "unit": "cup",
+      "category": "dairy"
+    },
+    {
+      "item": "Bacon",
+      "amount": 4,
+      "unit": "slices",
+      "category": "protein"
+    },
+    {
+      "item": "Green Onions",
+      "amount": 2,
+      "unit": "",
+      "category": "produce"
+    },
+    {
+      "item": "Milk",
+      "amount": 2,
+      "unit": "tbsp",
+      "category": "dairy"
+    },
+    {
+      "item": "Black Pepper",
+      "amount": 0.5,
+      "unit": "tsp",
+      "category": "pantry"
+    }
+  ],
+  "instructions": [
+    "Preheat oven to 400\u00b0F (200\u00b0C). Pierce each potato several times with a fork.",
+    "Rub potatoes with olive oil and sprinkle with salt. Place directly on the oven rack.",
+    "Bake for 50-60 minutes, or until tender when squeezed.",
+    "Carefully remove potatoes from the oven. Slice each potato lengthwise down the middle, being careful not to cut all the way through.",
+    "Fluff the inside of each potato with a fork. Add butter, milk, and black pepper. Mix gently until creamy.",
+    "Stir in half of the shredded cheddar cheese, crumbled bacon, and chopped green onions.",
+    "Top each potato with a dollop of sour cream, the remaining cheddar cheese, and a sprinkle of green onions and bacon.",
+    "Serve immediately and enjoy!"
+  ],
+  "tips": [
+    "For extra crispy skin, rub potatoes with a little extra olive oil before baking.",
+    "Leftover loaded baked potatoes can be stored in an airtight container in the refrigerator for up to 3 days.",
+    "Customize toppings with your family's favorites, such as steamed broccoli, chili, or pulled pork."
+  ],
+  "id": "loaded-baked-potatoes"
+}

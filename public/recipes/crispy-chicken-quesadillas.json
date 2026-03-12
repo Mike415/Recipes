@@ -1,0 +1,83 @@
+{
+  "title": "Crispy Chicken Quesadillas",
+  "description": "These crispy chicken quesadillas are a family-friendly meal that's quick to prepare and a guaranteed hit with kids. Perfect for a weeknight dinner, they come together easily with minimal cleanup.",
+  "imageEmoji": "\ud83c\udf2e",
+  "prepTime": 15,
+  "cookTime": 15,
+  "totalTime": 30,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": [
+    "Kid Favorite",
+    "Quick",
+    "One Pan",
+    "Mexican",
+    "Comfort Food"
+  ],
+  "ingredients": [
+    {
+      "item": "Cooked chicken, shredded",
+      "amount": 2,
+      "unit": "cups",
+      "category": "protein"
+    },
+    {
+      "item": "Flour tortillas (8-inch)",
+      "amount": 8,
+      "unit": "",
+      "category": "pantry"
+    },
+    {
+      "item": "Cheddar cheese, shredded",
+      "amount": 2,
+      "unit": "cups",
+      "category": "dairy"
+    },
+    {
+      "item": "Monterey Jack cheese, shredded",
+      "amount": 1,
+      "unit": "cup",
+      "category": "dairy"
+    },
+    {
+      "item": "Olive oil",
+      "amount": 2,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Taco seasoning",
+      "amount": 1,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Salsa",
+      "amount": 0,
+      "unit": "",
+      "category": "other"
+    },
+    {
+      "item": "Sour cream",
+      "amount": 0,
+      "unit": "",
+      "category": "dairy"
+    }
+  ],
+  "instructions": [
+    "In a medium bowl, combine the shredded cooked chicken with taco seasoning. Mix well to coat.",
+    "Heat 1 tablespoon of olive oil in a large non-stick skillet or griddle over medium heat.",
+    "Place one tortilla in the skillet. Sprinkle half a cup of mixed cheeses over one half of the tortilla.",
+    "Spoon about 1/4 cup of the seasoned chicken mixture over the cheese.",
+    "Fold the other half of the tortilla over the filling, pressing down gently.",
+    "Cook for 3-4 minutes per side, or until the tortilla is golden brown and crispy, and the cheese is melted and bubbly.",
+    "Remove from skillet, cut into wedges, and repeat with remaining tortillas and filling.",
+    "Serve immediately with salsa and sour cream for dipping."
+  ],
+  "tips": [
+    "For extra crispiness, lightly butter the outside of the tortillas before placing them in the skillet.",
+    "You can easily customize the filling with finely diced bell peppers or corn for added veggies.",
+    "Pre-shredded rotisserie chicken makes this recipe even faster to prepare."
+  ],
+  "id": "crispy-chicken-quesadillas"
+}

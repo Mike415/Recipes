@@ -1,0 +1,90 @@
+{
+  "title": "Baked Mac & Cheese",
+  "description": "A creamy and comforting baked macaroni and cheese recipe, perfect for a family of four. This dish is a guaranteed kid-pleaser and comes together easily with minimal fuss.",
+  "imageEmoji": "\ud83e\uddc0",
+  "prepTime": 15,
+  "cookTime": 25,
+  "totalTime": 40,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": [
+    "Kid Favorite",
+    "Comfort Food",
+    "Pasta",
+    "American"
+  ],
+  "ingredients": [
+    {
+      "item": "Elbow macaroni",
+      "amount": "2",
+      "unit": "cups",
+      "category": "pantry"
+    },
+    {
+      "item": "Unsalted butter",
+      "amount": "1/4",
+      "unit": "cup",
+      "category": "dairy"
+    },
+    {
+      "item": "All-purpose flour",
+      "amount": "1/4",
+      "unit": "cup",
+      "category": "pantry"
+    },
+    {
+      "item": "Whole milk",
+      "amount": "3",
+      "unit": "cups",
+      "category": "dairy"
+    },
+    {
+      "item": "Sharp cheddar cheese",
+      "amount": "2",
+      "unit": "cups",
+      "category": "dairy"
+    },
+    {
+      "item": "Monterey Jack cheese",
+      "amount": "1",
+      "unit": "cup",
+      "category": "dairy"
+    },
+    {
+      "item": "Salt",
+      "amount": "1/2",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Black pepper",
+      "amount": "1/4",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Panko breadcrumbs",
+      "amount": "1/2",
+      "unit": "cup",
+      "category": "pantry"
+    }
+  ],
+  "instructions": [
+    "Preheat oven to 375\u00b0F (190\u00b0C). Grease a 9x13 inch baking dish.",
+    "Cook macaroni according to package directions until al dente. Drain and set aside.",
+    "In a large saucepan or Dutch oven, melt butter over medium heat. Whisk in flour and cook for 1 minute, stirring constantly, to create a roux.",
+    "Gradually whisk in milk until smooth. Bring to a simmer, stirring constantly, until the sauce thickens.",
+    "Remove from heat. Stir in sharp cheddar cheese, Monterey Jack cheese, salt, and pepper until the cheese is melted and the sauce is smooth.",
+    "Add the cooked macaroni to the cheese sauce and stir to combine.",
+    "Pour the macaroni and cheese mixture into the prepared baking dish.",
+    "Sprinkle panko breadcrumbs evenly over the top.",
+    "Bake for 20-25 minutes, or until bubbly and the topping is golden brown.",
+    "Let stand for 5 minutes before serving."
+  ],
+  "tips": [
+    "For extra flavor, add a pinch of nutmeg to the cheese sauce.",
+    "Using freshly grated cheese instead of pre-shredded will result in a smoother, creamier sauce.",
+    "If you don't have breadcrumbs, crushed crackers or even a little extra cheese on top will work for a crispy topping."
+  ],
+  "id": "baked-mac-cheese"
+}

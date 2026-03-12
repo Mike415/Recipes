@@ -1,0 +1,103 @@
+{
+  "title": "Creamy Mushroom & Spinach Pasta with Garlic Bread",
+  "description": "This creamy and comforting pasta dish is packed with flavor and healthy spinach, making it a perfect family meal. Served with warm garlic bread, it's a quick and easy weeknight dinner that even picky eaters will love.",
+  "imageEmoji": "\ud83c\udf5d",
+  "prepTime": 15,
+  "cookTime": 20,
+  "totalTime": 35,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": [
+    "Kid Favorite",
+    "Quick",
+    "Vegetarian",
+    "Comfort Food",
+    "Pasta",
+    "Italian"
+  ],
+  "ingredients": [
+    {
+      "item": "Pasta",
+      "amount": 250,
+      "unit": "g",
+      "category": "pantry"
+    },
+    {
+      "item": "Olive Oil",
+      "amount": 1,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Garlic",
+      "amount": 3,
+      "unit": "cloves",
+      "category": "produce"
+    },
+    {
+      "item": "Mushrooms",
+      "amount": 200,
+      "unit": "g",
+      "category": "produce"
+    },
+    {
+      "item": "Spinach",
+      "amount": 150,
+      "unit": "g",
+      "category": "produce"
+    },
+    {
+      "item": "Heavy Cream",
+      "amount": 200,
+      "unit": "ml",
+      "category": "dairy"
+    },
+    {
+      "item": "Parmesan Cheese",
+      "amount": 50,
+      "unit": "g",
+      "category": "dairy"
+    },
+    {
+      "item": "Vegetable Broth",
+      "amount": 100,
+      "unit": "ml",
+      "category": "pantry"
+    },
+    {
+      "item": "Salt",
+      "amount": null,
+      "unit": "to taste",
+      "category": "pantry"
+    },
+    {
+      "item": "Black Pepper",
+      "amount": null,
+      "unit": "to taste",
+      "category": "pantry"
+    },
+    {
+      "item": "Garlic Bread",
+      "amount": 4,
+      "unit": "slices",
+      "category": "bakery"
+    }
+  ],
+  "instructions": [
+    "Cook pasta according to package directions until al dente. Drain and set aside, reserving about 1/2 cup of pasta water.",
+    "While pasta cooks, heat olive oil in a large skillet or pan over medium heat. Add minced garlic and cook for 1 minute until fragrant.",
+    "Add sliced mushrooms to the skillet and cook until softened and lightly browned, about 5-7 minutes.",
+    "Stir in the fresh spinach and cook until wilted, about 2-3 minutes.",
+    "Pour in the heavy cream and vegetable broth. Bring to a gentle simmer and cook for 2-3 minutes, allowing the sauce to thicken slightly.",
+    "Stir in the grated Parmesan cheese until melted and smooth. Season with salt and black pepper to taste.",
+    "Add the cooked pasta to the skillet with the sauce. Toss to coat evenly. If the sauce is too thick, add a little reserved pasta water until desired consistency is reached.",
+    "Warm the garlic bread according to package instructions.",
+    "Serve the creamy mushroom and spinach pasta immediately with the garlic bread on the side."
+  ],
+  "tips": [
+    "For a smoother sauce, blend a portion of the cooked mushrooms and spinach with a little broth before adding to the cream.",
+    "If kids are hesitant about mushrooms, chop them very finely or use a food processor to hide them in the sauce.",
+    "Add a pinch of nutmeg to the sauce for an extra layer of flavor that complements the cream and spinach."
+  ],
+  "id": "creamy-mushroom-spinach-pasta-with-garlic-bread"
+}

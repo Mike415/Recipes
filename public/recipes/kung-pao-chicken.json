@@ -1,0 +1,133 @@
+{
+  "id": "kung-pao-chicken",
+  "title": "Kung Pao Chicken",
+  "description": "Authentic kung pao chicken with peanuts, dried chilies, and a complex sauce. Restaurant-quality at home!",
+  "imageEmoji": "🍗",
+  "prepTime": 20,
+  "cookTime": 20,
+  "totalTime": 40,
+  "servings": 4,
+  "difficulty": "Medium",
+  "tags": [
+    "Family Recipe",
+    "Asian",
+    "Quick"
+  ],
+  "ingredients": [
+    {
+      "item": "Chicken Thighs (boneless, skinless)",
+      "amount": "2",
+      "unit": "lbs",
+      "category": "protein"
+    },
+    {
+      "item": "Cornstarch",
+      "amount": "2",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "White Pepper",
+      "amount": "1",
+      "unit": "pinch",
+      "category": "pantry"
+    },
+    {
+      "item": "Soy Sauce",
+      "amount": "3",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Shaoxing Wine",
+      "amount": "1",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Vegetable Oil",
+      "amount": "3.5",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Raw Peanuts",
+      "amount": "0.25",
+      "unit": "cup",
+      "category": "pantry"
+    },
+    {
+      "item": "Dried Chilies",
+      "amount": "8",
+      "unit": "count",
+      "category": "pantry"
+    },
+    {
+      "item": "Green Onions",
+      "amount": "0.75",
+      "unit": "bunch",
+      "category": "produce"
+    },
+    {
+      "item": "Ginger",
+      "amount": "1",
+      "unit": "inch",
+      "category": "produce"
+    },
+    {
+      "item": "Garlic Cloves",
+      "amount": "8",
+      "unit": "count",
+      "category": "produce"
+    },
+    {
+      "item": "Ground Sichuan Peppercorn",
+      "amount": "0.75",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Sugar",
+      "amount": "2.5",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Dark Soy Sauce",
+      "amount": "2",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Chinese Black Vinegar",
+      "amount": "3",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Chicken Stock",
+      "amount": "0.25",
+      "unit": "cup",
+      "category": "pantry"
+    }
+  ],
+  "instructions": [
+    "Prepare sauce by mixing sugar, cornstarch, soy sauces, vinegar, stock, and water",
+    "Cut chicken into bite-sized pieces and marinate with cornstarch, white pepper, soy sauce, and Shaoxing wine for 10+ minutes",
+    "Heat wok and fry raw peanuts until golden, then remove and set aside",
+    "Fry dried chilies until fragrant, then remove and set aside",
+    "Add oil to wok and sear chicken in batches until cooked through",
+    "Stir-fry green onions, minced ginger, minced garlic, and Sichuan peppercorn",
+    "Return chicken to wok along with fried chilies and peanuts",
+    "Pour in prepared sauce and toss everything together",
+    "Cook until sauce thickens and coats the chicken, about 2 minutes"
+  ],
+  "tips": [
+    "Don't skip the marinating step - it tenderizes the chicken",
+    "Fry peanuts and chilies separately to control doneness",
+    "Sichuan peppercorn adds a unique numbing sensation",
+    "Serve over steamed rice",
+    "Have all ingredients prepped before cooking - stir fries cook fast!"
+  ],
+  "isFamily": true
+}

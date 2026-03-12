@@ -1,0 +1,111 @@
+{
+  "title": "Homemade Cheeseburgers & Oven Fries",
+  "description": "A classic family meal made easy at home! Juicy cheeseburgers paired with crispy oven-baked fries make for a delicious and kid-approved dinner.",
+  "imageEmoji": "\ud83c\udf54\ud83c\udf5f",
+  "prepTime": 20,
+  "cookTime": 30,
+  "totalTime": 50,
+  "servings": 4,
+  "difficulty": "Easy",
+  "tags": [
+    "Kid Favorite",
+    "Comfort Food",
+    "American"
+  ],
+  "ingredients": [
+    {
+      "item": "Ground Beef",
+      "amount": 1,
+      "unit": "lb",
+      "category": "protein"
+    },
+    {
+      "item": "Hamburger Buns",
+      "amount": 4,
+      "unit": "count",
+      "category": "bakery"
+    },
+    {
+      "item": "Cheddar Cheese Slices",
+      "amount": 4,
+      "unit": "count",
+      "category": "dairy"
+    },
+    {
+      "item": "Potatoes (Russet or Yukon Gold)",
+      "amount": 2,
+      "unit": "large",
+      "category": "produce"
+    },
+    {
+      "item": "Olive Oil",
+      "amount": 2,
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Salt",
+      "amount": 0.5,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Black Pepper",
+      "amount": 0.25,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Garlic Powder",
+      "amount": 0.5,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Onion Powder",
+      "amount": 0.5,
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Ketchup",
+      "amount": null,
+      "unit": "to taste",
+      "category": "pantry"
+    },
+    {
+      "item": "Mustard",
+      "amount": null,
+      "unit": "to taste",
+      "category": "pantry"
+    },
+    {
+      "item": "Lettuce",
+      "amount": null,
+      "unit": "optional",
+      "category": "produce"
+    },
+    {
+      "item": "Tomato",
+      "amount": null,
+      "unit": "optional",
+      "category": "produce"
+    }
+  ],
+  "instructions": [
+    "Preheat oven to 425\u00b0F (220\u00b0C). Line a baking sheet with parchment paper.",
+    "Wash and cut potatoes into \"fry\" shapes. In a large bowl, toss fries with olive oil, salt, pepper, garlic powder, and onion powder until evenly coated.",
+    "Spread fries in a single layer on the prepared baking sheet. Bake for 25-30 minutes, flipping halfway, until golden brown and crispy.",
+    "While fries are baking, gently form ground beef into four patties, about 1/2 inch thick. Season both sides with salt and pepper.",
+    "Heat a large skillet or grill pan over medium-high heat. Cook patties for 3-4 minutes per side, or until desired doneness.",
+    "During the last minute of cooking, place a cheese slice on each patty to melt.",
+    "Lightly toast hamburger buns. Assemble burgers with patties, cheese, and your favorite toppings like lettuce, tomato, ketchup, and mustard.",
+    "Serve cheeseburgers immediately with hot oven fries."
+  ],
+  "tips": [
+    "For extra crispy fries, soak the cut potatoes in cold water for 30 minutes before tossing with oil and seasoning. Pat them very dry before baking.",
+    "Don't overwork the ground beef when forming patties; this can make them tough. Handle them gently.",
+    "Customize your burgers with different cheeses, sauces, or additional toppings like pickles or onions."
+  ],
+  "id": "homemade-cheeseburgers-oven-fries"
+}

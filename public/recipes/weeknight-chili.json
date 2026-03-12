@@ -1,0 +1,149 @@
+{
+  "id": "weeknight-chili",
+  "title": "Weeknight Chili",
+  "description": "Easy weeknight chili made in a slow cooker or pot. Hearty, flavorful, and perfect for feeding a crowd!",
+  "imageEmoji": "🌶️",
+  "prepTime": 15,
+  "cookTime": 45,
+  "totalTime": 60,
+  "servings": 6,
+  "difficulty": "Easy",
+  "tags": [
+    "Family Recipe",
+    "Comfort Food",
+    "One Pan",
+    "American"
+  ],
+  "ingredients": [
+    {
+      "item": "Ground Beef (80/20)",
+      "amount": "3",
+      "unit": "lbs",
+      "category": "protein"
+    },
+    {
+      "item": "White or Yellow Onion",
+      "amount": "1",
+      "unit": "count",
+      "category": "produce"
+    },
+    {
+      "item": "Red Kidney Beans",
+      "amount": "1",
+      "unit": "can",
+      "category": "pantry"
+    },
+    {
+      "item": "Chicken Stock",
+      "amount": "3",
+      "unit": "cups",
+      "category": "pantry"
+    },
+    {
+      "item": "Garlic Cloves",
+      "amount": "6",
+      "unit": "count",
+      "category": "produce"
+    },
+    {
+      "item": "Tomato Paste",
+      "amount": "2",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Diced Tomatoes with Green Chilis",
+      "amount": "2",
+      "unit": "cans (20oz)",
+      "category": "pantry"
+    },
+    {
+      "item": "Cumin",
+      "amount": "1",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Oregano",
+      "amount": "1.5",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Chili Powder",
+      "amount": "3",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Garlic Powder",
+      "amount": "2",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Onion Powder",
+      "amount": "2",
+      "unit": "tsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Fish Sauce (optional)",
+      "amount": "2",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Bay Leaves (optional)",
+      "amount": "2",
+      "unit": "count",
+      "category": "pantry"
+    },
+    {
+      "item": "Masa (optional)",
+      "amount": "2",
+      "unit": "tbsp",
+      "category": "pantry"
+    },
+    {
+      "item": "Cheddar Cheese",
+      "amount": "1",
+      "unit": "cup",
+      "category": "dairy"
+    },
+    {
+      "item": "Sour Cream",
+      "amount": "0.5",
+      "unit": "cup",
+      "category": "dairy"
+    },
+    {
+      "item": "Avocado",
+      "amount": "1",
+      "unit": "count",
+      "category": "produce"
+    }
+  ],
+  "instructions": [
+    "Brown ground beef in a large pot or slow cooker on high (don't stir initially to get a good sear)",
+    "Dice onion and add to beef",
+    "Mince garlic and add to pot",
+    "Stir in tomato paste and cook for 1 minute",
+    "Add spice blend (cumin, oregano, chili powder, garlic powder, onion powder) and toast in the fat for 1 minute",
+    "Add diced tomatoes with green chilis, kidney beans, and chicken stock",
+    "Add bay leaves and fish sauce if using",
+    "Simmer for 30+ minutes, stirring occasionally",
+    "Add masa if you want to thicken the chili",
+    "Taste and adjust seasonings as needed",
+    "Serve with toppings: shredded cheese, sour cream, sliced avocado"
+  ],
+  "tips": [
+    "Don't stir the beef initially - let it brown for better flavor",
+    "Fish sauce adds depth but is optional",
+    "Make a big batch and freeze portions",
+    "Toppings make all the difference - don't skip them!",
+    "Tastes even better the next day"
+  ],
+  "videoUrl": "https://www.youtube.com/watch?v=YdFjuglEAds",
+  "isFamily": true
+}
