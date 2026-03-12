@@ -1,127 +1,163 @@
-import { Heart, Clock, Users, Flame } from "lucide-react";
+import { Heart, Clock, Users, ChefHat } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import type { Recipe } from "@shared/recipe-types";
-import { useState } from "react";
 
 interface RecipeCardProps {
   recipe: Recipe;
   isFavorite?: boolean;
   rating?: number;
+  madeCount?: number;
   onFavoriteToggle?: (recipeId: string) => void;
-  onRateClick?: (recipeId: string) => void;
+  onRateClick?: (recipeId: string, rating: number) => void;
   onClick?: () => void;
+}
+
+const DIFFICULTY_COLORS: Record<string, string> = {
+  Easy: "bg-green-100 text-green-700 border-green-200",
+  Medium: "bg-amber-100 text-amber-700 border-amber-200",
+  Hard: "bg-red-100 text-red-700 border-red-200",
+};
+
+const CARD_GRADIENTS = [
+  "from-amber-50 via-orange-50 to-yellow-50",
+  "from-green-50 via-emerald-50 to-teal-50",
+  "from-rose-50 via-pink-50 to-red-50",
+  "from-sky-50 via-blue-50 to-indigo-50",
+  "from-violet-50 via-purple-50 to-fuchsia-50",
+  "from-amber-50 via-yellow-50 to-lime-50",
+];
+
+function getGradient(id: string) {
+  const hash = id.split("").reduce((acc, c) => acc + c.charCodeAt(0), 0);
+  return CARD_GRADIENTS[hash % CARD_GRADIENTS.length];
 }
 
 export function RecipeCard({
   recipe,
   isFavorite = false,
   rating = 0,
+  madeCount = 0,
   onFavoriteToggle,
   onRateClick,
   onClick,
 }: RecipeCardProps) {
-  const [hovered, setHovered] = useState(false);
+  const gradient = getGradient(recipe.id);
 
   return (
     <Card
-      className="overflow-hidden cursor-pointer transition-all hover:shadow-lg hover:scale-105 bg-white border-2 border-memphis-peach"
-      onMouseEnter={() => setHovered(true)}
-      onMouseLeave={() => setHovered(false)}
+      className="overflow-hidden cursor-pointer group border border-border bg-card recipe-card-hover shadow-sm"
       onClick={onClick}
     >
-      {/* Recipe image area with emoji */}
-      <div className="relative h-48 bg-gradient-to-br from-memphis-peach via-memphis-yellow to-memphis-mint flex items-center justify-center overflow-hidden">
-        <div className="text-7xl">{recipe.imageEmoji}</div>
+      {/* Recipe image area */}
+      <div className={`relative h-44 bg-gradient-to-br ${gradient} flex items-center justify-center overflow-hidden`}>
+        <div className="text-6xl select-none group-hover:scale-110 transition-transform duration-300">
+          {recipe.imageEmoji}
+        </div>
+
+        {/* Family Recipe badge */}
+        {recipe.isFamily && (
+          <div className="absolute top-2 left-2">
+            <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-semibold bg-primary text-primary-foreground shadow-sm">
+              👨‍👩‍👧‍👦 Family Recipe
+            </span>
+          </div>
+        )}
 
         {/* Favorite button */}
         {onFavoriteToggle && (
           <Button
             size="icon"
             variant="ghost"
-            className="absolute top-2 right-2 bg-white/80 hover:bg-white rounded-full"
+            className="absolute top-2 right-2 h-8 w-8 bg-white/80 hover:bg-white rounded-full shadow-sm"
             onClick={(e) => {
               e.stopPropagation();
               onFavoriteToggle(recipe.id);
             }}
           >
             <Heart
-              className={`w-5 h-5 ${
+              className={`w-4 h-4 transition-colors ${
                 isFavorite
-                  ? "fill-memphis-coral text-memphis-coral"
-                  : "text-gray-400"
+                  ? "fill-rose-500 text-rose-500"
+                  : "text-gray-400 group-hover:text-rose-400"
               }`}
             />
           </Button>
         )}
 
-        {/* Memphis decorative elements */}
-        <div className="absolute top-4 left-4 w-3 h-3 bg-memphis-lilac rounded-full opacity-60" />
-        <div className="absolute bottom-6 right-6 w-2 h-2 bg-black rounded-full opacity-40" />
+        {/* Made count badge */}
+        {madeCount > 0 && (
+          <div className="absolute bottom-2 left-2">
+            <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs bg-white/80 text-amber-700 font-medium">
+              <ChefHat className="w-3 h-3" />
+              Made {madeCount}×
+            </span>
+          </div>
+        )}
       </div>
 
       <CardContent className="p-4">
         {/* Title */}
-        <h3 className="font-heading text-lg font-bold text-foreground mb-2 line-clamp-2">
+        <h3 className="font-heading text-base font-semibold text-foreground mb-1 line-clamp-2 leading-snug">
           {recipe.title}
         </h3>
 
         {/* Description */}
-        <p className="text-sm text-muted-foreground mb-3 line-clamp-2">
+        <p className="text-xs text-muted-foreground mb-3 line-clamp-2 leading-relaxed">
           {recipe.description}
         </p>
 
-        {/* Quick stats */}
-        <div className="flex gap-3 mb-3 text-xs text-muted-foreground">
+        {/* Quick stats row */}
+        <div className="flex items-center gap-3 mb-3 text-xs text-muted-foreground">
           <div className="flex items-center gap-1">
-            <Clock className="w-4 h-4" />
-            {recipe.totalTime}m
+            <Clock className="w-3.5 h-3.5 text-primary/70" />
+            <span>{recipe.totalTime}m</span>
           </div>
           <div className="flex items-center gap-1">
-            <Users className="w-4 h-4" />
-            {recipe.servings}
+            <Users className="w-3.5 h-3.5 text-primary/70" />
+            <span>Serves {recipe.servings}</span>
           </div>
-          <div className="flex items-center gap-1">
-            <Flame className="w-4 h-4" />
+          <Badge
+            variant="outline"
+            className={`text-xs px-1.5 py-0 h-4 ${DIFFICULTY_COLORS[recipe.difficulty] || ""}`}
+          >
             {recipe.difficulty}
-          </div>
+          </Badge>
         </div>
 
         {/* Tags */}
         <div className="flex flex-wrap gap-1 mb-3">
           {recipe.tags.slice(0, 3).map((tag) => (
-            <Badge
+            <span
               key={tag}
-              variant="outline"
-              className="text-xs bg-memphis-mint/30 text-memphis-mint border-memphis-mint"
+              className="inline-flex items-center px-2 py-0.5 rounded-full text-xs bg-secondary text-secondary-foreground"
             >
               {tag}
-            </Badge>
+            </span>
           ))}
         </div>
 
-        {/* Rating stars */}
+        {/* Star rating */}
         {onRateClick && (
-          <div className="flex gap-1 items-center">
-            <div className="flex gap-0.5">
-              {[1, 2, 3, 4, 5].map((star) => (
-                <button
-                  key={star}
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    onRateClick(recipe.id);
-                  }}
-                  className="text-xl transition-transform hover:scale-125"
-                >
-                  {star <= rating ? "⭐" : "☆"}
-                </button>
-              ))}
-            </div>
+          <div className="flex items-center gap-1 star-rating">
+            {[1, 2, 3, 4, 5].map((star) => (
+              <button
+                key={star}
+                onClick={(e) => {
+                  e.stopPropagation();
+                  onRateClick(recipe.id, star);
+                }}
+                className="star text-base leading-none"
+                aria-label={`Rate ${star} stars`}
+              >
+                <span className={star <= rating ? "text-amber-400" : "text-gray-300"}>
+                  ★
+                </span>
+              </button>
+            ))}
             {rating > 0 && (
-              <span className="text-xs text-muted-foreground ml-1">
-                {rating}/5
-              </span>
+              <span className="text-xs text-muted-foreground ml-1">{rating}/5</span>
             )}
           </div>
         )}

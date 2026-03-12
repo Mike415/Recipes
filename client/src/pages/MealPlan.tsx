@@ -6,33 +6,70 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Skeleton } from "@/components/ui/skeleton";
 import { Empty, EmptyHeader, EmptyMedia, EmptyTitle, EmptyDescription } from "@/components/ui/empty";
-import { ArrowLeft, Download, Trash2 } from "lucide-react";
+import { ArrowLeft, Download, Trash2, ChevronLeft, ChevronRight, ShoppingCart, Calendar, X } from "lucide-react";
 import { useState, useMemo } from "react";
 import { toast } from "sonner";
 
 const DAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
+const DAY_SHORT = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
 const SLOTS = ["lunch", "dinner"] as const;
+
+const CATEGORY_ORDER = ["produce", "protein", "dairy", "pantry", "bakery", "frozen", "other"];
+const CATEGORY_ICONS: Record<string, string> = {
+  produce: "🥦",
+  protein: "🥩",
+  dairy: "🧀",
+  pantry: "🫙",
+  frozen: "❄️",
+  bakery: "🍞",
+  other: "🛒",
+};
+const CATEGORY_LABELS: Record<string, string> = {
+  produce: "Produce",
+  protein: "Meat & Protein",
+  dairy: "Dairy & Eggs",
+  pantry: "Pantry & Dry Goods",
+  frozen: "Frozen",
+  bakery: "Bakery & Bread",
+  other: "Other",
+};
+
+function formatDate(d: Date) {
+  return d.toLocaleDateString("en-US", { month: "short", day: "numeric" });
+}
 
 export default function MealPlan() {
   const { recipes, loading } = useRecipes();
   const [, setLocation] = useHashLocation();
 
-  // Use localStorage for meal plan
   const [mealPlan, setMealPlan] = useLocalStorage<Record<string, Record<string, string | null>>>(
     "recipes_meal_plan",
+    {}
+  );
+  const [checkedItems, setCheckedItems] = useLocalStorage<Record<string, boolean>>(
+    "recipes_shopping_checked",
     {}
   );
 
   const [weekStart, setWeekStart] = useState(() => {
     const today = new Date();
     const monday = new Date(today);
-    monday.setDate(today.getDate() - today.getDay() + 1);
+    monday.setDate(today.getDate() - ((today.getDay() + 6) % 7));
+    monday.setHours(0, 0, 0, 0);
     return monday;
   });
 
-  const weekKey = weekStart.toISOString().split("T")[0];
+  const [activeDay, setActiveDay] = useState(() => {
+    const today = new Date();
+    const dayOfWeek = (today.getDay() + 6) % 7; // 0=Mon, 6=Sun
+    return Math.min(dayOfWeek, 6);
+  });
 
-  // Initialize week if not exists
+  const [activeSection, setActiveSection] = useState<"plan" | "shopping">("plan");
+
+  const weekKey = weekStart.toISOString().split("T")[0];
+  const weekEnd = new Date(weekStart.getTime() + 6 * 24 * 60 * 60 * 1000);
+
   const weekPlan = useMemo(() => {
     if (!mealPlan[weekKey]) {
       const newWeek: Record<string, string | null> = {};
@@ -54,7 +91,8 @@ export default function MealPlan() {
         [`${day}-${slot}`]: recipeId,
       },
     }));
-    toast.success("Recipe added to meal plan!");
+    const recipe = recipes.find(r => r.id === recipeId);
+    toast.success(`${recipe?.title || "Recipe"} added to ${day} ${slot}!`);
   };
 
   const handleRemoveRecipe = (day: string, slot: typeof SLOTS[number]) => {
@@ -65,12 +103,19 @@ export default function MealPlan() {
         [`${day}-${slot}`]: null,
       },
     }));
-    toast.success("Recipe removed from meal plan");
   };
 
-  // Generate shopping list
-  const shoppingList = useMemo(() => {
-    const ingredients: Record<string, { amount: number; unit: string }> = {};
+  const clearWeek = () => {
+    setMealPlan((prev) => ({
+      ...prev,
+      [weekKey]: {},
+    }));
+    toast.success("Week cleared!");
+  };
+
+  // Generate shopping list grouped by category
+  const shoppingListByCategory = useMemo(() => {
+    const ingredients: Record<string, { amount: number; unit: string; category: string; recipes: string[] }> = {};
 
     DAYS.forEach((day) => {
       SLOTS.forEach((slot) => {
@@ -79,17 +124,18 @@ export default function MealPlan() {
           const recipe = recipes.find((r) => r.id === recipeId);
           if (recipe) {
             recipe.ingredients.forEach((ing) => {
-              const key = ing.item.toLowerCase();
+              const key = `${ing.item.toLowerCase()}__${ing.unit}`;
               if (ingredients[key]) {
-                if (ingredients[key].unit === ing.unit) {
-                  ingredients[key].amount += parseFloat(ing.amount) || 1;
-                } else {
-                  ingredients[key].amount += parseFloat(ing.amount) || 1;
+                ingredients[key].amount += parseFloat(String(ing.amount)) || 1;
+                if (!ingredients[key].recipes.includes(recipe.title)) {
+                  ingredients[key].recipes.push(recipe.title);
                 }
               } else {
                 ingredients[key] = {
-                  amount: parseFloat(ing.amount) || 1,
+                  amount: parseFloat(String(ing.amount)) || 1,
                   unit: ing.unit,
+                  category: ing.category || "other",
+                  recipes: [recipe.title],
                 };
               }
             });
@@ -98,169 +144,384 @@ export default function MealPlan() {
       });
     });
 
-    return ingredients;
+    // Group by category
+    const grouped: Record<string, Array<{ key: string; item: string; amount: number; unit: string; recipes: string[] }>> = {};
+    Object.entries(ingredients).forEach(([key, val]) => {
+      const itemName = key.split("__")[0];
+      const cat = val.category;
+      if (!grouped[cat]) grouped[cat] = [];
+      grouped[cat].push({ key, item: itemName, amount: val.amount, unit: val.unit, recipes: val.recipes });
+    });
+
+    // Sort items within each category
+    Object.keys(grouped).forEach(cat => {
+      grouped[cat].sort((a, b) => a.item.localeCompare(b.item));
+    });
+
+    return grouped;
   }, [weekPlan, recipes]);
 
-  const downloadShoppingList = () => {
-    const list = Object.entries(shoppingList)
-      .map(([item, { amount, unit }]) => `${amount} ${unit} ${item}`)
-      .join("\n");
+  const totalItems = Object.values(shoppingListByCategory).reduce((sum, items) => sum + items.length, 0);
+  const checkedCount = Object.values(checkedItems).filter(Boolean).length;
 
-    const element = document.createElement("a");
-    element.setAttribute("href", "data:text/plain;charset=utf-8," + encodeURIComponent(list));
-    element.setAttribute("download", "shopping-list.txt");
-    element.style.display = "none";
-    document.body.appendChild(element);
-    element.click();
-    document.body.removeChild(element);
+  const plannedMealsCount = DAYS.reduce((count, day) => {
+    return count + SLOTS.filter(slot => weekPlan[`${day}-${slot}`]).length;
+  }, 0);
+
+  const toggleCheck = (key: string) => {
+    setCheckedItems(prev => ({ ...prev, [key]: !prev[key] }));
+  };
+
+  const clearChecked = () => {
+    setCheckedItems({});
+  };
+
+  const downloadShoppingList = () => {
+    const lines: string[] = ["SHOPPING LIST", `Week of ${formatDate(weekStart)} – ${formatDate(weekEnd)}`, ""];
+
+    CATEGORY_ORDER.forEach(cat => {
+      const items = shoppingListByCategory[cat];
+      if (!items || items.length === 0) return;
+      lines.push(`\n${CATEGORY_LABELS[cat].toUpperCase()}`);
+      lines.push("─".repeat(30));
+      items.forEach(({ item, amount, unit }) => {
+        const amtStr = amount === Math.floor(amount) ? String(amount) : amount.toFixed(1);
+        lines.push(`[ ] ${amtStr} ${unit} ${item}`);
+      });
+    });
+
+    const blob = new Blob([lines.join("\n")], { type: "text/plain" });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement("a");
+    a.href = url;
+    a.download = `shopping-list-${weekKey}.txt`;
+    a.click();
+    URL.revokeObjectURL(url);
     toast.success("Shopping list downloaded!");
   };
 
   if (loading) {
     return (
-      <div className="container py-8">
-        <Skeleton className="h-96 mb-8" />
+      <div className="container py-8 max-w-4xl">
+        <Skeleton className="h-8 w-48 mb-6" />
+        <div className="grid grid-cols-7 gap-2">
+          {[...Array(7)].map((_, i) => <Skeleton key={i} className="h-48" />)}
+        </div>
       </div>
     );
   }
 
   return (
-    <div className="container py-8 max-w-6xl">
-      <Button
-        onClick={() => setLocation("/")}
-        variant="ghost"
-        className="mb-6"
-      >
-        <ArrowLeft className="w-4 h-4 mr-2" />
-        Back to recipes
-      </Button>
-
-      <h1 className="font-heading text-4xl font-bold mb-8 text-foreground">
-        📅 Weekly Meal Plan
-      </h1>
-
-      <div className="flex items-center justify-between mb-8">
-        <Button
-          onClick={() => {
-            const prev = new Date(weekStart);
-            prev.setDate(prev.getDate() - 7);
-            setWeekStart(prev);
-          }}
-          variant="outline"
-        >
-          ← Previous Week
-        </Button>
-        <span className="font-semibold">
-          {weekStart.toLocaleDateString()} - {new Date(weekStart.getTime() + 6 * 24 * 60 * 60 * 1000).toLocaleDateString()}
-        </span>
-        <Button
-          onClick={() => {
-            const next = new Date(weekStart);
-            next.setDate(next.getDate() + 7);
-            setWeekStart(next);
-          }}
-          variant="outline"
-        >
-          Next Week →
-        </Button>
-      </div>
-
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
-        {DAYS.map((day) => (
-          <Card key={day} className="border-memphis-peach/30">
-            <CardHeader>
-              <CardTitle className="text-lg">{day}</CardTitle>
-            </CardHeader>
-            <CardContent className="space-y-4">
-              {SLOTS.map((slot) => {
-                const recipeId = weekPlan[`${day}-${slot}`];
-                const recipe = recipes.find((r) => r.id === recipeId);
-
-                return (
-                  <div key={slot} className="space-y-2">
-                    <label className="font-semibold text-sm capitalize">
-                      {slot}
-                    </label>
-                    {recipe ? (
-                      <div className="bg-memphis-mint/10 p-3 rounded-lg">
-                        <p className="font-semibold text-sm">{recipe.title}</p>
-                        <Button
-                          size="sm"
-                          variant="ghost"
-                          onClick={() => handleRemoveRecipe(day, slot)}
-                          className="mt-2 w-full text-xs"
-                        >
-                          <Trash2 className="w-3 h-3 mr-1" />
-                          Remove
-                        </Button>
-                      </div>
-                    ) : (
-                      <select
-                        onChange={(e) => {
-                          if (e.target.value) {
-                            handleAssignRecipe(day, slot, e.target.value);
-                            e.target.value = "";
-                          }
-                        }}
-                        className="w-full px-2 py-1 border border-border rounded text-sm"
-                      >
-                        <option value="">Select recipe...</option>
-                        {recipes.map((r) => (
-                          <option key={r.id} value={r.id}>
-                            {r.title}
-                          </option>
-                        ))}
-                      </select>
-                    )}
-                  </div>
-                );
-              })}
-            </CardContent>
-          </Card>
-        ))}
-      </div>
-
-      <Card className="border-memphis-coral/30">
-        <CardHeader>
-          <div className="flex items-center justify-between">
-            <CardTitle className="flex items-center gap-2">
-              <span className="text-2xl">🛒</span>
-              Shopping List
-            </CardTitle>
+    <div className="min-h-screen bg-background">
+      {/* Header */}
+      <div className="sticky top-0 z-40 bg-card/95 backdrop-blur border-b border-border">
+        <div className="container flex items-center justify-between h-14">
+          <Button onClick={() => setLocation("/")} variant="ghost" size="sm" className="gap-1.5">
+            <ArrowLeft className="w-4 h-4" />
+            <span className="hidden sm:inline">Recipes</span>
+          </Button>
+          <h1 className="font-heading text-base font-semibold">Weekly Meal Plan</h1>
+          <div className="flex items-center gap-1">
             <Button
-              onClick={downloadShoppingList}
-              className="bg-memphis-coral hover:bg-memphis-coral/80"
+              variant={activeSection === "plan" ? "default" : "ghost"}
+              size="sm"
+              onClick={() => setActiveSection("plan")}
+              className="gap-1.5 text-xs"
             >
-              <Download className="w-4 h-4 mr-2" />
-              Download
+              <Calendar className="w-3.5 h-3.5" />
+              <span className="hidden sm:inline">Plan</span>
+            </Button>
+            <Button
+              variant={activeSection === "shopping" ? "default" : "ghost"}
+              size="sm"
+              onClick={() => setActiveSection("shopping")}
+              className="gap-1.5 text-xs"
+            >
+              <ShoppingCart className="w-3.5 h-3.5" />
+              <span className="hidden sm:inline">Shopping</span>
+              {totalItems > 0 && (
+                <span className="ml-0.5 bg-primary/20 text-primary text-xs px-1.5 py-0.5 rounded-full">
+                  {totalItems}
+                </span>
+              )}
             </Button>
           </div>
-        </CardHeader>
-        <CardContent>
-          {Object.keys(shoppingList).length === 0 ? (
-            <Empty className="border-dashed border-memphis-peach">
-              <EmptyHeader>
-                <EmptyMedia variant="icon">📋</EmptyMedia>
-                <EmptyTitle>No recipes planned</EmptyTitle>
-                <EmptyDescription>
-                  Add recipes to your meal plan to generate a shopping list
-                </EmptyDescription>
-              </EmptyHeader>
-            </Empty>
-          ) : (
-            <div className="space-y-2">
-              {Object.entries(shoppingList).map(([item, { amount, unit }]) => (
-                <div key={item} className="flex items-center gap-3 pb-2 border-b border-border last:border-0">
-                  <Checkbox />
-                  <span className="capitalize">
-                    {amount} {unit} {item}
-                  </span>
-                </div>
+        </div>
+      </div>
+
+      <div className="container py-6 max-w-4xl page-enter">
+        {/* Week navigation */}
+        <div className="flex items-center justify-between mb-6">
+          <Button
+            variant="outline"
+            size="sm"
+            onClick={() => {
+              const prev = new Date(weekStart);
+              prev.setDate(prev.getDate() - 7);
+              setWeekStart(prev);
+            }}
+            className="gap-1"
+          >
+            <ChevronLeft className="w-4 h-4" />
+            <span className="hidden sm:inline">Previous</span>
+          </Button>
+          <div className="text-center">
+            <p className="font-heading font-semibold text-foreground">
+              {formatDate(weekStart)} – {formatDate(weekEnd)}
+            </p>
+            <p className="text-xs text-muted-foreground">
+              {plannedMealsCount} meal{plannedMealsCount !== 1 ? "s" : ""} planned
+            </p>
+          </div>
+          <Button
+            variant="outline"
+            size="sm"
+            onClick={() => {
+              const next = new Date(weekStart);
+              next.setDate(next.getDate() + 7);
+              setWeekStart(next);
+            }}
+            className="gap-1"
+          >
+            <span className="hidden sm:inline">Next</span>
+            <ChevronRight className="w-4 h-4" />
+          </Button>
+        </div>
+
+        {activeSection === "plan" && (
+          <>
+            {/* Day tabs (mobile) */}
+            <div className="flex gap-1 mb-4 overflow-x-auto pb-1 sm:hidden">
+              {DAYS.map((day, idx) => {
+                const hasMeals = SLOTS.some(slot => weekPlan[`${day}-${slot}`]);
+                return (
+                  <button
+                    key={day}
+                    onClick={() => setActiveDay(idx)}
+                    className={`shrink-0 px-3 py-1.5 rounded-full text-xs font-medium transition-colors ${
+                      activeDay === idx
+                        ? "bg-primary text-primary-foreground"
+                        : "bg-secondary text-secondary-foreground"
+                    }`}
+                  >
+                    {DAY_SHORT[idx]}
+                    {hasMeals && <span className="ml-1 w-1.5 h-1.5 rounded-full bg-current inline-block" />}
+                  </button>
+                );
+              })}
+            </div>
+
+            {/* Desktop: all days grid */}
+            <div className="hidden sm:grid sm:grid-cols-7 gap-3 mb-6">
+              {DAYS.map((day) => (
+                <DayCard
+                  key={day}
+                  day={day}
+                  dayShort={DAY_SHORT[DAYS.indexOf(day)]}
+                  weekPlan={weekPlan}
+                  recipes={recipes}
+                  onAssign={handleAssignRecipe}
+                  onRemove={handleRemoveRecipe}
+                />
               ))}
             </div>
-          )}
-        </CardContent>
-      </Card>
+
+            {/* Mobile: single day view */}
+            <div className="sm:hidden mb-6">
+              <DayCard
+                day={DAYS[activeDay]}
+                dayShort={DAY_SHORT[activeDay]}
+                weekPlan={weekPlan}
+                recipes={recipes}
+                onAssign={handleAssignRecipe}
+                onRemove={handleRemoveRecipe}
+                expanded
+              />
+            </div>
+
+            {plannedMealsCount > 0 && (
+              <div className="flex justify-between items-center">
+                <Button
+                  variant="outline"
+                  size="sm"
+                  onClick={() => setActiveSection("shopping")}
+                  className="gap-1.5"
+                >
+                  <ShoppingCart className="w-4 h-4" />
+                  View Shopping List ({totalItems} items)
+                </Button>
+                <Button variant="ghost" size="sm" onClick={clearWeek} className="text-muted-foreground text-xs">
+                  Clear week
+                </Button>
+              </div>
+            )}
+          </>
+        )}
+
+        {activeSection === "shopping" && (
+          <div>
+            <div className="flex items-center justify-between mb-4">
+              <div>
+                <h2 className="font-heading text-lg font-semibold">Shopping List</h2>
+                <p className="text-sm text-muted-foreground">
+                  {totalItems} items · {checkedCount} checked
+                </p>
+              </div>
+              <div className="flex gap-2">
+                {checkedCount > 0 && (
+                  <Button variant="ghost" size="sm" onClick={clearChecked} className="text-xs">
+                    <X className="w-3.5 h-3.5 mr-1" />
+                    Uncheck all
+                  </Button>
+                )}
+                {totalItems > 0 && (
+                  <Button size="sm" onClick={downloadShoppingList} className="gap-1.5">
+                    <Download className="w-4 h-4" />
+                    Download
+                  </Button>
+                )}
+              </div>
+            </div>
+
+            {totalItems === 0 ? (
+              <Empty className="border-dashed border-border">
+                <EmptyHeader>
+                  <EmptyMedia variant="icon">🛒</EmptyMedia>
+                  <EmptyTitle>No items yet</EmptyTitle>
+                  <EmptyDescription>
+                    Add recipes to your meal plan to generate a shopping list
+                  </EmptyDescription>
+                </EmptyHeader>
+                <Button
+                  variant="outline"
+                  size="sm"
+                  onClick={() => setActiveSection("plan")}
+                  className="mt-3"
+                >
+                  <Calendar className="w-4 h-4 mr-1.5" />
+                  Go to Meal Plan
+                </Button>
+              </Empty>
+            ) : (
+              <div className="space-y-6">
+                {CATEGORY_ORDER.filter(cat => shoppingListByCategory[cat]?.length > 0).map(cat => (
+                  <div key={cat}>
+                    <div className="flex items-center gap-2 text-sm font-semibold text-muted-foreground uppercase tracking-wider mb-3 pb-2 border-b border-border">
+                      <span className="text-base">{CATEGORY_ICONS[cat]}</span>
+                      <span>{CATEGORY_LABELS[cat]}</span>
+                      <span className="ml-auto text-xs font-normal normal-case tracking-normal">
+                        {shoppingListByCategory[cat].length} items
+                      </span>
+                    </div>
+                    <div className="space-y-2">
+                      {shoppingListByCategory[cat].map(({ key, item, amount, unit, recipes }) => {
+                        const amtStr = amount === Math.floor(amount) ? String(amount) : amount.toFixed(1);
+                        return (
+                          <div
+                            key={key}
+                            className={`flex items-start gap-3 py-2 px-3 rounded-lg cursor-pointer transition-colors hover:bg-muted/40 ${
+                              checkedItems[key] ? "opacity-50" : ""
+                            }`}
+                            onClick={() => toggleCheck(key)}
+                          >
+                            <Checkbox
+                              checked={!!checkedItems[key]}
+                              onCheckedChange={() => toggleCheck(key)}
+                              className="mt-0.5 shrink-0"
+                            />
+                            <div className="flex-1 min-w-0">
+                              <span className={`text-sm capitalize ${checkedItems[key] ? "line-through text-muted-foreground" : ""}`}>
+                                {item}
+                              </span>
+                              {recipes.length > 1 && (
+                                <p className="text-xs text-muted-foreground truncate">
+                                  {recipes.join(", ")}
+                                </p>
+                              )}
+                            </div>
+                            <span className="text-sm font-medium text-muted-foreground shrink-0">
+                              {amtStr} {unit}
+                            </span>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+        )}
+      </div>
     </div>
+  );
+}
+
+// Day card sub-component
+interface DayCardProps {
+  day: string;
+  dayShort: string;
+  weekPlan: Record<string, string | null>;
+  recipes: Array<{ id: string; title: string; imageEmoji: string; totalTime: number }>;
+  onAssign: (day: string, slot: "lunch" | "dinner", recipeId: string) => void;
+  onRemove: (day: string, slot: "lunch" | "dinner") => void;
+  expanded?: boolean;
+}
+
+function DayCard({ day, dayShort, weekPlan, recipes, onAssign, onRemove, expanded }: DayCardProps) {
+  return (
+    <Card className="border-border">
+      <CardHeader className="pb-2 pt-3 px-3">
+        <CardTitle className="text-sm font-semibold text-foreground">
+          <span className="hidden sm:inline">{expanded ? day : dayShort}</span>
+          <span className="sm:hidden">{day}</span>
+        </CardTitle>
+      </CardHeader>
+      <CardContent className="px-3 pb-3 space-y-2">
+        {SLOTS.map((slot) => {
+          const recipeId = weekPlan[`${day}-${slot}`];
+          const recipe = recipeId ? recipes.find((r) => r.id === recipeId) : null;
+          return (
+            <div key={slot}>
+              <p className="text-xs text-muted-foreground capitalize font-medium mb-1">{slot}</p>
+              {recipe ? (
+                <div className="bg-secondary/40 rounded-md p-2 relative group">
+                  <div className="flex items-start gap-1.5">
+                    <span className="text-lg shrink-0">{recipe.imageEmoji}</span>
+                    <div className="flex-1 min-w-0">
+                      <p className="text-xs font-medium leading-tight line-clamp-2">{recipe.title}</p>
+                      <p className="text-xs text-muted-foreground">{recipe.totalTime}m</p>
+                    </div>
+                  </div>
+                  <button
+                    onClick={() => onRemove(day, slot)}
+                    className="absolute top-1 right-1 opacity-0 group-hover:opacity-100 transition-opacity p-0.5 rounded hover:bg-destructive/10"
+                  >
+                    <Trash2 className="w-3 h-3 text-destructive" />
+                  </button>
+                </div>
+              ) : (
+                <select
+                  onChange={(e) => {
+                    if (e.target.value) {
+                      onAssign(day, slot, e.target.value);
+                      e.target.value = "";
+                    }
+                  }}
+                  className="w-full px-2 py-1.5 border border-border rounded-md text-xs bg-background text-foreground focus:outline-none focus:ring-1 focus:ring-ring"
+                >
+                  <option value="">+ Add recipe</option>
+                  {recipes.map((r) => (
+                    <option key={r.id} value={r.id}>
+                      {r.imageEmoji} {r.title}
+                    </option>
+                  ))}
+                </select>
+              )}
+            </div>
+          );
+        })}
+      </CardContent>
+    </Card>
   );
 }
